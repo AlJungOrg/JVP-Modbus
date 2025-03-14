@@ -1,0 +1,1683 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "FIRMWARE_VERSION",
+            "Length": 4,
+            "Name": "Firmware Version",
+            "Profile": "",
+            "ReadAddress": 100,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "OCPP_CP_STATUS",
+            "Length": 0,
+            "Name": "OCPP CP Status",
+            "Profile": "MENNEKES.OCPP_CP_STATUS",
+            "ReadAddress": 104,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "ERROR_CODES_1",
+            "Length": 0,
+            "Name": "Error codes 1",
+            "Profile": "",
+            "ReadAddress": 105,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehlermeldungen 1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "ERROR_CODES_2",
+            "Length": 0,
+            "Name": "Error codes 2",
+            "Profile": "",
+            "ReadAddress": 107,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehlermeldungen 2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "ERROR_CODES_3",
+            "Length": 0,
+            "Name": "Error codes 3",
+            "Profile": "",
+            "ReadAddress": 109,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehlermeldungen 3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "ERROR_CODES_4",
+            "Length": 0,
+            "Name": "Error codes 4",
+            "Profile": "",
+            "ReadAddress": 111,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehlermeldungen 4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "PROTOCOL_VERSION",
+            "Length": 4,
+            "Name": "Protocol version",
+            "Profile": "",
+            "ReadAddress": 120,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Protokollversion"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "VEHICLE_STATE",
+            "Length": 0,
+            "Name": "Vehicle state",
+            "Profile": "MENNEKES.VEHICLE_STATE",
+            "ReadAddress": 122,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fahrzeugstatus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CP_AVAILABILITY",
+            "Length": 0,
+            "Name": "CP availability",
+            "Profile": "MENNEKES.CP_AVAILABILITY",
+            "ReadAddress": 124,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "CP Verfügbarkeit"
+                }
+            ],
+            "WriteAddress": 124,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "MODBUS_ADDRESS_OFFSET",
+            "Length": 0,
+            "Name": "ModBus address offset",
+            "Profile": "",
+            "ReadAddress": 130,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "ModBus Adressen-Offset"
+                }
+            ],
+            "WriteAddress": 130,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "SAFE_CURRENT",
+            "Length": 0,
+            "Name": "Safe current",
+            "Profile": "MENNEKES.SAFE_CURRENT",
+            "ReadAddress": 131,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sichere Stromabnahme"
+                }
+            ],
+            "WriteAddress": 131,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "COMM_TIMEOUT",
+            "Length": 0,
+            "Name": "Master Timeout",
+            "Profile": "MENNEKES.COMM_TIMEOUT",
+            "ReadAddress": 132,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Master Zeitüberschreitung"
+                }
+            ],
+            "WriteAddress": 132,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "OPERATOR_CURRENT_LIMIT",
+            "Length": 0,
+            "Name": "Operator current limit",
+            "Profile": "MENNEKES.DLM_OVERALL_CURRENT",
+            "ReadAddress": 134,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Operator Stromlimit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "CHARGEPOINT_MODEL",
+            "Length": 20,
+            "Name": "Model chargepoint",
+            "Profile": "",
+            "ReadAddress": 142,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Modell Ladepunkt"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "PLUG_LOCK_STATUS",
+            "Length": 0,
+            "Name": "Lock status",
+            "Profile": "MENNEKES.PLUG_LOCK_STATUS",
+            "ReadAddress": 152,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verriegelung Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_ENERG_L1",
+            "Length": 0,
+            "Name": "Energy L1",
+            "Profile": "MENNEKES.METER_ENERG",
+            "ReadAddress": 200,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energie L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_ENERG_L2",
+            "Length": 0,
+            "Name": "Energy L2",
+            "Profile": "MENNEKES.METER_ENERG",
+            "ReadAddress": 202,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energy L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_ENERG_L3",
+            "Length": 0,
+            "Name": "Energy L3",
+            "Profile": "MENNEKES.METER_ENERG",
+            "ReadAddress": 204,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energie L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_POW_L1",
+            "Length": 0,
+            "Name": "Power L1",
+            "Profile": "MENNEKES.METER_POW",
+            "ReadAddress": 206,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_POW_L2",
+            "Length": 0,
+            "Name": "Power L2",
+            "Profile": "MENNEKES.METER_POW",
+            "ReadAddress": 208,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_POW_L3",
+            "Length": 0,
+            "Name": "Power L3",
+            "Profile": "MENNEKES.METER_POW",
+            "ReadAddress": 210,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_CUR_L1",
+            "Length": 0,
+            "Name": "Current L1",
+            "Profile": "MENNEKES.METER_CUR",
+            "ReadAddress": 212,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_CUR_L2",
+            "Length": 0,
+            "Name": "Current L2",
+            "Profile": "MENNEKES.METER_CUR",
+            "ReadAddress": 214,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_CUR_L3",
+            "Length": 0,
+            "Name": "Current L3",
+            "Profile": "MENNEKES.METER_CUR",
+            "ReadAddress": 216,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_TOTAL_ENERG",
+            "Length": 0,
+            "Name": "Total energy",
+            "Profile": "MENNEKES.METER_ENERG",
+            "ReadAddress": 218,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtenergie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_TOTAL_POW",
+            "Length": 0,
+            "Name": "Total power",
+            "Profile": "MENNEKES.METER_POW",
+            "ReadAddress": 220,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_VOL_L1",
+            "Length": 0,
+            "Name": "Voltage L1",
+            "Profile": "MENNEKES.METER_VOL",
+            "ReadAddress": 222,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_VOL_L2",
+            "Length": 0,
+            "Name": "Voltage L2",
+            "Profile": "MENNEKES.METER_VOL",
+            "ReadAddress": 224,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "METER_VOL_L3",
+            "Length": 0,
+            "Name": "Voltage L3",
+            "Profile": "MENNEKES.METER_VOL",
+            "ReadAddress": 226,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_MODE",
+            "Length": 0,
+            "Name": "DLM mode",
+            "Profile": "MENNEKES.DLM_MODE",
+            "ReadAddress": 600,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM Modus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_EVSE_SUB_DISTRIBUTION_LIMIT_L1",
+            "Length": 0,
+            "Name": "DLM EV current limit L1",
+            "Profile": "MENNEKES.DLM_OVERALL_CURRENT",
+            "ReadAddress": 610,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM EV Leistungsgrenze L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_EVSE_SUB_DISTRIBUTION_LIMIT_L2",
+            "Length": 0,
+            "Name": "DLM EV current limit L2",
+            "Profile": "MENNEKES.DLM_OVERALL_CURRENT",
+            "ReadAddress": 611,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM EV Leistungsgrenze L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_EVSE_SUB_DISTRIBUTION_LIMIT_L3",
+            "Length": 0,
+            "Name": "DLM EV current limit L3",
+            "Profile": "MENNEKES.DLM_OVERALL_CURRENT",
+            "ReadAddress": 612,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM EV Leistungsgrenze L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_OPERATOR_EVSE_SUB_DISTRIBUTION_LIMIT_L1",
+            "Length": 0,
+            "Name": "DLM operator EV current limit L1",
+            "Profile": "MENNEKES.DLM_OPERATOR",
+            "ReadAddress": 613,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM Operator EV Leistungsgrenze L1"
+                }
+            ],
+            "WriteAddress": 613,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_OPERATOR_EVSE_SUB_DISTRIBUTION_LIMIT_L2",
+            "Length": 0,
+            "Name": "DLM operator EV current limit L2",
+            "Profile": "MENNEKES.DLM_OPERATOR",
+            "ReadAddress": 614,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM Operator EV Leistungsgrenze L2"
+                }
+            ],
+            "WriteAddress": 614,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_OPERATOR_EVSE_SUB_DISTRIBUTION_LIMIT_L3",
+            "Length": 0,
+            "Name": "DLM operator EV current limit L3",
+            "Profile": "MENNEKES.DLM_OPERATOR",
+            "ReadAddress": 615,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM Operator EV Leistungsgrenze L3"
+                }
+            ],
+            "WriteAddress": 615,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_EXTERNAL_METER_SUPPORT",
+            "Length": 0,
+            "Name": "DLM external meter support",
+            "Profile": "MENNEKES.DLM_EXTERNAL_METER_SUPPORT",
+            "ReadAddress": 620,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM externer Zählerunterstützung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_NUM_SLAVES_CONNECTED",
+            "Length": 0,
+            "Name": "DLM quantity connected slaves",
+            "Profile": "",
+            "ReadAddress": 621,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM Anzahl verbundener Slaves"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_OVERALL_CURRENT_APPLIED_L1",
+            "Length": 0,
+            "Name": "DLM applied overall current L1",
+            "Profile": "MENNEKES.DLM_OVERALL_CURRENT",
+            "ReadAddress": 630,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM Anliegende Gesamtleistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_OVERALL_CURRENT_APPLIED_L2",
+            "Length": 0,
+            "Name": "DLM applied overall current L2",
+            "Profile": "MENNEKES.DLM_OVERALL_CURRENT",
+            "ReadAddress": 631,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM Anliegende Gesamtleistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_OVERALL_CURRENT_APPLIED_L3",
+            "Length": 0,
+            "Name": "DLM applied overall current L3",
+            "Profile": "MENNEKES.DLM_OVERALL_CURRENT",
+            "ReadAddress": 632,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM Anliegende Gesamtleistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_OVERALL_CURRENT_AVAILABLE_L1",
+            "Length": 0,
+            "Name": "DLM available overall current L1",
+            "Profile": "MENNEKES.DLM_OVERALL_CURRENT",
+            "ReadAddress": 633,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM Verfügbare Gesamtleistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_OVERALL_CURRENT_AVAILABLE_L2",
+            "Length": 0,
+            "Name": "DLM available overall current L2",
+            "Profile": "MENNEKES.DLM_OVERALL_CURRENT",
+            "ReadAddress": 634,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM Verfügbare Gesamtleistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "DLM_OVERALL_CURRENT_AVAILABLE_L3",
+            "Length": 0,
+            "Name": "DLM available overall current L3",
+            "Profile": "MENNEKES.DLM_OVERALL_CURRENT",
+            "ReadAddress": 635,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DLM Verfügbare Gesamtleistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "REQ_ENERGY_15118_16bit",
+            "Length": 0,
+            "Name": "Required Energy (15118 only, 16bit)",
+            "Profile": "MENNEKES.METER_ENERG",
+            "ReadAddress": 700,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Benötigte Energie (nur 15118, 16bit)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "SCHED_DEP_TIME_15118",
+            "Length": 0,
+            "Name": "Scheduled departure time (15118 only)",
+            "Profile": "",
+            "ReadAddress": 701,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Geplante Abfahrtszeit (nur 15118)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "SCHED_DEP_DATE_15118",
+            "Length": 0,
+            "Name": "scheduled departure date (15118 only)",
+            "Profile": "",
+            "ReadAddress": 703,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Geplantes Abfahrtsdatum (nur 15118)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGED_ENERGY",
+            "Length": 0,
+            "Name": "Charged Energy",
+            "Profile": "MENNEKES.CHARGED_ENERGY",
+            "ReadAddress": 705,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Geladene Energie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "SIGNALED_CURRENT",
+            "Length": 0,
+            "Name": "Maximum used current",
+            "Profile": "MENNEKES.HEMS_CUR",
+            "ReadAddress": 706,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximum genutzter Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "START_TIME",
+            "Length": 0,
+            "Name": "Start time",
+            "Profile": "",
+            "ReadAddress": 707,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Startzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "CHARGE_DURATION",
+            "Length": 0,
+            "Name": "Charge duration",
+            "Profile": "MENNEKES.CHARGE_DURATION",
+            "ReadAddress": 709,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladezeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "END_TIME",
+            "Length": 0,
+            "Name": "End time",
+            "Profile": "",
+            "ReadAddress": 710,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Endzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "MINIMUM_CUR_LIMIT",
+            "Length": 0,
+            "Name": "Minimum current limit",
+            "Profile": "MENNEKES.HEMS_CUR",
+            "ReadAddress": 712,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Minimale Leistungsgrenze"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "REQ_ENERGY_15118",
+            "Length": 0,
+            "Name": "Required Energy (15118 only)",
+            "Profile": "MENNEKES.METER_ENERG",
+            "ReadAddress": 713,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Benötigte Energie (nur 15118)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "MAX_CUR_EV",
+            "Length": 0,
+            "Name": "EV maximum current",
+            "Profile": "MENNEKES.HEMS_CUR",
+            "ReadAddress": 715,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EV Maximale Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "CHARGED_ENERGY__SW_version___5_22_",
+            "Length": 0,
+            "Name": "Charged Energy  (SW version  ≥ 5.22)",
+            "Profile": "MENNEKES.METER_ENERG",
+            "ReadAddress": 716,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Geladene Energie (SW Version ≥ 5.22)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "CHARGE_DURATION__SW_version___5_22_",
+            "Length": 0,
+            "Name": "Charge duration (SW version  ≥ 5.22)",
+            "Profile": "MENNEKES.CHARGE_DURATION",
+            "ReadAddress": 718,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladezeit (SW version ≥ 5.22)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "IDTAG",
+            "Length": 20,
+            "Name": "ID Tag",
+            "Profile": "",
+            "ReadAddress": 720,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "ID-TAG"
+                }
+            ],
+            "WriteAddress": 1110,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": false,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "EVCCID_15118_1",
+            "Length": 12,
+            "Name": "EVCCID 1 (15118 only)",
+            "Profile": "",
+            "ReadAddress": 741,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVCCID 1 (nur 15118)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "HEMS_CURRENT_LIMIT",
+            "Length": 0,
+            "Name": "HEMS current limit",
+            "Profile": "MENNEKES.HEMS_CUR",
+            "ReadAddress": 1000,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HEMS Leistungsgrenze"
+                }
+            ],
+            "WriteAddress": 1000,
+            "WriteFunctionCode": 6
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "MENNEKES.CHARGED_ENERGY": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "%d Wh",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not Available",
+                    "Value": 4294967295.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.CHARGE_DURATION": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Clock",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " s",
+            "Type": 1
+        },
+        "MENNEKES.COMM_TIMEOUT": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Clock",
+            "MaxValue": 3600.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " s",
+            "Type": 1
+        },
+        "MENNEKES.CP_AVAILABILITY": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unavailable",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Available",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Menu",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.DLM_EXTERNAL_METER_SUPPORT": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Disabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Enabled",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Remote",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.DLM_MODE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Disabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "DLM Master (With internal DLM-Slave)",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "DLM Master (Standalone)",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "DLM Slave (Master-AutoDiscovery)",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "DLM Slave (MasterFixed-IP)",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Menu",
+            "MaxValue": 4.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.DLM_OPERATOR": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 32.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " A",
+            "Type": 1
+        },
+        "MENNEKES.DLM_OVERALL_CURRENT": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "%d A",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not Available",
+                    "Value": 4294967295.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.HEMS_CUR": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 32.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " A",
+            "Type": 1
+        },
+        "MENNEKES.METER_CUR": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "%d mA",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not Available",
+                    "Value": 4294967295.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 32.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.METER_ENERG": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "%d Wh",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not Available",
+                    "Value": 4294967295.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.METER_POW": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "%d W",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not Available",
+                    "Value": 4294967295.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.METER_VOL": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "%d V",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Not Available",
+                    "Value": 4294967295.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.OCPP_CP_STATUS": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Available",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Occupied ",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Reserved",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unavailable",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Faulted",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": " Preparing",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Charging",
+                    "Value": 6.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SuspendedEVSE",
+                    "Value": 7.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SuspendedEV",
+                    "Value": 8.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Finishing",
+                    "Value": 9.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 9.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.PLUG_LOCK_STATUS": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unlocked",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Locked",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "LockOpen",
+            "MaxValue": 2.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MENNEKES.POWER_TARGET_1PHASED": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "ArrowRight",
+            "MaxValue": 3680.0,
+            "MinValue": 1380.0,
+            "Prefix": "",
+            "StepSize": 10.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "MENNEKES.POWER_TARGET_3PHASED": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "ArrowRight",
+            "MaxValue": 11040.0,
+            "MinValue": 4140.0,
+            "Prefix": "",
+            "StepSize": 10.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "MENNEKES.SAFE_CURRENT": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 32.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " A",
+            "Type": 1
+        },
+        "MENNEKES.VEHICLE_STATE": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "A",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "B",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "C",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "D",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "E",
+                    "Value": 5.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Menu",
+            "MaxValue": 5.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "POWER_TARGET_1PHASED",
+            "Name": "Power, 1-phased configuration (Target)",
+            "Profile": "MENNEKES.POWER_TARGET_1PHASED",
+            "ReadAction": "return $VALUES[\"HEMS_CURRENT_LIMIT\"]*230*1;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung, 1-phasig angeschlossen (Soll)"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": "return [\n    \"HEMS_CURRENT_LIMIT\" => $VALUE/230/1\n];"
+        },
+        {
+            "Active": true,
+            "Ident": "POWER_TARGET_3PHASED",
+            "Name": "Power, 3-phased configuration (Target)",
+            "Profile": "MENNEKES.POWER_TARGET_3PHASED",
+            "ReadAction": "return $VALUES[\"HEMS_CURRENT_LIMIT\"]*230*3;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung, 3-phasig angeschlossen (Soll)"
+                }
+            ],
+            "VariableType": 1,
+            "WriteAction": "return [\n    \"HEMS_CURRENT_LIMIT\" => $VALUE/230/3\n];"
+        }
+    ]
+}
