@@ -1,0 +1,735 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_A",
+            "Length": 0,
+            "Name": "Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAddress": 40071,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_AphA",
+            "Length": 0,
+            "Name": "Phase_A_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAddress": 40073,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom-L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_AphB",
+            "Length": 0,
+            "Name": "Phase_B_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAddress": 40075,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom-L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_AphC",
+            "Length": 0,
+            "Name": "Phase_C_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAddress": 40077,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_PhV",
+            "Length": 0,
+            "Name": "Phase_Neutral_Voltage_avg",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40079,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L-N Mittel"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_PhVphA",
+            "Length": 0,
+            "Name": "Phase_Voltage_AN",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40081,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_PhVphB",
+            "Length": 0,
+            "Name": "Phase_Voltage_BN",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40083,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_PhVphC",
+            "Length": 0,
+            "Name": "Phase_Voltage_CN",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40085,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_PPV",
+            "Length": 0,
+            "Name": "Phase_Voltage_avg",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40087,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L-L Mittel"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_PPVphAB",
+            "Length": 0,
+            "Name": "Phase_Voltage_AB",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40089,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_PPVphBC",
+            "Length": 0,
+            "Name": "Phase_Voltage_AB",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40091,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_PPVphCA",
+            "Length": 0,
+            "Name": "Phase_Voltage_CA",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40093,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3-L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_Hz",
+            "Length": 0,
+            "Name": "Frequency",
+            "Profile": "Fronius.Frequency.Float",
+            "ReadAddress": 40095,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_W",
+            "Length": 0,
+            "Name": "Power_Total",
+            "Profile": "Fronius.Power.Float",
+            "ReadAddress": 40097,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_WphA",
+            "Length": 0,
+            "Name": "Power_A",
+            "Profile": "Fronius.Power.Float",
+            "ReadAddress": 40099,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_WphB",
+            "Length": 0,
+            "Name": "Power_B",
+            "Profile": "Fronius.Power.Float",
+            "ReadAddress": 40101,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_WphC",
+            "Length": 0,
+            "Name": "Power_C",
+            "Profile": "Fronius.Power.Float",
+            "ReadAddress": 40103,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_VA",
+            "Length": 0,
+            "Name": "Apparent_Power_Total",
+            "Profile": "Fronius.Apparent_power.Float",
+            "ReadAddress": 40105,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtscheinleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_VAphA",
+            "Length": 0,
+            "Name": "Apparent_Power_A",
+            "Profile": "Fronius.Apparent_power.Float",
+            "ReadAddress": 40107,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_VAphB",
+            "Length": 0,
+            "Name": "Apparent_Power_B",
+            "Profile": "Fronius.Apparent_power.Float",
+            "ReadAddress": 40109,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_VAphC",
+            "Length": 0,
+            "Name": "Apparent_Power_C",
+            "Profile": "Fronius.Apparent_power.Float",
+            "ReadAddress": 40111,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_VAr",
+            "Length": 0,
+            "Name": "Reactive_Power_Total",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40113,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtblindleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_VARphA",
+            "Length": 0,
+            "Name": "Reactive_Power_A",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40115,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_VARphB",
+            "Length": 0,
+            "Name": "Reactive_Power_B",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40117,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_VARphC",
+            "Length": 0,
+            "Name": "Reactive_Power_C",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40119,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_PF",
+            "Length": 0,
+            "Name": "Power_Factor_Total",
+            "Profile": "Fronius.Battery.Float",
+            "ReadAddress": 40121,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtleistungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_PFphA",
+            "Length": 0,
+            "Name": "Power_Factor_A",
+            "Profile": "Fronius.Battery.Float",
+            "ReadAddress": 40123,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_PFphB",
+            "Length": 0,
+            "Name": "Power_Factor_B",
+            "Profile": "Fronius.Battery.Float",
+            "ReadAddress": 40125,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "21x_PFphC",
+            "Length": 0,
+            "Name": "Power_Factor_C",
+            "Profile": "Fronius.Battery.Float",
+            "ReadAddress": 40127,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_TotWhExp",
+            "Length": 0,
+            "Name": "Energy_Total_Exported",
+            "Profile": "Fronius.Electricity.Float",
+            "ReadAddress": 40129,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtirkarbeit ins Netz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "21x_TotWhImp",
+            "Length": 0,
+            "Name": "Energy_Total_Imported",
+            "Profile": "Fronius.Electricity.Float",
+            "ReadAddress": 40137,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtirkarbeit aus Netz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "Fronius.Apparent_power.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kVA",
+            "Type": 2
+        },
+        "Fronius.Battery.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "EnergyStorage",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " %",
+            "Type": 2
+        },
+        "Fronius.Current.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 32.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " A",
+            "Type": 2
+        },
+        "Fronius.Electricity.Float": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 2
+        },
+        "Fronius.Frequency.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Electricity",
+            "MaxValue": 60.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " Hz",
+            "Type": 2
+        },
+        "Fronius.Power.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kW",
+            "Type": 2
+        },
+        "Fronius.Reactive_power.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kVar",
+            "Type": 2
+        },
+        "Fronius.Voltage.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 420.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 2
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_Power_Total_reverse",
+            "Profile": "Fronius.Power.Float",
+            "ReadAction": "return ($VALUES[\"21x_W\"] * -1);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtleistung Rück."
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}

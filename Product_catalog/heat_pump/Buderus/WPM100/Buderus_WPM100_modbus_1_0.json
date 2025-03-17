@@ -1,0 +1,1705 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Außentemperatur (R1)",
+            "Profile": "~Temperature",
+            "ReadAddress": 1,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur Rücklauf (R2)",
+            "Profile": "WPM_M.Vor_Ruecklauf_Temperatur",
+            "ReadAddress": 2,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur Rücklaufsoll",
+            "Profile": "WPM_M.Vor_Ruecklauf_Temperatur",
+            "ReadAddress": 53,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur Warmwassersoll",
+            "Profile": "",
+            "ReadAddress": 58,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur Vorlauf (R9)",
+            "Profile": "WPM_M.Vor_Ruecklauf_Temperatur",
+            "ReadAddress": 5,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur Wärmequelleneintritt (R24)",
+            "Profile": "",
+            "ReadAddress": 6,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur Wärmequelleneintritt (R6)",
+            "Profile": "",
+            "ReadAddress": 7,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Solltemperatur 2.Heizkreis",
+            "Profile": "WPM_M.Vor_Ruecklauf_Temperatur",
+            "ReadAddress": 54,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur 2.Heizkreis (R5)",
+            "Profile": "WPM_M.Vor_Ruecklauf_Temperatur",
+            "ReadAddress": 9,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Solltemperatur 3.Heizkreis (R13)",
+            "Profile": "",
+            "ReadAddress": 10,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur 3.Heizkreis (R13)",
+            "Profile": "",
+            "ReadAddress": 10,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Raumtemperatur 1 / RT-RTH Econ",
+            "Profile": "",
+            "ReadAddress": 11,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Raumtemperatur 2",
+            "Profile": "",
+            "ReadAddress": 12,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Raumfeuchte 1 / RT-RTH Econ",
+            "Profile": "",
+            "ReadAddress": 13,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Raumfeuchte 2",
+            "Profile": "",
+            "ReadAddress": 14,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Verdichter 1",
+            "Profile": "",
+            "ReadAddress": 72,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Verdichter 2",
+            "Profile": "",
+            "ReadAddress": 73,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Primärpumpe / Ventilator (M11)",
+            "Profile": "",
+            "ReadAddress": 74,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "2. Wärmeerzeuger (E10)",
+            "Profile": "",
+            "ReadAddress": 75,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizungspumpe (M13)",
+            "Profile": "",
+            "ReadAddress": 76,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Warmwasserpumpe (M18)",
+            "Profile": "",
+            "ReadAddress": 77,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Flanschheizung (E9)",
+            "Profile": "",
+            "ReadAddress": 78,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Schwimmbadpumpe (M19)",
+            "Profile": "",
+            "ReadAddress": 79,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zusatzumwälzpumpe (M16)",
+            "Profile": "",
+            "ReadAddress": 71,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wärmemenge Heizen 1-4",
+            "Profile": "",
+            "ReadAddress": 303,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wärmemenge Heizen 5-8",
+            "Profile": "",
+            "ReadAddress": 304,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wärmemenge Heizen 9-12",
+            "Profile": "",
+            "ReadAddress": 305,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Parallelverschiebung",
+            "Profile": "WPM_M_Parallelverschiebung",
+            "ReadAddress": 243,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 243,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Raumtemperatur",
+            "Profile": "",
+            "ReadAddress": 46,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 46,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Festwertsolltemperatur",
+            "Profile": "",
+            "ReadAddress": 244,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizkurvenendpunkt",
+            "Profile": "WPM_M_Heiztemperatur",
+            "ReadAddress": 245,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 245,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Hysterese",
+            "Profile": "WPM_M_Hysterese",
+            "ReadAddress": 47,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 47,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Auswahl Heizkreis 2/3",
+            "Profile": "",
+            "ReadAddress": 289,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 289,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizkurvenendpunkt",
+            "Profile": "WPM_M_Heiztemperatur",
+            "ReadAddress": 291,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Festwertsolltemperatur",
+            "Profile": "",
+            "ReadAddress": 292,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Parallelverschiebung",
+            "Profile": "WPM_M_Parallelverschiebung",
+            "ReadAddress": 293,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Mischerlaufzeit",
+            "Profile": "",
+            "ReadAddress": 294,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Mischerhysterese",
+            "Profile": "",
+            "ReadAddress": 93,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Maximale Temperatur",
+            "Profile": "",
+            "ReadAddress": 295,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Betriebsmodus",
+            "Profile": "WPM_M_Modus",
+            "ReadAddress": 222,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 222,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Statusmeldungen",
+            "Profile": "WPM_M_Statusmeldungen",
+            "ReadAddress": 103,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wärmepumpe Sperre",
+            "Profile": "WPM_M_Sperre",
+            "ReadAddress": 104,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Störmeldung",
+            "Profile": "WPM_M_Stoermeldungen",
+            "ReadAddress": 105,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Sensorik",
+            "Profile": "",
+            "ReadAddress": 106,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Stunde",
+            "Profile": "",
+            "ReadAddress": 213,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 213,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Minute",
+            "Profile": "",
+            "ReadAddress": 214,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 213,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Monat",
+            "Profile": "",
+            "ReadAddress": 215,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 213,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Tag",
+            "Profile": "",
+            "ReadAddress": 217,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 213,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Jahr",
+            "Profile": "",
+            "ReadAddress": 218,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 213,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Verdichter 1",
+            "Profile": "~Switch",
+            "ReadAddress": 41,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Verdichter 2",
+            "Profile": "~Switch",
+            "ReadAddress": 42,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Primärpumpe (M11) / Ventilator (M2)",
+            "Profile": "~Switch",
+            "ReadAddress": 43,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "2.Wärmeerzeuger (E10)",
+            "Profile": "~Switch",
+            "ReadAddress": 44,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizungspumpe (M13)",
+            "Profile": "~Switch",
+            "ReadAddress": 45,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Warmwasserpumpe (M18)",
+            "Profile": "~Switch",
+            "ReadAddress": 46,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Mischer (M21) Auf",
+            "Profile": "~Switch",
+            "ReadAddress": 47,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Mischer (M21) Zu",
+            "Profile": "~Switch",
+            "ReadAddress": 48,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zusatzumwälzpumpe (M16)",
+            "Profile": "~Switch",
+            "ReadAddress": 49,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Flanschheizung (E9)",
+            "Profile": "~Switch",
+            "ReadAddress": 50,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizungspumpe (M15)",
+            "Profile": "~Switch",
+            "ReadAddress": 51,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Mischer (M22) Auf",
+            "Profile": "~Switch",
+            "ReadAddress": 52,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Mischer (M22) Zu",
+            "Profile": "~Switch",
+            "ReadAddress": 53,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Schwimmbadpumpe (M19)",
+            "Profile": "~Switch",
+            "ReadAddress": 56,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Sammelstörmeldung (H5)",
+            "Profile": "~Switch",
+            "ReadAddress": 57,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizungspumpe (M14)",
+            "Profile": "~Switch",
+            "ReadAddress": 59,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Kühlpumpe (M17)",
+            "Profile": "~Switch",
+            "ReadAddress": 60,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizungspumpe (M20)",
+            "Profile": "~Switch",
+            "ReadAddress": 61,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Umschaltung Raumthermostate Heizen/Kühlen (N9)",
+            "Profile": "~Switch",
+            "ReadAddress": 66,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Primärpumpe Kühlen (M12)",
+            "Profile": "~Switch",
+            "ReadAddress": 68,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Solarpumpe (M23)",
+            "Profile": "~Switch",
+            "ReadAddress": 71,
+            "ReadFunctionCode": 1,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "WPM_M.Vor_Ruecklauf_Temperatur": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Temperature",
+            "MaxValue": 60.0,
+            "MinValue": 10.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " °C",
+            "Type": 2
+        },
+        "WPM_M_Heiztemperatur": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 70.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " °C",
+            "Type": 1
+        },
+        "WPM_M_Hysterese": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " K",
+            "Type": 2
+        },
+        "WPM_M_Modus": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Sommer",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Auto",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Urlaub",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Party",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "2. Wärmeerzeuger",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Kühlen",
+                    "Value": 5.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "WPM_M_Parallelverschiebung": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-19",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-18",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-17",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-16",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-15",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-14",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-13",
+                    "Value": 6.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-12",
+                    "Value": 7.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-11",
+                    "Value": 8.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-10",
+                    "Value": 9.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-9",
+                    "Value": 10.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-8",
+                    "Value": 11.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-7",
+                    "Value": 12.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-6",
+                    "Value": 13.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-5",
+                    "Value": 14.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-4",
+                    "Value": 15.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-3",
+                    "Value": 16.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-2",
+                    "Value": 17.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-1",
+                    "Value": 18.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "0",
+                    "Value": 19.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "1",
+                    "Value": 20.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "2",
+                    "Value": 21.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "3",
+                    "Value": 22.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "4",
+                    "Value": 23.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "5",
+                    "Value": 24.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "6",
+                    "Value": 25.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "7",
+                    "Value": 26.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "8",
+                    "Value": 27.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "9",
+                    "Value": 28.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "10",
+                    "Value": 29.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "11",
+                    "Value": 30.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "12",
+                    "Value": 31.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "13",
+                    "Value": 32.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "14",
+                    "Value": 33.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "16",
+                    "Value": 35.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "17",
+                    "Value": 36.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "18",
+                    "Value": 37.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "19",
+                    "Value": 38.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "15",
+                    "Value": 340.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 38.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " K",
+            "Type": 1
+        },
+        "WPM_M_Sperre": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Volumenstrom",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Funktionskontrolle",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Einsatzgrenze HT",
+                    "Value": 6.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Systemkontrolle",
+                    "Value": 7.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Verzögerung Umschaltung Kühlen",
+                    "Value": 8.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Pumpenvorlauf",
+                    "Value": 9.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Mindeststandzeit",
+                    "Value": 10.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Netzbelastung",
+                    "Value": 11.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Schaltspielsperre",
+                    "Value": 12.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Warmwasser Nacherwärmung",
+                    "Value": 13.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Regenerativ",
+                    "Value": 14.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "EVU-Sperre",
+                    "Value": 15.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Sanftanlasser",
+                    "Value": 16.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Durchfluss",
+                    "Value": 17.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Einsatzgrenze Wärmepumpe",
+                    "Value": 18.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Hochdruck",
+                    "Value": 19.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Niederdruck",
+                    "Value": 20.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Einsatzgrenze Wärmequelle",
+                    "Value": 21.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "System Grenze",
+                    "Value": 23.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Last Primärkreis",
+                    "Value": 24.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Sperre Extern",
+                    "Value": 25.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Inverter",
+                    "Value": 29.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Aufwärmen",
+                    "Value": 31.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "EvD Initialisierung",
+                    "Value": 33.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "2.Wärmeerzeuger freigegeben",
+                    "Value": 34.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Störung",
+                    "Value": 35.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Kommunikation Wärmepumpe (Master)",
+                    "Value": 38.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Störung Wärmepumpe (Master)",
+                    "Value": 39.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "WPM_M_Statusmeldungen": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Aus",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Aus",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Heizen",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Schwimmbad",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Warmwasser",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Kühlen",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Abtauen",
+                    "Value": 10.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Durchflussüberwachung",
+                    "Value": 11.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Verzögerung Betriebsmodusumschaltung",
+                    "Value": 24.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Sperre",
+                    "Value": 30.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "WPM_M_Stoermeldungen": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "keine",
+                    "Value": 0.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "A_2_4_303_305",
+            "Name": "Wärmemenge Heizen",
+            "Profile": "",
+            "ReadAction": "return $VALUES['A_2_4_303'] + 10000 * $VALUES['A_2_4_304'] + 100000000 * $VALUES['A_2_4_305'] ;",
+            "Translation": [],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "Zeit",
+            "Profile": "~UnixTimestamp",
+            "ReadAction": "$Y = $VALUES['A_2_4_218'];\r\n$M = $VALUES['A_2_4_215'];\r\n$D = $VALUES['A_2_4_217'];\r\n$H = $VALUES['A_2_4_213'];\r\n$Min = $VALUES['A_2_4_214'];\r\n\r\n$strDate = sprintf ('20%s/%s/%s %s:%s', $Y, $M, $D, $H, $Min);\r\nreturn strtotime($strDate);\r\n",
+            "Translation": [],
+            "VariableType": 1,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "Sperrgrund",
+            "Profile": "",
+            "ReadAction": "return GetValueFormatted(57983);",
+            "Translation": [],
+            "VariableType": 3,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "Status",
+            "Profile": "",
+            "ReadAction": "return GetValueFormatted(46815);",
+            "Translation": [],
+            "VariableType": 3,
+            "WriteAction": ""
+        }
+    ]
+}

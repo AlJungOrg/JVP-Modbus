@@ -1,0 +1,230 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_I1_110",
+            "Length": 0,
+            "Name": "Current L1",
+            "Profile": "~Ampere",
+            "ReadAddress": 2999,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Momentanwert Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_I2_120",
+            "Length": 0,
+            "Name": "Current I2",
+            "Profile": "~Ampere",
+            "ReadAddress": 3001,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Momentanwert Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_I3_130",
+            "Length": 0,
+            "Name": "Current I3",
+            "Profile": "~Ampere",
+            "ReadAddress": 3003,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Momentanwert Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_L1_N_112",
+            "Length": 0,
+            "Name": "Voltage L1-N",
+            "Profile": "~Volt",
+            "ReadAddress": 3027,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Momentanwert Spannung L1 N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_L2_N_122",
+            "Length": 0,
+            "Name": "Voltage L2 N",
+            "Profile": "~Volt",
+            "ReadAddress": 3029,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Momentanwert Spannung L2 N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_L3_N_132",
+            "Length": 0,
+            "Name": "Voltage L3 N",
+            "Profile": "~Volt",
+            "ReadAddress": 3031,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Momentanwert Spannung L3 N "
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Active_Power_Sum_100",
+            "Length": 0,
+            "Name": "Active Power Sum",
+            "Profile": "~Power",
+            "ReadAddress": 3059,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Momentanwert Wirkleistung Summe"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Active_Power_L1_104",
+            "Length": 0,
+            "Name": "Active Power L1",
+            "Profile": "~Power",
+            "ReadAddress": 3053,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Momentanwert Wirkleistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Active_Power_L2_114",
+            "Length": 0,
+            "Name": "Active Power L2",
+            "Profile": "~Power",
+            "ReadAddress": 3055,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Momentanwert Wirkleistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Active_Power_L3_124",
+            "Length": 0,
+            "Name": "Active Power L3",
+            "Profile": "~Power",
+            "ReadAddress": 3057,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Momentanwert Wirkleistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 8,
+            "Factor": 0.001,
+            "Ident": "ConsumedEnergySum",
+            "Length": 0,
+            "Name": "Total Active Energy Import",
+            "Profile": "~Electricity",
+            "ReadAddress": 3203,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zählerstand"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {},
+    "Requests": {
+        "Interval": 10000
+    },
+    "VirtualAddresses": []
+}

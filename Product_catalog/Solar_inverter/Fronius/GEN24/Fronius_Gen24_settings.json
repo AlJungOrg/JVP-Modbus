@@ -1,0 +1,317 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Settings_Max_Power_Output",
+            "Profile": "Fronius.Power.Float",
+            "ReadAddress": 40161,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Max AC-Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Settings_Voltage_at_the_PCC",
+            "Profile": "Fronius.Voltage.Int",
+            "ReadAddress": 40162,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Referenzspannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Settings_Offset _from_PCC_to_inverter.",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40163,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Abweichung Referenzspannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Settings_Max_apparent_power",
+            "Profile": "Fronius.Apparent_power.Float",
+            "ReadAddress": 40166,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Max Scheinleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Settings_Continuous_VAR_capabilit_Q1",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40167,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung Q1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Settings_Continuous_VAR_capabilit_Q2",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40168,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung Q2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Settings_Continuous_VAR_capabilit_Q3",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40169,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung Q3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Settings_Continuous_VAR_capabilit_Q4",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40170,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung Q4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Settings_min_power_factor_Q1",
+            "Profile": "Fronius.CosPhi.Float",
+            "ReadAddress": 40172,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Min Leistungsfaktor Q1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Settings_min_power_factor_Q2",
+            "Profile": "Fronius.CosPhi.Float",
+            "ReadAddress": 40173,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Min Leistungsfaktor Q2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Settings_min_power_factor_Q3",
+            "Profile": "Fronius.CosPhi.Float",
+            "ReadAddress": 40174,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Min Leistungsfaktor Q3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Settings_min_power_factor_Q4",
+            "Profile": "Fronius.CosPhi.Float",
+            "ReadAddress": 40175,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Min Leistungsfaktor Q4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "Fronius.Apparent_power.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kVA",
+            "Type": 2
+        },
+        "Fronius.CosPhi.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "0",
+            "MaxValue": 1.0,
+            "MinValue": -1.0,
+            "Prefix": "",
+            "StepSize": 0.01,
+            "Suffix": " cos Phi",
+            "Type": 2
+        },
+        "Fronius.Power.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kW",
+            "Type": 2
+        },
+        "Fronius.Reactive_power.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kVar",
+            "Type": 2
+        },
+        "Fronius.Voltage.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 420.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 2
+        },
+        "Fronius.Voltage.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 600000
+    },
+    "VirtualAddresses": []
+}

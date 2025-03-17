@@ -1,0 +1,52 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Fehlerstrom",
+            "Profile": "~Ampere",
+            "ReadAddress": 31247,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Isolationswiderstand",
+            "Profile": "SMA_SBS.Resistor.Ohm",
+            "ReadAddress": 30225,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "SMA_SBS.Resistor.Ohm": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 3000000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "Ohm",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 86410000
+    },
+    "VirtualAddresses": []
+}

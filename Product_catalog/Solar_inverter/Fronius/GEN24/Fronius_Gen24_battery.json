@@ -1,0 +1,384 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "124_WChaMax",
+            "Length": 0,
+            "Name": "Battery_Charge_Max",
+            "Profile": "Fronius.Power.Int",
+            "ReadAddress": 40355,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie Kapazität"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "124_WChaGra",
+            "Length": 0,
+            "Name": "Battery_charging_rate",
+            "Profile": "Fronius.Battery.Int",
+            "ReadAddress": 40356,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie Laderate"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "124_WDisChaGra",
+            "Length": 0,
+            "Name": "Battery_discharge_rate",
+            "Profile": "Fronius.Battery.Int",
+            "ReadAddress": 40357,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie Entladerate"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "124_StorCtl_Mod",
+            "Length": 0,
+            "Name": "Battery_Activate_discharge_charge",
+            "Profile": "Fronius.discharge.charge.Int",
+            "ReadAddress": 40358,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie Entladen_Laden Aktivieren"
+                }
+            ],
+            "WriteAddress": 40358,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "124_MinRsvPct",
+            "Length": 0,
+            "Name": "Battery_min_discharge",
+            "Profile": "Fronius.Battery.Float",
+            "ReadAddress": 40360,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie Min Entladung"
+                }
+            ],
+            "WriteAddress": 40360,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "124_ChaState",
+            "Length": 0,
+            "Name": "Battery_charge_state",
+            "Profile": "Fronius.Battery.Float",
+            "ReadAddress": 40361,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterieladestand"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "124_ChaSt",
+            "Length": 0,
+            "Name": "Battery_charge_status",
+            "Profile": "Fronius.Battery.State.Int",
+            "ReadAddress": 40364,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "124_OutWRte",
+            "Length": 0,
+            "Name": "Battery_max_discharge_rate",
+            "Profile": "Fronius.Battery.Float",
+            "ReadAddress": 40365,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 40365,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "124_InWRte",
+            "Length": 0,
+            "Name": "Battery_max_charging_rate",
+            "Profile": "Fronius.Battery.Float",
+            "ReadAddress": 40366,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie Max Entladerate"
+                }
+            ],
+            "WriteAddress": 40366,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "124_InOutWRte_RvrtTms",
+            "Length": 0,
+            "Name": "Battery_Timeout_charge_discharge",
+            "Profile": "Fronius.Seconds",
+            "ReadAddress": 40368,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie TimeOut"
+                }
+            ],
+            "WriteAddress": 40368,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "124_ChaGriSet",
+            "Length": 0,
+            "Name": "Battery_charging_from_grid",
+            "Profile": "Fronius.grid.charging.int",
+            "ReadAddress": 40370,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie Laden aus Netz"
+                }
+            ],
+            "WriteAddress": 40370,
+            "WriteFunctionCode": 6
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "Fronius.Battery.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "EnergyStorage",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " %",
+            "Type": 2
+        },
+        "Fronius.Battery.Int": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "EnergyStorage",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " %",
+            "Type": 1
+        },
+        "Fronius.Battery.State.Int": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Energiespeicher ist nicht verfügbar",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Energiespeicher ist vollständig entladen",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Energiespeicher wird entladen",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Energiespeicher wird geladen",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Energiespeicher ist vollständig geladen",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Energiespeicher wird weder geladen noch entladen",
+                    "Value": 6.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Kalibrations- oder Service-Ladung",
+                    "Value": 7.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 7.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Fronius.Power.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "Fronius.Seconds": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Clock",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " s",
+            "Type": 1
+        },
+        "Fronius.discharge.charge.Int": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "beide Grenzwerte deaktiviert",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Ladegrenzwert aktiv",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Entladegrenzwert aktiv",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "beide Grenzwerte aktiv",
+                    "Value": 3.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 3.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Fronius.grid.charging.int": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Laden aus Netz verbieten",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Laden aus Netz erlauben",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "EnergyProduction",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}

@@ -1,0 +1,82 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "MQTT_PV_HISTORY_DAY",
+            "Length": 0,
+            "Name": "Ertrag am Tag",
+            "Profile": "kWh",
+            "ReadAddress": 32114,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "MQTT_PV_HISTORY_MONTH",
+            "Length": 0,
+            "Name": "Ertrag im Monat",
+            "Profile": "kWh",
+            "ReadAddress": 32116,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "MQTT_PV_HISTORY_YEAR",
+            "Length": 0,
+            "Name": "Ertrag im Jahr",
+            "Profile": "kWh",
+            "ReadAddress": 32118,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "MQTT_PV_HISTORY_ALL",
+            "Length": 0,
+            "Name": "Gesamtertrag",
+            "Profile": "kWh",
+            "ReadAddress": 32106,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "kWh": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " KWh",
+            "Type": 2
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}

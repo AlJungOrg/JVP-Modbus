@@ -1,0 +1,1026 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "160_DCA_SF",
+            "Length": 0,
+            "Name": "MPPT_Current_Scale_Factor",
+            "Profile": "Fronius.Scale.Int",
+            "ReadAddress": 40265,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "160_DCV_SF",
+            "Length": 0,
+            "Name": "MPPT_Voltage_Scale_Factor",
+            "Profile": "Fronius.Scale.Int",
+            "ReadAddress": 40266,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "160_DCW_SF",
+            "Length": 0,
+            "Name": "MPPT_Power_Scale_Factor",
+            "Profile": "Fronius.Scale.Int",
+            "ReadAddress": 40267,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "160_DCWH_SF",
+            "Length": 0,
+            "Name": "MPPT_Energy_Scale_Factor",
+            "Profile": "Fronius.Scale.Int",
+            "ReadAddress": 40268,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Arbeit Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_N",
+            "Length": 0,
+            "Name": "MPPT_Number_of_Modules",
+            "Profile": "",
+            "ReadAddress": 40271,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Anzahl MPPT"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_1_ID",
+            "Length": 0,
+            "Name": "MPPT1_Input_ID",
+            "Profile": "",
+            "ReadAddress": 40273,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1_ID"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "160_module_1_IDStr",
+            "Length": 8,
+            "Name": "MPPT1_Input_ID_Sting",
+            "Profile": "",
+            "ReadAddress": 40274,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_1_DCA",
+            "Length": 0,
+            "Name": "MPPT1_DC_Current",
+            "Profile": "Fronius.Current.Int",
+            "ReadAddress": 40282,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1_Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_1_DCV",
+            "Length": 0,
+            "Name": "MPPT1_DC_Voltage",
+            "Profile": "Fronius.Voltage.Int",
+            "ReadAddress": 40283,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1_Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_1_DCW",
+            "Length": 0,
+            "Name": "MPPT1_DC_Power",
+            "Profile": "Fronius.Power.Int",
+            "ReadAddress": 40284,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1_Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "160_module_1_DCWH",
+            "Length": 0,
+            "Name": "MPPT1_Lifetime Energy",
+            "Profile": "Fronius.Electricity.Int",
+            "ReadAddress": 40285,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1_Wirkarbeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "160_module_1_Tms",
+            "Length": 0,
+            "Name": "MPPT1_Timestamp",
+            "Profile": "~UnixTimestampTime",
+            "ReadAddress": 40287,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1_Zeitstempel"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_2_ID",
+            "Length": 0,
+            "Name": "MPPT2_Input_ID",
+            "Profile": "",
+            "ReadAddress": 40293,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2_ID"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "160_module_2_IDStr",
+            "Length": 8,
+            "Name": "MPPT2_Input_ID_Sting",
+            "Profile": "",
+            "ReadAddress": 40294,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_2_DCA",
+            "Length": 0,
+            "Name": "MPPT2_DC_Current",
+            "Profile": "Fronius.Current.Int",
+            "ReadAddress": 40302,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2_Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_2_DCV",
+            "Length": 0,
+            "Name": "MPPT2_DC_Voltage",
+            "Profile": "Fronius.Voltage.Int",
+            "ReadAddress": 40303,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2_Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_2_DCW",
+            "Length": 0,
+            "Name": "MPPT2_DC_Power",
+            "Profile": "Fronius.Power.Int",
+            "ReadAddress": 40304,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2_Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "160_module_2_DCWH",
+            "Length": 0,
+            "Name": "MPPT2_Lifetime Energy",
+            "Profile": "Fronius.Electricity.Int",
+            "ReadAddress": 40305,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2_Wirkarbeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "160_module_2_Tms",
+            "Length": 0,
+            "Name": "MPPT2_Timestamp",
+            "Profile": "~UnixTimestampTime",
+            "ReadAddress": 40307,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2_Zeitstempel"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_3_ID",
+            "Length": 0,
+            "Name": "MPPTBatCha_Input_ID",
+            "Profile": "",
+            "ReadAddress": 40313,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie_Laden_ID"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "160_module_3_IDStr",
+            "Length": 8,
+            "Name": "MPPTBatCha_Input_ID_Sting",
+            "Profile": "",
+            "ReadAddress": 40314,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_3_DCA",
+            "Length": 0,
+            "Name": "MPPTBatCha_DC_Current",
+            "Profile": "Fronius.Current.Int",
+            "ReadAddress": 40322,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie_Laden_Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_3_DCV",
+            "Length": 0,
+            "Name": "MPPTBatCha_DC_Voltage",
+            "Profile": "Fronius.Voltage.Int",
+            "ReadAddress": 40323,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie_Laden_Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_3_DCW",
+            "Length": 0,
+            "Name": "MPPTBatCha_DC_Power",
+            "Profile": "Fronius.Power.Int",
+            "ReadAddress": 40324,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie_Laden_Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "160_module_3_DCWH",
+            "Length": 0,
+            "Name": "MPPTBatCha_Lifetime Energy",
+            "Profile": "Fronius.Electricity.Int",
+            "ReadAddress": 40325,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie_Laden_Wirkarbeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "160_module_3_Tms",
+            "Length": 0,
+            "Name": "MPPTBatCha_Timestamp",
+            "Profile": "~UnixTimestampTime",
+            "ReadAddress": 40327,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie_Laden_Zeitstempel"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_4_ID",
+            "Length": 0,
+            "Name": "MPPTBatDisCha_Input_ID",
+            "Profile": "",
+            "ReadAddress": 40333,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie_Entladen_ID"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "160_module_4_IDStr",
+            "Length": 8,
+            "Name": "MPPTBatDisCha_Input_ID_Sting",
+            "Profile": "",
+            "ReadAddress": 40334,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_4_DCA",
+            "Length": 0,
+            "Name": "MPPTBatDisCha_DC_Current",
+            "Profile": "Fronius.Current.Int",
+            "ReadAddress": 40342,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie_Entladen_Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_4_DCV",
+            "Length": 0,
+            "Name": "MPPTBatDisCha_DC_Voltage",
+            "Profile": "Fronius.Voltage.Int",
+            "ReadAddress": 40343,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie_Entladen_Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_4_DCW",
+            "Length": 0,
+            "Name": "MPPTBatDisCha_DC_Power",
+            "Profile": "Fronius.Power.Int",
+            "ReadAddress": 40344,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie_Entladen_Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "160_module_4_DCWH",
+            "Length": 0,
+            "Name": "MPPTBatDisCha_Lifetime Energy",
+            "Profile": "Fronius.Electricity.Int",
+            "ReadAddress": 40345,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie_Entladen_Wirkarbeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "160_module_4_Tms",
+            "Length": 0,
+            "Name": "MPPTBatDisCha_Timestamp",
+            "Profile": "~UnixTimestampTime",
+            "ReadAddress": 40347,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie_Entladen_Zeitstempel"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "Fronius.Current.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 32.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " A",
+            "Type": 2
+        },
+        "Fronius.Current.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "0",
+            "MaxValue": 32.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " A",
+            "Type": 1
+        },
+        "Fronius.Electricity.Float": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 2
+        },
+        "Fronius.Electricity.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " Wh",
+            "Type": 1
+        },
+        "Fronius.Power.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kW",
+            "Type": 2
+        },
+        "Fronius.Power.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "Fronius.Scale.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "10^",
+            "StepSize": 0.0,
+            "Suffix": " ",
+            "Type": 1
+        },
+        "Fronius.Voltage.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 420.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 2
+        },
+        "Fronius.Voltage.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT1_DC_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAction": "return ($VALUES[\"160_module_1_DCA\"] * 10 ** $VALUES[\"160_DCA_SF\"] );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT1_Strom"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT1_DC_Voltage",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAction": "return ($VALUES[\"160_module_1_DCV\"] * 10 ** $VALUES[\"160_DCV_SF\"] );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT1_Spannung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT1_DC_Power",
+            "Profile": "Fronius.Power.Float",
+            "ReadAction": "return ($VALUES[\"160_module_1_DCW\"] * 10 ** $VALUES[\"160_DCW_SF\"] /1000 );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT1_Leistung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT1_LifetimeEnergy",
+            "Profile": "Fronius.Electricity.Float",
+            "ReadAction": "return ($VALUES[\"160_module_1_DCWH\"] * 10 ** $VALUES[\"160_DCWH_SF\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT1_Wirkarbeit"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT2_DC_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAction": "return ($VALUES[\"160_module_2_DCA\"] * 10 ** $VALUES[\"160_DCA_SF\"] );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT2_Strom"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT2_DC_Voltage",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAction": "return ($VALUES[\"160_module_2_DCV\"] * 10 ** $VALUES[\"160_DCV_SF\"] );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT2_Spannung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT2_DC_Power",
+            "Profile": "Fronius.Power.Float",
+            "ReadAction": "return ($VALUES[\"160_module_2_DCW\"] * 10 ** $VALUES[\"160_DCW_SF\"] /1000 );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT2_Leistung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT2_LifetimeEnergy",
+            "Profile": "Fronius.Electricity.Float",
+            "ReadAction": "return ($VALUES[\"160_module_2_DCWH\"] * 10 ** $VALUES[\"160_DCWH_SF\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT2_Wirkarbeit"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPTBatCha_DC_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAction": "return ($VALUES[\"160_module_3_DCA\"] * 10 ** $VALUES[\"160_DCA_SF\"] );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Batterie_Laden_Strom"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPTBatCha_DC_Voltage",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAction": "return ($VALUES[\"160_module_3_DCV\"] * 10 ** $VALUES[\"160_DCV_SF\"] );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Batterie_Laden_Spannung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPTBatCha_DC_Power",
+            "Profile": "Fronius.Power.Float",
+            "ReadAction": "return ($VALUES[\"160_module_3_DCW\"] * 10 ** $VALUES[\"160_DCW_SF\"] /1000 );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Batterie_Laden_Leistung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPTBatCha_LifetimeEnergy",
+            "Profile": "Fronius.Electricity.Float",
+            "ReadAction": "return ($VALUES[\"160_module_3_DCWH\"] * 10 ** $VALUES[\"160_DCWH_SF\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Batterie_Laden_Wirkarbeit"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPTBatDisCha_DC_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAction": "return ($VALUES[\"160_module_4_DCA\"] * 10 ** $VALUES[\"160_DCA_SF\"] );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Batterie_Entladen_Strom"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPTBatDisCha_DC_Voltage",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAction": "return ($VALUES[\"160_module_4_DCV\"] * 10 ** $VALUES[\"160_DCV_SF\"] );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Batterie_Entladen_Spannung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPTBatDisCha_DC_Power",
+            "Profile": "Fronius.Power.Float",
+            "ReadAction": "return ($VALUES[\"160_module_4_DCW\"] * 10 ** $VALUES[\"160_DCW_SF\"] /1000 );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Batterie_Entladen_Leistung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPTBatDisCha_LifetimeEnergy",
+            "Profile": "Fronius.Electricity.Float",
+            "ReadAction": "return ($VALUES[\"160_module_4_DCWH\"] * 10 ** $VALUES[\"160_DCWH_SF\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Batterie_Entladen_Wirkarbeit"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_ Battery_charging_power",
+            "Profile": "Fronius.Power.Float",
+            "ReadAction": "return ((($VALUES[\"160_module_3_DCW\"] * 10 ** $VALUES[\"160_DCW_SF\"]) / 1000) - (($VALUES[\"160_module_4_DCW\"] * 10 ** $VALUES[\"160_DCW_SF\"] /1000 )));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Batterie_Laden_Entladen"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}
