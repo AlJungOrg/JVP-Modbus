@@ -1,0 +1,586 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_Heating_Day_heat",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3500,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Tag Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_Heating_Total_kWh_heat",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3501,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Summe kWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-Heating_Total_MWh_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Int",
+            "ReadAddress": 3502,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Summe MWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_DHW_Day_heat",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3503,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Tag Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_DHW_Total_kWh_heat",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3504,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Summe kWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-DHW_Total_MWh_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Int",
+            "ReadAddress": 3505,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Summe MWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_NHZ_Heating_Total_kWh_heat",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3506,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ Heizen Summe kWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-NHZ_Heating_Total_MWh_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Int",
+            "ReadAddress": 3507,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ Heizen Summe MWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_NHZ_DHW_Total_kWh_heat",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3508,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ WW Summe kWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-NHZ_DHW_Total_MWh_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Int",
+            "ReadAddress": 3509,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ WW Summe MWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_Heating_Day_Power",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3510,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Tag Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_Heating_Total_kWh_Power",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3511,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Summe kWh Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-Heating_Total_MWh_Power",
+            "Profile": "Stiebel.Eltron.Power.MWh.Int",
+            "ReadAddress": 3512,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Summe MWh Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_DHW_Day_Power",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3513,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Tag Lesitung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_DHW_Total_kWh_Power",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3514,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Summe kWh Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-DHW_Total_MWh_Power",
+            "Profile": "Stiebel.Eltron.Power.MWh.Int",
+            "ReadAddress": 3515,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Summe MWh Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-Heating_Runtime",
+            "Profile": "Stiebel.Eltron.Houers.Int",
+            "ReadAddress": 3516,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Laufzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-DHW_Runtime",
+            "Profile": "Stiebel.Eltron.Houers.Int",
+            "ReadAddress": 3517,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Laufzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-Cooling_Runtime",
+            "Profile": "Stiebel.Eltron.Houers.Int",
+            "ReadAddress": 3518,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Kühlen Laufzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "NHZ-1_Runtime",
+            "Profile": "Stiebel.Eltron.Houers.Int",
+            "ReadAddress": 3519,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ-1 Laufzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "NHZ-2_Runtime",
+            "Profile": "Stiebel.Eltron.Houers.Int",
+            "ReadAddress": 3520,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ-2 Laufzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "NHZ-1/2_Runtime",
+            "Profile": "Stiebel.Eltron.Houers.Int",
+            "ReadAddress": 3521,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ-1/2 Laufzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "Stiebel.Eltron.Houers.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " h",
+            "Type": 1
+        },
+        "Stiebel.Eltron.Power.MWh.Float": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "",
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " MWh",
+            "Type": 2
+        },
+        "Stiebel.Eltron.Power.MWh.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " MWh",
+            "Type": 1
+        },
+        "Stiebel.Eltron.Power.kWh.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 60000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_Heating_Total_Heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Float",
+            "ReadAction": "return ($VALUES[\"A_2_4_3501\"] / 1000 + $VALUES[\"A_2_4_3502\"]);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Heizen_Summe Wärme"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_DHW_Total_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Float",
+            "ReadAction": "return ($VALUES[\"A_2_4_3503\"] / 1000 + $VALUES[\"A_2_4_3505\"]);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_WW_Summe Wärme"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": false,
+            "Ident": "",
+            "Name": "V_NHZ_Heating_Total_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Float",
+            "ReadAction": "return ($VALUES[\"A_2_4_3506\"] / 1000 + $VALUES[\"A_2_4_3507\"]);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_NHZ Heizen Summe Wärme"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": false,
+            "Ident": "",
+            "Name": "V_NHZ_DHW_Total_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Float",
+            "ReadAction": "return ($VALUES[\"A_2_4_3508\"] / 1000 + $VALUES[\"A_2_4_3509\"]);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_NHZ WW Summe Wärme"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_Heating_Total_Power",
+            "Profile": "Stiebel.Eltron.Power.MWh.Float",
+            "ReadAction": "return ($VALUES[\"A_2_4_3511\"] / 1000 + $VALUES[\"A_2_4_3512\"]);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Heizen_Summe Lesitung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_DHW_Total_Power",
+            "Profile": "Stiebel.Eltron.Power.MWh.Float",
+            "ReadAction": "return ($VALUES[\"A_2_4_3514\"] / 1000 + $VALUES[\"A_2_4_3515\"]);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_WW_Summe Leistung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}

@@ -1,0 +1,1089 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 16,
+            "Name": "Device Number",
+            "Profile": "",
+            "ReadAddress": 1,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 16,
+            "Name": "Device Type",
+            "Profile": "",
+            "ReadAddress": 9,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 16,
+            "Name": "Device Serial",
+            "Profile": "",
+            "ReadAddress": 17,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Device Info",
+            "Profile": "KWB.DeviceInfo",
+            "ReadAddress": 25,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Device Line Mapping",
+            "Profile": "KWB.Device.Line-Mapping",
+            "ReadAddress": 26,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 11,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Device Timestamp (UTC)",
+            "Profile": "",
+            "ReadAddress": 27,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter U1",
+            "Profile": "~Volt",
+            "ReadAddress": 48,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter U2",
+            "Profile": "~Volt",
+            "ReadAddress": 50,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter U3",
+            "Profile": "~Volt",
+            "ReadAddress": 52,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter I1",
+            "Profile": "~Ampere",
+            "ReadAddress": 54,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter I2",
+            "Profile": "~Ampere",
+            "ReadAddress": 56,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter I3",
+            "Profile": "~Ampere",
+            "ReadAddress": 58,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter P1 (active)",
+            "Profile": "~Watt",
+            "ReadAddress": 60,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter P2 (active)",
+            "Profile": "~Watt",
+            "ReadAddress": 62,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter P3 (active)",
+            "Profile": "~Watt",
+            "ReadAddress": 64,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter P tot (active)",
+            "Profile": "~Watt",
+            "ReadAddress": 84,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter W tot",
+            "Profile": "KWB.Energy.kWh",
+            "ReadAddress": 92,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EVSE Status",
+            "Profile": "KWB.EVSE.Status",
+            "ReadAddress": 96,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EVSE Error State",
+            "Profile": "KWB.Error.State",
+            "ReadAddress": 97,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EVSE PP-State",
+            "Profile": "KWB.PP.State",
+            "ReadAddress": 98,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EVSE CP-State",
+            "Profile": "KWB.CP.State",
+            "ReadAddress": 99,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EVSE Relais-State",
+            "Profile": "KWB.EVSE.Relais.State",
+            "ReadAddress": 100,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EVSE Granted Current",
+            "Profile": "KWB.Ampere.mA",
+            "ReadAddress": 101,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EVSE Granted Power",
+            "Profile": "KWB.Engery.Watt",
+            "ReadAddress": 102,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Charging Duration",
+            "Profile": "KWB.Time.sec",
+            "ReadAddress": 103,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Charging Energy",
+            "Profile": "KWB.Energy.Wh",
+            "ReadAddress": 105,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EMS-Control Control Register",
+            "Profile": "KWB.EMS.Control",
+            "ReadAddress": 160,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 160,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EMS-Control Setpoint Relais-Matrix",
+            "Profile": "KWB.EMS.Setpoint.Relais",
+            "ReadAddress": 161,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 161,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EMS-Control Setpoint Charging Current",
+            "Profile": "KWB.EMS.set.charging.current",
+            "ReadAddress": 162,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 162,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EMS-Control Timeout Period",
+            "Profile": "KWB.EMS.Timeout.Period",
+            "ReadAddress": 163,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 163,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EMS-Control Timeout Fallback Pattern",
+            "Profile": "KWB.EMS.Setpoint.Relais",
+            "ReadAddress": 164,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 164,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EMS-Control Timeout Fallback Current",
+            "Profile": "KWB.Ampere.mA",
+            "ReadAddress": 165,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 165,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter Frequency",
+            "Profile": "~Hertz",
+            "ReadAddress": 94,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "KWB.Ampere.mA": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " mA",
+            "Type": 1
+        },
+        "KWB.CP.State": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "hourglass-start",
+                    "Name": "A (EV not detected, standby)",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "plug-circle-check",
+                    "Name": "B (EV detected)",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 4387856,
+                    "Icon": "plug-circle-bolt",
+                    "Name": "C (EV charging)",
+                    "Value": 2.0
+                },
+                {
+                    "Color": 2553098,
+                    "Icon": "plug-circle-bolt",
+                    "Name": "D (EV charging with fan)",
+                    "Value": 3.0
+                },
+                {
+                    "Color": 16321291,
+                    "Icon": "triangle-exclamation",
+                    "Name": "E (CP Short-Circuit)",
+                    "Value": 4.0
+                },
+                {
+                    "Color": 14672653,
+                    "Icon": "circle-exclamation",
+                    "Name": "F (EVSE not available, CP = -12VDC)",
+                    "Value": 5.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KWB.Device.Line-Mapping": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "L1-L2-L3 (default)",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "L1-L3-L2 (invalid phase rotation)",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "L2-L3-L1",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "L2-L1-L3 (invalid phase rotation)",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "L3-L1-L2",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "L3-L2-L1 (invalid phase rotation)",
+                    "Value": 5.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 5.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KWB.DeviceInfo": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "11kW | Cable | MID | 1/3-Phase",
+                    "Value": 33025.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "22kW | Cable | MID | 1/3-Phase",
+                    "Value": 33026.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "11kW | Plug | MID | 1/3-Phase",
+                    "Value": 33041.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "22kW | Plug | MID | 1/3-Phase",
+                    "Value": 33042.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "11kW | Cable | Eich | 1/3-Phase",
+                    "Value": 33153.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "22kW | Cable | Eich | 1/3-Phase",
+                    "Value": 33154.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "11kW | Plug | Eich | 1/3-Phase",
+                    "Value": 33169.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "22kW | Plug | Eich | 1/3-Phase",
+                    "Value": 33170.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 65535.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KWB.EMS.Control": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "EMS-Control disabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Enable EMS-Control",
+                    "Value": 32768.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KWB.EMS.Setpoint.Relais": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "not set",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Line 1",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Line 2 (reserved for future)",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Line 3 (reserved for future)",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "3 Lines",
+                    "Value": 7.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KWB.EMS.Timeout.Period": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Timeout deactivated",
+                    "Value": 0.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KWB.EMS.set.charging.current": {
+            "Associations": [
+                {
+                    "Color": 16314922,
+                    "Icon": "circle-pause",
+                    "Name": "Charing Paused",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 6747162,
+                    "Icon": "car-circle-bolt",
+                    "Name": " %d",
+                    "Value": 6000.0
+                },
+                {
+                    "Color": 5959195,
+                    "Icon": "car-circle-bolt",
+                    "Name": "%d",
+                    "Value": 32000.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": " ",
+                    "Value": 32001.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "eject",
+                    "Name": "Charging Cancel",
+                    "Value": 65353.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KWB.EVSE.Relais.State": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Relais OFF",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Relais L1 activated",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Relais L2 activated",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Relais L1&L2 activated",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Relais L3 activated",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Relais L1&L3 activated",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Relais L2&L3 activated",
+                    "Value": 6.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Relais L1&L2&L3 activated",
+                    "Value": 7.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KWB.EVSE.Status": {
+            "Associations": [
+                {
+                    "Color": 12697278,
+                    "Icon": "snooze",
+                    "Name": "Idle",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 16118000,
+                    "Icon": "plug-circle-check",
+                    "Name": "EV Connected",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 15067404,
+                    "Icon": "cards-blank",
+                    "Name": "Authentication Waiting",
+                    "Value": 2.0
+                },
+                {
+                    "Color": 3666986,
+                    "Icon": "thumbs-up",
+                    "Name": "Authentication Confirmed",
+                    "Value": 3.0
+                },
+                {
+                    "Color": 1938157,
+                    "Icon": "car-circle-bolt",
+                    "Name": "Charging Active",
+                    "Value": 4.0
+                },
+                {
+                    "Color": 14146070,
+                    "Icon": "mug-saucer",
+                    "Name": "Charging Paused",
+                    "Value": 5.0
+                },
+                {
+                    "Color": 654093,
+                    "Icon": "battery-full",
+                    "Name": "Charging Completed",
+                    "Value": 6.0
+                },
+                {
+                    "Color": 12912607,
+                    "Icon": "credit-card-blank",
+                    "Name": "RFID Pairing",
+                    "Value": 7.0
+                },
+                {
+                    "Color": 15994896,
+                    "Icon": "triangle-exclamation",
+                    "Name": "Error",
+                    "Value": 65535.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 65535.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KWB.Energy.Wh": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " Wh",
+            "Type": 1
+        },
+        "KWB.Energy.kWh": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " kWh",
+            "Type": 2
+        },
+        "KWB.Engery.Watt": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "KWB.Error.State": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "thumbs-up",
+                    "Name": "No Error",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 15732495,
+                    "Icon": "triangle-exclamation",
+                    "Name": "Relais welded",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 15535116,
+                    "Icon": "triangle-exclamation",
+                    "Name": "Residual DC-Current detected (RCD)",
+                    "Value": 2.0
+                },
+                {
+                    "Color": 15993611,
+                    "Icon": "triangle-exclamation",
+                    "Name": "Socket Lock-Detection",
+                    "Value": 4.0
+                },
+                {
+                    "Color": 15863053,
+                    "Icon": "triangle-exclamation",
+                    "Name": "Charging Overcurrent",
+                    "Value": 8.0
+                },
+                {
+                    "Color": 15535116,
+                    "Icon": "triangle-exclamation",
+                    "Name": "CP-D: Ventilation not available",
+                    "Value": 16.0
+                },
+                {
+                    "Color": 15796489,
+                    "Icon": "triangle-exclamation",
+                    "Name": "CP-E: Short-Circuit (CP-PE)",
+                    "Value": 32.0
+                },
+                {
+                    "Color": 15993611,
+                    "Icon": "triangle-exclamation",
+                    "Name": "CP-F: Loop broken (CP-PE)",
+                    "Value": 64.0
+                },
+                {
+                    "Color": 15861511,
+                    "Icon": "triangle-exclamation",
+                    "Name": "PP-Error (Short-Circuit)",
+                    "Value": 128.0
+                },
+                {
+                    "Color": 15796489,
+                    "Icon": "triangle-exclamation",
+                    "Name": "Internal Error",
+                    "Value": 32768.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KWB.PP.State": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "plug-circle-xmark",
+                    "Name": "Fixed Cable Mounted or Plug Cable not connected",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 5829908,
+                    "Icon": "plug-circle-check",
+                    "Name": "13 A (1500 Ω)",
+                    "Value": 13.0
+                },
+                {
+                    "Color": 1434905,
+                    "Icon": "plug-circle-check",
+                    "Name": "20 A (680 Ω)",
+                    "Value": 20.0
+                },
+                {
+                    "Color": 2812432,
+                    "Icon": "plug-circle-check",
+                    "Name": "32 A (220 Ω)",
+                    "Value": 32.0
+                },
+                {
+                    "Color": 2028815,
+                    "Icon": "plug-circle-check",
+                    "Name": "63 A (100 Ω)",
+                    "Value": 63.0
+                },
+                {
+                    "Color": 15861511,
+                    "Icon": "triangle-exclamation",
+                    "Name": "Error (invalid PP-Resistor)",
+                    "Value": 65353.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KWB.Time.sec": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " sec",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 60000
+    },
+    "VirtualAddresses": []
+}

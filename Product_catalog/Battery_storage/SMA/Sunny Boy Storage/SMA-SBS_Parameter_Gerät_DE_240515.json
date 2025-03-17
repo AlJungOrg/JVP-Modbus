@@ -1,0 +1,1938 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Sprache der Oberfläche",
+            "Profile": "SMA_SBS_Status_1",
+            "ReadAddress": 40013,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Automatische Sommer-/Winterzeitumstellung eingeschaltet",
+            "Profile": "SMA_SBS_Status_3",
+            "ReadAddress": 40005,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zeitzone",
+            "Profile": "SMA_SBS_Status_1",
+            "ReadAddress": 40003,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Bemessungswirkleistung WMaxOutRtg",
+            "Profile": "SMA_SBS.W",
+            "ReadAddress": 30231,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Nennwirkleistung WMaxOut",
+            "Profile": "SMA_SBS.W",
+            "ReadAddress": 30233,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Nennwirkleistung WMaxOut",
+            "Profile": "SMA_SBS.W",
+            "ReadAddress": 40915,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Betriebsart des Multifunktionsrelais",
+            "Profile": "SMA_SBS_Status_3",
+            "ReadAddress": 40575,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Betriebsart des Multifunktionsrelais",
+            "Profile": "SMA_SBS_Status_3",
+            "ReadAddress": 40577,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Allgemeine Betriebsart",
+            "Profile": "SMA_SBS_Status_2",
+            "ReadAddress": 40009,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Betriebsdaten zurücksetzen",
+            "Profile": "SMA_SBS_Status_3",
+            "ReadAddress": 44021,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Untere Entladegrenze bei Eigenverbrauchserhöhung",
+            "Profile": "SMA_SBS.Percent",
+            "ReadAddress": 40073,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Geräteneustart auslösen",
+            "Profile": "SMA_SBS_Status_3",
+            "ReadAddress": 40077,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Automatische Updates eingeschaltet",
+            "Profile": "SMA_SBS_Status_3",
+            "ReadAddress": 40647,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "SMA_SBS.Percent": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "%",
+            "Type": 1
+        },
+        "SMA_SBS.W": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 6000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "W",
+            "Type": 1
+        },
+        "SMA_SBS_Status_1": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Deutsch (LangDE)",
+                    "Value": 777.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "English (LangEN)",
+                    "Value": 778.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Italiano (LangIT)",
+                    "Value": 779.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Español (LangES)",
+                    "Value": 780.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Français (LangFR)",
+                    "Value": 781.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Ελληνικά (LangEL)",
+                    "Value": 782.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "한국어 (LangKO)",
+                    "Value": 783.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Česky (LangCS)",
+                    "Value": 784.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Português (LangPT)",
+                    "Value": 785.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Nederlands (LangNL)",
+                    "Value": 786.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Slovenski (LangSL)",
+                    "Value": 796.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Български (LangBG)",
+                    "Value": 797.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Polski (LangPL)",
+                    "Value": 798.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "日本語 (LangJA)",
+                    "Value": 799.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Lithium-Ionen (Li-Ion) (BatTypLiIon)",
+                    "Value": 1785.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-AUTO) Automatisch über SMA Protokoll (TmZnTmSvr)",
+                    "Value": 9499.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+04:30) Kabul (TmZn+0430Kabul)",
+                    "Value": 9500.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-09:00) Alaska (TmZn-0900Alaska)",
+                    "Value": 9501.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+03:00) Kuwait / Er Riad (TmZn+0300Kuwait)",
+                    "Value": 9502.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+04:00) Abu Dhabi / Muskat (TmZn+0400AbuDhabi)",
+                    "Value": 9503.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+03:00) Bagdad / Istanbul (TmZn+0300Bagdad)",
+                    "Value": 9504.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-04:00) Atlantik (Kanada) (TmZn-0400Atlantik)",
+                    "Value": 9505.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+09:30) Darwin (TmZn+0930Darwin)",
+                    "Value": 9506.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+10:00) Canberra / Melbourne / Sydney (TmZn+1000Canberra)",
+                    "Value": 9507.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+04:00) Baku (TmZn+0400Baku)",
+                    "Value": 9508.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-01:00) Azoren (TmZn-0100Azoren)",
+                    "Value": 9509.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-06:00) Saskatchewan (TmZn-0600Saskatchewan)",
+                    "Value": 9510.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-01:00) Kapverdische Inseln (TmZn-0100Kapverden)",
+                    "Value": 9511.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+04:00) Eriwan (TmZn+0400Eriwan)",
+                    "Value": 9512.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+09:30) Adelaide (TmZn+0930Adelaide)",
+                    "Value": 9513.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+06:00) Astana / Dhaka (TmZn+0600Astana)",
+                    "Value": 9515.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-04:00) Manaus (TmZn-0400Manaus)",
+                    "Value": 9516.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+01:00) Belgrad / Bratislava / Budapest / Ljubljana / Prag (TmZn+0100Belgrad)",
+                    "Value": 9517.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+01:00) Sarajevo / Skopje / Warschau / Zagreb (TmZn+0100Sarajevo)",
+                    "Value": 9518.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+11:00) Salomonen / Neukaledonien (TmZn+1100Magadan)",
+                    "Value": 9519.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-06:00) Zentralamerika (TmZn-0600Zentralamerika)",
+                    "Value": 9520.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+08:00) Peking / Chongqing / Hongkong / Urumchi (TmZn+0800Peking)",
+                    "Value": 9522.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-12:00) Internationale Datumsgrenze (Westen) (TmZn-1200Westen)",
+                    "Value": 9523.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+03:00) Nairobi (TmZn+0300Nairobi)",
+                    "Value": 9524.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+10:00) Brisbane (TmZn+1000Brisbane)",
+                    "Value": 9525.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-05:00) New York / Miami / Atlanta / Detroit / Toronto (TmZn-0500NewYork)",
+                    "Value": 9528.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+02:00) Kairo (TmZn+0200Kairo)",
+                    "Value": 9529.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+05:00) Jekaterinburg (TmZn+0500Jekaterinburg)",
+                    "Value": 9530.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+12:00) Fidschi / Marshall-Inseln (TmZn+1200Fidschi)",
+                    "Value": 9531.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+02:00) Helsinki / Kiew / Riga / Sofia / Tallinn / Wilna (TmZn+0200Helsinki)",
+                    "Value": 9532.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+04:00) Tiflis (TmZn+0400Tiflis)",
+                    "Value": 9533.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC) Dublin / Edinburgh / Lissabon / London (TmZn+0000Dublin)",
+                    "Value": 9534.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-03:00) Grönland (TmZn-0300Groenland)",
+                    "Value": 9535.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC) Monrovia / Reykjavík (TmZn+0000Monrovia)",
+                    "Value": 9536.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+02:00) Athen / Bukarest (TmZn+0200Athen)",
+                    "Value": 9537.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-10:00) Hawaii (TmZn-1000Hawaii)",
+                    "Value": 9538.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+05:30) Chennai / Kolkata / Mumbai / Neu-Delhi (TmZn+0530Chennai)",
+                    "Value": 9539.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+02:00) Jerusalem (TmZn+0200Jerusalem)",
+                    "Value": 9541.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+02:00) Amman (TmZn+0200Amman)",
+                    "Value": 9542.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+09:00) Seoul (TmZn+0900Seoul)",
+                    "Value": 9543.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+08:00) Kuala Lumpur / Singapur (TmZn+0800KualaLumpur)",
+                    "Value": 9544.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-02:00) Mittelatlantik (TmZn-0200Mittelatlantik)",
+                    "Value": 9545.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+02:00) Beirut (TmZn+0200Beirut)",
+                    "Value": 9546.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-07:00) Denver / Salt Lake City / Calgary (TmZn-0700Denver)",
+                    "Value": 9547.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+06:30) Yangon (Rangun) (TmZn+0630Yangon)",
+                    "Value": 9549.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+02:00) Windhuk (TmZn+0200Windhuk)",
+                    "Value": 9551.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+05:45) Katmandu (TmZn+0545Katmandu)",
+                    "Value": 9552.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+12:00) Auckland / Wellington (TmZn+1200Auckland)",
+                    "Value": 9553.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-03:30) Neufundland (TmZn-0330Neufundland)",
+                    "Value": 9554.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+08:00) Irkutsk (TmZn+0800Irkutsk)",
+                    "Value": 9555.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+07:00) Krasnojarsk (TmZn+0700Krasnojarsk)",
+                    "Value": 9556.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-04:00) Santiago (TmZn-0400Santiago)",
+                    "Value": 9557.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-08:00) Pacific (USA / Kanada) (TmZn-0800Pacific)",
+                    "Value": 9558.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-08:00) Tijuana / Niederkalifornien (Mexiko) (TmZn-0800Tijuana)",
+                    "Value": 9559.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+01:00) Brüssel / Kopenhagen / Madrid / Paris (TmZn+0100Bruessel)",
+                    "Value": 9560.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+03:00) Moskau / St. Petersburg / Wolgograd (TmZn+0300Moskau)",
+                    "Value": 9561.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-03:00) Buenos Aires / Santiago (TmZn-0300BuenosAires)",
+                    "Value": 9562.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-05:00) Bogotá / Lima / Quito (TmZn-0500Bogota)",
+                    "Value": 9563.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-11:00) Midway-Inseln / Samoa (TmZn-1100Midway)",
+                    "Value": 9565.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+07:00) Bangkok / Hanoi / Jakarta (TmZn+0700Bangkok)",
+                    "Value": 9566.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+02:00) Harare / Prätoria (TmZn+0200Harare)",
+                    "Value": 9567.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+05:30) Sri Jayawardenepura (TmZn+0530SriJayawardenepura)",
+                    "Value": 9568.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+08:00) Taipeh (TmZn+0800Taipeh)",
+                    "Value": 9569.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+10:00) Hobart (TmZn+1000Hobart)",
+                    "Value": 9570.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+09:00) Osaka / Sapporo / Tokio (TmZn+0900Osaka)",
+                    "Value": 9571.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+13:00) Nuku'alofa (TmZn+1300Nukualofa)",
+                    "Value": 9572.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-05:00) Indiana (Ost) (TmZn-0500Indiana)",
+                    "Value": 9573.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-07:00) Arizona (TmZn-0700Arizona)",
+                    "Value": 9574.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+10:00) Wladiwostok / Magadan (TmZn+1000Wladiwostok)",
+                    "Value": 9575.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+08:00) Perth (TmZn+0800Perth)",
+                    "Value": 9576.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+01:00) West-Zentralafrika (TmZn+0100WestZentralafrika)",
+                    "Value": 9577.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+01:00) Amsterdam / Berlin / Bern / Rom / Stockholm / Wien (TmZn+0100Amsterdam)",
+                    "Value": 9578.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+05:00) Islamabad / Karatschi (TmZn+0500Islamabad)",
+                    "Value": 9579.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+10:00) Guam / Port Moresby (TmZn+1000Guam)",
+                    "Value": 9580.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+09:00) Jakutsk (TmZn+0900Jakutsk)",
+                    "Value": 9581.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+04:00) Kaukasische Normalzeit (TmZn+0400Kaukasus)",
+                    "Value": 9582.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-06:00) Chicago / Dallas / Kansas City / Winnipeg (TmZn-0600Chicago)",
+                    "Value": 9583.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-06:00) Guadalajara / Mexiko-Stadt / Monterrey (TmZn-0600GuadalajaraNeu)",
+                    "Value": 9584.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+04:00) Port Louis (TmZn+0400PortLouis)",
+                    "Value": 9586.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-07:00) Chihuahua / La Paz / Mazatlan (TmZn-0700ChihuahuaNeu)",
+                    "Value": 9587.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-03:00) Montevideo (TmZn-0300Montevideo)",
+                    "Value": 9588.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+05:00) Taschkent (TmZn+0500Taschkent)",
+                    "Value": 9589.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-04:00) Georgetown / La Paz / San Juan (TmZn-0400LaPaz)",
+                    "Value": 9591.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+08:00) Ulan-Bator (TmZn+0800UlanBator)",
+                    "Value": 9592.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-03:00) Cayenne (TmZn-0300Cayenne)",
+                    "Value": 9593.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-04:00) Asuncion (TmZn-0400Asuncion)",
+                    "Value": 9594.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+12:00) Petropawlowsk-Kamtschatski (TmZn+1200Petropawlowsk)",
+                    "Value": 9595.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+03:00) Minsk (TmZn+0300Minsk)",
+                    "Value": 9596.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC+07:00) Nowosibirsk (TmZn+0700Nowosibirsk)",
+                    "Value": 9597.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "(UTC-04:00) Caracas (TmZn-0400Caracas)",
+                    "Value": 9598.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Battery",
+            "MaxValue": 16777213.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SMA_SBS_Status_2": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Sondereinstellung (Adj)",
+                    "Value": 27.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Fehler (Alm)",
+                    "Value": 35.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Geschlossen (Cls)",
+                    "Value": 51.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Gerätestörung (DevFlt)",
+                    "Value": 71.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Netzparallelbetrieb (GriOp)",
+                    "Value": 235.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Frequenz unzulässig (HzFlt)",
+                    "Value": 257.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Aus (Off)",
+                    "Value": 303.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Ok (Ok)",
+                    "Value": 307.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Ein (On)",
+                    "Value": 308.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Offen (Opn)",
+                    "Value": 311.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Stopp (Stop)",
+                    "Value": 381.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Status Betrieb (SttOp)",
+                    "Value": 388.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Warnung (Wrn)",
+                    "Value": 455.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Übertemperatur (TmpDrt)",
+                    "Value": 557.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Eingeschaltet (Run)",
+                    "Value": 569.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Update (Upd)",
+                    "Value": 704.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "nicht aktiv (NoneDrt)",
+                    "Value": 884.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "heizen (OpHt)",
+                    "Value": 898.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Übererregt (OvExt)",
+                    "Value": 1041.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Untererregt (UnExt)",
+                    "Value": 1042.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Q(U)-Kennlinie (VArCtlVol)",
+                    "Value": 1069.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Q / manuelle Vorgabe in % (VArCnstNom)",
+                    "Value": 1070.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Q / manuelle Vorgabe in var (VArCnst)",
+                    "Value": 1071.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Q / externe Vorgabe (VArCtlCom)",
+                    "Value": 1072.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Q(P)-Kennlinie (VArCtlW)",
+                    "Value": 1073.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "cos φ / manuelle Vorgabe (PFCnst)",
+                    "Value": 1074.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "cos φ / externe Vorgabe (PFCtlCom)",
+                    "Value": 1075.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "cos φ(P)-Kennlinie (PFCtlW)",
+                    "Value": 1076.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Manuelle Vorgabe in W (WCnst)",
+                    "Value": 1077.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Manuelle Vorgabe in % (WCnstNom)",
+                    "Value": 1078.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Externe Wirkleistungsvorgabe (WCtlCom)",
+                    "Value": 1079.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Eingeschränkte dynamische Netzstützung (DGSPa)",
+                    "Value": 1265.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Standby (Stdby)",
+                    "Value": 1295.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Warte auf gültiges AC-Netz (WaitGri)",
+                    "Value": 1394.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Automatik (Auto)",
+                    "Value": 1438.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Netz zugeschaltet",
+                    "Value": 1461.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Backup nicht verfügbar",
+                    "Value": 1462.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Backup (Bck)",
+                    "Value": 1463.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Start (Str)",
+                    "Value": 1467.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Herunterfahren (Shtdwn)",
+                    "Value": 1469.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Schnellabschaltung (FstStop)",
+                    "Value": 1690.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Frequenzabweichung (HzDrt)",
+                    "Value": 1705.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Keine Verbindung (NotConn)",
+                    "Value": 1725.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Verriegelt (Lok)",
+                    "Value": 1795.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Stand-Alone Operation (SocOp)",
+                    "Value": 1855.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Abregelung (Drt)",
+                    "Value": 2119.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "cos φ- oder Blindleistung / Dynamische Vorgabe (VArPFCtlCom)",
+                    "Value": 2270.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Batterie laden (BatChaMod)",
+                    "Value": 2289.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Batterie entladen (BatDschMod)",
+                    "Value": 2290.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Batterie Standby (BatWait)",
+                    "Value": 2291.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Batterie laden (BatChaStt)",
+                    "Value": 2292.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Batterie entladen (BatDschStt)",
+                    "Value": 2293.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "LG Chem (LGChem)",
+                    "Value": 2340.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Überspannung (OvVol)",
+                    "Value": 2386.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unterspannung (UnVol)",
+                    "Value": 2387.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Überfrequenz (OvHz)",
+                    "Value": 2388.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unterfrequenz (UnHz)",
+                    "Value": 2389.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Passive Inselnetzerkennung (PID)",
+                    "Value": 2390.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Voreinstellung (Dft)",
+                    "Value": 2424.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phasenausfall (PLD)",
+                    "Value": 2490.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Energiesparmodus (EnSavMod)",
+                    "Value": 2531.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Eigenverbrauchsbereich (SelfCsmpDm)",
+                    "Value": 2614.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Ladezustanderhaltungsbereich (ChaSttDm)",
+                    "Value": 2615.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Ersatzstrombereich (BckDm)",
+                    "Value": 2616.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Tiefentladeschutzbereich (DschProDm)",
+                    "Value": 2617.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Tiefentladebereich (ExhDschDm)",
+                    "Value": 2618.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SMA Energy Meter (MsSrcMtr)",
+                    "Value": 3053.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "PLL-Fehler (PLL)",
+                    "Value": 3165.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phasenausfall niederspannungsseitig (PLDLoVol)",
+                    "Value": 3166.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Aktive Inselnetzerkennung (ActIsldDet)",
+                    "Value": 3167.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Spannungsabweichung (VDrt)",
+                    "Value": 3520.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wechselrichter (MsSrcDev)",
+                    "Value": 3547.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Blindleistungspriorität (VArDmdDrt)",
+                    "Value": 3554.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Hohe DC-Spannung (DcVolMaxDrt)",
+                    "Value": 3556.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Blindleistungsverfahren bei Wirkleistungsabgabe (VArModOut)",
+                    "Value": 4396.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Blindleistungsverfahren bei Wirkleistungsaufnahme (VArModIn)",
+                    "Value": 4397.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Blindleistungsverfahren bei Nullwirkleistung (VArModZerW)",
+                    "Value": 4398.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Nach Fehlerstrom (ManRstrRCD)",
+                    "Value": 4553.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Externer Vorgabe (WSptMaxDrt)",
+                    "Value": 4560.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Externe Vorgabe 2 (WSptMax2Drt)",
+                    "Value": 4561.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "cos φ(U)-Kennlinie (PFCtlVol)",
+                    "Value": 4562.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Warte auf Betriebsfreigabe (WaitStr)",
+                    "Value": 4570.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "[DE] VDE-AR-N4105:2018 Speicher >4 /6 kVA (VDEARN4105/18b)",
+                    "Value": 7585.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "[DE] VDE-AR-N4105:2018 Speicher ≤ 4 /6kVA (VDEARN4105/18d)",
+                    "Value": 7587.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "[EU] EN50549-1:2018 LV (EN50549-1/18)",
+                    "Value": 7590.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SMA Default 2019 50Hz (DftSMA/19)",
+                    "Value": 7592.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "[GB] ENA-EREC-G98/1:2018 (ENA-G98/1/18)",
+                    "Value": 7594.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "[GB] ENA-EREC-G99/1:2018 (ENA-G99/1/18)",
+                    "Value": 7595.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "[BE] C10/11:2019 LV Speicher int. EKS (BE-C10/11/19-09 St_a)",
+                    "Value": 7606.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "[BE] C10/11:2019 LV Speicher ext. EKS (BE-C10/11/19-09 St_b)",
+                    "Value": 7607.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "[IT] CEI0-21:2019 Anlage ≤11 /08 kW (IT-CEI0-21/19_a)",
+                    "Value": 7610.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "[IT] CEI0-21:2019 Anlage >11 /08 kW (IT-CEI0-21/19_c)",
+                    "Value": 7612.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "[AT] TOR Erzeuger Typ A V1.0:2019 (AT-TOR-Erzeuger-A/19_b)",
+                    "Value": 7615.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "[ES] TED749:2020 Typ A P ≤ 100 kW (ES-RD647_A)",
+                    "Value": 7625.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Tesla (Tesla)",
+                    "Value": 8605.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Daily-Powerwall-6.4kWh (Daily-Powerwall-6.4kWh)",
+                    "Value": 8607.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "RESU-10H (RESU-10.0)",
+                    "Value": 8610.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Anderer Typ (TypOth)",
+                    "Value": 8619.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "BYD (BYD)",
+                    "Value": 8620.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "BYD Battery-Box H (4 - 8) (B-BOX-HV)",
+                    "Value": 8621.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "RESU-7H (RESU-7.0)",
+                    "Value": 8623.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Hyperion (3 - 6) (HYPN-3-6)",
+                    "Value": 8628.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "era:powerbase 7.5 - 15 HV (ERA-PBS7_5_15HV)",
+                    "Value": 8629.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "AXIstorage Li SH 3 – 6 Powerpack (AX_PWRPCK_3_6)",
+                    "Value": 8630.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "BMZ (BMZ)",
+                    "Value": 8631.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "IBC Solar (IBC Solar)",
+                    "Value": 8632.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Axitec (Axitec)",
+                    "Value": 8633.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "RESU-10M (RESU-10M)",
+                    "Value": 8634.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "RESU16H Prime (RESU-16H_Prime)",
+                    "Value": 8636.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "LG Energy Solution (LGEnergy)",
+                    "Value": 8637.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "RESU10H Prime (RESU-10H_Prime)",
+                    "Value": 8638.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "RESU FLEX (RESU FLEX)",
+                    "Value": 8642.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Force-H1 (Force-H1)",
+                    "Value": 8643.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Force-H2 (Force-H2)",
+                    "Value": 8644.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Pylontech (Pylontech)",
+                    "Value": 8645.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Battery-Box Premium HVM (BatBoxPremHVM)",
+                    "Value": 19045.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Battery-Box Premium HVS (BatBoxPremHVS)",
+                    "Value": 19046.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Battery-Box Premium HVL (BatBoxPremHVL)",
+                    "Value": 19073.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Information liegt nicht vor (NaNStt)",
+                    "Value": 16777213.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Battery",
+            "MaxValue": 16777213.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SMA_SBS_Status_3": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Zähler Netzzuschaltung (GriSwCnt)",
+                    "Value": 237.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Schaltzustand Netzrelais (GriSwCpy)",
+                    "Value": 258.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "------- (None)",
+                    "Value": 302.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phase L1 (phsA)",
+                    "Value": 325.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phase L2 (phsB)",
+                    "Value": 327.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phase L3 (phsC)",
+                    "Value": 329.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Hersteller kontaktieren (PrioA)",
+                    "Value": 336.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Installateur kontaktieren (PrioC)",
+                    "Value": 337.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "ungültig (PrioIna)",
+                    "Value": 338.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Ereignisse zurücksetzen (RsEvtCnt)",
+                    "Value": 353.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Energielogger löschen (RsTotWhLog)",
+                    "Value": 355.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Löse Betriebshemmung (RsPermStoOp)",
+                    "Value": 356.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phasen L1 und L2 (phsAB)",
+                    "Value": 402.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phasen L1 und L3 (phsAC)",
+                    "Value": 403.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Phasen L2 und L3 (phsBC)",
+                    "Value": 404.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Betriebszeit (TotOpTms)",
+                    "Value": 409.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Einspeisezeit (TotFeedTms)",
+                    "Value": 411.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Gesamtertrag (TotWhOut)",
+                    "Value": 418.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SMA (SMA)",
+                    "Value": 461.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Alle verfügbaren Funktionen ausführen (DoAll)",
+                    "Value": 568.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Netzwerkparameter zurücksetzen (NetwParaRs)",
+                    "Value": 720.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "aktiv (Act)",
+                    "Value": 802.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "inaktiv (Ina)",
+                    "Value": 803.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "keine (NoneDsc)",
+                    "Value": 885.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "keine (NoneMsg)",
+                    "Value": 886.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "keine (NonePrio)",
+                    "Value": 887.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Ja (Yes)",
+                    "Value": 1129.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Nein (No)",
+                    "Value": 1130.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Ausführen (Do)",
+                    "Value": 1146.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Störungsmeldung (FltInd)",
+                    "Value": 1341.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Lüftersteuerung (FanCtl)",
+                    "Value": 1342.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Eigenverbrauch (SelfCsmp)",
+                    "Value": 1343.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Steuerung über Kommunikation (ComCtl)",
+                    "Value": 1349.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Batteriebank (BatCha)",
+                    "Value": 1359.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "10 Mbit/s (ConnSpd10)",
+                    "Value": 1720.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "100 Mbit/s (ConnSpd100)",
+                    "Value": 1721.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Halbduplex (HalfDpx)",
+                    "Value": 1726.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Vollduplex (FulDpx)",
+                    "Value": 1727.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Werte beibehalten (UsStp)",
+                    "Value": 2506.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Rückfallwerte übernehmen (UsFlb)",
+                    "Value": 2507.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Maximale Wirkleistungsabgabe (WMaxOut)",
+                    "Value": 4354.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Maximale Wirkleistung WMax (WMaxInOut)",
+                    "Value": 4405.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Maximale Blindleistung VArMax (VArMaxQ)",
+                    "Value": 4406.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Momentanleistung (WSnpt)",
+                    "Value": 4443.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Potenzielle Leistung (WSnptMax)",
+                    "Value": 4444.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Mittelwert der Strangspannungen (PhsAvg)",
+                    "Value": 4520.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Höchste Strangspannung (PhsMax)",
+                    "Value": 4521.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Batterie-Wechselrichter (DevClss7)",
+                    "Value": 8007.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SBS3.7-10 (SBS3.7-10)",
+                    "Value": 9356.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SBS5.0-10 (SBS5.0-10)",
+                    "Value": 9358.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SBS6.0-10 (SBS6.0-10)",
+                    "Value": 9359.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SBS3.8-US-10 (SBS3.8-US-10)",
+                    "Value": 9360.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SBS5.0-US-10 (SBS5.0-US-10)",
+                    "Value": 9361.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SBS6.0-US-10 (SBS6.0-US-10)",
+                    "Value": 9362.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Für Fehlerbeschreibung siehe SMA Registeradresse 30247; 30247: Beschreibung der Ereignismeldung siehe Anleitung des Produkts",
+                    "Value": 30213.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Battery",
+            "MaxValue": 16777213.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 86399998
+    },
+    "VirtualAddresses": []
+}

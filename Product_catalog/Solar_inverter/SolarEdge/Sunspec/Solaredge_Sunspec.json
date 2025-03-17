@@ -1,0 +1,1117 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "C_SunSpec_ID",
+            "Length": 0,
+            "Name": "SunSpec ID",
+            "Profile": "",
+            "ReadAddress": 40000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SunSpec ID"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "C_SunSpec_DID",
+            "Length": 0,
+            "Name": "SunSpec DID",
+            "Profile": "SE_Sunspec_I_DID",
+            "ReadAddress": 40002,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SunSpec DID"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "C_SunSpec_Length",
+            "Length": 0,
+            "Name": "SunSpec Length",
+            "Profile": "",
+            "ReadAddress": 40003,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SunSpec Länge"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "C_Manufacturer",
+            "Length": 32,
+            "Name": "Manufacturer",
+            "Profile": "",
+            "ReadAddress": 40004,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "C_Model",
+            "Length": 32,
+            "Name": "Model",
+            "Profile": "",
+            "ReadAddress": 40020,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "C_Version",
+            "Length": 16,
+            "Name": "Version",
+            "Profile": "",
+            "ReadAddress": 40044,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Version"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "C_SerialNumber",
+            "Length": 32,
+            "Name": "Serial Number",
+            "Profile": "",
+            "ReadAddress": 40052,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Seriennummer"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "C_DeviceAddress",
+            "Length": 0,
+            "Name": "MODBUS Unit ID",
+            "Profile": "",
+            "ReadAddress": 40068,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Modbus Geräte-ID"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_C_SunSpec_DID",
+            "Length": 0,
+            "Name": "SunSpec DID (Inverter)",
+            "Profile": "",
+            "ReadAddress": 40069,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SunSpec DID (Inverter)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_C_SunSpec_Length",
+            "Length": 0,
+            "Name": "SunSpec Length (Inverter)",
+            "Profile": "",
+            "ReadAddress": 40070,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SunSpec Länge (Inverter)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_AC_Current",
+            "Length": 0,
+            "Name": "AC Total Current value",
+            "Profile": "",
+            "ReadAddress": 40071,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Gesamtstromwert"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_AC_CurrentA",
+            "Length": 0,
+            "Name": "AC Phase A Current value",
+            "Profile": "",
+            "ReadAddress": 40072,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Phase A (L1) Stromwert"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_AC_CurrentB",
+            "Length": 0,
+            "Name": "AC Phase B Current value",
+            "Profile": "",
+            "ReadAddress": 40073,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Phase B (L2) Stromwert"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_AC_CurrentC",
+            "Length": 0,
+            "Name": "AC Phase C Current value",
+            "Profile": "",
+            "ReadAddress": 40074,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Phase C (L3) Stromwert"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_AC_Current_SF",
+            "Length": 0,
+            "Name": "AC Current scale factor",
+            "Profile": "",
+            "ReadAddress": 40075,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Strom Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_AC_VoltageAB",
+            "Length": 0,
+            "Name": "AC Voltage Phase AB value",
+            "Profile": "",
+            "ReadAddress": 40076,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung Phase AB (L1-L2) Wert"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_AC_VoltageBC",
+            "Length": 0,
+            "Name": "AC Voltage Phase BC value",
+            "Profile": "",
+            "ReadAddress": 40077,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung Phase BC (L2-L3) Wert"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_AC_VoltageCA",
+            "Length": 0,
+            "Name": "AC Voltage Phase CA value",
+            "Profile": "",
+            "ReadAddress": 40078,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung Phase CA (L3-L1) Wert"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_AC_Voltage_SF",
+            "Length": 0,
+            "Name": "AC Voltage scale factor",
+            "Profile": "",
+            "ReadAddress": 40082,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_AC_Power",
+            "Length": 0,
+            "Name": "AC Power value",
+            "Profile": "",
+            "ReadAddress": 40083,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Leistungswert"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_AC_Power_SF",
+            "Length": 0,
+            "Name": "AC Power scale factor",
+            "Profile": "",
+            "ReadAddress": 40084,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Leistung Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_AC_Frequency",
+            "Length": 0,
+            "Name": "AC Frequency value",
+            "Profile": "",
+            "ReadAddress": 40085,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenzwert"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_AC_Frequency_SF",
+            "Length": 0,
+            "Name": "AC Frequency scale factor",
+            "Profile": "",
+            "ReadAddress": 40086,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_AC_VA",
+            "Length": 0,
+            "Name": "Apparent Power value",
+            "Profile": "",
+            "ReadAddress": 40087,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_AC_VA_SF",
+            "Length": 0,
+            "Name": "Apparent Power scale factor",
+            "Profile": "",
+            "ReadAddress": 40088,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_AC_VAR",
+            "Length": 0,
+            "Name": "Reactive Power value",
+            "Profile": "",
+            "ReadAddress": 40089,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_AC_VAR_SF",
+            "Length": 0,
+            "Name": "Reactive Power scale factor",
+            "Profile": "",
+            "ReadAddress": 40090,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_AC_PF",
+            "Length": 0,
+            "Name": "Power Factor value",
+            "Profile": "",
+            "ReadAddress": 40091,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_AC_PF_SF",
+            "Length": 0,
+            "Name": "Power Factor scale factor",
+            "Profile": "",
+            "ReadAddress": 40092,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "I_AC_Energy_WH",
+            "Length": 0,
+            "Name": "AC Lifetime Energy production",
+            "Profile": "",
+            "ReadAddress": 40093,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC Gesamt-Energieproduktion"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_AC_Energy_WH_SF",
+            "Length": 0,
+            "Name": "AC Lifetime Energy production scale factor",
+            "Profile": "",
+            "ReadAddress": 40095,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC Gesamt-Energieproduktion Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_DC_Current",
+            "Length": 0,
+            "Name": "DC Current value",
+            "Profile": "",
+            "ReadAddress": 40096,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DC-Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_DC_Current_SF",
+            "Length": 0,
+            "Name": "DC Current value scale factor",
+            "Profile": "",
+            "ReadAddress": 40097,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DC-Strom Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_DC_Voltage",
+            "Length": 0,
+            "Name": "DC Voltage value",
+            "Profile": "",
+            "ReadAddress": 40098,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DC-Spannungswert"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_DC_Voltage_SF",
+            "Length": 0,
+            "Name": "DC Voltage scale factor",
+            "Profile": "",
+            "ReadAddress": 40099,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DC-Spannung Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_DC_Power",
+            "Length": 0,
+            "Name": "DC Power value",
+            "Profile": "",
+            "ReadAddress": 40100,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DC-Leistungswert"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_DC_Power_SF",
+            "Length": 0,
+            "Name": "DC Power scale factor",
+            "Profile": "",
+            "ReadAddress": 40101,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DC-Leistung Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_Temp_Sink",
+            "Length": 0,
+            "Name": "Heat Sink Temperature",
+            "Profile": "",
+            "ReadAddress": 40103,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kühlkörpertemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "I_Temp_SF",
+            "Length": 0,
+            "Name": "Heat Sink Temperature scale factor",
+            "Profile": "",
+            "ReadAddress": 40106,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kühlkörpertemperatur Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "I_Status",
+            "Length": 0,
+            "Name": "Operating State",
+            "Profile": "SE_Sunspec_I_Status",
+            "ReadAddress": 40107,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Betriebszustand"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "SE_Sunspec_I_DID": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Einphasig",
+                    "Value": 101.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Spaltphase",
+                    "Value": 102.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Dreiphasig",
+                    "Value": 103.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 103.0,
+            "MinValue": 101.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SE_Sunspec_I_Status": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Aus",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Schlafen",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "An",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 4.0,
+            "MinValue": 1.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "AC_Total_Current_calculated",
+            "Name": "AC Total Current (calculated)",
+            "Profile": "~Ampere",
+            "ReadAction": "return ($VALUES[\"I_AC_Current\"] * (10 ** $VALUES[\"I_AC_Current_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC_Gesamtstromwert (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_AC_CurrentA_calculated",
+            "Name": "I_AC_CurrentA (calculated)",
+            "Profile": "~Ampere",
+            "ReadAction": "return ($VALUES[\"I_AC_CurrentA\"] * (10 ** $VALUES[\"I_AC_Current_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Phase A (L1) Stromwert (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_AC_CurrentB_calculated",
+            "Name": "I_AC_CurrentB (calculated)",
+            "Profile": "~Ampere",
+            "ReadAction": "return ($VALUES[\"I_AC_CurrentB\"] * (10 ** $VALUES[\"I_AC_Current_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Phase B (L2) Stromwert (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_AC_CurrentC_calculated",
+            "Name": "I_AC_CurrentC (calculated)",
+            "Profile": "~Ampere",
+            "ReadAction": "return ($VALUES[\"I_AC_CurrentC\"] * (10 ** $VALUES[\"I_AC_Current_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Phase V (L3) Stromwert (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_AC_Voltage_AB_calculated",
+            "Name": "I_AC_Voltage_AB (calculated)",
+            "Profile": "~Volt.230",
+            "ReadAction": "return ($VALUES[\"I_AC_VoltageAB\"] * (10 ** $VALUES[\"I_AC_Voltage_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung Phase AB (L1-L2) Wert (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_AC_VoltageBC_calculated",
+            "Name": "I_AC_VoltageBC (calculated)",
+            "Profile": "~Volt.230",
+            "ReadAction": "return ($VALUES[\"I_AC_VoltageBC\"] * (10 ** $VALUES[\"I_AC_Voltage_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung Phase BC (L2-L3) Wert (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_AC_VoltageCA_calculated",
+            "Name": "I_AC_VoltageCA (calculated)",
+            "Profile": "~Volt.230",
+            "ReadAction": "return ($VALUES[\"I_AC_VoltageCA\"] * (10 ** $VALUES[\"I_AC_Voltage_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung Phase CA (L3-L1) Wert (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_AC_Frequency_calculated",
+            "Name": "I_AC_Frequency (calculated)",
+            "Profile": "~Hertz.50",
+            "ReadAction": "return ($VALUES[\"I_AC_Frequency\"] * (10 ** $VALUES[\"I_AC_Frequency_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_AC_VA_calculated",
+            "Name": "I_AC_VA (calculated)",
+            "Profile": "",
+            "ReadAction": "return ($VALUES[\"I_AC_VA\"] * (10 ** $VALUES[\"I_AC_VA_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_AC_VAR_calculated",
+            "Name": "I_AC_VAR (calculated)",
+            "Profile": "",
+            "ReadAction": "return ($VALUES[\"I_AC_VAR\"] * (10 ** $VALUES[\"I_AC_VAR_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_AC_PF_calculated",
+            "Name": "I_AC_PF calculated",
+            "Profile": "",
+            "ReadAction": "return ($VALUES[\"I_AC_PF\"] * (10 ** $VALUES[\"I_AC_PF_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_AC_Power_calculated",
+            "Name": "I_AC_Power (calculated)",
+            "Profile": "~Watt",
+            "ReadAction": "return ($VALUES[\"I_AC_Power\"] * (10 ** $VALUES[\"I_AC_Power_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Leistungswert (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_AC_Energy_WH_calculated",
+            "Name": "I_AC_Energy_WH (calculated)",
+            "Profile": "~Electricity",
+            "ReadAction": "return ($VALUES[\"I_AC_Energy_WH\"] * (10 ** $VALUES[\"I_AC_Energy_WH_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC Gesamt-Energieproduktion (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_DC_Current_calculated",
+            "Name": "I_DC_Current (calculated)",
+            "Profile": "~Ampere",
+            "ReadAction": "return ($VALUES[\"I_DC_Current\"] * (10 ** $VALUES[\"I_DC_Current_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DC-Strom (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_DC_Voltage_calculated",
+            "Name": "I_DC_Voltage (calculated)",
+            "Profile": "~Volt",
+            "ReadAction": "return ($VALUES[\"I_DC_Voltage\"] * (10 ** $VALUES[\"I_DC_Voltage_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DC-Spannungswert (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_DC_Power_calculated",
+            "Name": "I_DC_Power (calculated)",
+            "Profile": "~Watt",
+            "ReadAction": "return ($VALUES[\"I_DC_Power\"] * (10 ** $VALUES[\"I_DC_Power_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DC-Leistungswert (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "I_Temp_Sink_calculated",
+            "Name": "I_Temp_Sink (calculated)",
+            "Profile": "~Temperature",
+            "ReadAction": "return ($VALUES[\"I_Temp_Sink\"] * (10 ** $VALUES[\"I_Temp_SF\"]));",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kühlkörpertemperatur (berechnet)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}

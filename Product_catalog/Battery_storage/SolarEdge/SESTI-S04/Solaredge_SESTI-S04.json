@@ -1,0 +1,624 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Device ID",
+            "Profile": "",
+            "ReadAddress": 57664,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Rated Energy",
+            "Profile": "~Electricity.Wh",
+            "ReadAddress": 57666,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Max Charge Peak Power",
+            "Profile": "~Watt",
+            "ReadAddress": 57672,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Max Charge Continues Power",
+            "Profile": "~Watt",
+            "ReadAddress": 57668,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Max Discharge Continues Power",
+            "Profile": "~Watt",
+            "ReadAddress": 57670,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Max Discharge Peak Power",
+            "Profile": "~Watt",
+            "ReadAddress": 57674,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Average Temperature",
+            "Profile": "",
+            "ReadAddress": 57708,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Max Temperature",
+            "Profile": "",
+            "ReadAddress": 57710,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Instantaneous Voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 57712,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Instantaneous Current",
+            "Profile": "~Ampere",
+            "ReadAddress": 57714,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Instantaneous Power",
+            "Profile": "~Watt",
+            "ReadAddress": 57716,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": 3,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Lifetime Export Energy Counter",
+            "Profile": "~Electricity.Wh",
+            "ReadAddress": 57718,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Lifetime Import Energy Counter",
+            "Profile": "~Electricity.Wh",
+            "ReadAddress": 57722,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Max Energy",
+            "Profile": "~Electricity.Wh",
+            "ReadAddress": 57726,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Available Energy",
+            "Profile": "~Electricity.Wh",
+            "ReadAddress": 57728,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 State of Health (SOH)",
+            "Profile": "0-100_Prozent",
+            "ReadAddress": 62850,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 State of Energy (SOE)",
+            "Profile": "0-100_Prozent",
+            "ReadAddress": 57732,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Status",
+            "Profile": "SolarEdge_Speicherstatus",
+            "ReadAddress": 57734,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Storage Control Mode",
+            "Profile": "SE_Storage_Control_Mode",
+            "ReadAddress": 57348,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 57348,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Storage AC Charge Policy",
+            "Profile": "SE_Storage_AC_Charge_Police",
+            "ReadAddress": 57349,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 57349,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Storage AC Charge Limit",
+            "Profile": "",
+            "ReadAddress": 57350,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 57350,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Storage Backup Reserved Setting",
+            "Profile": "0-100_Prozent",
+            "ReadAddress": 57352,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 57352,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Storage Charge/Discharge Default Mode",
+            "Profile": "SE_Storage_Default_Modes",
+            "ReadAddress": 57354,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 57354,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Remote Control Command Timeout",
+            "Profile": "SE_Storedge_Timeout_Sekunden",
+            "ReadAddress": 57355,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 57355,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Remote Control Command Mode",
+            "Profile": "SE_Storage_Control_Mode",
+            "ReadAddress": 57358,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 57358,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Remote Control Charge Limit",
+            "Profile": "~Watt",
+            "ReadAddress": 57358,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 57358,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Remote Control Discharge Limit",
+            "Profile": "~Watt",
+            "ReadAddress": 57360,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 57360,
+            "WriteFunctionCode": 16
+        }
+    ],
+    "ByteOrder": 3,
+    "Profiles": {
+        "0-100_Prozent": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " %",
+            "Type": 2
+        },
+        "SE_Storage_AC_Charge_Police": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Disabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Always allowed",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Fixed Energy Limit",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Percentage of Produktion",
+                    "Value": 3.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 3.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SE_Storage_Control_Mode": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Disabled",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Maximize Self Consumption",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Fixed Energy Limit",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Backup Only",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Remote Control",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 4.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SE_Storage_Default_Modes": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Aus",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Überschuss laden",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Charge from PV first, before producing power to the AC",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Charge from PV+AC according to the max battery power",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Discharge to meet loads consumption",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Eigenverbrauch",
+                    "Value": 7.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 7.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SE_Storedge_Timeout_Sekunden": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 86400.0,
+            "MinValue": 1.0,
+            "Prefix": "",
+            "StepSize": 60.0,
+            "Suffix": " Sekunden",
+            "Type": 1
+        },
+        "SolarEdge_Speicherstatus": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Aus",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Laden",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Entladen",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Ruhemodus",
+                    "Value": 6.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 6.0,
+            "MinValue": 1.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "Battery 1 Instantaneous Voltage (corrected))",
+            "Profile": "~Volt",
+            "ReadAction": "$wert = ($VALUES[\"A_7_3_57712\"] < 0) ? 0 : $VALUES[\"A_7_3_57712\"];\r\nreturn $wert;",
+            "Translation": [],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "Battery 1 Instantaneous Current (corrected)",
+            "Profile": "~Ampere",
+            "ReadAction": "$wert = ($VALUES[\"A_7_3_57714\"] < 0) ? 0 : $VALUES[\"A_7_3_57714\"];\r\nreturn $wert;",
+            "Translation": [],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}

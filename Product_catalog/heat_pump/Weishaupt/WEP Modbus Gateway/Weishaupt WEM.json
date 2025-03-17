@@ -1,0 +1,657 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Aussentemperatur 1",
+            "Profile": "~Temperature",
+            "ReadAddress": 30001,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Aussentemperatur 2",
+            "Profile": "~Temperature",
+            "ReadAddress": 30002,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Fehler",
+            "Profile": "WEISHAUPT.Fehler",
+            "ReadAddress": 30003,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Warnung",
+            "Profile": "WEISHAUPT.Fehler",
+            "ReadAddress": 30004,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Fehlerfrei",
+            "Profile": "WEISHAUPT.Fehlerfrei",
+            "ReadAddress": 30005,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Betriebsstatusanzeige Code",
+            "Profile": "WEISHAUPT.Betriebstatusanzeige",
+            "ReadAddress": 30006,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Systembetriebsart",
+            "Profile": "WEISHAUPT.Systembetriebsart",
+            "ReadAddress": 40001,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 40001,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Leistungsanforderung",
+            "Profile": "~Intensity.100",
+            "ReadAddress": 33103,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Vorlauftemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 33104,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Rücklauftemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 33105,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HK2 - Raumsolltemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 31201,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HK2 - Raumtemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 31202,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HK2 - Vorlaufsolltemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 31204,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HK2 - Rücklaufsolltemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 31205,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HK2 - Betriebsart",
+            "Profile": "WEISHAUPT.Betriebsart",
+            "ReadAddress": 41203,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 41203,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HK3 - Raumsolltemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 31301,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HK3 - Betriebsart",
+            "Profile": "WEISHAUPT.Betriebsart",
+            "ReadAddress": 41303,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 41303,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Gesamt Energie Jahr",
+            "Profile": "WEISHAUPT.StatistikEnergie",
+            "ReadAddress": 36104,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizen Energie Jahr",
+            "Profile": "WEISHAUPT.StatistikEnergie",
+            "ReadAddress": 36204,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Warmwasser Energie Jahr",
+            "Profile": "WEISHAUPT.StatistikEnergie",
+            "ReadAddress": 36304,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Kühlen Energie Jahr",
+            "Profile": "WEISHAUPT.StatistikEnergie",
+            "ReadAddress": 36404,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizstab-Status",
+            "Profile": "",
+            "ReadAddress": 34101,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizstab-Betriebsstunden",
+            "Profile": "",
+            "ReadAddress": 34102,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizstab-Schaltspiele",
+            "Profile": "",
+            "ReadAddress": 34103,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizstab-Status 1",
+            "Profile": "",
+            "ReadAddress": 34104,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizstab-Status 2",
+            "Profile": "",
+            "ReadAddress": 34105,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizstab-Betriebsstunden 1",
+            "Profile": "",
+            "ReadAddress": 34106,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizstab-Betriebsstunden 2",
+            "Profile": "",
+            "ReadAddress": 34107,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grenztemperatur",
+            "Profile": "WEISHAUPT.Temperatur",
+            "ReadAddress": 44102,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 44102,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Bivalenztemperatur",
+            "Profile": "WEISHAUPT.Temperatur",
+            "ReadAddress": 44103,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 44103,
+            "WriteFunctionCode": 16
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "WEISHAUPT.Betriebsart": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Automatik",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Komfort",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Normal",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Absenkbetrieb",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "StandBy",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "WEISHAUPT.Betriebstatusanzeige": {
+            "Associations": [
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "undefiniert",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Standby",
+                    "Value": 16.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Heizbetrieb",
+                    "Value": 19.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Kühlbetrieb",
+                    "Value": 23.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "WEISHAUPT.Fehler": {
+            "Associations": [
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Fehler %d",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Kein Fehler",
+                    "Value": 65535.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "WEISHAUPT.Fehlerfrei": {
+            "Associations": [
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Fehler aktiv",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Störungsfreier Betrieb",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "WEISHAUPT.StatistikEnergie": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 1
+        },
+        "WEISHAUPT.Systembetriebsart": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Automatik",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Heizen",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Kühlen",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Sommer",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "StandBy",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Heizstab",
+                    "Value": 5.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "WEISHAUPT.Temperatur": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 20.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " °C",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}
