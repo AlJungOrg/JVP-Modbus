@@ -1,0 +1,116 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "MQTT_SMARTMETER_TOTAL_ACTIVE_POWER",
+            "Length": 0,
+            "Name": "Hausverbrauch",
+            "Profile": "kW",
+            "ReadAddress": 37516,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "MQTT_SMARTMETER_ACTIVE_POWER",
+            "Length": 0,
+            "Name": "Netzbezug",
+            "Profile": "kW",
+            "ReadAddress": 37113,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "MQTT_SMARTMETER_POSITIVE_ACTIVE_POWER",
+            "Length": 0,
+            "Name": "Gesamter Hausverbrauch",
+            "Profile": "kWh",
+            "ReadAddress": 37119,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "MQTT_SMARTMETER_REACTIVE_POWER",
+            "Length": 0,
+            "Name": "reactive Power",
+            "Profile": "kWh",
+            "ReadAddress": 37115,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "MQTT_SMARTMETER_REVERSE_ACTIVE_POWER",
+            "Length": 0,
+            "Name": "reverse active Power",
+            "Profile": "kWh",
+            "ReadAddress": 37121,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "kW": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "EnergySolar",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kW",
+            "Type": 2
+        },
+        "kWh": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " KWh",
+            "Type": 2
+        }
+    },
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "Energy_Meter",
+    "Manufacturer": "Huawei",
+    "Product":"SMartMeter",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}

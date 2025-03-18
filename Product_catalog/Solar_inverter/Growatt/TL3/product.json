@@ -1,0 +1,714 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "OutputPower",
+            "Length": 0,
+            "Name": "Output Power",
+            "Profile": "~Watt",
+            "ReadAddress": 35,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ausgangsleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "InputPower",
+            "Length": 0,
+            "Name": "Input Power",
+            "Profile": "~Watt",
+            "ReadAddress": 1,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Eingangsleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "TotalEnergy",
+            "Length": 0,
+            "Name": "Total Energy",
+            "Profile": "~Electricity",
+            "ReadAddress": 55,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtenergie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "TotalEnergyToday",
+            "Length": 0,
+            "Name": "Total Energy Today",
+            "Profile": "~Electricity",
+            "ReadAddress": 53,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtenergie heute"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.01,
+            "Ident": "GridFrequency",
+            "Length": 0,
+            "Name": "Grid frequency",
+            "Profile": "~Hertz",
+            "ReadAddress": 37,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Netzfrequenz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "PV1TotalEnergy",
+            "Length": 0,
+            "Name": "PV1 total energy",
+            "Profile": "~Electricity",
+            "ReadAddress": 61,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PV1 Gesamtenergie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "PV1TotalEnergyToday",
+            "Length": 0,
+            "Name": "PV1 total energy today",
+            "Profile": "~Electricity",
+            "ReadAddress": 63,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PV1 Gesamtenergie heute"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "PV1InputCurrent",
+            "Length": 0,
+            "Name": "PV1 input power",
+            "Profile": "~Watt",
+            "ReadAddress": 5,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PV1 Eingangsleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "PV1InputCurrent",
+            "Length": 0,
+            "Name": "PV1 input current",
+            "Profile": "~Ampere",
+            "ReadAddress": 4,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PV1 Eingangsstromstärke"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "PV1Voltage",
+            "Length": 0,
+            "Name": "PV1 voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 3,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PV1 Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "PV2TotalEnergy",
+            "Length": 0,
+            "Name": "PV2 total energy",
+            "Profile": "~Electricity",
+            "ReadAddress": 65,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PV2 Gesamtenergie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "PV2TotalEnergyToday",
+            "Length": 0,
+            "Name": "PV2 total energy today",
+            "Profile": "~Electricity",
+            "ReadAddress": 63,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PV2 Gesamtenergie heute"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "PV1InputPower",
+            "Length": 0,
+            "Name": "PV1 input power",
+            "Profile": "~Watt",
+            "ReadAddress": 9,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PV2 Eingangsleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "PV2InputCurrent",
+            "Length": 0,
+            "Name": "PV1 input current",
+            "Profile": "~Ampere",
+            "ReadAddress": 8,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PV2 Eingangsstromstärke"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "PV2Voltage",
+            "Length": 0,
+            "Name": "PV2 voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 7,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PV2 Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "InverterTtemperature",
+            "Length": 0,
+            "Name": "Inverter temperature",
+            "Profile": "~Temperature",
+            "ReadAddress": 93,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichtertemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "InsideIPMInverterTemperature",
+            "Length": 0,
+            "Name": "Inside IPM inverter temperature",
+            "Profile": "~Temperature",
+            "ReadAddress": 94,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Innentemperatur IPM"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "BoostTemperature",
+            "Length": 0,
+            "Name": "Boost temperature",
+            "Profile": "~Temperature",
+            "ReadAddress": 95,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichtertemperatur Boost"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "TotalWorktime",
+            "Length": 0,
+            "Name": "Total worktime",
+            "Profile": "",
+            "ReadAddress": 57,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtarbeitszeit des Wechselrichters"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "InverterStatus",
+            "Length": 0,
+            "Name": "Inverter status",
+            "Profile": "",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichterstatus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "ActivePowerRate",
+            "Length": 0,
+            "Name": "Active power rate",
+            "Profile": "",
+            "ReadAddress": 3,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistungsrate"
+                }
+            ],
+            "WriteAddress": 3,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "MemoryState",
+            "Length": 0,
+            "Name": "Memory state",
+            "Profile": "",
+            "ReadAddress": 2,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Speicherzustand"
+                }
+            ],
+            "WriteAddress": 2,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "Phase1GridVoltage",
+            "Length": 0,
+            "Name": "Phase 1 grid voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 38,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phase 1 Netzspannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "Phase1GridOutputCurrent",
+            "Length": 0,
+            "Name": "Phase 1 grid output current",
+            "Profile": "~Ampere",
+            "ReadAddress": 39,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phase 1 Netzausgangsstrom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "Phase2GridVoltage",
+            "Length": 0,
+            "Name": "Phase 2 grid voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 42,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phase 2 Netzspannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "Phase2GridOutputCurrent",
+            "Length": 0,
+            "Name": "Phase 2 grid output current",
+            "Profile": "~Ampere",
+            "ReadAddress": 43,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phase 2 Netzausgangsstrom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "Phase3GridVoltage",
+            "Length": 0,
+            "Name": "Phase 3 grid voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 42,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phase 3 Netzspannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "Phase3GridOutputCurrent",
+            "Length": 0,
+            "Name": "Phase 3 grid output current",
+            "Profile": "~Ampere",
+            "ReadAddress": 47,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phase 3 Netzausgangsstrom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "Phase1GridOutput",
+            "Length": 0,
+            "Name": "Phase 1 grid output",
+            "Profile": "",
+            "ReadAddress": 40,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": " Phase 1 Netzausgang"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "Phase2GridOutput",
+            "Length": 0,
+            "Name": "Phase 2 grid output",
+            "Profile": "",
+            "ReadAddress": 44,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": " Phase 2 Netzausgang"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "Phase3GridOutput",
+            "Length": 0,
+            "Name": "Phase 2 grid output",
+            "Profile": "",
+            "ReadAddress": 48,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": " Phase 3 Netzausgang"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "L1L2Voltage",
+            "Length": 0,
+            "Name": "L1 L2 voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 50,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "L1 L2 Außenleiterspannungen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "L2 L3 Voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 51,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "L2 L3 Außenleiterspannungen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "L3L1Voltage",
+            "Length": 0,
+            "Name": "L3 L1 Voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 52,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "L3 L1 Außenleiterspannungen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Profiles": {},
+    "Type": "solar_inverter",
+    "Manufacturer": "Growatt",
+    "Product":"TL3-X",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "TotalWorktimeVirtual",
+            "Name": "Total worktime virtual",
+            "Profile": "",
+            "ReadAction": "return ($VALUES[\"TotalWorktime\"] *0.5);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtarbeitszeit des Wechselrichters virtuell"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}

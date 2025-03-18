@@ -1,0 +1,849 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_L1",
+            "Length": 0,
+            "Name": "Voltage_L1_N",
+            "Profile": "PAC2200.V",
+            "ReadAddress": 1,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_L2",
+            "Length": 0,
+            "Name": "Voltage_L2_N",
+            "Profile": "PAC2200.V",
+            "ReadAddress": 3,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_L3",
+            "Length": 0,
+            "Name": "Voltage_L3_N",
+            "Profile": "PAC2200.V",
+            "ReadAddress": 5,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_L1_L2",
+            "Length": 0,
+            "Name": "Voltage_L1_L2",
+            "Profile": "PAC2200.V",
+            "ReadAddress": 7,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_L2_L3",
+            "Length": 0,
+            "Name": "Voltage_L2_L3",
+            "Profile": "PAC2200.V",
+            "ReadAddress": 9,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_L3_L1",
+            "Length": 0,
+            "Name": "Voltage_L3_L1",
+            "Profile": "PAC2200.V",
+            "ReadAddress": 11,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3-L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_L1",
+            "Length": 0,
+            "Name": "Current_L1",
+            "Profile": "PAC2200.A",
+            "ReadAddress": 13,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_L2",
+            "Length": 0,
+            "Name": "Current_L2",
+            "Profile": "PAC2200.A",
+            "ReadAddress": 15,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_L3",
+            "Length": 0,
+            "Name": "Current_L3",
+            "Profile": "PAC2200.A",
+            "ReadAddress": 17,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Apparent_Power_L1",
+            "Length": 0,
+            "Name": "Apparent_Power_L1",
+            "Profile": "PAC2200.VA",
+            "ReadAddress": 19,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Apparent_Power_L2",
+            "Length": 0,
+            "Name": "Apparent_Power_L2",
+            "Profile": "PAC2200.VA",
+            "ReadAddress": 21,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Apparent_Power_L3",
+            "Length": 0,
+            "Name": "Apparent_Power_L3",
+            "Profile": "PAC2200.VA",
+            "ReadAddress": 23,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Active_Power_L1_W",
+            "Length": 0,
+            "Name": "Active_Power_L1",
+            "Profile": "PAC2200.W",
+            "ReadAddress": 25,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L1 (W)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Active_Power_L2_W",
+            "Length": 0,
+            "Name": "Active_Power_L2",
+            "Profile": "PAC2200.W",
+            "ReadAddress": 27,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L2 (W)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Active_Power_L3_W",
+            "Length": 0,
+            "Name": "Active_Power_L3",
+            "Profile": "PAC2200.W",
+            "ReadAddress": 29,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L3 (W)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Reactive_Power_L1",
+            "Length": 0,
+            "Name": "Reactive_Power_L1",
+            "Profile": "PAC2200.VAR",
+            "ReadAddress": 31,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Reactive_Power_L2",
+            "Length": 0,
+            "Name": "Reactive_Power_L2",
+            "Profile": "PAC2200.VAR",
+            "ReadAddress": 33,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Reactive_Power_L3",
+            "Length": 0,
+            "Name": "Reactive_Power_L3",
+            "Profile": "PAC2200.VAR",
+            "ReadAddress": 35,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Power_Factor_L1",
+            "Length": 0,
+            "Name": "Power_Factor_L1",
+            "Profile": "",
+            "ReadAddress": 37,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Power_Factor_L2",
+            "Length": 0,
+            "Name": "Power_Factor_L2",
+            "Profile": "",
+            "ReadAddress": 39,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Power_Factor_L3",
+            "Length": 0,
+            "Name": "Power_Factor_L3",
+            "Profile": "",
+            "ReadAddress": 41,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Frequency",
+            "Length": 0,
+            "Name": "Frequency",
+            "Profile": "PAC2200.Hz",
+            "ReadAddress": 55,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Average_Voltage_L_N",
+            "Length": 0,
+            "Name": "Average_Voltage_L_N",
+            "Profile": "PAC2200.V",
+            "ReadAddress": 57,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Mittelwert Spannung L-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Average_Voltage_L_L",
+            "Length": 0,
+            "Name": "Average_Voltage_L_L",
+            "Profile": "PAC2200.V",
+            "ReadAddress": 59,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Mittelwert Spannung L-L"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Average_Current",
+            "Length": 0,
+            "Name": "Average_Current",
+            "Profile": "PAC2200.A",
+            "ReadAddress": 61,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Mittelwert Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Apparent_Power_L1_L3",
+            "Length": 0,
+            "Name": "Apparent_Power_L1_L3",
+            "Profile": "PAC2200.VA",
+            "ReadAddress": 63,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung L1-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Active_Power_L1_L3_W",
+            "Length": 0,
+            "Name": "Active_Power_L1_L3",
+            "Profile": "PAC2200.W",
+            "ReadAddress": 65,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L1-L3 (W)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Reactive_Power_L1_L3",
+            "Length": 0,
+            "Name": "Reactive_Power_L1_L3",
+            "Profile": "PAC2200.VAR",
+            "ReadAddress": 67,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung L1-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Power_Factor_L1_L3",
+            "Length": 0,
+            "Name": "Power_Factor_L1_L3",
+            "Profile": "",
+            "ReadAddress": 69,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L1-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Neutral_Current",
+            "Length": 0,
+            "Name": "Neutral_Current",
+            "Profile": "PAC2200.A",
+            "ReadAddress": 71,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Neutralleiterstrom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Active_Energy_Purchase_Tariff_1_Wh",
+            "Length": 0,
+            "Name": "Active_Energy_Purchase_Tariff_1_Wh",
+            "Profile": "PAC2200.Wh",
+            "ReadAddress": 801,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkarbeit Bezug Tarif 1 (Wh)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Active_Energy_Delivery_Tariff_1_Wh",
+            "Length": 0,
+            "Name": "Active_Energy_Delivery_Tariff_1_Wh",
+            "Profile": "PAC2200.Wh",
+            "ReadAddress": 809,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkarbeit Abgabe Tarif 1 (Wh)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "PAC2200.A": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " A",
+            "Type": 2
+        },
+        "PAC2200.Hz": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " Hz",
+            "Type": 2
+        },
+        "PAC2200.V": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 2
+        },
+        "PAC2200.VA": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " VA",
+            "Type": 2
+        },
+        "PAC2200.VAR": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " VAR",
+            "Type": 2
+        },
+        "PAC2200.W": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " W",
+            "Type": 2
+        },
+        "PAC2200.Wh": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " Wh",
+            "Type": 2
+        },
+        "PAC2200.kW": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kW",
+            "Type": 2
+        },
+        "PAC2200.kWh": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 2
+        }
+    },
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "Energy_Meter",
+    "Manufacturer": "Siemens",
+    "Product":"PAC2200",
+    "Requests": {
+        "Interval": 1000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "Active_Power_L1_kW",
+            "Name": "Active_Power_L1_kW",
+            "Profile": "PAC2200.kW",
+            "ReadAction": "return ($VALUES[\"Active_Power_L1_W\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L1 (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Active_Power_L2_kW",
+            "Name": "Active_Power_L2_kW",
+            "Profile": "PAC2200.kW",
+            "ReadAction": "return ($VALUES[\"Active_Power_L2_W\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L2 (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Active_Power_L3_kW",
+            "Name": "Active_Power_L3_kW",
+            "Profile": "PAC2200.kW",
+            "ReadAction": "return ($VALUES[\"Active_Power_L3_W\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L3 (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Active_Power_L1_L3_kW",
+            "Name": "Active_Power_L1_L3_kW",
+            "Profile": "PAC2200.kW",
+            "ReadAction": "return ($VALUES[\"Active_Power_L1_L3_W\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L1-L 3"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Active_Energy_Purchase_Tariff_1_kWh",
+            "Name": "Active_Energy_Purchase_Tariff_1_kWh",
+            "Profile": "PAC2200.kWh",
+            "ReadAction": "return ($VALUES[\"Active_Energy_Purchase_Tariff_1_Wh\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkarbeit Bezug Tarif 1 (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Active_Energy_Delivery_Tariff_1_kWh",
+            "Name": "Active_Energy_Delivery_Tariff_1_kWh",
+            "Profile": "PAC2200.kWh",
+            "ReadAction": "return ($VALUES[\"Active_Energy_Delivery_Tariff_1_Wh\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkarbeit Abgabe Tarif 1 (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}

@@ -1645,6 +1645,14 @@
             "Type": 1
         }
     },
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "charging_station",
+    "Manufacturer": "Mennekes",
+    "Product":"all_v2",
     "Requests": {
         "Interval": 5000
     },
