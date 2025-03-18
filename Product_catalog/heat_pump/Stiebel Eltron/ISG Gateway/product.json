@@ -1,0 +1,2501 @@
+{
+    "Addresses": [
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual_Temperature_FE7",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 500,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Isttemperatur FE7"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Temperature_FE7",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 501,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Solltemperatur FE7"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual_Temperature_FEK",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 502,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Isttemperatur FEK"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Temperature_FEK",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 503,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Solltemperatur FEK"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Relative_Humidity",
+            "Profile": "Stiebel.Eltron.Humidity.Float",
+            "ReadAddress": 504,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Raumfeuchte"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Dew_Point_Temperature",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 505,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Taupunkttemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Outside_Temperature",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 506,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Aussentemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual_Temperature_HK1",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 507,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Isttemperatur HK1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Temperature_HK1",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 509,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Solltemperatur HK1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual_Temperature_HK2",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 510,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Isttemperatur HK2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Temperature_HK2",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 511,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Solltemperatur HK2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual_Flow_Temperature_WP",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 512,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Vorlaufisttemperatur WP"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual_Flow_Temperature_NHZ",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 513,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Vorlaufisttemperatur NHZ"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual_Flow_Temperature",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 514,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Vorlaufisttemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual_Return_Temperature",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 515,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Rücklaufisttemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Fixed_Temperature",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 516,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Festwertsolltemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual_Buffer_Temperature",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 517,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Pufferisttemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Buffer_Temperature",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 518,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Puffersolltemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heating_Pressure",
+            "Profile": "Stiebel.Eltron.Pressure.Float",
+            "ReadAddress": 519,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Heizungsdruck"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Flow_Rate",
+            "Profile": "Stiebel.Eltron.Flow.Float",
+            "ReadAddress": 520,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Volumenstrom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual_Temperature_WW",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 521,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Isttemperatur Warmwasser"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Temperature_WW",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 522,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Solltemperatur Warmwasser"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual_Temperature_Fan_Cooling",
+            "Profile": "Stiebel.Eltron.Kelvin.Float",
+            "ReadAddress": 523,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Isttemperatur Gebläse Kühlen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Temperature_Fan_Cooling",
+            "Profile": "Stiebel.Eltron.Kelvin.Float",
+            "ReadAddress": 524,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Solltemperatur Gebläse Kühlen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Actual_Temperature_Area_Cooling",
+            "Profile": "Stiebel.Eltron.Kelvin.Float",
+            "ReadAddress": 525,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Isttemperatur Fläche Kühlen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Temperature_Area_Cooling",
+            "Profile": "Stiebel.Eltron.Kelvin.Float",
+            "ReadAddress": 526,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Solltemperatur Fläche Kühlen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Application_Limit_HZG",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 532,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Einsatzgrenze Heizung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Application_Limit_HZG",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 533,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Einsatzgrenze Warmwasser"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Source_Temperature",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 535,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Quellentemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Min_Source_Temperature",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 536,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Quellentemperatur Min"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Source_Pressure",
+            "Profile": "Stiebel.Eltron.Pressure.Float",
+            "ReadAddress": 537,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Quellendruck"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Hot_Gas_Temperature",
+            "Profile": "Stiebel.Eltron.Temperature.Float",
+            "ReadAddress": 538,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Heissgastemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "High_Pressure",
+            "Profile": "Stiebel.Eltron.Pressure.High.Float",
+            "ReadAddress": 539,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Druck Hochdruck "
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Low_Pressure",
+            "Profile": "Stiebel.Eltron.Pressure.High.Float",
+            "ReadAddress": 540,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Druck Niederdruck"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Operating Mode",
+            "Profile": "Stiebel.Eltron.OperatingMode.Int",
+            "ReadAddress": 1500,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Betriebsart"
+                }
+            ],
+            "WriteAddress": 1500,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Comfort_Temperature_HK1",
+            "Profile": "Stiebel.Eltron.Temp.5_30.Float",
+            "ReadAddress": 1501,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Komfort Temperatur HK1"
+                }
+            ],
+            "WriteAddress": 1501,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Eco_Temperature_HK1",
+            "Profile": "Stiebel.Eltron.Temp.5_30.Float",
+            "ReadAddress": 1502,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Eco Temperatur HK1"
+                }
+            ],
+            "WriteAddress": 1502,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heating_Curve_Rise_HK1",
+            "Profile": "Stiebel.Eltron.Heating.Curve",
+            "ReadAddress": 1503,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Steigung Heizkurve HK1"
+                }
+            ],
+            "WriteAddress": 1503,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Comfort_Temperature_HK2",
+            "Profile": "Stiebel.Eltron.Temp.5_30.Float",
+            "ReadAddress": 1504,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Komfort Temperatur HK2"
+                }
+            ],
+            "WriteAddress": 1504,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Eco_Temperature_HK2",
+            "Profile": "Stiebel.Eltron.Temp.5_30.Float",
+            "ReadAddress": 1505,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Eco Temperatur HK2"
+                }
+            ],
+            "WriteAddress": 1505,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heating_Curve_Rise_HK2",
+            "Profile": "Stiebel.Eltron.Heating.Curve",
+            "ReadAddress": 1506,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Steigung Heizkurve HK2"
+                }
+            ],
+            "WriteAddress": 1506,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Fixed Value Operation",
+            "Profile": "Stiebel.Eltron.Temp.20_70.Float",
+            "ReadAddress": 1507,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Festwertbetrieb"
+                }
+            ],
+            "WriteAddress": 1507,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Dual_Mode_Temp_Hzg",
+            "Profile": "Stiebel.Eltron.Temp.-40_40.Float",
+            "ReadAddress": 1508,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Bivalenztemperatur Hzg"
+                }
+            ],
+            "WriteAddress": 1508,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Comfort_Temperature_WW",
+            "Profile": "Stiebel.Eltron.Temp.10_60.Float",
+            "ReadAddress": 1509,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Komfort Temperatur WW"
+                }
+            ],
+            "WriteAddress": 1509,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Eco_Temperature_WW",
+            "Profile": "Stiebel.Eltron.Temp.10_60.Float",
+            "ReadAddress": 1510,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Eco Temperatur WW"
+                }
+            ],
+            "WriteAddress": 1510,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "DHW_Stages",
+            "Profile": "Stiebel.Eltron.DHWStages.Int",
+            "ReadAddress": 1511,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Warmwasserstufen"
+                }
+            ],
+            "WriteAddress": 1511,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Dual_Mode_Temp_WW",
+            "Profile": "Stiebel.Eltron.Temp.-40_40.Float",
+            "ReadAddress": 1512,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Bivalenztemperatur WW"
+                }
+            ],
+            "WriteAddress": 1512,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Flow_Temperature_Areacooling",
+            "Profile": "Stiebel.Eltron.Temp.7_25.Float",
+            "ReadAddress": 1513,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Vorlaufsolltemperatur Flächenkühlung"
+                }
+            ],
+            "WriteAddress": 1513,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Flow_Temp_Hysteresis_Cooling",
+            "Profile": "Stiebel.Eltron.1-5_Kelvin.Float",
+            "ReadAddress": 1514,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hysterese Vorlauftemp Kühlern"
+                }
+            ],
+            "WriteAddress": 1514,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Room_Temperature_Areacooling",
+            "Profile": "Stiebel.Eltron.Temp.20_30.Float",
+            "ReadAddress": 1515,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Raumsolltemperatur Flächenkühlung"
+                }
+            ],
+            "WriteAddress": 1515,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Flow_Temperature_Fan_cooling",
+            "Profile": "Stiebel.Eltron.Temp.7_25.Float",
+            "ReadAddress": 1516,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Vorlaufsolltemperatur Gebläsekühlung"
+                }
+            ],
+            "WriteAddress": 1516,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Flow_Temp_Hysteresis_Fan_cooling",
+            "Profile": "Stiebel.Eltron.1-5_Kelvin.Float",
+            "ReadAddress": 1517,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hysterese Vorlauftemp Gebläsekühlung"
+                }
+            ],
+            "WriteAddress": 1517,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Set_Room_Temperature_Fan_cooling",
+            "Profile": "Stiebel.Eltron.Temp.20_30.Float",
+            "ReadAddress": 1518,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Raumsolltemperatur Gebläsekühlungg"
+                }
+            ],
+            "WriteAddress": 1518,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Reset",
+            "Profile": "Stiebel.Eltron.Reset.Int",
+            "ReadAddress": 1519,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reset"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Restart-ISG",
+            "Profile": "",
+            "ReadAddress": 1520,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Restart-ISG"
+                }
+            ],
+            "WriteAddress": 1520,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Operrating_Status",
+            "Profile": "",
+            "ReadAddress": 2500,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Betriebsstatus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Power_Off",
+            "Profile": "",
+            "ReadAddress": 2501,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVU-Freigabe"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Fault_Status",
+            "Profile": "Stiebel.Eltron.Fehler.Int",
+            "ReadAddress": 2503,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehlerstatus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Bus_Status",
+            "Profile": "Stiebel.Eltron.BusStatus.Int",
+            "ReadAddress": 2504,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "BUS-Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Acitive_Error",
+            "Profile": "",
+            "ReadAddress": 2506,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Aktiver Fehler"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_Heating_Day_heat",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3500,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Tag Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_Heating_Total_kWh_heat",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3501,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Summe kWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-Heating_Total_MWh_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Int",
+            "ReadAddress": 3502,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Summe MWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_DHW_Day_heat",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3503,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Tag Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_DHW_Total_kWh_heat",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3504,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Summe kWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-DHW_Total_MWh_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Int",
+            "ReadAddress": 3505,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Summe MWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_NHZ_Heating_Total_kWh_heat",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3506,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ Heizen Summe kWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-NHZ_Heating_Total_MWh_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Int",
+            "ReadAddress": 3507,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ Heizen Summe MWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_NHZ_DHW_Total_kWh_heat",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3508,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ WW Summe kWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-NHZ_DHW_Total_MWh_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Int",
+            "ReadAddress": 3509,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ WW Summe MWh Wärme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_Heating_Day_Power",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3510,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Tag Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_Heating_Total_kWh_Power",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3511,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Summe kWh Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-Heating_Total_MWh_Power",
+            "Profile": "Stiebel.Eltron.Power.MWh.Int",
+            "ReadAddress": 3512,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Summe MWh Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_DHW_Day_Power",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3513,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Tag Lesitung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD_DHW_Total_kWh_Power",
+            "Profile": "Stiebel.Eltron.Power.kWh.Int",
+            "ReadAddress": 3514,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Summe kWh Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-DHW_Total_MWh_Power",
+            "Profile": "Stiebel.Eltron.Power.MWh.Int",
+            "ReadAddress": 3515,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Summe MWh Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-Heating_Runtime",
+            "Profile": "Stiebel.Eltron.Houers.Int",
+            "ReadAddress": 3516,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Heizen Laufzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-DHW_Runtime",
+            "Profile": "Stiebel.Eltron.Houers.Int",
+            "ReadAddress": 3517,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD WW Laufzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VD-Cooling_Runtime",
+            "Profile": "Stiebel.Eltron.Houers.Int",
+            "ReadAddress": 3518,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "VD Kühlen Laufzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "NHZ-1_Runtime",
+            "Profile": "Stiebel.Eltron.Houers.Int",
+            "ReadAddress": 3519,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ-1 Laufzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "NHZ-2_Runtime",
+            "Profile": "Stiebel.Eltron.Houers.Int",
+            "ReadAddress": 3520,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ-2 Laufzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "NHZ-1/2_Runtime",
+            "Profile": "Stiebel.Eltron.Houers.Int",
+            "ReadAddress": 3521,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "NHZ-1/2 Laufzeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "SG-Readxy_On_Off",
+            "Profile": "Stiebel.Eltron.SG.Ready.Int",
+            "ReadAddress": 4000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SG Ready An_Aus"
+                }
+            ],
+            "WriteAddress": 4000,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "SG-Ready_Input1",
+            "Profile": "Stiebel.Eltron.SG.Ready.Input.Int",
+            "ReadAddress": 4001,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SG-Ready Eingang1"
+                }
+            ],
+            "WriteAddress": 4001,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "SG-Ready_Input1",
+            "Profile": "Stiebel.Eltron.SG.Ready.Input.Int",
+            "ReadAddress": 4002,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SG-Ready Eingang2"
+                }
+            ],
+            "WriteAddress": 4002,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "SG-Ready_Status",
+            "Profile": "Stiebel.Eltron.SG.Ready.Status.Int",
+            "ReadAddress": 5000,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SG-Ready Betriebszustand"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Controller",
+            "Profile": "Stiebel.Eltron.Controller.Int",
+            "ReadAddress": 5001,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reglererkennung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "Stiebel.Eltron.Flow.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Distance",
+            "MaxValue": 500.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " l/min",
+            "Type": 2
+        },
+        "Stiebel.Eltron.Humidity.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Drops",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " %­",
+            "Type": 2
+        },
+        "Stiebel.Eltron.Kelvin.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Temperature",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " K",
+            "Type": 2
+        },
+        "Stiebel.Eltron.Pressure.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Distance",
+            "MaxValue": 10.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " bar",
+            "Type": 2
+        },
+        "Stiebel.Eltron.Pressure.High.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Distance",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " bar",
+            "Type": 2
+        },
+        "Stiebel.Eltron.Temperature.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Temperature",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " °C",
+            "Type": 2
+        },
+        "Stiebel.Eltron.1-5_Kelvin.Float": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Temperature",
+            "MaxValue": 5.0,
+            "MinValue": 1.0,
+            "Prefix": "",
+            "StepSize": 0.1,
+            "Suffix": " K",
+            "Type": 2
+        },
+        "Stiebel.Eltron.DHWStages.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 6.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Stiebel.Eltron.Heating.Curve": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 3.0,
+            "MinValue": 0.0,
+            "Prefix": "Steigung ",
+            "StepSize": 0.01,
+            "Suffix": "",
+            "Type": 2
+        },
+        "Stiebel.Eltron.OperatingMode.Int": {
+            "Associations": [
+                {
+                    "Color": 16711680,
+                    "Icon": "Warning",
+                    "Name": "Notbetrieb",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Bereitschaftsbetrieb",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Programmbetrieb",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Komfortbetrieb",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Eco-Betrieb",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Warmwasserbetrieb",
+                    "Value": 5.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 5.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Stiebel.Eltron.Reset.Int": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "-",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 16385285,
+                    "Icon": "Warning",
+                    "Name": "!Werks-Reset!",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Reset Fehlerliste",
+                    "Value": 2.0
+                },
+                {
+                    "Color": 16514821,
+                    "Icon": "",
+                    "Name": "Reset Wärmepumpe",
+                    "Value": 3.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 3.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Stiebel.Eltron.Temp.-40_40.Float": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Temperature",
+            "MaxValue": 40.0,
+            "MinValue": -40.0,
+            "Prefix": "",
+            "StepSize": 0.5,
+            "Suffix": " °C",
+            "Type": 2
+        },
+        "Stiebel.Eltron.Temp.10_60.Float": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Temperature",
+            "MaxValue": 60.0,
+            "MinValue": 10.0,
+            "Prefix": "",
+            "StepSize": 0.5,
+            "Suffix": " °C",
+            "Type": 2
+        },
+        "Stiebel.Eltron.Temp.20_30.Float": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Temperature",
+            "MaxValue": 30.0,
+            "MinValue": 20.0,
+            "Prefix": "",
+            "StepSize": 0.1,
+            "Suffix": " °C",
+            "Type": 2
+        },
+        "Stiebel.Eltron.Temp.20_70.Float": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Temperature",
+            "MaxValue": 70.0,
+            "MinValue": 20.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " °C",
+            "Type": 2
+        },
+        "Stiebel.Eltron.Temp.5_30.Float": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Temperature",
+            "MaxValue": 30.0,
+            "MinValue": 5.0,
+            "Prefix": "",
+            "StepSize": 0.1,
+            "Suffix": " °C",
+            "Type": 2
+        },
+        "Stiebel.Eltron.Temp.7_25.Float": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Temperature",
+            "MaxValue": 25.0,
+            "MinValue": 7.0,
+            "Prefix": "",
+            "StepSize": 0.1,
+            "Suffix": " °C",
+            "Type": 2
+        },
+        "Stiebel.Eltron.BusStatus.Int": {
+            "Associations": [
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Physical-Error",
+                    "Value": -4.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Bus-Off",
+                    "Value": -3.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Error-Passive",
+                    "Value": -2.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Status-Error",
+                    "Value": -1.0
+                },
+                {
+                    "Color": 65280,
+                    "Icon": "",
+                    "Name": "Status-OK",
+                    "Value": 0.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Warning",
+            "MaxValue": 0.0,
+            "MinValue": -4.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Stiebel.Eltron.Fehler.Int": {
+            "Associations": [
+                {
+                    "Color": 65280,
+                    "Icon": "",
+                    "Name": "Kein Fehler",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Fehler",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Warning",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Stiebel.Eltron.Status.bool": {
+            "Associations": [
+                {
+                    "Color": 16384000,
+                    "Icon": "",
+                    "Name": "Aus",
+                    "Value": false
+                },
+                {
+                    "Color": 4586499,
+                    "Icon": "",
+                    "Name": "An",
+                    "Value": true
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 0
+        },
+        "Stiebel.Eltron.Houers.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " h",
+            "Type": 1
+        },
+        "Stiebel.Eltron.Power.MWh.Float": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "",
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " MWh",
+            "Type": 2
+        },
+        "Stiebel.Eltron.Power.MWh.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " MWh",
+            "Type": 1
+        },
+        "Stiebel.Eltron.Power.kWh.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 1
+        },
+        "Stiebel.Eltron.Controller.Int": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "LWZ XXXXX",
+                    "Value": 103.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "LWZ XXXXX",
+                    "Value": 104.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "WPM 3",
+                    "Value": 390.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "WPM 3i",
+                    "Value": 391.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "WPMsystem",
+                    "Value": 449.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 500.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Stiebel.Eltron.SG.Ready.Input.Int": {
+            "Associations": [
+                {
+                    "Color": 16149098,
+                    "Icon": "",
+                    "Name": "Aus",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 6944633,
+                    "Icon": "",
+                    "Name": "Ein",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Stiebel.Eltron.SG.Ready.Int": {
+            "Associations": [
+                {
+                    "Color": 16149098,
+                    "Icon": "Warning",
+                    "Name": "SG Ready nicht aktiv",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 6944633,
+                    "Icon": "Ok",
+                    "Name": "SG Ready aktiv",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Stiebel.Eltron.SG.Ready.Status.Int": {
+            "Associations": [
+                {
+                    "Color": 12765695,
+                    "Icon": "Menu",
+                    "Name": "Frostschutz",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 10420137,
+                    "Icon": "Menu",
+                    "Name": "Normaler Betrieb",
+                    "Value": 2.0
+                },
+                {
+                    "Color": 16771154,
+                    "Icon": "Menu",
+                    "Name": "Forcierter Betrieb",
+                    "Value": 3.0
+                },
+                {
+                    "Color": 15949625,
+                    "Icon": "Menu",
+                    "Name": "Sofortige Ansteuerung Max",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Gear",
+            "MaxValue": 4.0,
+            "MinValue": 1.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 10000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_HC_1_PUMP",
+            "Profile": "Stiebel.Eltron.Status.bool",
+            "ReadAction": "$Bit = ($VALUES[\"A_2_4_2500\"] >> 0) & 1;\r\nreturn ((bool) $Bit);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_HK1 Pumpe"
+                }
+            ],
+            "VariableType": 0,
+            "WriteAction": ""
+        },
+        {
+            "Active": false,
+            "Ident": "",
+            "Name": "V_HC_2_PUMP",
+            "Profile": "Stiebel.Eltron.Status.bool",
+            "ReadAction": "$Bit = ($VALUES[\"A_2_4_2500\"] >> 1) & 1;\r\nreturn ((bool) $Bit);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_HK2 Pumpe"
+                }
+            ],
+            "VariableType": 0,
+            "WriteAction": ""
+        },
+        {
+            "Active": false,
+            "Ident": "",
+            "Name": "V_Heat-Up_Programm",
+            "Profile": "Stiebel.Eltron.Status.bool",
+            "ReadAction": "$Bit = ($VALUES[\"A_2_4_2500\"] >> 2) & 1;\r\nreturn ((bool) $Bit);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Aufheizprogramme"
+                }
+            ],
+            "VariableType": 0,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_NHZ_Stages_Running",
+            "Profile": "Stiebel.Eltron.Status.bool",
+            "ReadAction": "$Bit = ($VALUES[\"A_2_4_2500\"] >> 3) & 1;\r\nreturn ((bool) $Bit);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_NHZ Sufen in Betrieb"
+                }
+            ],
+            "VariableType": 0,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_HP_in_Heating_Mode",
+            "Profile": "Stiebel.Eltron.Status.bool",
+            "ReadAction": "$Bit = ($VALUES[\"A_2_4_2500\"] >> 4) & 1;\r\nreturn ((bool) $Bit);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_WP im Heizbetrieb"
+                }
+            ],
+            "VariableType": 0,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_HP_in_DHW-Mode",
+            "Profile": "Stiebel.Eltron.Status.bool",
+            "ReadAction": "$Bit = ($VALUES[\"A_2_4_2500\"] >> 5) & 1;\r\nreturn ((bool) $Bit);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_WP im Warmwasserbetrieb"
+                }
+            ],
+            "VariableType": 0,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_Compressor_Running",
+            "Profile": "Stiebel.Eltron.Status.bool",
+            "ReadAction": "$Bit = ($VALUES[\"A_2_4_2500\"] >> 6) & 1;\r\nreturn ((bool) $Bit);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Verdichter in Betrieb"
+                }
+            ],
+            "VariableType": 0,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_Summer_Mode_active",
+            "Profile": "Stiebel.Eltron.Status.bool",
+            "ReadAction": "$Bit = ($VALUES[\"A_2_4_2500\"] >> 7) & 1;\r\nreturn ((bool) $Bit);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Sommerbetrieb Aktiv"
+                }
+            ],
+            "VariableType": 0,
+            "WriteAction": ""
+        },
+        {
+            "Active": false,
+            "Ident": "",
+            "Name": "V_Cooling_Mode_active",
+            "Profile": "Stiebel.Eltron.Status.bool",
+            "ReadAction": "$Bit = ($VALUES[\"A_2_4_2500\"] >> 8) & 1;\r\nreturn ((bool) $Bit);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Kühlbetrieb Aktiv"
+                }
+            ],
+            "VariableType": 0,
+            "WriteAction": ""
+        },
+        {
+            "Active": false,
+            "Ident": "",
+            "Name": "V_Min_one_IWS_in_Depfrost_modeP",
+            "Profile": "Stiebel.Eltron.Status.bool",
+            "ReadAction": "$Bit = ($VALUES[\"A_2_4_2500\"] >> 9) & 1;\r\nreturn ((bool) $Bit);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Min eine IWS im Abtaubetrieb"
+                }
+            ],
+            "VariableType": 0,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_Heating_Total_Heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Float",
+            "ReadAction": "return ($VALUES[\"A_2_4_3501\"] / 1000 + $VALUES[\"A_2_4_3502\"]);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Heizen_Summe Wärme"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_DHW_Total_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Float",
+            "ReadAction": "return ($VALUES[\"A_2_4_3503\"] / 1000 + $VALUES[\"A_2_4_3505\"]);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_WW_Summe Wärme"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": false,
+            "Ident": "",
+            "Name": "V_NHZ_Heating_Total_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Float",
+            "ReadAction": "return ($VALUES[\"A_2_4_3506\"] / 1000 + $VALUES[\"A_2_4_3507\"]);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_NHZ Heizen Summe Wärme"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": false,
+            "Ident": "",
+            "Name": "V_NHZ_DHW_Total_heat",
+            "Profile": "Stiebel.Eltron.Power.MWh.Float",
+            "ReadAction": "return ($VALUES[\"A_2_4_3508\"] / 1000 + $VALUES[\"A_2_4_3509\"]);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_NHZ WW Summe Wärme"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_Heating_Total_Power",
+            "Profile": "Stiebel.Eltron.Power.MWh.Float",
+            "ReadAction": "return ($VALUES[\"A_2_4_3511\"] / 1000 + $VALUES[\"A_2_4_3512\"]);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_Heizen_Summe Lesitung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_DHW_Total_Power",
+            "Profile": "Stiebel.Eltron.Power.MWh.Float",
+            "ReadAction": "return ($VALUES[\"A_2_4_3514\"] / 1000 + $VALUES[\"A_2_4_3515\"]);",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_WW_Summe Leistung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}
