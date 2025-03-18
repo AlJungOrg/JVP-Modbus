@@ -1,0 +1,2008 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_L1",
+            "Length": 0,
+            "Name": "Voltage L1",
+            "Profile": "go-e.V",
+            "ReadAddress": 1000,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_L2",
+            "Length": 0,
+            "Name": "Voltage L2",
+            "Profile": "go-e.V",
+            "ReadAddress": 1002,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_L3",
+            "Length": 0,
+            "Name": "Voltage L3",
+            "Profile": "go-e.V",
+            "ReadAddress": 1004,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Voltage_N",
+            "Length": 0,
+            "Name": "Voltage N",
+            "Profile": "go-e.V",
+            "ReadAddress": 1006,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Frequency",
+            "Length": 0,
+            "Name": "Frequency",
+            "Profile": "go-e.Hz",
+            "ReadAddress": 1008,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_1_Current",
+            "Length": 0,
+            "Name": "Current Sensor 1 Current",
+            "Profile": "go-e.A",
+            "ReadAddress": 1010,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom Sensor 1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_2_Current",
+            "Length": 0,
+            "Name": "Current Sensor 2 Current",
+            "Profile": "go-e.A",
+            "ReadAddress": 1012,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom Sensor 2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_3_Current",
+            "Length": 0,
+            "Name": "Current Sensor 3 Current",
+            "Profile": "go-e.A",
+            "ReadAddress": 1014,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom Sensor 3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_4_Current",
+            "Length": 0,
+            "Name": "Current Sensor 4 Current",
+            "Profile": "go-e.A",
+            "ReadAddress": 1016,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom Sensor 4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_5_Current",
+            "Length": 0,
+            "Name": "Current Sensor 5 Current",
+            "Profile": "go-e.A",
+            "ReadAddress": 1018,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom Sensor 5"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_6_Current",
+            "Length": 0,
+            "Name": "Current Sensor 6 Current",
+            "Profile": "go-e.A",
+            "ReadAddress": 1020,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom Sensor 6"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_1_Power",
+            "Length": 0,
+            "Name": "Current Sensor 1 Power",
+            "Profile": "go-e.W",
+            "ReadAddress": 1022,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Sensor 1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_2_Power",
+            "Length": 0,
+            "Name": "Current Sensor 2 Power",
+            "Profile": "go-e.W",
+            "ReadAddress": 1024,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Sensor 2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_3_Power",
+            "Length": 0,
+            "Name": "Current Sensor 3 Power",
+            "Profile": "go-e.W",
+            "ReadAddress": 1026,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Sensor 3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_4_Power",
+            "Length": 0,
+            "Name": "Current Sensor 4 Power",
+            "Profile": "go-e.W",
+            "ReadAddress": 1028,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Sensor 4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_5_Power",
+            "Length": 0,
+            "Name": "Current Sensor 5 Power",
+            "Profile": "go-e.W",
+            "ReadAddress": 1030,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Sensor 5"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_6_Power",
+            "Length": 0,
+            "Name": "Current Sensor 6 Power",
+            "Profile": "go-e.W",
+            "ReadAddress": 1032,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Sensor 6"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_1_Powerfactor",
+            "Length": 0,
+            "Name": "Current Sensor 1 Powerfactor",
+            "Profile": "",
+            "ReadAddress": 1034,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor Sensor 1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_2_Powerfactor",
+            "Length": 0,
+            "Name": "Current Sensor 2 Powerfactor",
+            "Profile": "",
+            "ReadAddress": 1036,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor Sensor 2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_3_Powerfactor",
+            "Length": 0,
+            "Name": "Current Sensor 3 Powerfactor",
+            "Profile": "",
+            "ReadAddress": 1038,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor Sensor 3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_4_Powerfactor",
+            "Length": 0,
+            "Name": "Current Sensor 4 Powerfactor",
+            "Profile": "",
+            "ReadAddress": 1040,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor Sensor 4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_5_Powerfactor",
+            "Length": 0,
+            "Name": "Current Sensor 5 Powerfactor",
+            "Profile": "",
+            "ReadAddress": 1042,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor Sensor 5"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Current_Sensor_6_Powerfactor",
+            "Length": 0,
+            "Name": "Current Sensor 6 Powerfactor",
+            "Profile": "",
+            "ReadAddress": 1044,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor Sensor 6"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Home_Current_L1",
+            "Length": 0,
+            "Name": "Category Home Current L1",
+            "Profile": "go-e.A",
+            "ReadAddress": 1046,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Heim - Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Home_Current_L2",
+            "Length": 0,
+            "Name": "Category Home Current L2",
+            "Profile": "go-e.A",
+            "ReadAddress": 1048,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Heim - Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Home_Current_L3",
+            "Length": 0,
+            "Name": "Category Home Current L3",
+            "Profile": "go-e.A",
+            "ReadAddress": 1050,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Heim - Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Home_Current_N",
+            "Length": 0,
+            "Name": "Category Home Current N",
+            "Profile": "go-e.A",
+            "ReadAddress": 1052,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Heim - Strom N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Home_Power",
+            "Length": 0,
+            "Name": "Category Home Power",
+            "Profile": "go-e.W",
+            "ReadAddress": 1054,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Heim - Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Home_Energy_In",
+            "Length": 0,
+            "Name": "Category Home Energy In",
+            "Profile": "go-e.Wh",
+            "ReadAddress": 1056,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Heim - Bezug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Home_Energy_Out",
+            "Length": 0,
+            "Name": "Category Home Energy Out",
+            "Profile": "go-e.Wh",
+            "ReadAddress": 1060,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Heim - Lieferung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Home_Money_In",
+            "Length": 0,
+            "Name": "Category Home Money In",
+            "Profile": "go-e.Euro",
+            "ReadAddress": 1064,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Heim - Geldbetrag Bezug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Home_Money_Out",
+            "Length": 0,
+            "Name": "Category Home Money Out",
+            "Profile": "go-e.Euro",
+            "ReadAddress": 1068,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Heim - Geldbetrag Lieferung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Grid_Current_L1",
+            "Length": 0,
+            "Name": "Category Grid Current L1",
+            "Profile": "go-e.A",
+            "ReadAddress": 1072,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Netz - Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Grid_Current_L2",
+            "Length": 0,
+            "Name": "Category Grid Current L2",
+            "Profile": "go-e.A",
+            "ReadAddress": 1074,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Netz - Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Grid_Current_L3",
+            "Length": 0,
+            "Name": "Category Grid Current L3",
+            "Profile": "go-e.A",
+            "ReadAddress": 1076,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Netz - Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Grid_Current_N",
+            "Length": 0,
+            "Name": "Category Grid Current N",
+            "Profile": "go-e.A",
+            "ReadAddress": 1078,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Netz - Strom N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Grid_Power",
+            "Length": 0,
+            "Name": "Category Grid Power",
+            "Profile": "go-e.W",
+            "ReadAddress": 1080,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Netz - Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Grid_Energy_In",
+            "Length": 0,
+            "Name": "Category Grid Energy In",
+            "Profile": "go-e.Wh",
+            "ReadAddress": 1082,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Netz - Bezug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Grid_Energy_Out",
+            "Length": 0,
+            "Name": "Category Grid Energy Out",
+            "Profile": "go-e.Wh",
+            "ReadAddress": 1086,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Netz - Lieferung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Grid_Money_In",
+            "Length": 0,
+            "Name": "Category Grid Money In",
+            "Profile": "go-e.Euro",
+            "ReadAddress": 1090,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Netz - Geldbetrag Bezug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Grid_Money_Out",
+            "Length": 0,
+            "Name": "Category Grid Money Out",
+            "Profile": "go-e.Euro",
+            "ReadAddress": 1094,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Netz - Geldbetrag Lieferung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Car_Current_L1",
+            "Length": 0,
+            "Name": "Category Car Current L1",
+            "Profile": "go-e.A",
+            "ReadAddress": 1098,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Auto - Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Car_Current_L2",
+            "Length": 0,
+            "Name": "Category Car Current L2",
+            "Profile": "go-e.A",
+            "ReadAddress": 1100,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Auto - Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Car_Current_L3",
+            "Length": 0,
+            "Name": "Category Car Current L3",
+            "Profile": "go-e.A",
+            "ReadAddress": 1102,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Auto - Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Car_Current_N",
+            "Length": 0,
+            "Name": "Category Car Current N",
+            "Profile": "go-e.A",
+            "ReadAddress": 1104,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Auto - Strom N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Car_Power",
+            "Length": 0,
+            "Name": "Category Car Power",
+            "Profile": "go-e.W",
+            "ReadAddress": 1106,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Auto - Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Car_Energy_In",
+            "Length": 0,
+            "Name": "Category Car Energy In",
+            "Profile": "go-e.Wh",
+            "ReadAddress": 1108,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Auto - Bezug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Car_Energy_Out",
+            "Length": 0,
+            "Name": "Category Car Energy Out",
+            "Profile": "go-e.Wh",
+            "ReadAddress": 1112,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Auto - Lieferung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Car_Money_In",
+            "Length": 0,
+            "Name": "Category Car Money In",
+            "Profile": "go-e.Euro",
+            "ReadAddress": 1116,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Auto - Geldbetrag Bezug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Car_Money_Out",
+            "Length": 0,
+            "Name": "Category Car Money Out",
+            "Profile": "go-e.Euro",
+            "ReadAddress": 1120,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Auto - Geldbetrag Lieferung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Relais_Current_L1",
+            "Length": 0,
+            "Name": "Category Relais Current L1",
+            "Profile": "go-e.A",
+            "ReadAddress": 1124,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Relais - Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Relais_Current_L2",
+            "Length": 0,
+            "Name": "Category Relais Current L2",
+            "Profile": "go-e.A",
+            "ReadAddress": 1126,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Relais - Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Relais_Current_L3",
+            "Length": 0,
+            "Name": "Category Relais Current L3",
+            "Profile": "go-e.A",
+            "ReadAddress": 1128,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Relais - Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Relais_Current_N",
+            "Length": 0,
+            "Name": "Category Relais Current N",
+            "Profile": "go-e.A",
+            "ReadAddress": 1130,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Relais - Strom N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Relais_Power",
+            "Length": 0,
+            "Name": "Category Relais Power",
+            "Profile": "go-e.W",
+            "ReadAddress": 1132,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Relais - Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Relais_Energy_In",
+            "Length": 0,
+            "Name": "Category Relais Energy In",
+            "Profile": "go-e.Wh",
+            "ReadAddress": 1134,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Relais - Bezug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Relais_Energy_Out",
+            "Length": 0,
+            "Name": "Category Relais Energy Out",
+            "Profile": "go-e.Wh",
+            "ReadAddress": 1138,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Relais - Lieferung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Relais_Money_In",
+            "Length": 0,
+            "Name": "Category Relais Money In",
+            "Profile": "go-e.Euro",
+            "ReadAddress": 1142,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Relais - Geldbetrag Bezug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Relais_Money_Out",
+            "Length": 0,
+            "Name": "Category Relais Money Out",
+            "Profile": "go-e.Euro",
+            "ReadAddress": 1146,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Relais - Geldbetrag Lieferung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Solar_Current_L1",
+            "Length": 0,
+            "Name": "Category Solar Current L1",
+            "Profile": "go-e.A",
+            "ReadAddress": 1150,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie PV - Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Solar_Current_L2",
+            "Length": 0,
+            "Name": "Category Solar Current L2",
+            "Profile": "go-e.A",
+            "ReadAddress": 1152,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie PV - Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Solar_Current_L3",
+            "Length": 0,
+            "Name": "Category Solar Current L3",
+            "Profile": "go-e.A",
+            "ReadAddress": 1154,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie PV - Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Solar_Current_N",
+            "Length": 0,
+            "Name": "Category Solar Current N",
+            "Profile": "go-e.A",
+            "ReadAddress": 1156,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie PV - Strom N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Solar_Power",
+            "Length": 0,
+            "Name": "Category Solar Power",
+            "Profile": "go-e.W",
+            "ReadAddress": 1158,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie PV - Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Solar_Energy_In",
+            "Length": 0,
+            "Name": "Category Solar Energy In",
+            "Profile": "go-e.Wh",
+            "ReadAddress": 1160,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie PV - Bezug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Solar_Energy_Out",
+            "Length": 0,
+            "Name": "Category Solar Energy Out",
+            "Profile": "go-e.Wh",
+            "ReadAddress": 1164,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie PV - Lieferung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Solar_Money_In",
+            "Length": 0,
+            "Name": "Category Solar Money In",
+            "Profile": "go-e.Euro",
+            "ReadAddress": 1168,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie PV - Geldbetrag Bezug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Solar_Money_Out",
+            "Length": 0,
+            "Name": "Category Solar Money Out",
+            "Profile": "go-e.Euro",
+            "ReadAddress": 1172,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie PV - Geldbetrag Lieferung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Akku_Current_L1",
+            "Length": 0,
+            "Name": "Category Akku Current L1",
+            "Profile": "go-e.A",
+            "ReadAddress": 1176,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Batterie - Strom L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Akku_Current_L2",
+            "Length": 0,
+            "Name": "Category Akku Current L2",
+            "Profile": "go-e.A",
+            "ReadAddress": 1178,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Batterie - Strom L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Akku_Current_L3",
+            "Length": 0,
+            "Name": "Category Akku Current L3",
+            "Profile": "go-e.A",
+            "ReadAddress": 1180,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Batterie - Strom L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Akku_Current_N",
+            "Length": 0,
+            "Name": "Category Akku Current N",
+            "Profile": "go-e.A",
+            "ReadAddress": 1182,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Batterie - Strom N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "Category_Akku_Power",
+            "Length": 0,
+            "Name": "Category Akku Power",
+            "Profile": "go-e.W",
+            "ReadAddress": 1184,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Batterie - Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Akku_Energy_In",
+            "Length": 0,
+            "Name": "Category Akku Energy In",
+            "Profile": "go-e.Wh",
+            "ReadAddress": 1186,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Batterie - Bezug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Akku_Energy_Out",
+            "Length": 0,
+            "Name": "Category Akku Energy Out",
+            "Profile": "go-e.Wh",
+            "ReadAddress": 1190,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Batterie - Lieferung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Akku_Money_In",
+            "Length": 0,
+            "Name": "Category Akku Money In",
+            "Profile": "go-e.Euro",
+            "ReadAddress": 1103,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Batterie - Geldbetrag Bezug"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 9,
+            "Factor": 0,
+            "Ident": "Category_Akku_Money_Out",
+            "Length": 0,
+            "Name": "Category Akku Money Out",
+            "Profile": "go-e.Euro",
+            "ReadAddress": 1198,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Batterie - Geldbetrag Lieferung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "go-e.A": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " A",
+            "Type": 2
+        },
+        "go-e.Euro": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Euro",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " €",
+            "Type": 2
+        },
+        "go-e.Hz": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " Hz",
+            "Type": 2
+        },
+        "go-e.V": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 2
+        },
+        "go-e.W": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " W",
+            "Type": 2
+        },
+        "go-e.Wh": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " Wh",
+            "Type": 2
+        },
+        "go-e.kW": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kW",
+            "Type": 2
+        },
+        "go-e.kWh": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 2
+        }
+    },
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "charging_station",
+    "Manufacturer": "go-e",
+    "Product":"Charger_V1",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "Current_Sensor_1_Power_kW",
+            "Name": "Current Sensor 1 Power kW",
+            "Profile": "go-e.kW",
+            "ReadAction": "return ($VALUES[\"Current_Sensor_1_Power\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Sensor 1 (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Current_Sensor_2_Power_kW",
+            "Name": "Current Sensor 2 Power kW",
+            "Profile": "go-e.kW",
+            "ReadAction": "return ($VALUES[\"Current_Sensor_2_Power\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Sensor 2 (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Current_Sensor_3_Power_kW",
+            "Name": "Current Sensor 3 Power kW",
+            "Profile": "go-e.kW",
+            "ReadAction": "return ($VALUES[\"Current_Sensor_3_Power\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Sensor 3 (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Current_Sensor_4_Power_kW",
+            "Name": "Current Sensor 4 Power kW",
+            "Profile": "go-e.kW",
+            "ReadAction": "return ($VALUES[\"Current_Sensor_4_Power\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Sensor 4 (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Current_Sensor_5_Power_kW",
+            "Name": "Current Sensor 5 Power kW",
+            "Profile": "go-e.kW",
+            "ReadAction": "return ($VALUES[\"Current_Sensor_5_Power\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Sensor 5 (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Current_Sensor_6_Power_kW",
+            "Name": "Current Sensor 6 Power kW",
+            "Profile": "go-e.kW",
+            "ReadAction": "return ($VALUES[\"Current_Sensor_6_Power\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Sensor 6 (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Home_Power_kW",
+            "Name": "Category Home Power kW",
+            "Profile": "go-e.kW",
+            "ReadAction": "return ($VALUES[\"Category_Home_Power\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Heim - Wirkleistung (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Home_Energy_In_kWh",
+            "Name": "Category Home Energy In kWh",
+            "Profile": "go-e.kWh",
+            "ReadAction": "return ($VALUES[\"Category_Home_Energy_In\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Heim - Bezug (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Home_Energy_Out_kWh",
+            "Name": "Category Home Energy Out kWh",
+            "Profile": "go-e.kWh",
+            "ReadAction": "return ($VALUES[\"Category_Home_Energy_Out\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Heim - Lieferung (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Grid_Power_kW",
+            "Name": "Category Grid Power kW",
+            "Profile": "go-e.kW",
+            "ReadAction": "return ($VALUES[\"Category_Grid_Power\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Netz - Wirkleistung (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Grid_Energy_In_kWh",
+            "Name": "Category Grid Energy In kWh",
+            "Profile": "go-e.kWh",
+            "ReadAction": "return ($VALUES[\"Category_Grid_Energy_In\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Netz - Bezug (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Grid_Energy_Out_kWh",
+            "Name": "Category Grid Energy Out kWh",
+            "Profile": "go-e.kWh",
+            "ReadAction": "return ($VALUES[\"Category_Grid_Energy_Out\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Netz - Lieferung (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Car_Power_kW",
+            "Name": "Category Car Power kW",
+            "Profile": "go-e.kW",
+            "ReadAction": "return ($VALUES[\"Category_Car_Power\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Auto - Wirkleistung (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Car_Energy_In_kWh",
+            "Name": "Category Car Energy In kWh",
+            "Profile": "go-e.kWh",
+            "ReadAction": "return ($VALUES[\"Category_Car_Energy_In\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Auto - Bezug (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Car_Energy_Out_kWh",
+            "Name": "Category Car Energy Out kWh",
+            "Profile": "go-e.kWh",
+            "ReadAction": "return ($VALUES[\"Category_Car_Energy_Out\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Auto - Lieferung (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Relais_Power_kW",
+            "Name": "Category Relais Power kW",
+            "Profile": "go-e.kW",
+            "ReadAction": "return ($VALUES[\"Category_Relais_Power\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Relais - Wirkleistung (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Relais_Energy_In_kWh",
+            "Name": "Category Relais Energy In kWh",
+            "Profile": "go-e.kWh",
+            "ReadAction": "return ($VALUES[\"Category_Relais_Energy_In\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Relais - Bezug (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Relais_Energy_Out_kWh",
+            "Name": "Category Relais Energy Out kWh",
+            "Profile": "go-e.kWh",
+            "ReadAction": "return ($VALUES[\"Category_Relais_Energy_Out\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Relais - Lieferung (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Solar_Power_kW",
+            "Name": "Category Solar Power kW",
+            "Profile": "go-e.kW",
+            "ReadAction": "return ($VALUES[\"Category_Solar_Power\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie PV - Wirkleistung (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Solar_Energy_In_kWh",
+            "Name": "Category Solar Energy In kWh",
+            "Profile": "go-e.kWh",
+            "ReadAction": "return ($VALUES[\"Category_Solar_Energy_In\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie PV - Bezug (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Solar_Energy_Out_kWh",
+            "Name": "Category Solar Energy Out kWh",
+            "Profile": "go-e.kWh",
+            "ReadAction": "return ($VALUES[\"Category_Solar_Energy_Out\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie PV - Lieferung (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Akku_Power_kW",
+            "Name": "Category Akku Power kW",
+            "Profile": "go-e.kW",
+            "ReadAction": "return ($VALUES[\"Category_Akku_Power\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Batterie - Wirkleistung (kW)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Akku_Energy_In_kWh",
+            "Name": "Category Akku Energy In kWh",
+            "Profile": "go-e.kWh",
+            "ReadAction": "return ($VALUES[\"Category_Akku_Energy_In\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Batterie - Bezug (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "Category_Akku_Energy_Out_kWh",
+            "Name": "Category Akku Energy Out kWh",
+            "Profile": "go-e.kWh",
+            "ReadAction": "return ($VALUES[\"Category_Akku_Energy_Out\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kategorie Batterie - Lieferung (kWh)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}

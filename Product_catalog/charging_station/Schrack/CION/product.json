@@ -1,0 +1,170 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ladefreigabe",
+            "Profile": "CION.Ladefreigabe",
+            "ReadAddress": 100,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 100,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ladestrom",
+            "Profile": "CION.Ladestrom",
+            "ReadAddress": 101,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 101,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Aktueller Ladestromwert",
+            "Profile": "CION.Ladestrom",
+            "ReadAddress": 126,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 126,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Maximaler Ladestromwert",
+            "Profile": "CION.Ladestrom",
+            "ReadAddress": 127,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 2,
+            "Name": "CP-Signal",
+            "Profile": "",
+            "ReadAddress": 139,
+            "ReadFunctionCode": 4,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperaturen",
+            "Profile": "CION.Temperatur",
+            "ReadAddress": 303,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Netzspannung",
+            "Profile": "~Temperature",
+            "ReadAddress": 302,
+            "ReadFunctionCode": 3,
+            "Translation": [],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "CION.Ladefreigabe": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Keine Freigabe",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 65344,
+                    "Icon": "",
+                    "Name": "Laden freigegeben",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "CION.Ladestrom": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 32.0,
+            "MinValue": 6.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " A",
+            "Type": 1
+        },
+        "CION.Temperatur": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " °C",
+            "Type": 1
+        }
+    },
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "charging_station",
+    "Manufacturer": "Schrack",
+    "Product":"CION",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}

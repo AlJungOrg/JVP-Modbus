@@ -992,7 +992,15 @@
         }
     ],
     "ByteOrder": 0,
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
     "Profiles": {},
+    "Type": "heat_pump",
+    "Manufacturer": "Gondzik",
+    "Product":"Delta",
     "Requests": {
         "Interval": 10000
     },
