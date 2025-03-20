@@ -1,0 +1,311 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "OpenEMS Version Major",
+            "Profile": "",
+            "ReadAddress": 2,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "OpenEMS Version Major"
+                },
+                {
+                    "Language": "en",
+                    "Name": "OpenEMS Version Major"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "OpenEMS Version Minor",
+            "Profile": "",
+            "ReadAddress": 3,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "OpenEMS Version Minor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "OpenEMS Version Minor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "OpenEMS Version Patch",
+            "Profile": "",
+            "ReadAddress": 4,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "OpenEMS Version Patch"
+                },
+                {
+                    "Language": "en",
+                    "Name": "OpenEMS Version Patch"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "State",
+            "Profile": "FEMS.State",
+            "ReadAddress": 222,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "State"
+                },
+                {
+                    "Language": "en",
+                    "Name": "State"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EssSoc",
+            "Profile": "",
+            "ReadAddress": 302,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EssSoc"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EssSoc"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EssActivePower",
+            "Profile": "~Watt",
+            "ReadAddress": 303,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EssActivePower"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EssActivePower"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "GridActivePower",
+            "Profile": "~Watt",
+            "ReadAddress": 315,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "GridActivePower"
+                },
+                {
+                    "Language": "en",
+                    "Name": "GridActivePower"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "ProductionActivePower",
+            "Profile": "~Watt",
+            "ReadAddress": 327,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "ProductionActivePower"
+                },
+                {
+                    "Language": "en",
+                    "Name": "ProductionActivePower"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "ProductionDcActualPower",
+            "Profile": "~Watt",
+            "ReadAddress": 339,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "ProductionDcActualPower"
+                },
+                {
+                    "Language": "en",
+                    "Name": "ProductionDcActualPower"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EssDischargePower",
+            "Profile": "~Watt",
+            "ReadAddress": 415,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EssDischargePower"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EssDischargePower"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EssDischargePower",
+            "Profile": "~Watt",
+            "ReadAddress": 415,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EssDischargePower"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EssDischargePower"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "FEMS.State": {
+            "Associations": [
+                {
+                    "Color": 4521728,
+                    "Icon": "",
+                    "Name": "Ok",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 6786558,
+                    "Icon": "",
+                    "Name": "Info",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 15662848,
+                    "Icon": "",
+                    "Name": "Warnung",
+                    "Value": 2.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Fault",
+                    "Value": 3.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 3.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 3000
+    },
+    "VirtualAddresses": []
+}

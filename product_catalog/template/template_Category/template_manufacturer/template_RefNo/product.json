@@ -12,10 +12,14 @@
             "ReadAddress": 42,
             "ReadFunctionCode": 4,
             "Translation": [
-                {
-                    "Language": "de",
-                    "Name": "Phase 3 Netzspannung"
-                }
+            {
+                "Language": "de",
+                "Name": "Phase 3 Netzspannung"
+            },
+            {
+                "Language": "en",
+                "Name": "Phase 3 grid voltage"
+            }
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
