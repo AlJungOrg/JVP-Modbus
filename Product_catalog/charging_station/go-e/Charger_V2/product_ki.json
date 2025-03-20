@@ -1,0 +1,1336 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "ACCESS_STATE",
+            "Profile": "GOe_Access",
+            "ReadAddress": 201,
+            "ReadFunctionCode": 3,
+            "SwapBytes": false,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zugriffsstatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Access State"
+                }
+            ],
+            "WriteAddress": 201,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "ADAPTER_INPUT",
+            "Profile": "GOe_Adapter",
+            "ReadAddress": 202,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Adaptereingang"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Adapter Input"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "ALLOW",
+            "Profile": "GOe_Switch",
+            "ReadAddress": 200,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Erlauben"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Allow"
+                }
+            ],
+            "WriteAddress": 200,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMP_L1",
+            "Profile": "~Ampere.16",
+            "ReadAddress": 114,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMP_L2",
+            "Profile": "~Ampere.16",
+            "ReadAddress": 116,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMP_L3",
+            "Profile": "~Ampere.16",
+            "ReadAddress": 118,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMPERE_EEPROM",
+            "Profile": "GOe_Amp",
+            "ReadAddress": 300,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom EEPROM"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current EEPROM"
+                }
+            ],
+            "WriteAddress": 300,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMPERE_L1",
+            "Profile": "GOe_Amp",
+            "ReadAddress": 212,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stromstärke L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Strength L1"
+                }
+            ],
+            "WriteAddress": 212,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMPERE_L2",
+            "Profile": "GOe_Amp",
+            "ReadAddress": 213,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stromstärke L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Strength L2"
+                }
+            ],
+            "WriteAddress": 213,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMPERE_L3",
+            "Profile": "GOe_Amp",
+            "ReadAddress": 214,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stromstärke L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Strength L3"
+                }
+            ],
+            "WriteAddress": 214,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMPERE_L4",
+            "Profile": "GOe_Amp",
+            "ReadAddress": 215,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stromstärke L4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Strength L4"
+                }
+            ],
+            "WriteAddress": 215,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMPERE_L6",
+            "Profile": "GOe_Amp",
+            "ReadAddress": 216,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stromstärke L6"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Strength L6"
+                }
+            ],
+            "WriteAddress": 216,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMPERE_MAX",
+            "Profile": "GOe_Amp",
+            "ReadAddress": 211,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximale Stromstärke"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Maximum Current"
+                }
+            ],
+            "WriteAddress": 211,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AMPERE_VOLATILE",
+            "Profile": "GOe_Amp",
+            "ReadAddress": 299,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Flüchtige Stromstärke"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Volatile Current"
+                }
+            ],
+            "WriteAddress": 299,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "CABLE_LOCK_MODE",
+            "Profile": "GOe_CableUnlockMode",
+            "ReadAddress": 204,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kabelverriegelungsmodus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cable Lock Mode"
+                }
+            ],
+            "WriteAddress": 204,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "CAR_STATE",
+            "Profile": "GOe_Status",
+            "ReadAddress": 100,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fahrzeugstatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Car State"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "CLOUD_DISABLED",
+            "Profile": "GOe_Switch.rev",
+            "ReadAddress": 217,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Cloud deaktiviert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cloud Disabled"
+                }
+            ],
+            "WriteAddress": 217,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "ENERGY_CHARGE",
+            "Profile": "",
+            "ReadAddress": 132,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladeenergie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Energy Charge"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "ENERGY_TOTAL",
+            "Profile": "GOe_Energy",
+            "ReadAddress": 128,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtenergie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Energy"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "ERROR",
+            "Profile": "GOe_Error",
+            "ReadAddress": 107,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehler"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Error"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "LED_BRIGHTNESS",
+            "Profile": "~Intensity.255",
+            "ReadAddress": 206,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LED-Helligkeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LED Brightness"
+                }
+            ],
+            "WriteAddress": 206,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "LED_SAVE_ENERGY",
+            "Profile": "GOe_Switch",
+            "ReadAddress": 207,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LED Energiesparen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LED Save Energy"
+                }
+            ],
+            "WriteAddress": 207,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "NORWAY_MODE",
+            "Profile": "GOe_Switch",
+            "ReadAddress": 218,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Norwegen-Modus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Norway Mode"
+                }
+            ],
+            "WriteAddress": 218,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PHASES",
+            "Profile": "GOe_Phase",
+            "ReadAddress": 205,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phasen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Phases"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "POWER_L1",
+            "Profile": "GOe_kwh",
+            "ReadAddress": 146,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "POWER_L2",
+            "Profile": "GOe_kwh",
+            "ReadAddress": 148,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "POWER_L3",
+            "Profile": "GOe_kwh",
+            "ReadAddress": 150,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "POWER_TOTAL",
+            "Profile": "GOe_Energy",
+            "ReadAddress": 120,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Power"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PP_CABLE",
+            "Profile": "GOe_AmpCable",
+            "ReadAddress": 101,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PP-Kabel"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PP Cable"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VOLT_L1",
+            "Profile": "GOe_Volt",
+            "ReadAddress": 108,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VOLT_L2",
+            "Profile": "GOe_Volt",
+            "ReadAddress": 110,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VOLT_L3",
+            "Profile": "GOe_Volt",
+            "ReadAddress": 112,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "VOLT_N",
+            "Profile": "GOe_Volt",
+            "ReadAddress": 144,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "FWV",
+            "Profile": "",
+            "ReadAddress": 105,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Firmware-Version"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Firmware Version"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "UNLOCKED_BY",
+            "Profile": "",
+            "ReadAddress": 203,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Entsperrt durch"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Unlocked By"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 1,
+    "Profiles": {
+        "GOe_Access": {
+            "Associations": [
+                {
+                    "Color": 65280,
+                    "Icon": "",
+                    "Name": "offen",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "RFID",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Strompreis",
+                    "Value": 2.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Ladetimer",
+                    "Value": 3.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "GOe_Adapter": {
+            "Associations": [
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "kein Adapter",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "16A Adapter",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Ok",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "GOe_Amp": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 32.0,
+            "MinValue": 6.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " A",
+            "Type": 1
+        },
+        "GOe_AmpCable": {
+            "Associations": [
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Kein Kabel",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "1 A",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "2 A",
+                    "Value": 2.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "3 A",
+                    "Value": 3.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "4 A",
+                    "Value": 4.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "5 A",
+                    "Value": 5.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "6 A",
+                    "Value": 6.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "7 A",
+                    "Value": 7.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "8 A",
+                    "Value": 8.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "9 A",
+                    "Value": 9.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "10 A",
+                    "Value": 10.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "11 A",
+                    "Value": 11.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "12 A",
+                    "Value": 12.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "13 A",
+                    "Value": 13.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "14 A",
+                    "Value": 14.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "15 A",
+                    "Value": 15.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "16 A",
+                    "Value": 16.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "17 A",
+                    "Value": 17.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "18 A",
+                    "Value": 18.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "19 A",
+                    "Value": 19.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "20 A",
+                    "Value": 20.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "21 A",
+                    "Value": 21.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "22 A",
+                    "Value": 22.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "23 A",
+                    "Value": 23.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "24 A",
+                    "Value": 24.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "25 A",
+                    "Value": 25.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "30 A",
+                    "Value": 30.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "32 A",
+                    "Value": 32.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "GOe_CableUnlockMode": {
+            "Associations": [
+                {
+                    "Color": 65280,
+                    "Icon": "",
+                    "Name": "verriegelt, wenn Auto angeschlossen",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 16763904,
+                    "Icon": "",
+                    "Name": "am Ladeende entriegeln",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "immer verriegelt",
+                    "Value": 2.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Plug",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "GOe_Energy": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 2
+        },
+        "GOe_Error": {
+            "Associations": [
+                {
+                    "Color": 65280,
+                    "Icon": "",
+                    "Name": "Kein Fehler",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "FI Schutzschalter",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Fehler an Phase",
+                    "Value": 3.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Keine Erdung",
+                    "Value": 8.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Interner Fehler",
+                    "Value": 10.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Ok",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "GOe_Phase": {
+            "Associations": [
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "L1",
+                    "Value": 8.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "L1+L2",
+                    "Value": 16.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "L1+L2+L3",
+                    "Value": 56.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "L1+L2+L3 - L1+L2+L3",
+                    "Value": 63.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "GOe_Status": {
+            "Associations": [
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "Ladestation bereit, kein Fahrzeug",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "Fahrzeug lädt",
+                    "Value": 2.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "Warten auf Fahrzeug",
+                    "Value": 3.0
+                },
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "Ladung beendet, Fahrzeug noch verbunden",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Ok",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "GOe_Switch": {
+            "Associations": [
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Nein",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 65280,
+                    "Icon": "",
+                    "Name": "Ja",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Information",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "GOe_Switch.rev": {
+            "Associations": [
+                {
+                    "Color": 65280,
+                    "Icon": "",
+                    "Name": "On",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Off",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Information",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "GOe_Volt": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 1
+        },
+        "GOe_kwh": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 1
+        }
+    },
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Type": "charging_station",
+    "Manufacturer": "go-e",
+    "Product": "Charger_V2",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}
