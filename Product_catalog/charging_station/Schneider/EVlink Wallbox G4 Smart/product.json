@@ -11,7 +11,16 @@
             "Profile": "",
             "ReadAddress": 0,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EventBit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EventBit"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "",
             "ReadAddress": 1,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "UpTime - MSB"
+                },
+                {
+                    "Language": "en",
+                    "Name": "UpTime - MSB"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -41,7 +59,16 @@
             "Profile": "",
             "ReadAddress": 2,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "UpTime - LSB"
+                },
+                {
+                    "Language": "en",
+                    "Name": "UpTime - LSB"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -56,7 +83,16 @@
             "Profile": "",
             "ReadAddress": 3,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MicroSwitchStatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MicroSwitchStatus"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -71,7 +107,16 @@
             "Profile": "",
             "ReadAddress": 4,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "FWVersion Haupt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "FWVersion Major"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -86,7 +131,16 @@
             "Profile": "",
             "ReadAddress": 5,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MainState"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MainState"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -101,7 +155,16 @@
             "Profile": "",
             "ReadAddress": 6,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "CPWState"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CPWState"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -116,7 +179,16 @@
             "Profile": "",
             "ReadAddress": 7,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "CableState"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CableState"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -131,7 +203,16 @@
             "Profile": "",
             "ReadAddress": 8,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVState"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EVState"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -146,7 +227,16 @@
             "Profile": "",
             "ReadAddress": 9,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgangStatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastChargeStatus"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -161,7 +251,16 @@
             "Profile": "",
             "ReadAddress": 10,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVSE_Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EVSE_Status"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -176,7 +275,16 @@
             "Profile": "",
             "ReadAddress": 11,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MaximalstromCard"
+                },
+                {
+                    "Language": "en",
+                    "Name": "ImaxCard"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -191,7 +299,16 @@
             "Profile": "",
             "ReadAddress": 12,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MaximalstromCable"
+                },
+                {
+                    "Language": "en",
+                    "Name": "ImaxCable"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -206,7 +323,16 @@
             "Profile": "",
             "ReadAddress": 13,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "InstantStromMeasPhaseA"
+                },
+                {
+                    "Language": "en",
+                    "Name": "InstantCurrentMeasPhaseA"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -221,7 +347,16 @@
             "Profile": "",
             "ReadAddress": 14,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "InstantStromMeasPhaseB"
+                },
+                {
+                    "Language": "en",
+                    "Name": "InstantCurrentMeasPhaseB"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -236,7 +371,16 @@
             "Profile": "",
             "ReadAddress": 15,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "InstantStromMeasPhaseC"
+                },
+                {
+                    "Language": "en",
+                    "Name": "InstantCurrentMeasPhaseC"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -251,7 +395,16 @@
             "Profile": "",
             "ReadAddress": 16,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MaximalstromEV"
+                },
+                {
+                    "Language": "en",
+                    "Name": "ImaxEV"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -266,7 +419,16 @@
             "Profile": "",
             "ReadAddress": 17,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "CyclicRateCPW1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CyclicRateCPW1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -281,7 +443,16 @@
             "Profile": "",
             "ReadAddress": 18,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DI"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DI"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -296,7 +467,16 @@
             "Profile": "",
             "ReadAddress": 19,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "FwUpStatus (RFID)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "FwUpStatus (RFID)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -311,7 +491,16 @@
             "Profile": "",
             "ReadAddress": 20,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fern Befehl Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Remote Command Status"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -326,7 +515,16 @@
             "Profile": "",
             "ReadAddress": 21,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "CountMSB"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CountMSB"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -341,7 +539,16 @@
             "Profile": "",
             "ReadAddress": 22,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "CountLSB"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CountLSB"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -356,7 +563,16 @@
             "Profile": "",
             "ReadAddress": 23,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehler Status MSB"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Error Status MSB"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -371,7 +587,16 @@
             "Profile": "",
             "ReadAddress": 24,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehler Status LSB"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Error Status LSB"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -386,7 +611,16 @@
             "Profile": "",
             "ReadAddress": 25,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Commissionning tool Haupt Version"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Commissionning tool Major version"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -401,7 +635,16 @@
             "Profile": "",
             "ReadAddress": 26,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "RawStromPhaseA"
+                },
+                {
+                    "Language": "en",
+                    "Name": "RawCurrentPhaseA"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -416,7 +659,16 @@
             "Profile": "",
             "ReadAddress": 27,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "RawStromPhaseB"
+                },
+                {
+                    "Language": "en",
+                    "Name": "RawCurrentPhaseB"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -431,7 +683,16 @@
             "Profile": "",
             "ReadAddress": 28,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "RawStromPhaseC"
+                },
+                {
+                    "Language": "en",
+                    "Name": "RawCurrentPhaseC"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -446,7 +707,16 @@
             "Profile": "",
             "ReadAddress": 29,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StateMachine"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StateMachine"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -461,7 +731,16 @@
             "Profile": "",
             "ReadAddress": 30,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "ChargingTime"
+                },
+                {
+                    "Language": "en",
+                    "Name": "ChargingTime"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -476,7 +755,16 @@
             "Profile": "",
             "ReadAddress": 32,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "RFIDFWVersion"
+                },
+                {
+                    "Language": "en",
+                    "Name": "RFIDFWVersion"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -491,7 +779,16 @@
             "Profile": "",
             "ReadAddress": 34,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgangStatus-1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastChargeStatus-1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -506,7 +803,16 @@
             "Profile": "",
             "ReadAddress": 35,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgangStatus-2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastChargeStatus-2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -521,7 +827,16 @@
             "Profile": "",
             "ReadAddress": 36,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgangStatus-3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastChargeStatus-3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -536,7 +851,16 @@
             "Profile": "",
             "ReadAddress": 37,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgangStatus-4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastChargeStatus-4"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -551,7 +875,16 @@
             "Profile": "",
             "ReadAddress": 38,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "USBoardGFTimeUntilReset"
+                },
+                {
+                    "Language": "en",
+                    "Name": "USBoardGFTimeUntilReset"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -566,7 +899,16 @@
             "Profile": "",
             "ReadAddress": 39,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "USBoardAutoResetCount"
+                },
+                {
+                    "Language": "en",
+                    "Name": "USBoardAutoResetCount"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -581,7 +923,16 @@
             "Profile": "",
             "ReadAddress": 40,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "USBoardKontaktFehlerCount"
+                },
+                {
+                    "Language": "en",
+                    "Name": "USBoardContactErrorCount"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -596,7 +947,16 @@
             "Profile": "",
             "ReadAddress": 41,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "USBoardFaultLightStatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "USBoardFaultLightStatus"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -611,7 +971,16 @@
             "Profile": "",
             "ReadAddress": 42,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "USBoardFWVersion"
+                },
+                {
+                    "Language": "en",
+                    "Name": "USBoardFWVersion"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -626,7 +995,16 @@
             "Profile": "",
             "ReadAddress": 44,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "USBoardFWChecksum"
+                },
+                {
+                    "Language": "en",
+                    "Name": "USBoardFWChecksum"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -641,7 +1019,16 @@
             "Profile": "",
             "ReadAddress": 45,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "BootCounter"
+                },
+                {
+                    "Language": "en",
+                    "Name": "BootCounter"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -656,7 +1043,16 @@
             "Profile": "",
             "ReadAddress": 46,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MaximalstromUser"
+                },
+                {
+                    "Language": "en",
+                    "Name": "ImaxUser"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -671,7 +1067,16 @@
             "Profile": "",
             "ReadAddress": 47,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "UnerwartetKontaktorOpenCount"
+                },
+                {
+                    "Language": "en",
+                    "Name": "UnexpectedContactorOpenCount"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -686,7 +1091,16 @@
             "Profile": "",
             "ReadAddress": 48,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "CyclicRateCPW1Progressive"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CyclicRateCPW1Progressive"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -701,7 +1115,16 @@
             "Profile": "",
             "ReadAddress": 49,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVSE FW Neben Version"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EVSE FW Minor version"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -716,7 +1139,16 @@
             "Profile": "",
             "ReadAddress": 50,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Commissionning tool Neben Version"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Commissionning tool Minor version"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -731,7 +1163,16 @@
             "Profile": "",
             "ReadAddress": 51,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LadevorgangStatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "ChargeStatus"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -746,7 +1187,16 @@
             "Profile": "",
             "ReadAddress": 52,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LadevorgangStatusLastFehler"
+                },
+                {
+                    "Language": "en",
+                    "Name": "ChargeStatusLastError"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -761,7 +1211,16 @@
             "Profile": "",
             "ReadAddress": 53,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SelectedLadevorgangLeistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SelectedChargePower"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -776,7 +1235,16 @@
             "Profile": "",
             "ReadAddress": 54,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SelectedLadevorgangDuration"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SelectedChargeDuration"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -791,7 +1259,16 @@
             "Profile": "",
             "ReadAddress": 55,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Komponente FW Haupt Version"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Component FW Major version"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -806,7 +1283,16 @@
             "Profile": "",
             "ReadAddress": 56,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Komponente FW Neben Version"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Component FW Minor version"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -821,7 +1307,16 @@
             "Profile": "",
             "ReadAddress": 300,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energie Management Einstellung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Energy Management Setting"
+                }
+            ],
             "WriteAddress": 300,
             "WriteFunctionCode": 6
         },
@@ -836,7 +1331,16 @@
             "Profile": "",
             "ReadAddress": 301,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SocketFernSetPoint"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SocketRemoteSetPoint"
+                }
+            ],
             "WriteAddress": 301,
             "WriteFunctionCode": 6
         },
@@ -851,7 +1355,16 @@
             "Profile": "",
             "ReadAddress": 302,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Home Upstream Schutz(MaximalstromInstall)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Home Upstream Protection(ImaxInstall)"
+                }
+            ],
             "WriteAddress": 302,
             "WriteFunctionCode": 6
         },
@@ -866,7 +1379,16 @@
             "Profile": "",
             "ReadAddress": 303,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "CP Upstream Schutz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CP Upstream Protection"
+                }
+            ],
             "WriteAddress": 303,
             "WriteFunctionCode": 6
         },
@@ -881,7 +1403,16 @@
             "Profile": "",
             "ReadAddress": 304,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Einphasig Lastabwurf untere Wert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Monophased load shedding floor value"
+                }
+            ],
             "WriteAddress": 304,
             "WriteFunctionCode": 6
         },
@@ -896,7 +1427,16 @@
             "Profile": "",
             "ReadAddress": 305,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Dreiphasig Lastabwurf untere Wert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Triphased load shedding floor value"
+                }
+            ],
             "WriteAddress": 305,
             "WriteFunctionCode": 6
         },
@@ -911,7 +1451,16 @@
             "Profile": "",
             "ReadAddress": 306,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Einphasig maximum power"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Monophased maximum power"
+                }
+            ],
             "WriteAddress": 306,
             "WriteFunctionCode": 6
         },
@@ -926,7 +1475,16 @@
             "Profile": "",
             "ReadAddress": 307,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Tri phased maximum power"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Tri phased maximum power"
+                }
+            ],
             "WriteAddress": 307,
             "WriteFunctionCode": 6
         },
@@ -941,7 +1499,16 @@
             "Profile": "",
             "ReadAddress": 308,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximal charge Dauer"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Maximum charge duration"
+                }
+            ],
             "WriteAddress": 308,
             "WriteFunctionCode": 6
         },
@@ -956,7 +1523,16 @@
             "Profile": "",
             "ReadAddress": 309,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximal erlaubt energy"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Maximum authorized energy"
+                }
+            ],
             "WriteAddress": 309,
             "WriteFunctionCode": 6
         },
@@ -971,7 +1547,16 @@
             "Profile": "",
             "ReadAddress": 310,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StationFernSetPoint"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StationRemoteSetPoint"
+                }
+            ],
             "WriteAddress": 310,
             "WriteFunctionCode": 6
         },
@@ -986,7 +1571,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 320,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HeadZähler Phase1Strom_I1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "HeadMeter Phase1Current_I1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1001,7 +1595,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 322,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HeadZähler Phase2Strom_I2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "HeadMeter Phase2Current_I2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1016,7 +1619,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 324,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HeadZähler Phase2Strom_I3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "HeadMeter Phase2Current_I3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1031,7 +1643,16 @@
             "Profile": "~Power",
             "ReadAddress": 326,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HeadZähler AktivEnergie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "HeadMeter ActiveEnergy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1046,7 +1667,16 @@
             "Profile": "~Power",
             "ReadAddress": 328,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HeadZähler AktivLeistungTotal"
+                },
+                {
+                    "Language": "en",
+                    "Name": "HeadMeter ActivePowerTotal"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1061,7 +1691,16 @@
             "Profile": "~Volt",
             "ReadAddress": 330,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HeadZähler L1_L2 Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "HeadMeter L1_L2 Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1076,7 +1715,16 @@
             "Profile": "~Volt",
             "ReadAddress": 332,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HeadZähler L2_L3 Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "HeadMeter L2_L3 Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1091,7 +1739,16 @@
             "Profile": "~Volt",
             "ReadAddress": 334,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HeadZähler L3_L1 Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "HeadMeter L3_L1 Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1106,7 +1763,16 @@
             "Profile": "~Volt",
             "ReadAddress": 336,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HeadZähler L1_N Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "HeadMeter L1_N Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1121,7 +1787,16 @@
             "Profile": "~Volt",
             "ReadAddress": 338,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HeadZähler L2_N Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "HeadMeter L2_N Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1136,7 +1811,16 @@
             "Profile": "~Volt",
             "ReadAddress": 340,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HeadZähler L3_N Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "HeadMeter L3_N Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1151,7 +1835,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 350,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StationZähler Phase1Strom_I1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StationMeter Phase1Current_I1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1166,7 +1859,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 352,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StationZähler Phase2Strom_I2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StationMeter Phase2Current_I2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1181,7 +1883,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 354,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StationZähler Phase3Strom_I3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StationMeter Phase3Current_I3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1196,7 +1907,16 @@
             "Profile": "~Power",
             "ReadAddress": 356,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StationZähler AktivEnergie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StationMeter ActiveEnergy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1211,7 +1931,16 @@
             "Profile": "~Power",
             "ReadAddress": 358,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StationZähler AktivLeistungTotal"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StationMeter ActivePowerTotal"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1226,7 +1955,16 @@
             "Profile": "~Volt",
             "ReadAddress": 360,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StationZähler L1_L2 Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StationMeter L1_L2 Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1241,7 +1979,16 @@
             "Profile": "~Volt",
             "ReadAddress": 362,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StationZähler L2_L3 Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StationMeter L2_L3 Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1256,7 +2003,16 @@
             "Profile": "~Volt",
             "ReadAddress": 364,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StationZähler L3_L1 Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StationMeter L3_L1 Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1271,7 +2027,16 @@
             "Profile": "~Volt",
             "ReadAddress": 366,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StationZähler L1_N Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StationMeter L1_N Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1286,7 +2051,16 @@
             "Profile": "~Volt",
             "ReadAddress": 368,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StationZähler L2_N Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StationMeter L2_N Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1301,7 +2075,16 @@
             "Profile": "~Volt",
             "ReadAddress": 370,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StationZähler L3_N Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "StationMeter L3_N Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1316,7 +2099,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 380,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AlternativeZähler Phase1Strom_I1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AlternativeMeter Phase1Current_I1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1331,7 +2123,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 382,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AlternativeZähler Phase2Strom_I2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AlternativeMeter Phase2Current_I2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1346,7 +2147,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 384,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AlternativeZähler Phase2Strom_I3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AlternativeMeter Phase2Current_I3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1361,7 +2171,16 @@
             "Profile": "~Power",
             "ReadAddress": 386,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AlternativeZähler AktivEnergie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AlternativeMeter ActiveEnergy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1376,7 +2195,16 @@
             "Profile": "~Power",
             "ReadAddress": 388,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AlternativeZähler AktivLeistungTotal"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AlternativeMeter ActivePowerTotal"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1391,7 +2219,16 @@
             "Profile": "~Volt",
             "ReadAddress": 390,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AlternativeZähler L1_L2 Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AlternativeMeter L1_L2 Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1406,7 +2243,16 @@
             "Profile": "~Volt",
             "ReadAddress": 392,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AlternativeZähler L2_L3 Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AlternativeMeter L2_L3 Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1421,7 +2267,16 @@
             "Profile": "~Volt",
             "ReadAddress": 394,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AlternativeZähler L3_L1 Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AlternativeMeter L3_L1 Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1436,7 +2291,16 @@
             "Profile": "~Volt",
             "ReadAddress": 396,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AlternativeZähler L1_N Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AlternativeMeter L1_N Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1451,7 +2315,16 @@
             "Profile": "~Volt",
             "ReadAddress": 398,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AlternativeZähler L2_N Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AlternativeMeter L2_N Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1466,7 +2339,16 @@
             "Profile": "~Volt",
             "ReadAddress": 400,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AlternativeZähler L3_N Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AlternativeMeter L3_N Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1481,7 +2363,16 @@
             "Profile": "",
             "ReadAddress": 1551,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Contract ID"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Contract ID"
+                }
+            ],
             "WriteAddress": 1551,
             "WriteFunctionCode": 16
         },
@@ -1496,7 +2387,16 @@
             "Profile": "",
             "ReadAddress": 1552,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MaxDuration2kW"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MaxDuration2kW"
+                }
+            ],
             "WriteAddress": 1552,
             "WriteFunctionCode": 6
         },
@@ -1511,7 +2411,16 @@
             "Profile": "",
             "ReadAddress": 1553,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MaxDuration3kW"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MaxDuration3kW"
+                }
+            ],
             "WriteAddress": 1553,
             "WriteFunctionCode": 6
         },
@@ -1526,7 +2435,16 @@
             "Profile": "",
             "ReadAddress": 1554,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MaxDuration7kW"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MaxDuration7kW"
+                }
+            ],
             "WriteAddress": 1554,
             "WriteFunctionCode": 6
         },
@@ -1541,7 +2459,16 @@
             "Profile": "",
             "ReadAddress": 1555,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MaxDuration11kW"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MaxDuration11kW"
+                }
+            ],
             "WriteAddress": 1555,
             "WriteFunctionCode": 6
         },
@@ -1556,7 +2483,16 @@
             "Profile": "",
             "ReadAddress": 1556,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MaxDuration22kW"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MaxDuration22kW"
+                }
+            ],
             "WriteAddress": 1556,
             "WriteFunctionCode": 6
         },
@@ -1571,7 +2507,16 @@
             "Profile": "",
             "ReadAddress": 1557,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MaxDuration43kW"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MaxDuration43kW"
+                }
+            ],
             "WriteAddress": 1557,
             "WriteFunctionCode": 6
         },
@@ -1586,7 +2531,16 @@
             "Profile": "",
             "ReadAddress": 1558,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MaxDuration50W"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MaxDuration50W"
+                }
+            ],
             "WriteAddress": 1558,
             "WriteFunctionCode": 6
         },
@@ -1601,7 +2555,16 @@
             "Profile": "",
             "ReadAddress": 1559,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reserviert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reserved"
+                }
+            ],
             "WriteAddress": 1559,
             "WriteFunctionCode": 6
         },
@@ -1616,7 +2579,16 @@
             "Profile": "",
             "ReadAddress": 1600,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler0 Startzeit (s)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError0 start time (s)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1631,7 +2603,16 @@
             "Profile": "",
             "ReadAddress": 1602,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler0 Endzeit (s)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError0 end time (s)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1646,7 +2627,16 @@
             "Profile": "",
             "ReadAddress": 1604,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler0 code"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError0 code"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1661,7 +2651,16 @@
             "Profile": "",
             "ReadAddress": 1605,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reserviert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reserved"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1676,7 +2675,16 @@
             "Profile": "",
             "ReadAddress": 1615,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler1 Startzeit (s)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError1 start time (s)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1691,7 +2699,16 @@
             "Profile": "",
             "ReadAddress": 1617,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler1 Endzeit (s)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError1 end time (s)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1706,7 +2723,16 @@
             "Profile": "",
             "ReadAddress": 1619,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler1 code"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError1 code"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1721,7 +2747,16 @@
             "Profile": "",
             "ReadAddress": 1620,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reserviert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reserved"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1736,7 +2771,16 @@
             "Profile": "",
             "ReadAddress": 1630,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler2 Startzeit (s)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError2 start time (s)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1751,7 +2795,16 @@
             "Profile": "",
             "ReadAddress": 1632,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler2 Endzeit (s)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError2 end time (s)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1766,7 +2819,16 @@
             "Profile": "",
             "ReadAddress": 1634,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler2 code"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError2 code"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1781,7 +2843,16 @@
             "Profile": "",
             "ReadAddress": 1635,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reserviert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reserved"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1796,7 +2867,16 @@
             "Profile": "",
             "ReadAddress": 1645,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler3 Startzeit (s)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError3 start time (s)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1811,7 +2891,16 @@
             "Profile": "",
             "ReadAddress": 1647,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler3 Endzeit (s)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError3 end time (s)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1826,7 +2915,16 @@
             "Profile": "",
             "ReadAddress": 1649,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler3 code"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError3 code"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1841,7 +2939,16 @@
             "Profile": "",
             "ReadAddress": 1650,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reserviert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reserved"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1856,7 +2963,16 @@
             "Profile": "",
             "ReadAddress": 1660,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler4 Startzeit (s)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError4 start time (s)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1871,7 +2987,16 @@
             "Profile": "",
             "ReadAddress": 1662,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler4 Endzeit (s)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError4 end time (s)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1886,7 +3011,16 @@
             "Profile": "",
             "ReadAddress": 1664,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PreviousFehler4 code"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PreviousError4 code"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1901,7 +3035,16 @@
             "Profile": "",
             "ReadAddress": 1665,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reserviert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reserved"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1916,7 +3059,16 @@
             "Profile": "",
             "ReadAddress": 2000,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StromLadevorgang Startzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CurrentCharge start time"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1931,7 +3083,16 @@
             "Profile": "",
             "ReadAddress": 2002,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StromLadevorgang Endzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CurrentCharge end time"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1946,7 +3107,16 @@
             "Profile": "",
             "ReadAddress": 2004,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StromLadevorgang Dauer"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CurrentCharge duration"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1961,7 +3131,16 @@
             "Profile": "",
             "ReadAddress": 2006,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StromLadevorgang station energy table"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CurrentCharge station energy table"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1976,7 +3155,16 @@
             "Profile": "",
             "ReadAddress": 2066,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StromLadevorgang alt energy table"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CurrentCharge alt energy table"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1991,7 +3179,16 @@
             "Profile": "",
             "ReadAddress": 2126,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StromLadevorgang station total energy"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CurrentCharge station total energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2006,7 +3203,16 @@
             "Profile": "",
             "ReadAddress": 2130,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StromLadevorgang ID"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CurrentCharge ID"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2021,7 +3227,16 @@
             "Profile": "",
             "ReadAddress": 2138,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "StromLadevorgang Nominal Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CurrentCharge Nominal Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2036,7 +3251,16 @@
             "Profile": "",
             "ReadAddress": 2140,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reserviert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reserved"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2051,7 +3275,16 @@
             "Profile": "",
             "ReadAddress": 2200,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgang Startzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastCharge start time"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2066,7 +3299,16 @@
             "Profile": "",
             "ReadAddress": 2202,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgang Endzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastCharge end time"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2081,7 +3323,16 @@
             "Profile": "",
             "ReadAddress": 2204,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgang Dauer"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastCharge duration"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2096,7 +3347,16 @@
             "Profile": "",
             "ReadAddress": 2206,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgang station energy table"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastCharge station energy table"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2111,7 +3371,16 @@
             "Profile": "",
             "ReadAddress": 2266,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgang alt energy table"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastCharge alt energy table"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2126,7 +3395,16 @@
             "Profile": "",
             "ReadAddress": 2326,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgang station total energy"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastCharge station total energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2141,7 +3419,16 @@
             "Profile": "",
             "ReadAddress": 2328,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgang alt total energy"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastCharge alt total energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2156,7 +3443,16 @@
             "Profile": "",
             "ReadAddress": 2330,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgang ID"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastCharge ID"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2171,7 +3467,16 @@
             "Profile": "",
             "ReadAddress": 2338,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LastLadevorgang Nominal Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LastCharge Nominal Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2186,7 +3491,16 @@
             "Profile": "",
             "ReadAddress": 2340,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reserviert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reserved"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2201,7 +3515,16 @@
             "Profile": "",
             "ReadAddress": 2400,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verlauf Startzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "History start time"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2216,7 +3539,16 @@
             "Profile": "",
             "ReadAddress": 2402,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verlauf Endzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "History end time"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2231,7 +3563,16 @@
             "Profile": "",
             "ReadAddress": 2404,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verlauf Dauer"
+                },
+                {
+                    "Language": "en",
+                    "Name": "History duration"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2246,7 +3587,16 @@
             "Profile": "",
             "ReadAddress": 2406,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verlauf station energy table"
+                },
+                {
+                    "Language": "en",
+                    "Name": "History station energy table"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2261,7 +3611,16 @@
             "Profile": "",
             "ReadAddress": 2466,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verlauf alt energy table"
+                },
+                {
+                    "Language": "en",
+                    "Name": "History alt energy table"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2276,7 +3635,16 @@
             "Profile": "",
             "ReadAddress": 2526,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verlauf station total energy"
+                },
+                {
+                    "Language": "en",
+                    "Name": "History station total energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2291,7 +3659,16 @@
             "Profile": "",
             "ReadAddress": 2528,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verlauf alt total energy"
+                },
+                {
+                    "Language": "en",
+                    "Name": "History alt total energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2306,7 +3683,16 @@
             "Profile": "",
             "ReadAddress": 2530,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verlauf ID"
+                },
+                {
+                    "Language": "en",
+                    "Name": "History ID"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -2321,7 +3707,16 @@
             "Profile": "",
             "ReadAddress": 2538,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verlauf Nominal Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "History Nominal Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }

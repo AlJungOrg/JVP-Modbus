@@ -11,7 +11,16 @@
             "Profile": "Finder.seconds",
             "ReadAddress": 2480,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Run time"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Betriebszeit"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "Finder.Volt",
             "ReadAddress": 2484,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Uavg (phase to neutral)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Durchschnittsspannung (Phase zu Neutralleiter)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -41,7 +59,16 @@
             "Profile": "Finder.Ampere",
             "ReadAddress": 2488,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "S I"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Strom S"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -56,7 +83,16 @@
             "Profile": "Finder.Power.W",
             "ReadAddress": 2490,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active Power Total (Pt)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Gesamt (Pt)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -71,7 +107,16 @@
             "Profile": "Finder.var",
             "ReadAddress": 2492,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power Total (Qt)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung Gesamt (Qt)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -86,7 +131,16 @@
             "Profile": "Finder.VA",
             "ReadAddress": 2494,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power Total (St)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung Gesamt (St)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -101,7 +155,16 @@
             "Profile": "",
             "ReadAddress": 2426,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Power Factor Total (PFt)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor Gesamt (PFt)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -116,7 +179,16 @@
             "Profile": "Finder.Hertz",
             "ReadAddress": 2498,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Frequency"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -131,7 +203,16 @@
             "Profile": "Finder.Volt",
             "ReadAddress": 2500,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "U1"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Spannung U1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -146,7 +227,16 @@
             "Profile": "Finder.Ampere",
             "ReadAddress": 2516,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "I1"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Strom I1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -161,7 +251,16 @@
             "Profile": "Finder.Power.W",
             "ReadAddress": 2530,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active Power Phase L1 (P1)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Phase L1 (P1)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -176,7 +275,16 @@
             "Profile": "Finder.Power.W",
             "ReadAddress": 2536,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active Power Total (Pt)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Gesamt (Pt)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -191,7 +299,16 @@
             "Profile": "Finder.var",
             "ReadAddress": 2538,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power Phase L1 (Q1)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung Phase L1 (Q1)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -206,7 +323,16 @@
             "Profile": "Finder.var",
             "ReadAddress": 2544,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power Total (Qt)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung Gesamt (Qt)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -221,7 +347,16 @@
             "Profile": "Finder.VA",
             "ReadAddress": 2546,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power Phase L1 (S1)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung Phase L1 (S1)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -236,7 +371,16 @@
             "Profile": "Finder.VA",
             "ReadAddress": 2552,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power Total (St)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung Gesamt (St)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -251,7 +395,16 @@
             "Profile": "",
             "ReadAddress": 2554,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Power Factor Phase 1 (PF1)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor Phase 1 (PF1)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -266,7 +419,16 @@
             "Profile": "",
             "ReadAddress": 2560,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Power Factor Total (PFt)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor Gesamt (PFt)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -281,7 +443,16 @@
             "Profile": "",
             "ReadAddress": 2562,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "CAP/IND P. F. Phase 1 (PF1)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Kapaz./Ind. Leistungsfaktor Phase 1 (PF1)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -296,7 +467,16 @@
             "Profile": "",
             "ReadAddress": 2568,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "CAP/IND P. F. Total (PFt)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Kapaz./Ind. Leistungsfaktor Gesamt (PFt)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -311,7 +491,16 @@
             "Profile": "Finder.Angle",
             "ReadAddress": 2570,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "j1 (angle between U1 and I1)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "j1 (Winkel zwischen U1 und I1)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -326,7 +515,16 @@
             "Profile": "Finder.Angle",
             "ReadAddress": 2576,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Power Angle Total (atan2(Pt,Qt))"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Leistungswinkel Gesamt (atan2(Pt,Qt))"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -341,7 +539,16 @@
             "Profile": "Finder.Hertz",
             "ReadAddress": 2584,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Frequency"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -356,7 +563,16 @@
             "Profile": "Finder.THD",
             "ReadAddress": 2588,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "I1 THD%"
+                },
+                {
+                    "Language": "de",
+                    "Name": "I1 THD%"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -371,7 +587,16 @@
             "Profile": "Finder.THD",
             "ReadAddress": 2594,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "U1 THD%"
+                },
+                {
+                    "Language": "de",
+                    "Name": "U1 THD%"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -386,7 +611,16 @@
             "Profile": "Finder.Wh",
             "ReadAddress": 2638,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter n1"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler n1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -401,7 +635,16 @@
             "Profile": "Finder.varh",
             "ReadAddress": 2640,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter n2"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler n2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -416,7 +659,16 @@
             "Profile": "Finder.Wh",
             "ReadAddress": 2642,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter n3"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler n3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -431,7 +683,16 @@
             "Profile": "Finder.varh",
             "ReadAddress": 2644,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter n4"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler n4"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -446,7 +707,16 @@
             "Profile": "Finder.Temperature",
             "ReadAddress": 2658,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Internal Temperature"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Interne Temperatur"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -461,7 +731,16 @@
             "Profile": "",
             "ReadAddress": 2750,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Aktiv Tarif"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Aktiver Tarif"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -476,7 +755,16 @@
             "Profile": "Finder.Wh",
             "ReadAddress": 2752,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter n1"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler n1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -491,7 +779,16 @@
             "Profile": "Finder.varh",
             "ReadAddress": 2754,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter n2"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler n2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -506,7 +803,16 @@
             "Profile": "Finder.Wh",
             "ReadAddress": 2756,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter n3"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler n3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -521,7 +827,16 @@
             "Profile": "Finder.varh",
             "ReadAddress": 2758,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter n4"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler n4"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -536,7 +851,16 @@
             "Profile": "Finder.VAh_varh_Wh",
             "ReadAddress": 2760,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter 1"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler 1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -551,7 +875,16 @@
             "Profile": "Finder.VAh_varh_Wh",
             "ReadAddress": 2762,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter 2"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler 2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -566,7 +899,16 @@
             "Profile": "Finder.VAh_varh_Wh",
             "ReadAddress": 2764,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter 3"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler 3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -581,7 +923,16 @@
             "Profile": "Finder.VAh_varh_Wh",
             "ReadAddress": 2766,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter 4"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler 4"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -596,7 +947,16 @@
             "Profile": "Finder.VAh_varh_Wh",
             "ReadAddress": 2768,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter 5"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler 5"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -611,7 +971,16 @@
             "Profile": "Finder.VAh_varh_Wh",
             "ReadAddress": 2770,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter 6"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler 6"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -626,7 +995,16 @@
             "Profile": "Finder.VAh_varh_Wh",
             "ReadAddress": 2772,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter 7"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler 7"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -641,7 +1019,16 @@
             "Profile": "Finder.VAh_varh_Wh",
             "ReadAddress": 2774,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Counter 8"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energiezähler 8"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }
@@ -792,14 +1179,14 @@
             "Type": 2
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "Energy_Meter",
     "Manufacturer": "Finder",
-    "Product":"7M24-7M38",
+    "Product": "7M24-7M38",
     "Requests": {
         "Interval": 5000
     },

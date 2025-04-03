@@ -1,2584 +1,3889 @@
 {
-    "Addresses": [
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "MBEnable",
-            "Length": 0,
-            "Name": "ModBus enabled",
-            "Profile": "",
-            "ReadAddress": 2,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "MBUnitID",
-            "Length": 0,
-            "Name": "ModBus Unit-ID",
-            "Profile": "",
-            "ReadAddress": 4,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "MBByteOrder",
-            "Length": 0,
-            "Name": "ModBus Byte Order",
-            "Profile": "",
-            "ReadAddress": 5,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "ArticleNr",
-            "Length": 8,
-            "Name": "Inverter Article Number",
-            "Profile": "",
-            "ReadAddress": 6,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "NumberConv",
-            "Length": 0,
-            "Name": "Number of bidirectional converter",
-            "Profile": "",
-            "ReadAddress": 30,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "NumberACPhases",
-            "Length": 0,
-            "Name": "Number of AC phases",
-            "Profile": "",
-            "ReadAddress": 32,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "NumberPVStrings",
-            "Length": 0,
-            "Name": "Number of PV strings",
-            "Profile": "",
-            "ReadAddress": 34,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "HardwareVersion",
-            "Length": 0,
-            "Name": "Hardware-Version",
-            "Profile": "",
-            "ReadAddress": 36,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "SoftwareVersionMC",
-            "Length": 8,
-            "Name": "Software-Version Maincontroller (MC)",
-            "Profile": "",
-            "ReadAddress": 38,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "SoftwareVersionIOC",
-            "Length": 8,
-            "Name": "Software-Version IO-Controller (IOC)",
-            "Profile": "",
-            "ReadAddress": 46,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": 0,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "PowerID",
-            "Length": 0,
-            "Name": "Power-ID",
-            "Profile": "",
-            "ReadAddress": 54,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "InverterState",
-            "Length": 0,
-            "Name": "Inverter state",
-            "Profile": "JoTKPP.Status.KostalWR",
-            "ReadAddress": 56,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "TotalDCPower",
-            "Length": 0,
-            "Name": "Total DC power",
-            "Profile": "~Power",
-            "ReadAddress": 100,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "EMState",
-            "Length": 0,
-            "Name": "Battery Energy Manager state",
-            "Profile": "JoTKPP.Status.KostalEM",
-            "ReadAddress": 104,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ConsFromBT",
-            "Length": 0,
-            "Name": "Home own consumption from battery",
-            "Profile": "~Power",
-            "ReadAddress": 106,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ConsFromAC",
-            "Length": 0,
-            "Name": "Home own consumption from grid",
-            "Profile": "~Power",
-            "ReadAddress": 108,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ConsFromBTTot",
-            "Length": 0,
-            "Name": "Total home consumption Battery",
-            "Profile": "~Electricity",
-            "ReadAddress": 110,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ConsFromACTot",
-            "Length": 0,
-            "Name": "Total home consumption Grid",
-            "Profile": "~Electricity",
-            "ReadAddress": 112,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ConsFromPVTot",
-            "Length": 0,
-            "Name": "Total home consumption PV",
-            "Profile": "~Electricity",
-            "ReadAddress": 114,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ConsFromPV",
-            "Length": 0,
-            "Name": "Home own consumption from PV",
-            "Profile": "~Power",
-            "ReadAddress": 116,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ConsTot",
-            "Length": 0,
-            "Name": "Total home consumption",
-            "Profile": "~Electricity",
-            "ReadAddress": 118,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PVIsoResistance",
-            "Length": 0,
-            "Name": "Isolation resistance",
-            "Profile": "",
-            "ReadAddress": 120,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "ACLimitEVU",
-            "Length": 0,
-            "Name": "Power limit from EVU",
-            "Profile": "JoTKPP.Percent",
-            "ReadAddress": 122,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "ConsRate",
-            "Length": 0,
-            "Name": "Total home consumption rate",
-            "Profile": "JoTKPP.Percent",
-            "ReadAddress": 124,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "Worktime",
-            "Length": 0,
-            "Name": "Worktime",
-            "Profile": "",
-            "ReadAddress": 144,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "ACCosPhi",
-            "Length": 0,
-            "Name": "Actual cos φ",
-            "Profile": "",
-            "ReadAddress": 150,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "ACFrequency",
-            "Length": 0,
-            "Name": "Grid frequency",
-            "Profile": "~Hertz",
-            "ReadAddress": 152,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "ACCurrentP1",
-            "Length": 0,
-            "Name": "Current Phase 1",
-            "Profile": "~Ampere",
-            "ReadAddress": 154,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ACActivePowerP1",
-            "Length": 0,
-            "Name": "Active power Phase 1",
-            "Profile": "~Power",
-            "ReadAddress": 156,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "ACVoltageP1",
-            "Length": 0,
-            "Name": "Voltage Phase 1",
-            "Profile": "~Volt",
-            "ReadAddress": 158,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "ACCurrentP2",
-            "Length": 0,
-            "Name": "Current Phase 2",
-            "Profile": "~Ampere",
-            "ReadAddress": 160,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ACActivePowerP2",
-            "Length": 0,
-            "Name": "Active power Phase 2",
-            "Profile": "~Power",
-            "ReadAddress": 162,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "ACVoltageP2",
-            "Length": 0,
-            "Name": "Voltage Phase 2",
-            "Profile": "~Volt",
-            "ReadAddress": 164,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "ACCurrentP3",
-            "Length": 0,
-            "Name": "Current Phase 3",
-            "Profile": "~Ampere",
-            "ReadAddress": 166,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ACActivePowerP3",
-            "Length": 0,
-            "Name": "Active power Phase 3",
-            "Profile": "~Power",
-            "ReadAddress": 168,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "ACVoltageP3",
-            "Length": 0,
-            "Name": "Voltage Phase 3",
-            "Profile": "~Volt",
-            "ReadAddress": 170,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ACActivePowerTot",
-            "Length": 0,
-            "Name": "Total AC active power",
-            "Profile": "~Power",
-            "ReadAddress": 172,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ACReactivePowerTot",
-            "Length": 0,
-            "Name": "Total AC reactive power",
-            "Profile": "JoTKPP.Power.VaR",
-            "ReadAddress": 174,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ACApparentPowerTot",
-            "Length": 0,
-            "Name": "Total AC apparent power",
-            "Profile": "JoTKPP.Power.VA",
-            "ReadAddress": 178,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTmaxChargeCurrent",
-            "Length": 0,
-            "Name": "Battery max. charge current",
-            "Profile": "~Ampere",
-            "ReadAddress": 190,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTCycles",
-            "Length": 0,
-            "Name": "Number of battery cycles",
-            "Profile": "",
-            "ReadAddress": 194,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTCurrent",
-            "Length": 0,
-            "Name": "Actual battery charge (-) / discharge (+) current",
-            "Profile": "~Ampere",
-            "ReadAddress": 200,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "FuseState",
-            "Length": 0,
-            "Name": "PSSB fuse state",
-            "Profile": "JoTKPP.Status.KostalFuse",
-            "ReadAddress": 202,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTReadyFlag",
-            "Length": 0,
-            "Name": "Battery ready flag",
-            "Profile": "",
-            "ReadAddress": 208,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTCharge",
-            "Length": 0,
-            "Name": "Actual state of charge",
-            "Profile": "JoTKPP.Battery.Charge",
-            "ReadAddress": 210,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTTemperature",
-            "Length": 0,
-            "Name": "Battery temperature",
-            "Profile": "~Temperature",
-            "ReadAddress": 214,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTVoltage",
-            "Length": 0,
-            "Name": "Battery voltage",
-            "Profile": "~Volt",
-            "ReadAddress": 216,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PMCosPhi",
-            "Length": 0,
-            "Name": "Cos φ (powermeter)",
-            "Profile": "",
-            "ReadAddress": 218,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PMFrequency",
-            "Length": 0,
-            "Name": "Frequency  (powermeter)",
-            "Profile": "~Hertz",
-            "ReadAddress": 220,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PMCurrentP1",
-            "Length": 0,
-            "Name": "Current phase 1 (powermeter)",
-            "Profile": "~Ampere",
-            "ReadAddress": 222,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PMActivePowerP1",
-            "Length": 0,
-            "Name": "Active power phase 1 (powermeter)",
-            "Profile": "~Power",
-            "ReadAddress": 224,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PMReactivePowerP1",
-            "Length": 0,
-            "Name": "Reactive power phase 1 (powermeter)",
-            "Profile": "JoTKPP.Power.VaR",
-            "ReadAddress": 226,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PMApparentPowerP1",
-            "Length": 0,
-            "Name": "Apparent power phase 1 (powermeter)",
-            "Profile": "JoTKPP.Power.VA",
-            "ReadAddress": 228,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PMVoltageP1",
-            "Length": 0,
-            "Name": "Voltage phase 1 (powermeter)",
-            "Profile": "~Volt",
-            "ReadAddress": 230,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PMCurrentP2",
-            "Length": 0,
-            "Name": "Current phase 2 (powermeter)",
-            "Profile": "~Ampere",
-            "ReadAddress": 232,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PMActivePowerP2",
-            "Length": 0,
-            "Name": "Active power phase 2 (powermeter)",
-            "Profile": "~Power",
-            "ReadAddress": 234,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PMReactivePowerP2",
-            "Length": 0,
-            "Name": "Reactive power phase 2 (powermeter)",
-            "Profile": "JoTKPP.Power.VaR",
-            "ReadAddress": 236,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PMApparentPowerP2",
-            "Length": 0,
-            "Name": "Apparent power phase 2 (powermeter)",
-            "Profile": "JoTKPP.Power.VA",
-            "ReadAddress": 238,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PMVoltageP2",
-            "Length": 0,
-            "Name": "Voltage phase 2 (powermeter)",
-            "Profile": "~Volt",
-            "ReadAddress": 240,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PMCurrentP3",
-            "Length": 0,
-            "Name": "Current phase 3 (powermeter)",
-            "Profile": "~Ampere",
-            "ReadAddress": 242,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PMActivePowerP3",
-            "Length": 0,
-            "Name": "Active power phase 3 (powermeter)",
-            "Profile": "~Power",
-            "ReadAddress": 244,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PMReactivePowerP3",
-            "Length": 0,
-            "Name": "Reactive power phase 3 (powermeter)",
-            "Profile": "JoTKPP.Power.VaR",
-            "ReadAddress": 246,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PMApparentPowerP3",
-            "Length": 0,
-            "Name": "Apparent power phase 3 (powermeter)",
-            "Profile": "JoTKPP.Power.VA",
-            "ReadAddress": 248,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PMVoltageP3",
-            "Length": 0,
-            "Name": "Voltage phase 3 (powermeter)",
-            "Profile": "~Volt",
-            "ReadAddress": 250,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PMActivePowerTot",
-            "Length": 0,
-            "Name": "Total active power (powermeter)",
-            "Profile": "~Power",
-            "ReadAddress": 252,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PMReactivePowerTot",
-            "Length": 0,
-            "Name": "Total reactive power (powermeter)",
-            "Profile": "JoTKPP.Power.VaR",
-            "ReadAddress": 254,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PMApparentPowerTot",
-            "Length": 0,
-            "Name": "Total apparent power (powermeter) ",
-            "Profile": "JoTKPP.Power.VA",
-            "ReadAddress": 256,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PVCurrentDC1",
-            "Length": 0,
-            "Name": "Current DC1",
-            "Profile": "~Ampere",
-            "ReadAddress": 258,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PVPowerDC1",
-            "Length": 0,
-            "Name": "Power DC1",
-            "Profile": "~Power",
-            "ReadAddress": 260,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PVVoltageDC1",
-            "Length": 0,
-            "Name": "Voltage DC1",
-            "Profile": "~Volt",
-            "ReadAddress": 266,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PVCurrentDC2",
-            "Length": 0,
-            "Name": "Current DC2",
-            "Profile": "~Ampere",
-            "ReadAddress": 268,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PVPowerDC2",
-            "Length": 0,
-            "Name": "Power DC2",
-            "Profile": "~Power",
-            "ReadAddress": 270,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PVVoltageDC2",
-            "Length": 0,
-            "Name": "Voltage DC2",
-            "Profile": "~Volt",
-            "ReadAddress": 276,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PVCurrentDC3",
-            "Length": 0,
-            "Name": "Current DC3",
-            "Profile": "~Ampere",
-            "ReadAddress": 278,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PVPowerDC3",
-            "Length": 0,
-            "Name": "Power DC3",
-            "Profile": "~Power",
-            "ReadAddress": 280,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "PVVoltageDC3",
-            "Length": 0,
-            "Name": "Voltage DC3",
-            "Profile": "~Volt",
-            "ReadAddress": 286,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "YieldTot",
-            "Length": 0,
-            "Name": "Total yield",
-            "Profile": "~Electricity",
-            "ReadAddress": 320,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "YieldDaily",
-            "Length": 0,
-            "Name": "Daily yield",
-            "Profile": "~Electricity",
-            "ReadAddress": 322,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "YieldYearly",
-            "Length": 0,
-            "Name": "Yearly yield",
-            "Profile": "~Electricity",
-            "ReadAddress": 324,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "YieldMonthly",
-            "Length": 0,
-            "Name": "Monthly yield",
-            "Profile": "~Electricity",
-            "ReadAddress": 326,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "NetworkName",
-            "Length": 32,
-            "Name": "Inverter network name",
-            "Profile": "",
-            "ReadAddress": 384,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "NetworkEnabled",
-            "Length": 0,
-            "Name": "IP enabled",
-            "Profile": "",
-            "ReadAddress": 416,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "NetworkAutoIP",
-            "Length": 0,
-            "Name": "Manual / Auto IP",
-            "Profile": "",
-            "ReadAddress": 418,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "NetworkIP",
-            "Length": 8,
-            "Name": "IP-address",
-            "Profile": "",
-            "ReadAddress": 420,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "NetworkMask",
-            "Length": 8,
-            "Name": "IP-subnetmask",
-            "Profile": "",
-            "ReadAddress": 428,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "NetworkGW",
-            "Length": 8,
-            "Name": "IP-gateway",
-            "Profile": "",
-            "ReadAddress": 436,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "NetworkAutoDNS",
-            "Length": 0,
-            "Name": "IP auto-DNS",
-            "Profile": "",
-            "ReadAddress": 444,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "NetworkDNS1",
-            "Length": 8,
-            "Name": "IP-DNS1",
-            "Profile": "",
-            "ReadAddress": 446,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "NetworkDNS2",
-            "Length": 8,
-            "Name": "IP-DNS2",
-            "Profile": "",
-            "ReadAddress": 454,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "BTGrossCapacity",
-            "Length": 0,
-            "Name": "Battery Gross Capacity",
-            "Profile": "JoTKPP.Battery.Capacity",
-            "ReadAddress": 512,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "BTActualSOC",
-            "Length": 0,
-            "Name": "Battery actual SOC (%)",
-            "Profile": "JoTKPP.Percent.Int",
-            "ReadAddress": 514,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "BTFirmwareMC",
-            "Length": 0,
-            "Name": "Battery Firmware Maincontroller (MC)",
-            "Profile": "",
-            "ReadAddress": 515,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "BTManufacturer",
-            "Length": 8,
-            "Name": "Battery Manufacturer",
-            "Profile": "",
-            "ReadAddress": 517,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "BTModelID",
-            "Length": 0,
-            "Name": "Battery Model ID",
-            "Profile": "",
-            "ReadAddress": 525,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0.001,
-            "Ident": "MaxPower",
-            "Length": 0,
-            "Name": "Inverter max. Power",
-            "Profile": "~Power",
-            "ReadAddress": 531,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "SFMaxPower",
-            "Length": 0,
-            "Name": "Inverter max. Power Scale Factor",
-            "Profile": "",
-            "ReadAddress": 532,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "ACCActivePower",
-            "Length": 0,
-            "Name": "Active Power Setpoint (%)",
-            "Profile": "JoTKPP.Percent.Int",
-            "ReadAddress": 0,
-            "ReadFunctionCode": 0,
-            "Translation": [],
-            "WriteAddress": 533,
-            "WriteFunctionCode": 6
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "Manufacturer",
-            "Length": 16,
-            "Name": "Inverter Manufacturer",
-            "Profile": "",
-            "ReadAddress": 535,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "SerialNr1",
-            "Length": 16,
-            "Name": "Inverter Serial Number",
-            "Profile": "",
-            "ReadAddress": 559,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.001,
-            "Ident": "ACInverterPower",
-            "Length": 0,
-            "Name": "Inverter Generation Power (actual)",
-            "Profile": "~Power",
-            "ReadAddress": 575,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "ACSFInverterPower",
-            "Length": 0,
-            "Name": "Inverter Generation Power (actual) Scale Factor",
-            "Profile": "",
-            "ReadAddress": 576,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": 0,
-            "DataType": 12,
-            "Factor": 0.001,
-            "Ident": "ACGenEnergy",
-            "Length": 0,
-            "Name": "Inverter Generation Energy",
-            "Profile": "~Electricity",
-            "ReadAddress": 577,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "ACSFGenEnergy",
-            "Length": 0,
-            "Name": "Inverter Generation Energy Scale Factor",
-            "Profile": "",
-            "ReadAddress": 579,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.001,
-            "Ident": "BTPower",
-            "Length": 0,
-            "Name": "Actual battery charge (-) / discharge (+) power",
-            "Profile": "~Power",
-            "ReadAddress": 582,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "ACCReactivePower",
-            "Length": 0,
-            "Name": "Reactive Power Setpoint (%)",
-            "Profile": "JoTKPP.Percent.Int",
-            "ReadAddress": 0,
-            "ReadFunctionCode": 0,
-            "Translation": [],
-            "WriteAddress": 583,
-            "WriteFunctionCode": 6
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "ACCCosPhi",
-            "Length": 0,
-            "Name": "Delta-cos φ Setpoint",
-            "Profile": "",
-            "ReadAddress": 0,
-            "ReadFunctionCode": 0,
-            "Translation": [],
-            "WriteAddress": 585,
-            "WriteFunctionCode": 6
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "BTFirmware",
-            "Length": 0,
-            "Name": "Battery Firmware",
-            "Profile": "",
-            "ReadAddress": 586,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "BTType",
-            "Length": 0,
-            "Name": "Battery Type",
-            "Profile": "JoTKPP.Battery.Type",
-            "ReadAddress": 588,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "ProductName",
-            "Length": 32,
-            "Name": "Productname",
-            "Profile": "",
-            "ReadAddress": 768,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "PowerClass",
-            "Length": 32,
-            "Name": "Power class",
-            "Profile": "",
-            "ReadAddress": 800,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0.001,
-            "Ident": "ACCLPActivePower",
-            "Length": 0,
-            "Name": "Low-Priority Active Power Setpoint",
-            "Profile": "~Power",
-            "ReadAddress": 0,
-            "ReadFunctionCode": 0,
-            "Translation": [],
-            "WriteAddress": 832,
-            "WriteFunctionCode": 6
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "ACCSFLPActivePower",
-            "Length": 0,
-            "Name": "Low-Priority Active Power Setpoint Scale Factor",
-            "Profile": "",
-            "ReadAddress": 833,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.001,
-            "Ident": "BTCACcPower",
-            "Length": 0,
-            "Name": "Battery charge power (AC) Setpoint",
-            "Profile": "~Power",
-            "ReadAddress": 0,
-            "ReadFunctionCode": 0,
-            "Translation": [],
-            "WriteAddress": 1024,
-            "WriteFunctionCode": 6
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "BTCSFACcPower",
-            "Length": 0,
-            "Name": "Battery charge power (AC) Scale Factor",
-            "Profile": "",
-            "ReadAddress": 1025,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "BTCACcPowerAbs",
-            "Length": 0,
-            "Name": "Battery charge power (AC) Setpoint (absolute)",
-            "Profile": "~Power",
-            "ReadAddress": 1026,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1026,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTCDCcCurrentRel",
-            "Length": 0,
-            "Name": "Battery charge current (DC) Setpoint (relative)",
-            "Profile": "JoTKPP.Percent",
-            "ReadAddress": 1028,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1028,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTCACcPowerRel",
-            "Length": 0,
-            "Name": "Battery charge power (AC) Setpoint (relative)",
-            "Profile": "JoTKPP.Percent",
-            "ReadAddress": 1030,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1030,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTCDCcCurrentAbs",
-            "Length": 0,
-            "Name": "Battery charge current (DC) Setpoint (absolute)",
-            "Profile": "~Ampere",
-            "ReadAddress": 1032,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1032,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "BTCDCcPowerAbs",
-            "Length": 0,
-            "Name": "Battery charge power (DC) Setpoint (absolute)",
-            "Profile": "~Power",
-            "ReadAddress": 1034,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1034,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTCDCcPowerRel",
-            "Length": 0,
-            "Name": "Battery charge power (DC) Setpoint (relative)",
-            "Profile": "JoTKPP.Percent",
-            "ReadAddress": 1036,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1036,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "BTCcPowerAbs",
-            "Length": 0,
-            "Name": "Battery max. charge power limit (absolute)",
-            "Profile": "~Power",
-            "ReadAddress": 1038,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1038,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "BTCdPowerAbs",
-            "Length": 0,
-            "Name": "Battery max. discharge power limit (absolute)",
-            "Profile": "~Power",
-            "ReadAddress": 1040,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1040,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTCminSOC",
-            "Length": 0,
-            "Name": "Battery min. SOC",
-            "Profile": "JoTKPP.Percent",
-            "ReadAddress": 1042,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1042,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "BTCmaxSOC",
-            "Length": 0,
-            "Name": "Battery max. SOC",
-            "Profile": "JoTKPP.Percent",
-            "ReadAddress": 1044,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1044,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "BTcEnergyDCTot",
-            "Length": 0,
-            "Name": "Total DC charge energy (DC-side to battery)",
-            "Profile": "~Electricity",
-            "ReadAddress": 1046,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "BTdEnergyDCTot",
-            "Length": 0,
-            "Name": "Total DC discharge energy (DC-side from battery)",
-            "Profile": "~Electricity",
-            "ReadAddress": 1048,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "BTcEnergyACTot",
-            "Length": 0,
-            "Name": "Total AC charge energy (AC-side to battery)",
-            "Profile": "~Electricity",
-            "ReadAddress": 1050,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "BTdEnergyGridTot",
-            "Length": 0,
-            "Name": "Total AC discharge energy (battery to grid)",
-            "Profile": "~Electricity",
-            "ReadAddress": 1052,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "BTcEnergyGridTot",
-            "Length": 0,
-            "Name": "Total AC charge energy (grid to battery)",
-            "Profile": "~Electricity",
-            "ReadAddress": 1054,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PVEnergyTot",
-            "Length": 0,
-            "Name": "Total DC PV energy (sum of all PV inputs)",
-            "Profile": "~Electricity",
-            "ReadAddress": 1056,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PVEnergyDC1",
-            "Length": 0,
-            "Name": "Total DC energy from PV1",
-            "Profile": "~Electricity",
-            "ReadAddress": 1058,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PVEnergyDC2",
-            "Length": 0,
-            "Name": "Total DC energy from PV2",
-            "Profile": "~Electricity",
-            "ReadAddress": 1060,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PVEnergyDC3",
-            "Length": 0,
-            "Name": "Total DC energy from PV3",
-            "Profile": "~Electricity",
-            "ReadAddress": 1062,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "ACEnergyToGridTot",
-            "Length": 0,
-            "Name": "Total energy AC-side to grid",
-            "Profile": "~Electricity",
-            "ReadAddress": 1064,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "PVPowerTot",
-            "Length": 0,
-            "Name": "Total DC power (sum of all PV inputs)",
-            "Profile": "~Power",
-            "ReadAddress": 1066,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "BTWorkCapacity1",
-            "Length": 0,
-            "Name": "Battery Work Capacity",
-            "Profile": "~Electricity",
-            "ReadAddress": 1068,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "BTSerialNr1",
-            "Length": 0,
-            "Name": "Battery Serial Number",
-            "Profile": "",
-            "ReadAddress": 1070,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "BTCcPowerMax",
-            "Length": 0,
-            "Name": "Battery max. charge power limit (read-out from battery)",
-            "Profile": "~Power",
-            "ReadAddress": 1076,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0.001,
-            "Ident": "BTCdPowerMax",
-            "Length": 0,
-            "Name": "Battery max. discharge power limit (read-out from battery)",
-            "Profile": "~Power",
-            "ReadAddress": 1078,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "BTCMode",
-            "Length": 0,
-            "Name": "Battery management mode",
-            "Profile": "",
-            "ReadAddress": 1080,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 12,
-            "Factor": 0,
-            "Ident": "SensorType",
-            "Length": 0,
-            "Name": "Installed Powermeter",
-            "Profile": "JoTKPP.Sensor.Type",
-            "ReadAddress": 1082,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
+  "Addresses": [
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "MBEnable",
+      "Length": 0,
+      "Name": "ModBus enabled",
+      "Profile": "",
+      "ReadAddress": 2,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "ModBus aktiviert"
+        },
+        {
+          "Language": "en",
+          "Name": "ModBus enabled"
         }
-    ],
-    "ByteOrder": 3,
-    "Profiles": {
-        "JoTKPP.Battery.Capacity": {
-            "Associations": [],
-            "Digits": 0,
-            "Icon": "Battery",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": " Ah",
-            "Type": 1
-        },
-        "JoTKPP.Battery.Charge": {
-            "Associations": [
-                {
-                    "Color": 16711680,
-                    "Icon": "EnergyStorage-0",
-                    "Name": "Leer (%.0f%%)",
-                    "Value": 0.0
-                },
-                {
-                    "Color": 16711680,
-                    "Icon": "EnergyStorage-0",
-                    "Name": "Leer (%.0f%%)",
-                    "Value": 5.0
-                },
-                {
-                    "Color": 16750592,
-                    "Icon": "EnergyStorage-0",
-                    "Name": "Niedrig (%.0f%%)",
-                    "Value": 9.0
-                },
-                {
-                    "Color": 65280,
-                    "Icon": "EnergyStorage",
-                    "Name": "%.0f%%",
-                    "Value": 10.0
-                },
-                {
-                    "Color": 65280,
-                    "Icon": "EnergyStorage",
-                    "Name": "Voll (%.0f%%)",
-                    "Value": 99.0
-                }
-            ],
-            "Digits": 1,
-            "Icon": "EnergyStorage",
-            "MaxValue": 100.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": "",
-            "Type": 2
-        },
-        "JoTKPP.Battery.State": {
-            "Associations": [
-                {
-                    "Color": -1,
-                    "Icon": "Download",
-                    "Name": "Laden",
-                    "Value": -1.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "Sleep",
-                    "Name": "Leerlauf",
-                    "Value": 0.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "Shuffle",
-                    "Name": "Entladen",
-                    "Value": 1.0
-                }
-            ],
-            "Digits": 0,
-            "Icon": "EnegryStorage",
-            "MaxValue": 1.0,
-            "MinValue": -1.0,
-            "Prefix": "",
-            "StepSize": 1.0,
-            "Suffix": "",
-            "Type": 1
-        },
-        "JoTKPP.Battery.Type": {
-            "Associations": [
-                {
-                    "Color": -1,
-                    "Icon": "EnergySolar",
-                    "Name": "Keine Batterie (nur PV)",
-                    "Value": 0.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "EnergyStorage",
-                    "Name": "Li-Io battery SONY / MURATA",
-                    "Value": 2.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "EnergyStorage",
-                    "Name": "Li-Io battery BYD / BBOX",
-                    "Value": 4.0
-                }
-            ],
-            "Digits": 0,
-            "Icon": "Battery",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": "",
-            "Type": 1
-        },
-        "JoTKPP.Grid.State": {
-            "Associations": [
-                {
-                    "Color": -1,
-                    "Icon": "EnergySolar",
-                    "Name": "Einspeisung",
-                    "Value": -1.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "Power",
-                    "Name": "Leerlauf",
-                    "Value": 0.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "Plug",
-                    "Name": "Bezug",
-                    "Value": 1.0
-                }
-            ],
-            "Digits": 0,
-            "Icon": "Plug",
-            "MaxValue": 1.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 1.0,
-            "Suffix": "",
-            "Type": 1
-        },
-        "JoTKPP.Percent": {
-            "Associations": [],
-            "Digits": 1,
-            "Icon": "",
-            "MaxValue": 100.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": " %",
-            "Type": 2
-        },
-        "JoTKPP.Percent.Int": {
-            "Associations": [],
-            "Digits": 0,
-            "Icon": "",
-            "MaxValue": 100.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": " %",
-            "Type": 1
-        },
-        "JoTKPP.Power.VA": {
-            "Associations": [],
-            "Digits": 0,
-            "Icon": "Electricity",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": " VA",
-            "Type": 2
-        },
-        "JoTKPP.Power.VaR": {
-            "Associations": [],
-            "Digits": 0,
-            "Icon": "Electricity",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": " VaR",
-            "Type": 2
-        },
-        "JoTKPP.Sensor.Type": {
-            "Associations": [
-                {
-                    "Color": -1,
-                    "Icon": "Network",
-                    "Name": "SDM 630 (B+G E-Tech GmbH)",
-                    "Value": 0.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "Network",
-                    "Name": "B-Control EM-300 LR (TQ Systems)",
-                    "Value": 1.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "Network",
-                    "Name": "KOSTAL Smart Energy Meter (KOSTAL)",
-                    "Value": 3.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "Cross",
-                    "Name": "Kein Stromzähler",
-                    "Value": 255.0
-                }
-            ],
-            "Digits": 0,
-            "Icon": "Network",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": "",
-            "Type": 1
-        },
-        "JoTKPP.Status.KostalEM": {
-            "Associations": [
-                {
-                    "Color": -1,
-                    "Icon": "Ok",
-                    "Name": "Normal",
-                    "Value": 0.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "EnergyProduction",
-                    "Name": "Batterie Notladung",
-                    "Value": 2.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "Sleep",
-                    "Name": "Batterie Ruhemodus 1",
-                    "Value": 8.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "Sleep",
-                    "Name": "Batterie Ruhemodus 2",
-                    "Value": 10.0
-                }
-            ],
-            "Digits": 0,
-            "Icon": "Graph",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": "",
-            "Type": 1
-        },
-        "JoTKPP.Status.KostalFuse": {
-            "Associations": [
-                {
-                    "Color": -1,
-                    "Icon": "Ok",
-                    "Name": "Sicherung Ok",
-                    "Value": 0.0
-                },
-                {
-                    "Color": 16750592,
-                    "Icon": "Warning",
-                    "Name": "Sicherung defekt",
-                    "Value": 1.0
-                },
-                {
-                    "Color": 16750592,
-                    "Icon": "Warning",
-                    "Name": "Unbekannt",
-                    "Value": 255.0
-                }
-            ],
-            "Digits": 0,
-            "Icon": "Distance",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": "",
-            "Type": 2
-        },
-        "JoTKPP.Status.KostalWR": {
-            "Associations": [
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Aus",
-                    "Value": 0.0
-                },
-                {
-                    "Color": 255,
-                    "Icon": "",
-                    "Name": "Initialisierung",
-                    "Value": 1.0
-                },
-                {
-                    "Color": 255,
-                    "Icon": "",
-                    "Name": "ISO-Messung",
-                    "Value": 2.0
-                },
-                {
-                    "Color": 255,
-                    "Icon": "",
-                    "Name": "Netz-Prüfung",
-                    "Value": 3.0
-                },
-                {
-                    "Color": 255,
-                    "Icon": "",
-                    "Name": "Starten",
-                    "Value": 4.0
-                },
-                {
-                    "Color": 65280,
-                    "Icon": "",
-                    "Name": "Feed In",
-                    "Value": 6.0
-                },
-                {
-                    "Color": 65280,
-                    "Icon": "",
-                    "Name": "Reduziert",
-                    "Value": 7.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Externer Schalter Aus",
-                    "Value": 8.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Update",
-                    "Value": 9.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Standby",
-                    "Value": 10.0
-                },
-                {
-                    "Color": 255,
-                    "Icon": "",
-                    "Name": "Netz-Synchronisation",
-                    "Value": 11.0
-                },
-                {
-                    "Color": 255,
-                    "Icon": "",
-                    "Name": "Netz-Vorprüfung",
-                    "Value": 12.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Netz Schalter Aus",
-                    "Value": 13.0
-                },
-                {
-                    "Color": 16711680,
-                    "Icon": "Error",
-                    "Name": "Überhitzt",
-                    "Value": 14.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Herunterfahren",
-                    "Value": 15.0
-                },
-                {
-                    "Color": 16750592,
-                    "Icon": "Warning",
-                    "Name": "Falsche DC-Spannung",
-                    "Value": 16.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "ESB",
-                    "Value": 17.0
-                },
-                {
-                    "Color": 16750592,
-                    "Icon": "Warning",
-                    "Name": "Unbekannt",
-                    "Value": 18.0
-                }
-            ],
-            "Digits": 0,
-            "Icon": "Graph",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": "",
-            "Type": 1
-        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
     },
-    "ByteOrderFloats": true, 
-    "Active": true,
-    "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
-    "ConnectionType": "TCP",
-    "Type": "solar_inverter",
-    "Manufacturer": "Kostal",
-    "Product":"PLENTICORE plus",
-    "Requests": {
-        "Interval": 2000
-    },
-    "VirtualAddresses": [
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "MBUnitID",
+      "Length": 0,
+      "Name": "ModBus Unit-ID",
+      "Profile": "",
+      "ReadAddress": 4,
+      "ReadFunctionCode": 3,
+      "Translation": [
         {
-            "Active": true,
-            "Ident": "ConsFromAll",
-            "Name": "Home own consumption from all",
-            "Profile": "~Power",
-            "ReadAction": "return ($VALUES['ConsFromAC'] + $VALUES['ConsFromBT'] + $VALUES['ConsFromPV']);",
-            "Translation": [],
-            "VariableType": 2,
-            "WriteAction": ""
+          "Language": "de",
+          "Name": "ModBus Einheiten-ID"
         },
         {
-            "Active": true,
-            "Ident": "GridState",
-            "Name": "Grid state",
-            "Profile": "JoTKPP.Grid.State",
-            "ReadAction": "//gibt -1 (FeedIn), 0 (Idle) oder 1 (Purchase) zurück\r\nreturn ( $VALUES['PMActivePowerTot'] <=> 0 );",
-            "Translation": [],
-            "VariableType": 1,
-            "WriteAction": ""
-        },
-        {
-            "Active": true,
-            "Ident": "BTState",
-            "Name": "Battery state",
-            "Profile": "JoTKPP.Battery.State",
-            "ReadAction": "//gibt -1 (Charging), 0 (Idle) oder 1 (Discharging) zurück\r\nreturn ( $VALUES['BTPower'] <=> 0 );",
-            "Translation": [],
-            "VariableType": 1,
-            "WriteAction": ""
-        },
-        {
-            "Active": true,
-            "Ident": "PVPowerStrTot",
-            "Name": "Total DC Power from PV strings",
-            "Profile": "~Power",
-            "ReadAction": "$val = $VALUES['PVPowerDC1'] + $VALUES['PVPowerDC2'];\r\nif ($VALUES['BTReadyFlag'] == 0) {\r\n    //Falls keine Batterie angeschlossen ist, wird Eingang 3 auch für PV genutzt\r\n    $val = $val + $VALUES['PVPowerDC3'];\r\n}\r\nreturn $val;",
-            "Translation": [],
-            "VariableType": 2,
-            "WriteAction": ""
+          "Language": "en",
+          "Name": "ModBus Unit-ID"
         }
-    ]
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "MBByteOrder",
+      "Length": 0,
+      "Name": "ModBus Byte Order",
+      "Profile": "",
+      "ReadAddress": 5,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "ModBus Byte-Reihenfolge"
+        },
+        {
+          "Language": "en",
+          "Name": "ModBus Byte Order"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "ArticleNr",
+      "Length": 8,
+      "Name": "Inverter Article Number",
+      "Profile": "",
+      "ReadAddress": 6,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Artikelnummer des Wechselrichters"
+        },
+        {
+          "Language": "en",
+          "Name": "Inverter Article Number"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "NumberConv",
+      "Length": 0,
+      "Name": "Number of bidirectional converter",
+      "Profile": "",
+      "ReadAddress": 30,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Anzahl bidirektionaler Wechselrichter"
+        },
+        {
+          "Language": "en",
+          "Name": "Number of bidirectional converter"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "NumberACPhases",
+      "Length": 0,
+      "Name": "Number of AC phases",
+      "Profile": "",
+      "ReadAddress": 32,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Anzahl der AC-Phasen"
+        },
+        {
+          "Language": "en",
+          "Name": "Number of AC phases"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "NumberPVStrings",
+      "Length": 0,
+      "Name": "Number of PV strings",
+      "Profile": "",
+      "ReadAddress": 34,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Anzahl der PV-Stränge"
+        },
+        {
+          "Language": "en",
+          "Name": "Number of PV strings"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "HardwareVersion",
+      "Length": 0,
+      "Name": "Hardware-Version",
+      "Profile": "",
+      "ReadAddress": 36,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Hardware-Version"
+        },
+        {
+          "Language": "en",
+          "Name": "Hardware-Version"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "SoftwareVersionMC",
+      "Length": 8,
+      "Name": "Software-Version Maincontroller (MC)",
+      "Profile": "",
+      "ReadAddress": 38,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Softwareversion Hauptcontroller (MC)"
+        },
+        {
+          "Language": "en",
+          "Name": "Software-Version Maincontroller (MC)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "SoftwareVersionIOC",
+      "Length": 8,
+      "Name": "Software-Version IO-Controller (IOC)",
+      "Profile": "",
+      "ReadAddress": 46,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Softwareversion IO-Controller (IOC)"
+        },
+        {
+          "Language": "en",
+          "Name": "Software-Version IO-Controller (IOC)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": 0,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "PowerID",
+      "Length": 0,
+      "Name": "Power-ID",
+      "Profile": "",
+      "ReadAddress": 54,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistungs-ID"
+        },
+        {
+          "Language": "en",
+          "Name": "Power-ID"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "InverterState",
+      "Length": 0,
+      "Name": "Inverter state",
+      "Profile": "JoTKPP.Status.KostalWR",
+      "ReadAddress": 56,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wechselrichterstatus"
+        },
+        {
+          "Language": "en",
+          "Name": "Inverter state"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "TotalDCPower",
+      "Length": 0,
+      "Name": "Total DC power",
+      "Profile": "~Power",
+      "ReadAddress": 100,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Gesamtleistung DC"
+        },
+        {
+          "Language": "en",
+          "Name": "Total DC power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "EMState",
+      "Length": 0,
+      "Name": "Battery Energy Manager state",
+      "Profile": "JoTKPP.Status.KostalEM",
+      "ReadAddress": 104,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Status des Batterie-Energiemanagers"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery Energy Manager state"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ConsFromBT",
+      "Length": 0,
+      "Name": "Home own consumption from battery",
+      "Profile": "~Power",
+      "ReadAddress": 106,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Home own consumption from battery"
+        },
+        {
+          "Language": "en",
+          "Name": "Home own consumption from battery"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ConsFromAC",
+      "Length": 0,
+      "Name": "Home own consumption from grid",
+      "Profile": "~Power",
+      "ReadAddress": 108,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Home own consumption from grid"
+        },
+        {
+          "Language": "en",
+          "Name": "Home own consumption from grid"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ConsFromBTTot",
+      "Length": 0,
+      "Name": "Total home consumption Battery",
+      "Profile": "~Electricity",
+      "ReadAddress": 110,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total home consumption Battery"
+        },
+        {
+          "Language": "en",
+          "Name": "Total home consumption Battery"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ConsFromACTot",
+      "Length": 0,
+      "Name": "Total home consumption Grid",
+      "Profile": "~Electricity",
+      "ReadAddress": 112,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total home consumption Grid"
+        },
+        {
+          "Language": "en",
+          "Name": "Total home consumption Grid"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ConsFromPVTot",
+      "Length": 0,
+      "Name": "Total home consumption PV",
+      "Profile": "~Electricity",
+      "ReadAddress": 114,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total home consumption PV"
+        },
+        {
+          "Language": "en",
+          "Name": "Total home consumption PV"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ConsFromPV",
+      "Length": 0,
+      "Name": "Home own consumption from PV",
+      "Profile": "~Power",
+      "ReadAddress": 116,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Home own consumption from PV"
+        },
+        {
+          "Language": "en",
+          "Name": "Home own consumption from PV"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ConsTot",
+      "Length": 0,
+      "Name": "Total home consumption",
+      "Profile": "~Electricity",
+      "ReadAddress": 118,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total home consumption"
+        },
+        {
+          "Language": "en",
+          "Name": "Total home consumption"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PVIsoResistance",
+      "Length": 0,
+      "Name": "Isolation resistance",
+      "Profile": "",
+      "ReadAddress": 120,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Isolation resistance"
+        },
+        {
+          "Language": "en",
+          "Name": "Isolation resistance"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "ACLimitEVU",
+      "Length": 0,
+      "Name": "Power limit from EVU",
+      "Profile": "JoTKPP.Percent",
+      "ReadAddress": 122,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Power limit from EVU"
+        },
+        {
+          "Language": "en",
+          "Name": "Power limit from EVU"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "ConsRate",
+      "Length": 0,
+      "Name": "Total home consumption rate",
+      "Profile": "JoTKPP.Percent",
+      "ReadAddress": 124,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total home consumption rate"
+        },
+        {
+          "Language": "en",
+          "Name": "Total home consumption rate"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "Worktime",
+      "Length": 0,
+      "Name": "Worktime",
+      "Profile": "",
+      "ReadAddress": 144,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Worktime"
+        },
+        {
+          "Language": "en",
+          "Name": "Worktime"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "ACCosPhi",
+      "Length": 0,
+      "Name": "Actual cos φ",
+      "Profile": "",
+      "ReadAddress": 150,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Actual cos φ"
+        },
+        {
+          "Language": "en",
+          "Name": "Actual cos φ"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "ACFrequency",
+      "Length": 0,
+      "Name": "Grid frequency",
+      "Profile": "~Hertz",
+      "ReadAddress": 152,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Grid frequency"
+        },
+        {
+          "Language": "en",
+          "Name": "Grid frequency"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "ACCurrentP1",
+      "Length": 0,
+      "Name": "Current Phase 1",
+      "Profile": "~Ampere",
+      "ReadAddress": 154,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Current Phase 1"
+        },
+        {
+          "Language": "en",
+          "Name": "Current Phase 1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ACActivePowerP1",
+      "Length": 0,
+      "Name": "Active power Phase 1",
+      "Profile": "~Power",
+      "ReadAddress": 156,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Active power Phase 1"
+        },
+        {
+          "Language": "en",
+          "Name": "Active power Phase 1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "ACVoltageP1",
+      "Length": 0,
+      "Name": "Voltage Phase 1",
+      "Profile": "~Volt",
+      "ReadAddress": 158,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Voltage Phase 1"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Phase 1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "ACCurrentP2",
+      "Length": 0,
+      "Name": "Current Phase 2",
+      "Profile": "~Ampere",
+      "ReadAddress": 160,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Current Phase 2"
+        },
+        {
+          "Language": "en",
+          "Name": "Current Phase 2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ACActivePowerP2",
+      "Length": 0,
+      "Name": "Active power Phase 2",
+      "Profile": "~Power",
+      "ReadAddress": 162,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Active power Phase 2"
+        },
+        {
+          "Language": "en",
+          "Name": "Active power Phase 2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "ACVoltageP2",
+      "Length": 0,
+      "Name": "Voltage Phase 2",
+      "Profile": "~Volt",
+      "ReadAddress": 164,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Voltage Phase 2"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Phase 2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "ACCurrentP3",
+      "Length": 0,
+      "Name": "Current Phase 3",
+      "Profile": "~Ampere",
+      "ReadAddress": 166,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Current Phase 3"
+        },
+        {
+          "Language": "en",
+          "Name": "Current Phase 3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ACActivePowerP3",
+      "Length": 0,
+      "Name": "Active power Phase 3",
+      "Profile": "~Power",
+      "ReadAddress": 168,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Active power Phase 3"
+        },
+        {
+          "Language": "en",
+          "Name": "Active power Phase 3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "ACVoltageP3",
+      "Length": 0,
+      "Name": "Voltage Phase 3",
+      "Profile": "~Volt",
+      "ReadAddress": 170,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Voltage Phase 3"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Phase 3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ACActivePowerTot",
+      "Length": 0,
+      "Name": "Total AC active power",
+      "Profile": "~Power",
+      "ReadAddress": 172,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total AC active power"
+        },
+        {
+          "Language": "en",
+          "Name": "Total AC active power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ACReactivePowerTot",
+      "Length": 0,
+      "Name": "Total AC reactive power",
+      "Profile": "JoTKPP.Power.VaR",
+      "ReadAddress": 174,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total AC reactive power"
+        },
+        {
+          "Language": "en",
+          "Name": "Total AC reactive power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ACApparentPowerTot",
+      "Length": 0,
+      "Name": "Total AC apparent power",
+      "Profile": "JoTKPP.Power.VA",
+      "ReadAddress": 178,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total AC apparent power"
+        },
+        {
+          "Language": "en",
+          "Name": "Total AC apparent power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTmaxChargeCurrent",
+      "Length": 0,
+      "Name": "Battery max. charge current",
+      "Profile": "~Ampere",
+      "ReadAddress": 190,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery max. charge current"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery max. charge current"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTCycles",
+      "Length": 0,
+      "Name": "Number of battery cycles",
+      "Profile": "",
+      "ReadAddress": 194,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Number of battery cycles"
+        },
+        {
+          "Language": "en",
+          "Name": "Number of battery cycles"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTCurrent",
+      "Length": 0,
+      "Name": "Actual battery charge (-) / discharge (+) current",
+      "Profile": "~Ampere",
+      "ReadAddress": 200,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Actual battery charge (-) / discharge (+) current"
+        },
+        {
+          "Language": "en",
+          "Name": "Actual battery charge (-) / discharge (+) current"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "FuseState",
+      "Length": 0,
+      "Name": "PSSB fuse state",
+      "Profile": "JoTKPP.Status.KostalFuse",
+      "ReadAddress": 202,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PSSB fuse state"
+        },
+        {
+          "Language": "en",
+          "Name": "PSSB fuse state"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTReadyFlag",
+      "Length": 0,
+      "Name": "Battery ready flag",
+      "Profile": "",
+      "ReadAddress": 208,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery ready flag"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery ready flag"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTCharge",
+      "Length": 0,
+      "Name": "Actual state of charge",
+      "Profile": "JoTKPP.Battery.Charge",
+      "ReadAddress": 210,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Actual state of charge"
+        },
+        {
+          "Language": "en",
+          "Name": "Actual state of charge"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTTemperature",
+      "Length": 0,
+      "Name": "Battery temperature",
+      "Profile": "~Temperature",
+      "ReadAddress": 214,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery temperature"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery temperature"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTVoltage",
+      "Length": 0,
+      "Name": "Battery voltage",
+      "Profile": "~Volt",
+      "ReadAddress": 216,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery voltage"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery voltage"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PMCosPhi",
+      "Length": 0,
+      "Name": "Cos φ (powermeter)",
+      "Profile": "",
+      "ReadAddress": 218,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Cos φ (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Cos φ (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PMFrequency",
+      "Length": 0,
+      "Name": "Frequency  (powermeter)",
+      "Profile": "~Hertz",
+      "ReadAddress": 220,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Frequency  (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Frequency  (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PMCurrentP1",
+      "Length": 0,
+      "Name": "Current phase 1 (powermeter)",
+      "Profile": "~Ampere",
+      "ReadAddress": 222,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Current phase 1 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Current phase 1 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PMActivePowerP1",
+      "Length": 0,
+      "Name": "Active power phase 1 (powermeter)",
+      "Profile": "~Power",
+      "ReadAddress": 224,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Active power phase 1 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Active power phase 1 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PMReactivePowerP1",
+      "Length": 0,
+      "Name": "Reactive power phase 1 (powermeter)",
+      "Profile": "JoTKPP.Power.VaR",
+      "ReadAddress": 226,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Reactive power phase 1 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Reactive power phase 1 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PMApparentPowerP1",
+      "Length": 0,
+      "Name": "Apparent power phase 1 (powermeter)",
+      "Profile": "JoTKPP.Power.VA",
+      "ReadAddress": 228,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Apparent power phase 1 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Apparent power phase 1 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PMVoltageP1",
+      "Length": 0,
+      "Name": "Voltage phase 1 (powermeter)",
+      "Profile": "~Volt",
+      "ReadAddress": 230,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Voltage phase 1 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage phase 1 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PMCurrentP2",
+      "Length": 0,
+      "Name": "Current phase 2 (powermeter)",
+      "Profile": "~Ampere",
+      "ReadAddress": 232,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Current phase 2 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Current phase 2 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PMActivePowerP2",
+      "Length": 0,
+      "Name": "Active power phase 2 (powermeter)",
+      "Profile": "~Power",
+      "ReadAddress": 234,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Active power phase 2 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Active power phase 2 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PMReactivePowerP2",
+      "Length": 0,
+      "Name": "Reactive power phase 2 (powermeter)",
+      "Profile": "JoTKPP.Power.VaR",
+      "ReadAddress": 236,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Reactive power phase 2 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Reactive power phase 2 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PMApparentPowerP2",
+      "Length": 0,
+      "Name": "Apparent power phase 2 (powermeter)",
+      "Profile": "JoTKPP.Power.VA",
+      "ReadAddress": 238,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Apparent power phase 2 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Apparent power phase 2 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PMVoltageP2",
+      "Length": 0,
+      "Name": "Voltage phase 2 (powermeter)",
+      "Profile": "~Volt",
+      "ReadAddress": 240,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Voltage phase 2 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage phase 2 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PMCurrentP3",
+      "Length": 0,
+      "Name": "Current phase 3 (powermeter)",
+      "Profile": "~Ampere",
+      "ReadAddress": 242,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Current phase 3 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Current phase 3 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PMActivePowerP3",
+      "Length": 0,
+      "Name": "Active power phase 3 (powermeter)",
+      "Profile": "~Power",
+      "ReadAddress": 244,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Active power phase 3 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Active power phase 3 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PMReactivePowerP3",
+      "Length": 0,
+      "Name": "Reactive power phase 3 (powermeter)",
+      "Profile": "JoTKPP.Power.VaR",
+      "ReadAddress": 246,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Reactive power phase 3 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Reactive power phase 3 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PMApparentPowerP3",
+      "Length": 0,
+      "Name": "Apparent power phase 3 (powermeter)",
+      "Profile": "JoTKPP.Power.VA",
+      "ReadAddress": 248,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Apparent power phase 3 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Apparent power phase 3 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PMVoltageP3",
+      "Length": 0,
+      "Name": "Voltage phase 3 (powermeter)",
+      "Profile": "~Volt",
+      "ReadAddress": 250,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Voltage phase 3 (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage phase 3 (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PMActivePowerTot",
+      "Length": 0,
+      "Name": "Total active power (powermeter)",
+      "Profile": "~Power",
+      "ReadAddress": 252,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total active power (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Total active power (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PMReactivePowerTot",
+      "Length": 0,
+      "Name": "Total reactive power (powermeter)",
+      "Profile": "JoTKPP.Power.VaR",
+      "ReadAddress": 254,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total reactive power (powermeter)"
+        },
+        {
+          "Language": "en",
+          "Name": "Total reactive power (powermeter)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PMApparentPowerTot",
+      "Length": 0,
+      "Name": "Total apparent power (powermeter) ",
+      "Profile": "JoTKPP.Power.VA",
+      "ReadAddress": 256,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total apparent power (powermeter) "
+        },
+        {
+          "Language": "en",
+          "Name": "Total apparent power (powermeter) "
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PVCurrentDC1",
+      "Length": 0,
+      "Name": "Current DC1",
+      "Profile": "~Ampere",
+      "ReadAddress": 258,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Current DC1"
+        },
+        {
+          "Language": "en",
+          "Name": "Current DC1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PVPowerDC1",
+      "Length": 0,
+      "Name": "Power DC1",
+      "Profile": "~Power",
+      "ReadAddress": 260,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Power DC1"
+        },
+        {
+          "Language": "en",
+          "Name": "Power DC1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PVVoltageDC1",
+      "Length": 0,
+      "Name": "Voltage DC1",
+      "Profile": "~Volt",
+      "ReadAddress": 266,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Voltage DC1"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage DC1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PVCurrentDC2",
+      "Length": 0,
+      "Name": "Current DC2",
+      "Profile": "~Ampere",
+      "ReadAddress": 268,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Current DC2"
+        },
+        {
+          "Language": "en",
+          "Name": "Current DC2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PVPowerDC2",
+      "Length": 0,
+      "Name": "Power DC2",
+      "Profile": "~Power",
+      "ReadAddress": 270,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Power DC2"
+        },
+        {
+          "Language": "en",
+          "Name": "Power DC2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PVVoltageDC2",
+      "Length": 0,
+      "Name": "Voltage DC2",
+      "Profile": "~Volt",
+      "ReadAddress": 276,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Voltage DC2"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage DC2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PVCurrentDC3",
+      "Length": 0,
+      "Name": "Current DC3",
+      "Profile": "~Ampere",
+      "ReadAddress": 278,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Current DC3"
+        },
+        {
+          "Language": "en",
+          "Name": "Current DC3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PVPowerDC3",
+      "Length": 0,
+      "Name": "Power DC3",
+      "Profile": "~Power",
+      "ReadAddress": 280,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Power DC3"
+        },
+        {
+          "Language": "en",
+          "Name": "Power DC3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "PVVoltageDC3",
+      "Length": 0,
+      "Name": "Voltage DC3",
+      "Profile": "~Volt",
+      "ReadAddress": 286,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Voltage DC3"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage DC3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "YieldTot",
+      "Length": 0,
+      "Name": "Total yield",
+      "Profile": "~Electricity",
+      "ReadAddress": 320,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total yield"
+        },
+        {
+          "Language": "en",
+          "Name": "Total yield"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "YieldDaily",
+      "Length": 0,
+      "Name": "Daily yield",
+      "Profile": "~Electricity",
+      "ReadAddress": 322,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Daily yield"
+        },
+        {
+          "Language": "en",
+          "Name": "Daily yield"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "YieldYearly",
+      "Length": 0,
+      "Name": "Yearly yield",
+      "Profile": "~Electricity",
+      "ReadAddress": 324,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Yearly yield"
+        },
+        {
+          "Language": "en",
+          "Name": "Yearly yield"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "YieldMonthly",
+      "Length": 0,
+      "Name": "Monthly yield",
+      "Profile": "~Electricity",
+      "ReadAddress": 326,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Monthly yield"
+        },
+        {
+          "Language": "en",
+          "Name": "Monthly yield"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "NetworkName",
+      "Length": 32,
+      "Name": "Inverter network name",
+      "Profile": "",
+      "ReadAddress": 384,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Inverter network name"
+        },
+        {
+          "Language": "en",
+          "Name": "Inverter network name"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "NetworkEnabled",
+      "Length": 0,
+      "Name": "IP enabled",
+      "Profile": "",
+      "ReadAddress": 416,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "IP enabled"
+        },
+        {
+          "Language": "en",
+          "Name": "IP enabled"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "NetworkAutoIP",
+      "Length": 0,
+      "Name": "Manual / Auto IP",
+      "Profile": "",
+      "ReadAddress": 418,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Manual / Auto IP"
+        },
+        {
+          "Language": "en",
+          "Name": "Manual / Auto IP"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "NetworkIP",
+      "Length": 8,
+      "Name": "IP-address",
+      "Profile": "",
+      "ReadAddress": 420,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "IP-address"
+        },
+        {
+          "Language": "en",
+          "Name": "IP-address"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "NetworkMask",
+      "Length": 8,
+      "Name": "IP-subnetmask",
+      "Profile": "",
+      "ReadAddress": 428,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "IP-subnetmask"
+        },
+        {
+          "Language": "en",
+          "Name": "IP-subnetmask"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "NetworkGW",
+      "Length": 8,
+      "Name": "IP-gateway",
+      "Profile": "",
+      "ReadAddress": 436,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "IP-gateway"
+        },
+        {
+          "Language": "en",
+          "Name": "IP-gateway"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "NetworkAutoDNS",
+      "Length": 0,
+      "Name": "IP auto-DNS",
+      "Profile": "",
+      "ReadAddress": 444,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "IP auto-DNS"
+        },
+        {
+          "Language": "en",
+          "Name": "IP auto-DNS"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "NetworkDNS1",
+      "Length": 8,
+      "Name": "IP-DNS1",
+      "Profile": "",
+      "ReadAddress": 446,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "IP-DNS1"
+        },
+        {
+          "Language": "en",
+          "Name": "IP-DNS1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "NetworkDNS2",
+      "Length": 8,
+      "Name": "IP-DNS2",
+      "Profile": "",
+      "ReadAddress": 454,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "IP-DNS2"
+        },
+        {
+          "Language": "en",
+          "Name": "IP-DNS2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "BTGrossCapacity",
+      "Length": 0,
+      "Name": "Battery Gross Capacity",
+      "Profile": "JoTKPP.Battery.Capacity",
+      "ReadAddress": 512,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery Gross Capacity"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery Gross Capacity"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "BTActualSOC",
+      "Length": 0,
+      "Name": "Battery actual SOC (%)",
+      "Profile": "JoTKPP.Percent.Int",
+      "ReadAddress": 514,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery actual SOC (%)"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery actual SOC (%)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "BTFirmwareMC",
+      "Length": 0,
+      "Name": "Battery Firmware Maincontroller (MC)",
+      "Profile": "",
+      "ReadAddress": 515,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery Firmware Maincontroller (MC)"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery Firmware Maincontroller (MC)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "BTManufacturer",
+      "Length": 8,
+      "Name": "Battery Manufacturer",
+      "Profile": "",
+      "ReadAddress": 517,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery Manufacturer"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery Manufacturer"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "BTModelID",
+      "Length": 0,
+      "Name": "Battery Model ID",
+      "Profile": "",
+      "ReadAddress": 525,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery Model ID"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery Model ID"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0.001,
+      "Ident": "MaxPower",
+      "Length": 0,
+      "Name": "Inverter max. Power",
+      "Profile": "~Power",
+      "ReadAddress": 531,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Inverter max. Power"
+        },
+        {
+          "Language": "en",
+          "Name": "Inverter max. Power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "SFMaxPower",
+      "Length": 0,
+      "Name": "Inverter max. Power Scale Factor",
+      "Profile": "",
+      "ReadAddress": 532,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Inverter max. Power Scale Factor"
+        },
+        {
+          "Language": "en",
+          "Name": "Inverter max. Power Scale Factor"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "ACCActivePower",
+      "Length": 0,
+      "Name": "Active Power Setpoint (%)",
+      "Profile": "JoTKPP.Percent.Int",
+      "ReadAddress": 0,
+      "ReadFunctionCode": 0,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Active Power Setpoint (%)"
+        },
+        {
+          "Language": "en",
+          "Name": "Active Power Setpoint (%)"
+        }
+      ],
+      "WriteAddress": 533,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "Manufacturer",
+      "Length": 16,
+      "Name": "Inverter Manufacturer",
+      "Profile": "",
+      "ReadAddress": 535,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Inverter Manufacturer"
+        },
+        {
+          "Language": "en",
+          "Name": "Inverter Manufacturer"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "SerialNr1",
+      "Length": 16,
+      "Name": "Inverter Serial Number",
+      "Profile": "",
+      "ReadAddress": 559,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Inverter Serial Number"
+        },
+        {
+          "Language": "en",
+          "Name": "Inverter Serial Number"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.001,
+      "Ident": "ACInverterPower",
+      "Length": 0,
+      "Name": "Inverter Generation Power (actual)",
+      "Profile": "~Power",
+      "ReadAddress": 575,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Inverter Generation Power (actual)"
+        },
+        {
+          "Language": "en",
+          "Name": "Inverter Generation Power (actual)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "ACSFInverterPower",
+      "Length": 0,
+      "Name": "Inverter Generation Power (actual) Scale Factor",
+      "Profile": "",
+      "ReadAddress": 576,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Inverter Generation Power (actual) Scale Factor"
+        },
+        {
+          "Language": "en",
+          "Name": "Inverter Generation Power (actual) Scale Factor"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": 0,
+      "DataType": 12,
+      "Factor": 0.001,
+      "Ident": "ACGenEnergy",
+      "Length": 0,
+      "Name": "Inverter Generation Energy",
+      "Profile": "~Electricity",
+      "ReadAddress": 577,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Inverter Generation Energy"
+        },
+        {
+          "Language": "en",
+          "Name": "Inverter Generation Energy"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "ACSFGenEnergy",
+      "Length": 0,
+      "Name": "Inverter Generation Energy Scale Factor",
+      "Profile": "",
+      "ReadAddress": 579,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Inverter Generation Energy Scale Factor"
+        },
+        {
+          "Language": "en",
+          "Name": "Inverter Generation Energy Scale Factor"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.001,
+      "Ident": "BTPower",
+      "Length": 0,
+      "Name": "Actual battery charge (-) / discharge (+) power",
+      "Profile": "~Power",
+      "ReadAddress": 582,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Actual battery charge (-) / discharge (+) power"
+        },
+        {
+          "Language": "en",
+          "Name": "Actual battery charge (-) / discharge (+) power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "ACCReactivePower",
+      "Length": 0,
+      "Name": "Reactive Power Setpoint (%)",
+      "Profile": "JoTKPP.Percent.Int",
+      "ReadAddress": 0,
+      "ReadFunctionCode": 0,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Reactive Power Setpoint (%)"
+        },
+        {
+          "Language": "en",
+          "Name": "Reactive Power Setpoint (%)"
+        }
+      ],
+      "WriteAddress": 583,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "ACCCosPhi",
+      "Length": 0,
+      "Name": "Delta-cos φ Setpoint",
+      "Profile": "",
+      "ReadAddress": 0,
+      "ReadFunctionCode": 0,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Delta-cos φ Setpoint"
+        },
+        {
+          "Language": "en",
+          "Name": "Delta-cos φ Setpoint"
+        }
+      ],
+      "WriteAddress": 585,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "BTFirmware",
+      "Length": 0,
+      "Name": "Battery Firmware",
+      "Profile": "",
+      "ReadAddress": 586,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery Firmware"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery Firmware"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "BTType",
+      "Length": 0,
+      "Name": "Battery Type",
+      "Profile": "JoTKPP.Battery.Type",
+      "ReadAddress": 588,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery Type"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery Type"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "ProductName",
+      "Length": 32,
+      "Name": "Productname",
+      "Profile": "",
+      "ReadAddress": 768,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Productname"
+        },
+        {
+          "Language": "en",
+          "Name": "Productname"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": 0,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "PowerClass",
+      "Length": 32,
+      "Name": "Power class",
+      "Profile": "",
+      "ReadAddress": 800,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Power class"
+        },
+        {
+          "Language": "en",
+          "Name": "Power class"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0.001,
+      "Ident": "ACCLPActivePower",
+      "Length": 0,
+      "Name": "Low-Priority Active Power Setpoint",
+      "Profile": "~Power",
+      "ReadAddress": 0,
+      "ReadFunctionCode": 0,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Low-Priority Active Power Setpoint"
+        },
+        {
+          "Language": "en",
+          "Name": "Low-Priority Active Power Setpoint"
+        }
+      ],
+      "WriteAddress": 832,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "ACCSFLPActivePower",
+      "Length": 0,
+      "Name": "Low-Priority Active Power Setpoint Scale Factor",
+      "Profile": "",
+      "ReadAddress": 833,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Low-Priority Active Power Setpoint Scale Factor"
+        },
+        {
+          "Language": "en",
+          "Name": "Low-Priority Active Power Setpoint Scale Factor"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.001,
+      "Ident": "BTCACcPower",
+      "Length": 0,
+      "Name": "Battery charge power (AC) Setpoint",
+      "Profile": "~Power",
+      "ReadAddress": 0,
+      "ReadFunctionCode": 0,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery charge power (AC) Setpoint"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery charge power (AC) Setpoint"
+        }
+      ],
+      "WriteAddress": 1024,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "BTCSFACcPower",
+      "Length": 0,
+      "Name": "Battery charge power (AC) Scale Factor",
+      "Profile": "",
+      "ReadAddress": 1025,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery charge power (AC) Scale Factor"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery charge power (AC) Scale Factor"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "BTCACcPowerAbs",
+      "Length": 0,
+      "Name": "Battery charge power (AC) Setpoint (absolute)",
+      "Profile": "~Power",
+      "ReadAddress": 1026,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery charge power (AC) Setpoint (absolute)"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery charge power (AC) Setpoint (absolute)"
+        }
+      ],
+      "WriteAddress": 1026,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTCDCcCurrentRel",
+      "Length": 0,
+      "Name": "Battery charge current (DC) Setpoint (relative)",
+      "Profile": "JoTKPP.Percent",
+      "ReadAddress": 1028,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery charge current (DC) Setpoint (relative)"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery charge current (DC) Setpoint (relative)"
+        }
+      ],
+      "WriteAddress": 1028,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTCACcPowerRel",
+      "Length": 0,
+      "Name": "Battery charge power (AC) Setpoint (relative)",
+      "Profile": "JoTKPP.Percent",
+      "ReadAddress": 1030,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery charge power (AC) Setpoint (relative)"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery charge power (AC) Setpoint (relative)"
+        }
+      ],
+      "WriteAddress": 1030,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTCDCcCurrentAbs",
+      "Length": 0,
+      "Name": "Battery charge current (DC) Setpoint (absolute)",
+      "Profile": "~Ampere",
+      "ReadAddress": 1032,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery charge current (DC) Setpoint (absolute)"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery charge current (DC) Setpoint (absolute)"
+        }
+      ],
+      "WriteAddress": 1032,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "BTCDCcPowerAbs",
+      "Length": 0,
+      "Name": "Battery charge power (DC) Setpoint (absolute)",
+      "Profile": "~Power",
+      "ReadAddress": 1034,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery charge power (DC) Setpoint (absolute)"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery charge power (DC) Setpoint (absolute)"
+        }
+      ],
+      "WriteAddress": 1034,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTCDCcPowerRel",
+      "Length": 0,
+      "Name": "Battery charge power (DC) Setpoint (relative)",
+      "Profile": "JoTKPP.Percent",
+      "ReadAddress": 1036,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery charge power (DC) Setpoint (relative)"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery charge power (DC) Setpoint (relative)"
+        }
+      ],
+      "WriteAddress": 1036,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "BTCcPowerAbs",
+      "Length": 0,
+      "Name": "Battery max. charge power limit (absolute)",
+      "Profile": "~Power",
+      "ReadAddress": 1038,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery max. charge power limit (absolute)"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery max. charge power limit (absolute)"
+        }
+      ],
+      "WriteAddress": 1038,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "BTCdPowerAbs",
+      "Length": 0,
+      "Name": "Battery max. discharge power limit (absolute)",
+      "Profile": "~Power",
+      "ReadAddress": 1040,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery max. discharge power limit (absolute)"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery max. discharge power limit (absolute)"
+        }
+      ],
+      "WriteAddress": 1040,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTCminSOC",
+      "Length": 0,
+      "Name": "Battery min. SOC",
+      "Profile": "JoTKPP.Percent",
+      "ReadAddress": 1042,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery min. SOC"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery min. SOC"
+        }
+      ],
+      "WriteAddress": 1042,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0,
+      "Ident": "BTCmaxSOC",
+      "Length": 0,
+      "Name": "Battery max. SOC",
+      "Profile": "JoTKPP.Percent",
+      "ReadAddress": 1044,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery max. SOC"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery max. SOC"
+        }
+      ],
+      "WriteAddress": 1044,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "BTcEnergyDCTot",
+      "Length": 0,
+      "Name": "Total DC charge energy (DC-side to battery)",
+      "Profile": "~Electricity",
+      "ReadAddress": 1046,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total DC charge energy (DC-side to battery)"
+        },
+        {
+          "Language": "en",
+          "Name": "Total DC charge energy (DC-side to battery)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "BTdEnergyDCTot",
+      "Length": 0,
+      "Name": "Total DC discharge energy (DC-side from battery)",
+      "Profile": "~Electricity",
+      "ReadAddress": 1048,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total DC discharge energy (DC-side from battery)"
+        },
+        {
+          "Language": "en",
+          "Name": "Total DC discharge energy (DC-side from battery)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "BTcEnergyACTot",
+      "Length": 0,
+      "Name": "Total AC charge energy (AC-side to battery)",
+      "Profile": "~Electricity",
+      "ReadAddress": 1050,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total AC charge energy (AC-side to battery)"
+        },
+        {
+          "Language": "en",
+          "Name": "Total AC charge energy (AC-side to battery)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "BTdEnergyGridTot",
+      "Length": 0,
+      "Name": "Total AC discharge energy (battery to grid)",
+      "Profile": "~Electricity",
+      "ReadAddress": 1052,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total AC discharge energy (battery to grid)"
+        },
+        {
+          "Language": "en",
+          "Name": "Total AC discharge energy (battery to grid)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "BTcEnergyGridTot",
+      "Length": 0,
+      "Name": "Total AC charge energy (grid to battery)",
+      "Profile": "~Electricity",
+      "ReadAddress": 1054,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total AC charge energy (grid to battery)"
+        },
+        {
+          "Language": "en",
+          "Name": "Total AC charge energy (grid to battery)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PVEnergyTot",
+      "Length": 0,
+      "Name": "Total DC PV energy (sum of all PV inputs)",
+      "Profile": "~Electricity",
+      "ReadAddress": 1056,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total DC PV energy (sum of all PV inputs)"
+        },
+        {
+          "Language": "en",
+          "Name": "Total DC PV energy (sum of all PV inputs)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PVEnergyDC1",
+      "Length": 0,
+      "Name": "Total DC energy from PV1",
+      "Profile": "~Electricity",
+      "ReadAddress": 1058,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total DC energy from PV1"
+        },
+        {
+          "Language": "en",
+          "Name": "Total DC energy from PV1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PVEnergyDC2",
+      "Length": 0,
+      "Name": "Total DC energy from PV2",
+      "Profile": "~Electricity",
+      "ReadAddress": 1060,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total DC energy from PV2"
+        },
+        {
+          "Language": "en",
+          "Name": "Total DC energy from PV2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PVEnergyDC3",
+      "Length": 0,
+      "Name": "Total DC energy from PV3",
+      "Profile": "~Electricity",
+      "ReadAddress": 1062,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total DC energy from PV3"
+        },
+        {
+          "Language": "en",
+          "Name": "Total DC energy from PV3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "ACEnergyToGridTot",
+      "Length": 0,
+      "Name": "Total energy AC-side to grid",
+      "Profile": "~Electricity",
+      "ReadAddress": 1064,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total energy AC-side to grid"
+        },
+        {
+          "Language": "en",
+          "Name": "Total energy AC-side to grid"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "PVPowerTot",
+      "Length": 0,
+      "Name": "Total DC power (sum of all PV inputs)",
+      "Profile": "~Power",
+      "ReadAddress": 1066,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Total DC power (sum of all PV inputs)"
+        },
+        {
+          "Language": "en",
+          "Name": "Total DC power (sum of all PV inputs)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "BTWorkCapacity1",
+      "Length": 0,
+      "Name": "Battery Work Capacity",
+      "Profile": "~Electricity",
+      "ReadAddress": 1068,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery Work Capacity"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery Work Capacity"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "BTSerialNr1",
+      "Length": 0,
+      "Name": "Battery Serial Number",
+      "Profile": "",
+      "ReadAddress": 1070,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery Serial Number"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery Serial Number"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "BTCcPowerMax",
+      "Length": 0,
+      "Name": "Battery max. charge power limit (read-out from battery)",
+      "Profile": "~Power",
+      "ReadAddress": 1076,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery max. charge power limit (read-out from battery)"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery max. charge power limit (read-out from battery)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.001,
+      "Ident": "BTCdPowerMax",
+      "Length": 0,
+      "Name": "Battery max. discharge power limit (read-out from battery)",
+      "Profile": "~Power",
+      "ReadAddress": 1078,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery max. discharge power limit (read-out from battery)"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery max. discharge power limit (read-out from battery)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "BTCMode",
+      "Length": 0,
+      "Name": "Battery management mode",
+      "Profile": "",
+      "ReadAddress": 1080,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Battery management mode"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery management mode"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": false,
+      "ByteOrder": -1,
+      "DataType": 12,
+      "Factor": 0,
+      "Ident": "SensorType",
+      "Length": 0,
+      "Name": "Installed Powermeter",
+      "Profile": "JoTKPP.Sensor.Type",
+      "ReadAddress": 1082,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Installed Powermeter"
+        },
+        {
+          "Language": "en",
+          "Name": "Installed Powermeter"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    }
+  ],
+  "ByteOrder": 3,
+  "Profiles": {
+    "JoTKPP.Battery.Capacity": {
+      "Associations": [],
+      "Digits": 0,
+      "Icon": "Battery",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " Ah",
+      "Type": 1
+    },
+    "JoTKPP.Battery.Charge": {
+      "Associations": [
+        {
+          "Color": 16711680,
+          "Icon": "EnergyStorage-0",
+          "Name": "Leer (%.0f%%)",
+          "Value": 0.0
+        },
+        {
+          "Color": 16711680,
+          "Icon": "EnergyStorage-0",
+          "Name": "Leer (%.0f%%)",
+          "Value": 5.0
+        },
+        {
+          "Color": 16750592,
+          "Icon": "EnergyStorage-0",
+          "Name": "Niedrig (%.0f%%)",
+          "Value": 9.0
+        },
+        {
+          "Color": 65280,
+          "Icon": "EnergyStorage",
+          "Name": "%.0f%%",
+          "Value": 10.0
+        },
+        {
+          "Color": 65280,
+          "Icon": "EnergyStorage",
+          "Name": "Voll (%.0f%%)",
+          "Value": 99.0
+        }
+      ],
+      "Digits": 1,
+      "Icon": "EnergyStorage",
+      "MaxValue": 100.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": "",
+      "Type": 2
+    },
+    "JoTKPP.Battery.State": {
+      "Associations": [
+        {
+          "Color": -1,
+          "Icon": "Download",
+          "Name": "Laden",
+          "Value": -1.0
+        },
+        {
+          "Color": -1,
+          "Icon": "Sleep",
+          "Name": "Leerlauf",
+          "Value": 0.0
+        },
+        {
+          "Color": -1,
+          "Icon": "Shuffle",
+          "Name": "Entladen",
+          "Value": 1.0
+        }
+      ],
+      "Digits": 0,
+      "Icon": "EnegryStorage",
+      "MaxValue": 1.0,
+      "MinValue": -1.0,
+      "Prefix": "",
+      "StepSize": 1.0,
+      "Suffix": "",
+      "Type": 1
+    },
+    "JoTKPP.Battery.Type": {
+      "Associations": [
+        {
+          "Color": -1,
+          "Icon": "EnergySolar",
+          "Name": "Keine Batterie (nur PV)",
+          "Value": 0.0
+        },
+        {
+          "Color": -1,
+          "Icon": "EnergyStorage",
+          "Name": "Li-Io battery SONY / MURATA",
+          "Value": 2.0
+        },
+        {
+          "Color": -1,
+          "Icon": "EnergyStorage",
+          "Name": "Li-Io battery BYD / BBOX",
+          "Value": 4.0
+        }
+      ],
+      "Digits": 0,
+      "Icon": "Battery",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": "",
+      "Type": 1
+    },
+    "JoTKPP.Grid.State": {
+      "Associations": [
+        {
+          "Color": -1,
+          "Icon": "EnergySolar",
+          "Name": "Einspeisung",
+          "Value": -1.0
+        },
+        {
+          "Color": -1,
+          "Icon": "Power",
+          "Name": "Leerlauf",
+          "Value": 0.0
+        },
+        {
+          "Color": -1,
+          "Icon": "Plug",
+          "Name": "Bezug",
+          "Value": 1.0
+        }
+      ],
+      "Digits": 0,
+      "Icon": "Plug",
+      "MaxValue": 1.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 1.0,
+      "Suffix": "",
+      "Type": 1
+    },
+    "JoTKPP.Percent": {
+      "Associations": [],
+      "Digits": 1,
+      "Icon": "",
+      "MaxValue": 100.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " %",
+      "Type": 2
+    },
+    "JoTKPP.Percent.Int": {
+      "Associations": [],
+      "Digits": 0,
+      "Icon": "",
+      "MaxValue": 100.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " %",
+      "Type": 1
+    },
+    "JoTKPP.Power.VA": {
+      "Associations": [],
+      "Digits": 0,
+      "Icon": "Electricity",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " VA",
+      "Type": 2
+    },
+    "JoTKPP.Power.VaR": {
+      "Associations": [],
+      "Digits": 0,
+      "Icon": "Electricity",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " VaR",
+      "Type": 2
+    },
+    "JoTKPP.Sensor.Type": {
+      "Associations": [
+        {
+          "Color": -1,
+          "Icon": "Network",
+          "Name": "SDM 630 (B+G E-Tech GmbH)",
+          "Value": 0.0
+        },
+        {
+          "Color": -1,
+          "Icon": "Network",
+          "Name": "B-Control EM-300 LR (TQ Systems)",
+          "Value": 1.0
+        },
+        {
+          "Color": -1,
+          "Icon": "Network",
+          "Name": "KOSTAL Smart Energy Meter (KOSTAL)",
+          "Value": 3.0
+        },
+        {
+          "Color": -1,
+          "Icon": "Cross",
+          "Name": "Kein Stromzähler",
+          "Value": 255.0
+        }
+      ],
+      "Digits": 0,
+      "Icon": "Network",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": "",
+      "Type": 1
+    },
+    "JoTKPP.Status.KostalEM": {
+      "Associations": [
+        {
+          "Color": -1,
+          "Icon": "Ok",
+          "Name": "Normal",
+          "Value": 0.0
+        },
+        {
+          "Color": -1,
+          "Icon": "EnergyProduction",
+          "Name": "Batterie Notladung",
+          "Value": 2.0
+        },
+        {
+          "Color": -1,
+          "Icon": "Sleep",
+          "Name": "Batterie Ruhemodus 1",
+          "Value": 8.0
+        },
+        {
+          "Color": -1,
+          "Icon": "Sleep",
+          "Name": "Batterie Ruhemodus 2",
+          "Value": 10.0
+        }
+      ],
+      "Digits": 0,
+      "Icon": "Graph",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": "",
+      "Type": 1
+    },
+    "JoTKPP.Status.KostalFuse": {
+      "Associations": [
+        {
+          "Color": -1,
+          "Icon": "Ok",
+          "Name": "Sicherung Ok",
+          "Value": 0.0
+        },
+        {
+          "Color": 16750592,
+          "Icon": "Warning",
+          "Name": "Sicherung defekt",
+          "Value": 1.0
+        },
+        {
+          "Color": 16750592,
+          "Icon": "Warning",
+          "Name": "Unbekannt",
+          "Value": 255.0
+        }
+      ],
+      "Digits": 0,
+      "Icon": "Distance",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": "",
+      "Type": 2
+    },
+    "JoTKPP.Status.KostalWR": {
+      "Associations": [
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Aus",
+          "Value": 0.0
+        },
+        {
+          "Color": 255,
+          "Icon": "",
+          "Name": "Initialisierung",
+          "Value": 1.0
+        },
+        {
+          "Color": 255,
+          "Icon": "",
+          "Name": "ISO-Messung",
+          "Value": 2.0
+        },
+        {
+          "Color": 255,
+          "Icon": "",
+          "Name": "Netz-Prüfung",
+          "Value": 3.0
+        },
+        {
+          "Color": 255,
+          "Icon": "",
+          "Name": "Starten",
+          "Value": 4.0
+        },
+        {
+          "Color": 65280,
+          "Icon": "",
+          "Name": "Feed In",
+          "Value": 6.0
+        },
+        {
+          "Color": 65280,
+          "Icon": "",
+          "Name": "Reduziert",
+          "Value": 7.0
+        },
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Externer Schalter Aus",
+          "Value": 8.0
+        },
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Update",
+          "Value": 9.0
+        },
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Standby",
+          "Value": 10.0
+        },
+        {
+          "Color": 255,
+          "Icon": "",
+          "Name": "Netz-Synchronisation",
+          "Value": 11.0
+        },
+        {
+          "Color": 255,
+          "Icon": "",
+          "Name": "Netz-Vorprüfung",
+          "Value": 12.0
+        },
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Netz Schalter Aus",
+          "Value": 13.0
+        },
+        {
+          "Color": 16711680,
+          "Icon": "Error",
+          "Name": "Überhitzt",
+          "Value": 14.0
+        },
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Herunterfahren",
+          "Value": 15.0
+        },
+        {
+          "Color": 16750592,
+          "Icon": "Warning",
+          "Name": "Falsche DC-Spannung",
+          "Value": 16.0
+        },
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "ESB",
+          "Value": 17.0
+        },
+        {
+          "Color": 16750592,
+          "Icon": "Warning",
+          "Name": "Unbekannt",
+          "Value": 18.0
+        }
+      ],
+      "Digits": 0,
+      "Icon": "Graph",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": "",
+      "Type": 1
+    }
+  },
+  "ByteOrderFloats": true,
+  "Active": true,
+  "ReferenceCountStartsAtZero": false,
+  "UseEnronMode": false,
+  "ConnectionType": "TCP",
+  "Type": "solar_inverter",
+  "Manufacturer": "Kostal",
+  "Product": "PLENTICORE plus",
+  "Requests": {
+    "Interval": 2000
+  },
+  "VirtualAddresses": [
+    {
+      "Active": true,
+      "Ident": "ConsFromAll",
+      "Name": "Home own consumption from all",
+      "Profile": "~Power",
+      "ReadAction": "return ($VALUES['ConsFromAC'] + $VALUES['ConsFromBT'] + $VALUES['ConsFromPV']);",
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Hausverbrauch aus allen Quellen"
+        },
+        {
+          "Language": "en",
+          "Name": "Home own consumption from all"
+        }
+      ],
+      "VariableType": 2,
+      "WriteAction": ""
+    },
+    {
+      "Active": true,
+      "Ident": "GridState",
+      "Name": "Grid state",
+      "Profile": "JoTKPP.Grid.State",
+      "ReadAction": "//gibt -1 (FeedIn), 0 (Idle) oder 1 (Purchase) zurück\r\nreturn ( $VALUES['PMActivePowerTot'] <=> 0 );",
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Netzstatus"
+        },
+        {
+          "Language": "en",
+          "Name": "Grid state"
+        }
+      ],
+      "VariableType": 1,
+      "WriteAction": ""
+    },
+    {
+      "Active": true,
+      "Ident": "BTState",
+      "Name": "Battery state",
+      "Profile": "JoTKPP.Battery.State",
+      "ReadAction": "//gibt -1 (Charging), 0 (Idle) oder 1 (Discharging) zurück\r\nreturn ( $VALUES['BTPower'] <=> 0 );",
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batteriestatus"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery state"
+        }
+      ],
+      "VariableType": 1,
+      "WriteAction": ""
+    },
+    {
+      "Active": true,
+      "Ident": "PVPowerStrTot",
+      "Name": "Total DC Power from PV strings",
+      "Profile": "~Power",
+      "ReadAction": "$val = $VALUES['PVPowerDC1'] + $VALUES['PVPowerDC2'];\r\nif ($VALUES['BTReadyFlag'] == 0) {\r\n    //Falls keine Batterie angeschlossen ist, wird Eingang 3 auch für PV genutzt\r\n    $val = $val + $VALUES['PVPowerDC3'];\r\n}\r\nreturn $val;",
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "DC-Leistung aus PV-Strängen"
+        },
+        {
+          "Language": "en",
+          "Name": "Total DC Power from PV strings"
+        }
+      ],
+      "VariableType": 2,
+      "WriteAction": ""
+    }
+  ]
 }

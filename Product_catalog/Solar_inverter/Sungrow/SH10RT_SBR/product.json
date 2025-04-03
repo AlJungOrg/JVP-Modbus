@@ -15,6 +15,10 @@
                 {
                     "Language": "de",
                     "Name": "Eigene Energienutzung heute (PV & Akku)\t"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Daily Output Energy"
                 }
             ],
             "WriteAddress": 0,
@@ -35,6 +39,10 @@
                 {
                     "Language": "de",
                     "Name": "Eigene Energienutzung gesamt (PV & Akku)\t"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Output Energy"
                 }
             ],
             "WriteAddress": 0,
@@ -55,6 +63,10 @@
                 {
                     "Language": "de",
                     "Name": "MPPT1 Spannung\t"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MPPT 1 Voltage"
                 }
             ],
             "WriteAddress": 0,
@@ -75,6 +87,10 @@
                 {
                     "Language": "de",
                     "Name": "MPPT1 Strom\t"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MPPT 1 Current"
                 }
             ],
             "WriteAddress": 0,
@@ -95,6 +111,10 @@
                 {
                     "Language": "de",
                     "Name": "MPPT 2 Voltage\t"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MPPT 2 Voltage"
                 }
             ],
             "WriteAddress": 0,
@@ -115,6 +135,10 @@
                 {
                     "Language": "de",
                     "Name": "MPPT2 Strom\t"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MPPT 1 Current"
                 }
             ],
             "WriteAddress": 0,
@@ -135,6 +159,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung Phase A\t"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Spannung Ph A"
                 }
             ],
             "WriteAddress": 0,
@@ -155,6 +183,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung Phase B\t"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Spannung Ph B"
                 }
             ],
             "WriteAddress": 0,
@@ -175,6 +207,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung Phase C\t"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Spannung Ph C"
                 }
             ],
             "WriteAddress": 0,
@@ -195,6 +231,10 @@
                 {
                     "Language": "de",
                     "Name": "PV-Leistung aktuell"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total DC Power"
                 }
             ],
             "WriteAddress": 0,
@@ -215,6 +255,10 @@
                 {
                     "Language": "de",
                     "Name": "PV-Stromerzeugung heute"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Daily PV Generation"
                 }
             ],
             "WriteAddress": 0,
@@ -235,6 +279,10 @@
                 {
                     "Language": "de",
                     "Name": "Temperatur im Wechselrichter"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Inside Temperature"
                 }
             ],
             "WriteAddress": 0,
@@ -255,6 +303,10 @@
                 {
                     "Language": "de",
                     "Name": "PV-Stromerzeugung gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total PV  Generation"
                 }
             ],
             "WriteAddress": 0,
@@ -275,6 +327,10 @@
                 {
                     "Language": "de",
                     "Name": "Batterieladeleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery power"
                 }
             ],
             "WriteAddress": 0,
@@ -295,6 +351,10 @@
                 {
                     "Language": "de",
                     "Name": "Batteriekapazität"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery level"
                 }
             ],
             "WriteAddress": 0,
@@ -315,6 +375,10 @@
                 {
                     "Language": "de",
                     "Name": "Gesamtwirkleistung der Last"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Load Power"
                 }
             ],
             "WriteAddress": 0,
@@ -335,6 +399,10 @@
                 {
                     "Language": "de",
                     "Name": "Batteriespannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery voltage"
                 }
             ],
             "WriteAddress": 0,
@@ -355,6 +423,10 @@
                 {
                     "Language": "de",
                     "Name": "Batteriestrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery current"
                 }
             ],
             "WriteAddress": 0,
@@ -397,14 +469,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "solar_inverter",
     "Manufacturer": "Sungrow",
-    "Product":"SH10RT_SBR",
+    "Product": "SH10RT_SBR",
     "Requests": {
         "Interval": 5000
     },

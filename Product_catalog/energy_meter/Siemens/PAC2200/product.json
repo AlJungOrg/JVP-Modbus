@@ -15,6 +15,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1"
                 }
             ],
             "WriteAddress": 0,
@@ -35,6 +39,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2"
                 }
             ],
             "WriteAddress": 0,
@@ -55,6 +63,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3"
                 }
             ],
             "WriteAddress": 0,
@@ -75,6 +87,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung L1-L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1-L2"
                 }
             ],
             "WriteAddress": 0,
@@ -95,6 +111,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung L2-L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2-L3"
                 }
             ],
             "WriteAddress": 0,
@@ -115,6 +135,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung L3-L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3-L1"
                 }
             ],
             "WriteAddress": 0,
@@ -135,6 +159,10 @@
                 {
                     "Language": "de",
                     "Name": "Strom L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L1"
                 }
             ],
             "WriteAddress": 0,
@@ -155,6 +183,10 @@
                 {
                     "Language": "de",
                     "Name": "Strom L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L2"
                 }
             ],
             "WriteAddress": 0,
@@ -175,6 +207,10 @@
                 {
                     "Language": "de",
                     "Name": "Strom L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L3"
                 }
             ],
             "WriteAddress": 0,
@@ -195,6 +231,10 @@
                 {
                     "Language": "de",
                     "Name": "Scheinleistung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power L1"
                 }
             ],
             "WriteAddress": 0,
@@ -215,6 +255,10 @@
                 {
                     "Language": "de",
                     "Name": "Scheinleistung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power L2"
                 }
             ],
             "WriteAddress": 0,
@@ -235,6 +279,10 @@
                 {
                     "Language": "de",
                     "Name": "Scheinleistung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power L3"
                 }
             ],
             "WriteAddress": 0,
@@ -255,6 +303,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkleistung L1 (W)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L1 (W)"
                 }
             ],
             "WriteAddress": 0,
@@ -275,6 +327,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkleistung L2 (W)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L2 (W)"
                 }
             ],
             "WriteAddress": 0,
@@ -295,6 +351,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkleistung L3 (W)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L3 (W)"
                 }
             ],
             "WriteAddress": 0,
@@ -315,6 +375,10 @@
                 {
                     "Language": "de",
                     "Name": "Blindleistung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power L1"
                 }
             ],
             "WriteAddress": 0,
@@ -335,6 +399,10 @@
                 {
                     "Language": "de",
                     "Name": "Blindleistung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power L2"
                 }
             ],
             "WriteAddress": 0,
@@ -355,6 +423,10 @@
                 {
                     "Language": "de",
                     "Name": "Blindleistung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power L3"
                 }
             ],
             "WriteAddress": 0,
@@ -375,6 +447,10 @@
                 {
                     "Language": "de",
                     "Name": "Leistungsfaktor L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor L1"
                 }
             ],
             "WriteAddress": 0,
@@ -395,6 +471,10 @@
                 {
                     "Language": "de",
                     "Name": "Leistungsfaktor L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor L2"
                 }
             ],
             "WriteAddress": 0,
@@ -415,6 +495,10 @@
                 {
                     "Language": "de",
                     "Name": "Leistungsfaktor L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor L3"
                 }
             ],
             "WriteAddress": 0,
@@ -435,6 +519,10 @@
                 {
                     "Language": "de",
                     "Name": "Frequenz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Frequency"
                 }
             ],
             "WriteAddress": 0,
@@ -455,6 +543,10 @@
                 {
                     "Language": "de",
                     "Name": "Mittelwert Spannung L-N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Average Voltage L-N"
                 }
             ],
             "WriteAddress": 0,
@@ -475,6 +567,10 @@
                 {
                     "Language": "de",
                     "Name": "Mittelwert Spannung L-L"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Average Voltage L-L"
                 }
             ],
             "WriteAddress": 0,
@@ -495,6 +591,10 @@
                 {
                     "Language": "de",
                     "Name": "Mittelwert Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Average Current"
                 }
             ],
             "WriteAddress": 0,
@@ -515,6 +615,10 @@
                 {
                     "Language": "de",
                     "Name": "Scheinleistung L1-L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power L1-L3"
                 }
             ],
             "WriteAddress": 0,
@@ -535,6 +639,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkleistung L1-L3 (W)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L1-L3 (W)"
                 }
             ],
             "WriteAddress": 0,
@@ -555,6 +663,10 @@
                 {
                     "Language": "de",
                     "Name": "Blindleistung L1-L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power L1-L3"
                 }
             ],
             "WriteAddress": 0,
@@ -575,6 +687,10 @@
                 {
                     "Language": "de",
                     "Name": "Leistungsfaktor L1-L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor L1-L3"
                 }
             ],
             "WriteAddress": 0,
@@ -595,6 +711,10 @@
                 {
                     "Language": "de",
                     "Name": "Neutralleiterstrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Neutral Current"
                 }
             ],
             "WriteAddress": 0,
@@ -615,6 +735,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkarbeit Bezug Tarif 1 (Wh)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Energy Purchase Tariff 1 (Wh)"
                 }
             ],
             "WriteAddress": 0,
@@ -635,6 +759,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkarbeit Abgabe Tarif 1 (Wh)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Energy Delivery Tariff 1 (Wh)"
                 }
             ],
             "WriteAddress": 0,
@@ -743,14 +871,14 @@
             "Type": 2
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "Energy_Meter",
     "Manufacturer": "Siemens",
-    "Product":"PAC2200",
+    "Product": "PAC2200",
     "Requests": {
         "Interval": 1000
     },
@@ -765,6 +893,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkleistung L1 (kW)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L1 (kW)"
                 }
             ],
             "VariableType": 2,
@@ -780,6 +912,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkleistung L2 (kW)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L2 (kW)"
                 }
             ],
             "VariableType": 2,
@@ -795,6 +931,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkleistung L3 (kW)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L3 (kW)"
                 }
             ],
             "VariableType": 2,
@@ -810,6 +950,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkleistung L1-L 3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L1-L3 (kW)"
                 }
             ],
             "VariableType": 2,
@@ -825,6 +969,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkarbeit Bezug Tarif 1 (kWh)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Energy Purchase Tariff 1 (kWh)"
                 }
             ],
             "VariableType": 2,
@@ -840,6 +988,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkarbeit Abgabe Tarif 1 (kWh)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Energy Delivery Tariff 1 (kWh)"
                 }
             ],
             "VariableType": 2,

@@ -11,7 +11,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 99,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Aussenfühler"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Outdoor Sensor"
+                }
+            ],
             "WriteAddress": 99,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 93,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Raumtemperatur – Zone 1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Room Temperature – Zone 1"
+                }
+            ],
             "WriteAddress": 93,
             "WriteFunctionCode": 0
         },
@@ -41,7 +59,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 95,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Raumtemperatur – Zone 2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Room Temperature – Zone 2"
+                }
+            ],
             "WriteAddress": 95,
             "WriteFunctionCode": 0
         },
@@ -56,7 +83,16 @@
             "Profile": "SYNO_Hour",
             "ReadAddress": 136,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wärmepumpe Betriebsstunden"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heat Pump Betriebsstunden"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -71,7 +107,16 @@
             "Profile": "Watt.I",
             "ReadAddress": 269,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung der Stromversorgung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Leistung der Stromversorgung"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -86,7 +131,16 @@
             "Profile": "",
             "ReadAddress": 280,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energieverbrauch Messzeitpunkt – Monat  (Datum)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Energy Consumption Measurement Time – Month  (Datum)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -101,7 +155,16 @@
             "Profile": "",
             "ReadAddress": 281,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energieverbrauch Messzeitpunkt – Tag (Datum)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Energy Consumption Measurement Time – Day (Datum)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -116,7 +179,16 @@
             "Profile": "",
             "ReadAddress": 279,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energieverbrauch Messzeitpunkt – Jahr (Datum)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Energy Consumption Measurement Time – Year (Datum)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -131,7 +203,16 @@
             "Profile": "",
             "ReadAddress": 282,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zuletzt gemessener Energieverbrauch der Heizung – kWh-Anteil"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Zuletzt gemessener Energy Consumption der Heating – kWh Portion"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -146,7 +227,16 @@
             "Profile": "",
             "ReadAddress": 286,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zuletzt gemessener Energieverbrauch Warmwasser – kWh-Anteil"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Zuletzt gemessener Energy Consumption Hot Water – kWh Portion"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -161,7 +251,16 @@
             "Profile": "",
             "ReadAddress": 284,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zuletzt gemessener Energieverbrauch der Kühlung – kWh-Anteil"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Zuletzt gemessener Energy Consumption der Kühlung – kWh Portion"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -176,7 +275,16 @@
             "Profile": "",
             "ReadAddress": 299,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Durchflussmenge"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Flow Ratemenge"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -191,7 +299,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 32,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Heizen/Kühlen Thermostat Solltemperatur - Heizkreis 1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heating/Cooling Thermostat Target Temperatureee - Heating Circuit 1"
+                }
+            ],
             "WriteAddress": 32,
             "WriteFunctionCode": 6
         },
@@ -206,7 +323,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 34,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Heizen/Kühlen Thermostat Solltemperatur - Heizkreis 2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heating/Cooling Thermostat Target Temperatureee - Heating Circuit 2"
+                }
+            ],
             "WriteAddress": 34,
             "WriteFunctionCode": 6
         },
@@ -221,7 +347,16 @@
             "Profile": "heizenKuhlen",
             "ReadAddress": 58,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Umschaltung Heizen/Kühlen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Switch Heating/Cooling"
+                }
+            ],
             "WriteAddress": 58,
             "WriteFunctionCode": 6
         },
@@ -236,7 +371,16 @@
             "Profile": "Abtaubetrieb",
             "ReadAddress": 67,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Abtaubetrieb"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Defrost Mode"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -251,7 +395,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 106,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Speichertemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Tanktemperatur"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -266,7 +419,16 @@
             "Profile": "WP_System_Ein_Aus",
             "ReadAddress": 25,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "System Ein/Aus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "System On/Off"
+                }
+            ],
             "WriteAddress": 25,
             "WriteFunctionCode": 6
         },
@@ -281,7 +443,16 @@
             "Profile": "ModbusBetriebsartWarmwasser",
             "ReadAddress": 27,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Betriebsart (Warmwasser)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Operating Mode (Hot Water)"
+                }
+            ],
             "WriteAddress": 27,
             "WriteFunctionCode": 6
         },
@@ -296,7 +467,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 30,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Solltemperatur Wasserspeicher"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Target Temperatureee Water Tank"
+                }
+            ],
             "WriteAddress": 30,
             "WriteFunctionCode": 6
         },
@@ -311,7 +491,16 @@
             "Profile": "",
             "ReadAddress": 37,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "TWW bevorzugt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DHW bevorzugt"
+                }
+            ],
             "WriteAddress": 37,
             "WriteFunctionCode": 6
         },
@@ -326,7 +515,16 @@
             "Profile": "",
             "ReadAddress": 38,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Urlaubsmodus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Urlaubsmodus"
+                }
+            ],
             "WriteAddress": 38,
             "WriteFunctionCode": 6
         },
@@ -341,7 +539,16 @@
             "Profile": "mhz",
             "ReadAddress": 73,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wärmepumpe Frequenz – Master"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heat Pump Frequency – Master"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -356,7 +563,16 @@
             "Profile": "",
             "ReadAddress": 154,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Mischventil Stufe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Mixing Valve Level"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -371,7 +587,16 @@
             "Profile": "Wasserpumpe1EINAUS",
             "ReadAddress": 149,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wasserpumpe 1 EIN/AUS"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Water Pump 1 On/Off"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -386,7 +611,16 @@
             "Profile": "",
             "ReadAddress": 144,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Warmwasserspeicher EIN/AUS"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hot Waterspeicher On/Off"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -401,7 +635,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 89,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Legionellentemperatur-Sollwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Legionellatemperatur-Sollwert"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -416,7 +659,16 @@
             "Profile": "Waermequellenstatus",
             "ReadAddress": 80,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wärmequellenstatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Wärmequellenstatus"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -431,7 +683,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 91,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Warmwasser-Temperaturabfall"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hot Water-Temperatureeeabfall"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -446,7 +707,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 103,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Rücklauftemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Returntemperatur"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -461,7 +731,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 101,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Vorlauftemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Flowtemperatur"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -476,7 +755,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 115,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Warmwasserspeicher-Vorlauftemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hot Waterspeicher-Flowtemperatur"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -491,7 +779,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 117,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Warmwasserspeicher-Rücklauftemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hot Waterspeicher-Returntemperatur"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -506,7 +803,16 @@
             "Profile": "3WegeVentilONOFF",
             "ReadAddress": 152,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "3-Wege-Ventil ON/OFF"
+                },
+                {
+                    "Language": "en",
+                    "Name": "3-Wege-Ventil ON/OFF"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -521,7 +827,16 @@
             "Profile": "ACModus",
             "ReadAddress": 28,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "A/C-Modus – Heizkreis 1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "A/C-Mode – Heating Circuit 1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -536,7 +851,16 @@
             "Profile": "ACModus",
             "ReadAddress": 29,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "A/C-Modus – Heizkreis 2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "A/C-Mode – Heating Circuit 2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }
@@ -835,14 +1159,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "heat_pump",
     "Manufacturer": "Mitsubishi",
-    "Product":"MelcoBMES_MINI_A1M",
+    "Product": "MelcoBMES_MINI_A1M",
     "Requests": {
         "Interval": 5000
     },

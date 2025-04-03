@@ -15,6 +15,10 @@
                 {
                     "Language": "de",
                     "Name": "Isttemperatur FE7"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Actual Temperature FE7"
                 }
             ],
             "WriteAddress": 0,
@@ -35,6 +39,10 @@
                 {
                     "Language": "de",
                     "Name": "Solltemperatur FE7"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Set Temperature FE7"
                 }
             ],
             "WriteAddress": 0,
@@ -55,6 +63,10 @@
                 {
                     "Language": "de",
                     "Name": "Isttemperatur FEK"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Actual Temperature FEK"
                 }
             ],
             "WriteAddress": 0,
@@ -75,6 +87,10 @@
                 {
                     "Language": "de",
                     "Name": "Solltemperatur FEK"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Set Temperature FEK"
                 }
             ],
             "WriteAddress": 0,
@@ -95,6 +111,10 @@
                 {
                     "Language": "de",
                     "Name": "Raumfeuchte"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Roomfeuchte"
                 }
             ],
             "WriteAddress": 0,
@@ -114,6 +134,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Taupunkttemperatur"
+                },
+                {
+                    "Language": "en",
                     "Name": "Taupunkttemperatur"
                 }
             ],
@@ -135,6 +159,10 @@
                 {
                     "Language": "de",
                     "Name": "Aussentemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Aussentemperatur"
                 }
             ],
             "WriteAddress": 0,
@@ -155,6 +183,10 @@
                 {
                     "Language": "de",
                     "Name": "Isttemperatur HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Actual Temperature HC1"
                 }
             ],
             "WriteAddress": 0,
@@ -175,6 +207,10 @@
                 {
                     "Language": "de",
                     "Name": "Solltemperatur HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Set Temperature HC1"
                 }
             ],
             "WriteAddress": 0,
@@ -195,6 +231,10 @@
                 {
                     "Language": "de",
                     "Name": "Isttemperatur HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Actual Temperature HC2"
                 }
             ],
             "WriteAddress": 0,
@@ -215,6 +255,10 @@
                 {
                     "Language": "de",
                     "Name": "Solltemperatur HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Set Temperature HC2"
                 }
             ],
             "WriteAddress": 0,
@@ -235,6 +279,10 @@
                 {
                     "Language": "de",
                     "Name": "Vorlaufisttemperatur WP"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Flowisttemperatur WP"
                 }
             ],
             "WriteAddress": 0,
@@ -255,6 +303,10 @@
                 {
                     "Language": "de",
                     "Name": "Vorlaufisttemperatur NHZ"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Flowisttemperatur EH"
                 }
             ],
             "WriteAddress": 0,
@@ -275,6 +327,10 @@
                 {
                     "Language": "de",
                     "Name": "Vorlaufisttemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Flowisttemperatur"
                 }
             ],
             "WriteAddress": 0,
@@ -295,6 +351,10 @@
                 {
                     "Language": "de",
                     "Name": "Rücklaufisttemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Returnisttemperatur"
                 }
             ],
             "WriteAddress": 0,
@@ -314,6 +374,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Festwertsolltemperatur"
+                },
+                {
+                    "Language": "en",
                     "Name": "Festwertsolltemperatur"
                 }
             ],
@@ -335,6 +399,10 @@
                 {
                     "Language": "de",
                     "Name": "Pufferisttemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Bufferisttemperatur"
                 }
             ],
             "WriteAddress": 0,
@@ -355,6 +423,10 @@
                 {
                     "Language": "de",
                     "Name": "Puffersolltemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Buffersolltemperatur"
                 }
             ],
             "WriteAddress": 0,
@@ -375,6 +447,10 @@
                 {
                     "Language": "de",
                     "Name": "Heizungsdruck"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heatingsdruck"
                 }
             ],
             "WriteAddress": 0,
@@ -394,6 +470,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Volumenstrom"
+                },
+                {
+                    "Language": "en",
                     "Name": "Volumenstrom"
                 }
             ],
@@ -415,6 +495,10 @@
                 {
                     "Language": "de",
                     "Name": "Isttemperatur Warmwasser"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Actual Temperature Hot Water"
                 }
             ],
             "WriteAddress": 0,
@@ -435,6 +519,10 @@
                 {
                     "Language": "de",
                     "Name": "Solltemperatur Warmwasser"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Set Temperature Hot Water"
                 }
             ],
             "WriteAddress": 0,
@@ -455,6 +543,10 @@
                 {
                     "Language": "de",
                     "Name": "Isttemperatur Gebläse Kühlen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Actual Temperature Fan Cooling"
                 }
             ],
             "WriteAddress": 0,
@@ -475,6 +567,10 @@
                 {
                     "Language": "de",
                     "Name": "Solltemperatur Gebläse Kühlen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Set Temperature Fan Cooling"
                 }
             ],
             "WriteAddress": 0,
@@ -495,6 +591,10 @@
                 {
                     "Language": "de",
                     "Name": "Isttemperatur Fläche Kühlen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Actual Temperature Area Cooling"
                 }
             ],
             "WriteAddress": 0,
@@ -515,6 +615,10 @@
                 {
                     "Language": "de",
                     "Name": "Solltemperatur Fläche Kühlen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Set Temperature Area Cooling"
                 }
             ],
             "WriteAddress": 0,
@@ -535,6 +639,10 @@
                 {
                     "Language": "de",
                     "Name": "Einsatzgrenze Heizung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Application Limit Heating"
                 }
             ],
             "WriteAddress": 0,
@@ -555,6 +663,10 @@
                 {
                     "Language": "de",
                     "Name": "Einsatzgrenze Warmwasser"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Application Limit Hot Water"
                 }
             ],
             "WriteAddress": 0,
@@ -575,6 +687,10 @@
                 {
                     "Language": "de",
                     "Name": "Quellentemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Source Temperature"
                 }
             ],
             "WriteAddress": 0,
@@ -595,6 +711,10 @@
                 {
                     "Language": "de",
                     "Name": "Quellentemperatur Min"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Source Temperature Min"
                 }
             ],
             "WriteAddress": 0,
@@ -615,6 +735,10 @@
                 {
                     "Language": "de",
                     "Name": "Quellendruck"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Source Pressure"
                 }
             ],
             "WriteAddress": 0,
@@ -635,6 +759,10 @@
                 {
                     "Language": "de",
                     "Name": "Heissgastemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hot Gas Temperature"
                 }
             ],
             "WriteAddress": 0,
@@ -655,6 +783,10 @@
                 {
                     "Language": "de",
                     "Name": "Druck Hochdruck "
+                },
+                {
+                    "Language": "en",
+                    "Name": "High Pressure"
                 }
             ],
             "WriteAddress": 0,
@@ -675,6 +807,10 @@
                 {
                     "Language": "de",
                     "Name": "Druck Niederdruck"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Low Pressure"
                 }
             ],
             "WriteAddress": 0,
@@ -695,6 +831,10 @@
                 {
                     "Language": "de",
                     "Name": "Betriebsart"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Operating Mode"
                 }
             ],
             "WriteAddress": 1500,
@@ -715,6 +855,10 @@
                 {
                     "Language": "de",
                     "Name": "Komfort Temperatur HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Comfort Temperature HC1"
                 }
             ],
             "WriteAddress": 1501,
@@ -735,6 +879,10 @@
                 {
                     "Language": "de",
                     "Name": "Eco Temperatur HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Eco Temperature HC1"
                 }
             ],
             "WriteAddress": 1502,
@@ -755,6 +903,10 @@
                 {
                     "Language": "de",
                     "Name": "Steigung Heizkurve HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heating Curve Rise HC1"
                 }
             ],
             "WriteAddress": 1503,
@@ -775,6 +927,10 @@
                 {
                     "Language": "de",
                     "Name": "Komfort Temperatur HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Comfort Temperature HC2"
                 }
             ],
             "WriteAddress": 1504,
@@ -795,6 +951,10 @@
                 {
                     "Language": "de",
                     "Name": "Eco Temperatur HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Eco Temperature HC2"
                 }
             ],
             "WriteAddress": 1505,
@@ -815,6 +975,10 @@
                 {
                     "Language": "de",
                     "Name": "Steigung Heizkurve HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heating Curve Rise HC2"
                 }
             ],
             "WriteAddress": 1506,
@@ -835,6 +999,10 @@
                 {
                     "Language": "de",
                     "Name": "Festwertbetrieb"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Fixed Value Operation"
                 }
             ],
             "WriteAddress": 1507,
@@ -855,6 +1023,10 @@
                 {
                     "Language": "de",
                     "Name": "Bivalenztemperatur Hzg"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Dual Mode Temperature Hzg"
                 }
             ],
             "WriteAddress": 1508,
@@ -875,6 +1047,10 @@
                 {
                     "Language": "de",
                     "Name": "Komfort Temperatur WW"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Comfort Temperature DHW"
                 }
             ],
             "WriteAddress": 1509,
@@ -895,6 +1071,10 @@
                 {
                     "Language": "de",
                     "Name": "Eco Temperatur WW"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Eco Temperature DHW"
                 }
             ],
             "WriteAddress": 1510,
@@ -915,6 +1095,10 @@
                 {
                     "Language": "de",
                     "Name": "Warmwasserstufen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hot Waterstufen"
                 }
             ],
             "WriteAddress": 1511,
@@ -935,6 +1119,10 @@
                 {
                     "Language": "de",
                     "Name": "Bivalenztemperatur WW"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Dual Mode Temperature DHW"
                 }
             ],
             "WriteAddress": 1512,
@@ -955,6 +1143,10 @@
                 {
                     "Language": "de",
                     "Name": "Vorlaufsolltemperatur Flächenkühlung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Flowsolltemperatur Areankühlung"
                 }
             ],
             "WriteAddress": 1513,
@@ -975,6 +1167,10 @@
                 {
                     "Language": "de",
                     "Name": "Hysterese Vorlauftemp Kühlern"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hysteresis Flowtemp Kühlern"
                 }
             ],
             "WriteAddress": 1514,
@@ -995,6 +1191,10 @@
                 {
                     "Language": "de",
                     "Name": "Raumsolltemperatur Flächenkühlung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Roomsolltemperatur Areankühlung"
                 }
             ],
             "WriteAddress": 1515,
@@ -1015,6 +1215,10 @@
                 {
                     "Language": "de",
                     "Name": "Vorlaufsolltemperatur Gebläsekühlung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Flowsolltemperatur Fankühlung"
                 }
             ],
             "WriteAddress": 1516,
@@ -1035,6 +1239,10 @@
                 {
                     "Language": "de",
                     "Name": "Hysterese Vorlauftemp Gebläsekühlung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hysteresis Flowtemp Fankühlung"
                 }
             ],
             "WriteAddress": 1517,
@@ -1055,6 +1263,10 @@
                 {
                     "Language": "de",
                     "Name": "Raumsolltemperatur Gebläsekühlungg"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Roomsolltemperatur Fankühlungg"
                 }
             ],
             "WriteAddress": 1518,
@@ -1074,6 +1286,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Reset"
+                },
+                {
+                    "Language": "en",
                     "Name": "Reset"
                 }
             ],
@@ -1095,6 +1311,10 @@
                 {
                     "Language": "de",
                     "Name": "Restart-ISG"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Restart-ISG"
                 }
             ],
             "WriteAddress": 1520,
@@ -1115,6 +1335,10 @@
                 {
                     "Language": "de",
                     "Name": "Betriebsstatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Operating Status"
                 }
             ],
             "WriteAddress": 0,
@@ -1135,6 +1359,10 @@
                 {
                     "Language": "de",
                     "Name": "EVU-Freigabe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Off"
                 }
             ],
             "WriteAddress": 0,
@@ -1155,6 +1383,10 @@
                 {
                     "Language": "de",
                     "Name": "Fehlerstatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Fault Status"
                 }
             ],
             "WriteAddress": 0,
@@ -1175,6 +1407,10 @@
                 {
                     "Language": "de",
                     "Name": "BUS-Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Bus Status"
                 }
             ],
             "WriteAddress": 0,
@@ -1195,6 +1431,10 @@
                 {
                     "Language": "de",
                     "Name": "Aktiver Fehler"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Error"
                 }
             ],
             "WriteAddress": 0,
@@ -1215,6 +1455,10 @@
                 {
                     "Language": "de",
                     "Name": "VD Heizen Tag Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD Heizen Day Heat"
                 }
             ],
             "WriteAddress": 0,
@@ -1235,6 +1479,10 @@
                 {
                     "Language": "de",
                     "Name": "VD Heizen Summe kWh Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD Heizen Total kWh Heat"
                 }
             ],
             "WriteAddress": 0,
@@ -1255,6 +1503,10 @@
                 {
                     "Language": "de",
                     "Name": "VD Heizen Summe MWh Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD Heizen Total MWh Heat"
                 }
             ],
             "WriteAddress": 0,
@@ -1275,6 +1527,10 @@
                 {
                     "Language": "de",
                     "Name": "VD WW Tag Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD DHW Day Heat"
                 }
             ],
             "WriteAddress": 0,
@@ -1295,6 +1551,10 @@
                 {
                     "Language": "de",
                     "Name": "VD WW Summe kWh Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD DHW Total kWh Heat"
                 }
             ],
             "WriteAddress": 0,
@@ -1315,6 +1575,10 @@
                 {
                     "Language": "de",
                     "Name": "VD WW Summe MWh Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD DHW Total MWh Heat"
                 }
             ],
             "WriteAddress": 0,
@@ -1335,6 +1599,10 @@
                 {
                     "Language": "de",
                     "Name": "NHZ Heizen Summe kWh Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EH Heizen Total kWh Heat"
                 }
             ],
             "WriteAddress": 0,
@@ -1355,6 +1623,10 @@
                 {
                     "Language": "de",
                     "Name": "NHZ Heizen Summe MWh Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EH Heizen Total MWh Heat"
                 }
             ],
             "WriteAddress": 0,
@@ -1375,6 +1647,10 @@
                 {
                     "Language": "de",
                     "Name": "NHZ WW Summe kWh Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EH DHW Total kWh Heat"
                 }
             ],
             "WriteAddress": 0,
@@ -1395,6 +1671,10 @@
                 {
                     "Language": "de",
                     "Name": "NHZ WW Summe MWh Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EH DHW Total MWh Heat"
                 }
             ],
             "WriteAddress": 0,
@@ -1415,6 +1695,10 @@
                 {
                     "Language": "de",
                     "Name": "VD Heizen Tag Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD Heizen Day Power"
                 }
             ],
             "WriteAddress": 0,
@@ -1435,6 +1719,10 @@
                 {
                     "Language": "de",
                     "Name": "VD Heizen Summe kWh Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD Heizen Total kWh Power"
                 }
             ],
             "WriteAddress": 0,
@@ -1455,6 +1743,10 @@
                 {
                     "Language": "de",
                     "Name": "VD Heizen Summe MWh Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD Heizen Total MWh Power"
                 }
             ],
             "WriteAddress": 0,
@@ -1475,6 +1767,10 @@
                 {
                     "Language": "de",
                     "Name": "VD WW Tag Lesitung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD DHW Day Power"
                 }
             ],
             "WriteAddress": 0,
@@ -1495,6 +1791,10 @@
                 {
                     "Language": "de",
                     "Name": "VD WW Summe kWh Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD DHW Total kWh Power"
                 }
             ],
             "WriteAddress": 0,
@@ -1515,6 +1815,10 @@
                 {
                     "Language": "de",
                     "Name": "VD WW Summe MWh Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD DHW Total MWh Power"
                 }
             ],
             "WriteAddress": 0,
@@ -1535,6 +1839,10 @@
                 {
                     "Language": "de",
                     "Name": "VD Heizen Laufzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD Heizen Runtime"
                 }
             ],
             "WriteAddress": 0,
@@ -1555,6 +1863,10 @@
                 {
                     "Language": "de",
                     "Name": "VD WW Laufzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD DHW Runtime"
                 }
             ],
             "WriteAddress": 0,
@@ -1575,6 +1887,10 @@
                 {
                     "Language": "de",
                     "Name": "VD Kühlen Laufzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "VD Cooling Runtime"
                 }
             ],
             "WriteAddress": 0,
@@ -1595,6 +1911,10 @@
                 {
                     "Language": "de",
                     "Name": "NHZ-1 Laufzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EH-1 Runtime"
                 }
             ],
             "WriteAddress": 0,
@@ -1615,6 +1935,10 @@
                 {
                     "Language": "de",
                     "Name": "NHZ-2 Laufzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EH-2 Runtime"
                 }
             ],
             "WriteAddress": 0,
@@ -1635,6 +1959,10 @@
                 {
                     "Language": "de",
                     "Name": "NHZ-1/2 Laufzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EH-1/2 Runtime"
                 }
             ],
             "WriteAddress": 0,
@@ -1655,6 +1983,10 @@
                 {
                     "Language": "de",
                     "Name": "SG Ready An_Aus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SG Ready On_Off"
                 }
             ],
             "WriteAddress": 4000,
@@ -1674,6 +2006,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "SG-Ready Eingang1"
+                },
+                {
+                    "Language": "en",
                     "Name": "SG-Ready Eingang1"
                 }
             ],
@@ -1695,6 +2031,10 @@
                 {
                     "Language": "de",
                     "Name": "SG-Ready Eingang2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SG-Ready Eingang2"
                 }
             ],
             "WriteAddress": 4002,
@@ -1715,6 +2055,10 @@
                 {
                     "Language": "de",
                     "Name": "SG-Ready Betriebszustand"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SG-Ready Betriebszustand"
                 }
             ],
             "WriteAddress": 0,
@@ -1734,6 +2078,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Reglererkennung"
+                },
+                {
+                    "Language": "en",
                     "Name": "Reglererkennung"
                 }
             ],
@@ -2267,6 +2615,10 @@
                 {
                     "Language": "de",
                     "Name": "V_HK1 Pumpe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_HC1 Pumpe"
                 }
             ],
             "VariableType": 0,
@@ -2282,6 +2634,10 @@
                 {
                     "Language": "de",
                     "Name": "V_HK2 Pumpe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_HC2 Pumpe"
                 }
             ],
             "VariableType": 0,
@@ -2296,6 +2652,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "V_Aufheizprogramme"
+                },
+                {
+                    "Language": "en",
                     "Name": "V_Aufheizprogramme"
                 }
             ],
@@ -2312,6 +2672,10 @@
                 {
                     "Language": "de",
                     "Name": "V_NHZ Sufen in Betrieb"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_EH Sufen in Betrieb"
                 }
             ],
             "VariableType": 0,
@@ -2326,6 +2690,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "V_WP im Heizbetrieb"
+                },
+                {
+                    "Language": "en",
                     "Name": "V_WP im Heizbetrieb"
                 }
             ],
@@ -2342,6 +2710,10 @@
                 {
                     "Language": "de",
                     "Name": "V_WP im Warmwasserbetrieb"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_WP im Hot Waterbetrieb"
                 }
             ],
             "VariableType": 0,
@@ -2356,6 +2728,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "V_Verdichter in Betrieb"
+                },
+                {
+                    "Language": "en",
                     "Name": "V_Verdichter in Betrieb"
                 }
             ],
@@ -2372,6 +2748,10 @@
                 {
                     "Language": "de",
                     "Name": "V_Sommerbetrieb Aktiv"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_Sommerbetrieb Aktiv"
                 }
             ],
             "VariableType": 0,
@@ -2386,6 +2766,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "V_Kühlbetrieb Aktiv"
+                },
+                {
+                    "Language": "en",
                     "Name": "V_Kühlbetrieb Aktiv"
                 }
             ],
@@ -2402,6 +2786,10 @@
                 {
                     "Language": "de",
                     "Name": "V_Min eine IWS im Abtaubetrieb"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_Min eine IWS im Abtaubetrieb"
                 }
             ],
             "VariableType": 0,
@@ -2417,6 +2805,10 @@
                 {
                     "Language": "de",
                     "Name": "V_Heizen_Summe Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_Heizen_Total Heat"
                 }
             ],
             "VariableType": 2,
@@ -2432,6 +2824,10 @@
                 {
                     "Language": "de",
                     "Name": "V_WW_Summe Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_DHW_Total Heat"
                 }
             ],
             "VariableType": 2,
@@ -2447,6 +2843,10 @@
                 {
                     "Language": "de",
                     "Name": "V_NHZ Heizen Summe Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_EH Heizen Total Heat"
                 }
             ],
             "VariableType": 2,
@@ -2462,6 +2862,10 @@
                 {
                     "Language": "de",
                     "Name": "V_NHZ WW Summe Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_EH DHW Total Heat"
                 }
             ],
             "VariableType": 2,
@@ -2477,6 +2881,10 @@
                 {
                     "Language": "de",
                     "Name": "V_Heizen_Summe Lesitung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_Heizen_Total Power"
                 }
             ],
             "VariableType": 2,
@@ -2492,6 +2900,10 @@
                 {
                     "Language": "de",
                     "Name": "V_WW_Summe Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_DHW_Total Power"
                 }
             ],
             "VariableType": 2,

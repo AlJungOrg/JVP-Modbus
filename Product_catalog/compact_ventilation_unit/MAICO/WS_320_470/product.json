@@ -11,7 +11,16 @@
             "Profile": "MAICO.JAHR",
             "ReadAddress": 100,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW Jahr"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw year"
+                }
+            ],
             "WriteAddress": 100,
             "WriteFunctionCode": 6
         },
@@ -26,7 +35,16 @@
             "Profile": "MAICO.MONAT",
             "ReadAddress": 101,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW Monat"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw month"
+                }
+            ],
             "WriteAddress": 101,
             "WriteFunctionCode": 6
         },
@@ -41,7 +59,16 @@
             "Profile": "MAICO.TAG",
             "ReadAddress": 102,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW Tag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw day"
+                }
+            ],
             "WriteAddress": 102,
             "WriteFunctionCode": 6
         },
@@ -56,7 +83,16 @@
             "Profile": "MAICO.STUNDE",
             "ReadAddress": 103,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW Stunde"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw hour"
+                }
+            ],
             "WriteAddress": 103,
             "WriteFunctionCode": 6
         },
@@ -71,7 +107,16 @@
             "Profile": "MAICO.MINUTE",
             "ReadAddress": 104,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW Minute"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw minute"
+                }
+            ],
             "WriteAddress": 104,
             "WriteFunctionCode": 6
         },
@@ -86,7 +131,16 @@
             "Profile": "MAICO.SEKUNDE",
             "ReadAddress": 105,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW Sekunde"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw second"
+                }
+            ],
             "WriteAddress": 105,
             "WriteFunctionCode": 6
         },
@@ -101,7 +155,16 @@
             "Profile": "MAICO.LUEFTERSTUFEAUSSPERREN",
             "ReadAddress": 106,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW LuefterstufeAusSperren"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw luefterstufeaussperren"
+                }
+            ],
             "WriteAddress": 106,
             "WriteFunctionCode": 6
         },
@@ -116,7 +179,16 @@
             "Profile": "MAICO.BDE",
             "ReadAddress": 107,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW VerriegelungBDE"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw verriegelungbde"
+                }
+            ],
             "WriteAddress": 107,
             "WriteFunctionCode": 6
         },
@@ -131,7 +203,16 @@
             "Profile": "MAICO.SPRACHE",
             "ReadAddress": 108,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW Sprache"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw language"
+                }
+            ],
             "WriteAddress": 108,
             "WriteFunctionCode": 6
         },
@@ -146,7 +227,16 @@
             "Profile": "MAICO.TEMP_AUSWAHL",
             "ReadAddress": 109,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW RaumtemperaturAuswahl"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw raumtemperaturauswahl"
+                }
+            ],
             "WriteAddress": 109,
             "WriteFunctionCode": 6
         },
@@ -161,7 +251,16 @@
             "Profile": "MAICO.MONATE.12",
             "ReadAddress": 150,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungLueftung RW FilterstandGeraetefilter"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellunglueftung rw filterstandgeraetefilter"
+                }
+            ],
             "WriteAddress": 150,
             "WriteFunctionCode": 6
         },
@@ -176,7 +275,16 @@
             "Profile": "MAICO.MONATE.18",
             "ReadAddress": 151,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungLueftung RW FilterstandAussenfilter"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellunglueftung rw filterstandaussenfilter"
+                }
+            ],
             "WriteAddress": 151,
             "WriteFunctionCode": 6
         },
@@ -191,7 +299,16 @@
             "Profile": "MAICO.MONATE.6",
             "ReadAddress": 152,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungLueftung RW FilterstandRaumfilter"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellunglueftung rw filterstandraumfilter"
+                }
+            ],
             "WriteAddress": 152,
             "WriteFunctionCode": 6
         },
@@ -206,7 +323,16 @@
             "Profile": "MAICO.MINUTE.5_90",
             "ReadAddress": 153,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungLueftung RW DauerLueftungsstufe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellunglueftung rw dauerlueftungsstufe"
+                }
+            ],
             "WriteAddress": 153,
             "WriteFunctionCode": 6
         },
@@ -221,7 +347,16 @@
             "Profile": "MAICO.VOLUMENSTROM.WS470.M3H",
             "ReadAddress": 154,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungLueftung RW VolumenstromReduzierteLueftung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellunglueftung rw volumenstromreduziertelueftung"
+                }
+            ],
             "WriteAddress": 154,
             "WriteFunctionCode": 6
         },
@@ -236,7 +371,16 @@
             "Profile": "MAICO.VOLUMENSTROM.WS470.M3H",
             "ReadAddress": 155,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungLueftung RW VolumenstromNennlueftung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellunglueftung rw volumenstromnennlueftung"
+                }
+            ],
             "WriteAddress": 155,
             "WriteFunctionCode": 6
         },
@@ -251,7 +395,16 @@
             "Profile": "MAICO.VOLUMENSTROM.WS470.M3H",
             "ReadAddress": 156,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungLueftung RW VolumenstromIntensivlueftung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellunglueftung rw volumenstromintensivlueftung"
+                }
+            ],
             "WriteAddress": 156,
             "WriteFunctionCode": 6
         },
@@ -266,7 +419,16 @@
             "Profile": "MAICO.FILTER.GEWECHSELT",
             "ReadAddress": 157,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungLueftung RW FilterwechselGeraetefilter"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellunglueftung rw filterwechselgeraetefilter"
+                }
+            ],
             "WriteAddress": 157,
             "WriteFunctionCode": 6
         },
@@ -281,7 +443,16 @@
             "Profile": "MAICO.FILTER.GEWECHSELT",
             "ReadAddress": 158,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungLueftung RW FilterwechselAußenfilter"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellunglueftung rw filterwechselaußenfilter"
+                }
+            ],
             "WriteAddress": 158,
             "WriteFunctionCode": 6
         },
@@ -296,7 +467,16 @@
             "Profile": "MAICO.FILTER.GEWECHSELT",
             "ReadAddress": 159,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungLueftung RW FilterwechselRaumfilter"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellunglueftung rw filterwechselraumfilter"
+                }
+            ],
             "WriteAddress": 159,
             "WriteFunctionCode": 6
         },
@@ -311,7 +491,16 @@
             "Profile": "MAICO.TEMP.SCHRITTWEITE.1X10.MINUS3_PLUS3",
             "ReadAddress": 300,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungTemperatur RW AbgleichRaumtemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellungtemperatur rw abgleichraumtemperatur"
+                }
+            ],
             "WriteAddress": 300,
             "WriteFunctionCode": 6
         },
@@ -326,7 +515,16 @@
             "Profile": "MAICO.TEMP.SCHRITTWEITE.8_29",
             "ReadAddress": 301,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungTemperatur RW TempZuluftMinimumKuehlen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellungtemperatur rw tempzuluftminimumkuehlen"
+                }
+            ],
             "WriteAddress": 301,
             "WriteFunctionCode": 6
         },
@@ -341,7 +539,16 @@
             "Profile": "MAICO.TEMP.SCHRITTWEITE.1x10.PLUS8_PLUS29",
             "ReadAddress": 302,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EinstellungTemperatur RW TempRaumMaximal"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einstellungtemperatur rw tempraummaximal"
+                }
+            ],
             "WriteAddress": 302,
             "WriteFunctionCode": 6
         },
@@ -356,7 +563,16 @@
             "Profile": "MAICO.CO2X10",
             "ReadAddress": 350,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypCO2ID0"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypco2id0"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -371,7 +587,16 @@
             "Profile": "MAICO.CO2X10",
             "ReadAddress": 351,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypCO2ID1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypco2id1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -386,7 +611,16 @@
             "Profile": "MAICO.CO2X10",
             "ReadAddress": 352,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypCO2ID2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypco2id2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -401,7 +635,16 @@
             "Profile": "MAICO.CO2X10",
             "ReadAddress": 353,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypCO2ID3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypco2id3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -416,7 +659,16 @@
             "Profile": "MAICO.CO2X10",
             "ReadAddress": 354,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypCO2ID4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypco2id4"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -431,7 +683,16 @@
             "Profile": "MAICO.CO2X10",
             "ReadAddress": 355,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypCO2ID5"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypco2id5"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -446,7 +707,16 @@
             "Profile": "MAICO.CO2X10",
             "ReadAddress": 356,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypCO2ID6"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypco2id6"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -461,7 +731,16 @@
             "Profile": "MAICO.CO2X10",
             "ReadAddress": 357,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypCO2ID7"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypco2id7"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -476,7 +755,16 @@
             "Profile": "MAICO.FEUCHTEX10",
             "ReadAddress": 358,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypRFID0"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortyprfid0"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -491,7 +779,16 @@
             "Profile": "MAICO.FEUCHTEX10",
             "ReadAddress": 359,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypRFID1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortyprfid1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -506,7 +803,16 @@
             "Profile": "MAICO.FEUCHTEX10",
             "ReadAddress": 360,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypRFID2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortyprfid2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -521,7 +827,16 @@
             "Profile": "MAICO.FEUCHTEX10",
             "ReadAddress": 361,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypRFID3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortyprfid3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -536,7 +851,16 @@
             "Profile": "MAICO.FEUCHTEX10",
             "ReadAddress": 362,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypRFID4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortyprfid4"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -551,7 +875,16 @@
             "Profile": "MAICO.FEUCHTEX10",
             "ReadAddress": 363,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypRFID5"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortyprfid5"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -566,7 +899,16 @@
             "Profile": "MAICO.FEUCHTEX10",
             "ReadAddress": 364,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypRFID6"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortyprfid6"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -581,7 +923,16 @@
             "Profile": "MAICO.FEUCHTEX10",
             "ReadAddress": 365,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypRFID7"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortyprfid7"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -596,7 +947,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 366,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypVOCID0"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypvocid0"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -611,7 +971,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 367,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypVOCID1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypvocid1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -626,7 +995,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 368,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypVOCID2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypvocid2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -641,7 +1019,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 369,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypVOCID3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypvocid3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -656,7 +1043,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 370,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypVOCID4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypvocid4"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -671,7 +1067,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 371,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypVOCID5"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypvocid5"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -686,7 +1091,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 372,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypVOCID6"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypvocid6"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -701,7 +1115,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 373,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EnOcean RO FunksensorTypVOCID7"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Enocean ro funksensortypvocid7"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -716,7 +1139,16 @@
             "Profile": "",
             "ReadAddress": 401,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "FehlerHinweise RO AktuellerFehlerHi"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Fehlerhinweise ro aktuellerfehlerhi"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -731,7 +1163,16 @@
             "Profile": "",
             "ReadAddress": 402,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "FehlerHinweise RO AktuellerFehlerLo"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Fehlerhinweise ro aktuellerfehlerlo"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -746,7 +1187,16 @@
             "Profile": "",
             "ReadAddress": 403,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "FehlerHinweise RO AktuellerHinweisHi"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Fehlerhinweise ro aktuellerhinweishi"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -761,7 +1211,16 @@
             "Profile": "",
             "ReadAddress": 404,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "FehlerHinweise RO AktuellerHinweisLo"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Fehlerhinweise ro aktuellerhinweislo"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -776,7 +1235,16 @@
             "Profile": "MAICO.RESET",
             "ReadAddress": 405,
             "ReadFunctionCode": 0,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "FehlerHinweise W FehlerReset"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Fehlerhinweise w fehlerreset"
+                }
+            ],
             "WriteAddress": 405,
             "WriteFunctionCode": 6
         },
@@ -791,7 +1259,16 @@
             "Profile": "MAICO.BETRIEBSART",
             "ReadAddress": 550,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW Betriebsart"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw betriebsart"
+                }
+            ],
             "WriteAddress": 550,
             "WriteFunctionCode": 6
         },
@@ -806,7 +1283,16 @@
             "Profile": "MAICO.AKTIV",
             "ReadAddress": 551,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW Stosslueftung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw stosslueftung"
+                }
+            ],
             "WriteAddress": 551,
             "WriteFunctionCode": 6
         },
@@ -821,7 +1307,16 @@
             "Profile": "MAICO.WINTERSOMMER",
             "ReadAddress": 552,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW Jahreszeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw jahreszeit"
+                }
+            ],
             "WriteAddress": 552,
             "WriteFunctionCode": 6
         },
@@ -836,7 +1331,16 @@
             "Profile": "MAICO.TEMP.SCHRITTWEITE.1x10.PLUS18_PLUS25",
             "ReadAddress": 553,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW SolltemperaturRaum"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw solltemperaturraum"
+                }
+            ],
             "WriteAddress": 553,
             "WriteFunctionCode": 6
         },
@@ -851,7 +1355,16 @@
             "Profile": "MAICO.LUEFTUNGSSTUFE",
             "ReadAddress": 554,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Grundeinstellung RW Lueftungststufe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Basic setting rw lueftungststufe"
+                }
+            ],
             "WriteAddress": 554,
             "WriteFunctionCode": 6
         },
@@ -866,7 +1379,16 @@
             "Profile": "MAICO.LUEFTUNGSSTUFE",
             "ReadAddress": 650,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageLueftung RO AktuelleLueftungsstufe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragelueftung ro aktuellelueftungsstufe"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -881,7 +1403,16 @@
             "Profile": "MAICO.RPM",
             "ReadAddress": 651,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageLueftung RO AktuelleDrehzahlVentilatorZuluft"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragelueftung ro aktuelledrehzahlventilatorzuluft"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -896,7 +1427,16 @@
             "Profile": "MAICO.RPM",
             "ReadAddress": 652,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageLueftung RO AktuelleDrehzahlVentilatorAbluft"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragelueftung ro aktuelledrehzahlventilatorabluft"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -911,7 +1451,16 @@
             "Profile": "MAICO.VOLUMENSTROM.WS470.M3H",
             "ReadAddress": 653,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageLueftung RO AktuellerVolumenstromZuluft"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragelueftung ro aktuellervolumenstromzuluft"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -926,7 +1475,16 @@
             "Profile": "MAICO.VOLUMENSTROM.WS470.M3H",
             "ReadAddress": 654,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageLueftung RO AktuellerVolumenstromAbluft"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragelueftung ro aktuellervolumenstromabluft"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -941,7 +1499,16 @@
             "Profile": "MAICO.TAGE",
             "ReadAddress": 655,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageLueftung RO RestlaufzeitGeraetefilter"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragelueftung ro restlaufzeitgeraetefilter"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -956,7 +1523,16 @@
             "Profile": "MAICO.TAGE",
             "ReadAddress": 656,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageLueftung RO RestlaufzeitAussenfilter"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragelueftung ro restlaufzeitaussenfilter"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -971,7 +1547,16 @@
             "Profile": "MAICO.TAGE",
             "ReadAddress": 657,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageLueftung RO RestlaufzeitRaumfilter"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragelueftung ro restlaufzeitraumfilter"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -986,7 +1571,16 @@
             "Profile": "MAICO.TEMP.SCHRITTWEITE.1X10.MINUS30_PLUS120",
             "ReadAddress": 700,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AktTemp RO TemperaturRaum"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Akttemp ro temperaturraum"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1001,7 +1595,16 @@
             "Profile": "MAICO.TEMP.SCHRITTWEITE.1X10.MINUS30_PLUS120",
             "ReadAddress": 701,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AktTemp RW TemperaturRaumExtern"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Akttemp rw temperaturraumextern"
+                }
+            ],
             "WriteAddress": 701,
             "WriteFunctionCode": 6
         },
@@ -1016,7 +1619,16 @@
             "Profile": "MAICO.TEMP.SCHRITTWEITE.1X10.MINUS30_PLUS120",
             "ReadAddress": 702,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AktTemp RO TemperaturT_AULvorLuftEWT"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Akttemp ro temperaturt_aulvorluftewt"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1031,7 +1643,16 @@
             "Profile": "MAICO.TEMP.SCHRITTWEITE.1X10.MINUS30_PLUS120",
             "ReadAddress": 703,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AktTemp RO TemperaturLufteintritt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Akttemp ro temperaturlufteintritt"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1046,7 +1667,16 @@
             "Profile": "MAICO.TEMP.SCHRITTWEITE.1X10.MINUS30_PLUS120",
             "ReadAddress": 704,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AktTemp RO TemperaturZuluft"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Akttemp ro temperaturzuluft"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1061,7 +1691,16 @@
             "Profile": "MAICO.TEMP.SCHRITTWEITE.1X10.MINUS30_PLUS120",
             "ReadAddress": 705,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AktTemp RO TemperaturAbluft"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Akttemp ro temperaturabluft"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1076,7 +1715,16 @@
             "Profile": "MAICO.TEMP.SCHRITTWEITE.1X10.MINUS30_PLUS120",
             "ReadAddress": 706,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AktTemp RO TemperaturFortluft"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Akttemp ro temperaturfortluft"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1091,7 +1739,16 @@
             "Profile": "MAICO.TEMP.SCHRITTWEITE.1X10.MINUS30_PLUS120",
             "ReadAddress": 707,
             "ReadFunctionCode": 0,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AktTemp W TempRaumBus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Akttemp w tempraumbus"
+                }
+            ],
             "WriteAddress": 707,
             "WriteFunctionCode": 6
         },
@@ -1106,7 +1763,16 @@
             "Profile": "MAICO.FEUCHTE.RF",
             "ReadAddress": 750,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO rFAbluft"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro rfabluft"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1121,7 +1787,16 @@
             "Profile": "MAICO.FEUCHTE.RF",
             "ReadAddress": 751,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO rFSensor1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro rfsensor1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1136,7 +1811,16 @@
             "Profile": "MAICO.FEUCHTE.RF",
             "ReadAddress": 752,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO rFSensor2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro rfsensor2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1151,7 +1835,16 @@
             "Profile": "MAICO.FEUCHTE.RF",
             "ReadAddress": 753,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO rFSensor3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro rfsensor3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1166,7 +1859,16 @@
             "Profile": "MAICO.FEUCHTE.RF",
             "ReadAddress": 754,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO rFSensor4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro rfsensor4"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1181,7 +1883,16 @@
             "Profile": "MAICO.CO2X10",
             "ReadAddress": 755,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO CO2Sensor1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro co2sensor1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1196,7 +1907,16 @@
             "Profile": "MAICO.CO2X10",
             "ReadAddress": 756,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO CO2Sensor2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro co2sensor2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1211,7 +1931,16 @@
             "Profile": "MAICO.CO2X10",
             "ReadAddress": 757,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO CO2Sensor3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro co2sensor3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1226,7 +1955,16 @@
             "Profile": "MAICO.CO2X10",
             "ReadAddress": 758,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO CO2Sensor4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro co2sensor4"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1241,7 +1979,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 759,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO VOCSensor1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro vocsensor1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1256,7 +2003,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 760,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO VOCSensor2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro vocsensor2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1271,7 +2027,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 761,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO VOCSensor3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro vocsensor3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1286,7 +2051,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 762,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten RO VOCSensor4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten ro vocsensor4"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1301,7 +2075,16 @@
             "Profile": "MAICO.FEUCHTEX10",
             "ReadAddress": 763,
             "ReadFunctionCode": 0,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten W rFBus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten w rfbus"
+                }
+            ],
             "WriteAddress": 763,
             "WriteFunctionCode": 6
         },
@@ -1316,7 +2099,16 @@
             "Profile": "MAICO.VOCX10",
             "ReadAddress": 764,
             "ReadFunctionCode": 0,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensordaten W LQBus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensordaten w lqbus"
+                }
+            ],
             "WriteAddress": 764,
             "WriteFunctionCode": 6
         },
@@ -1331,7 +2123,16 @@
             "Profile": "MAICO.AUSEIN",
             "ReadAddress": 800,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageSchaltzustand RO VentilatorZuluft"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfrageschaltzustand ro ventilatorzuluft"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1346,7 +2147,16 @@
             "Profile": "MAICO.AUSEIN",
             "ReadAddress": 801,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageSchaltzustand RO VentilatorAbluft"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfrageschaltzustand ro ventilatorabluft"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1361,7 +2171,16 @@
             "Profile": "MAICO.AUFZU",
             "ReadAddress": 802,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageSchaltzustand RO StellantriebSommerbypass"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfrageschaltzustand ro stellantriebsommerbypass"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1376,7 +2195,16 @@
             "Profile": "MAICO.AUSEIN",
             "ReadAddress": 803,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageSchaltzustand RO PTCHeizregister"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfrageschaltzustand ro ptcheizregister"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1391,7 +2219,16 @@
             "Profile": "MAICO.AUSEIN",
             "ReadAddress": 804,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageSchaltzustand RO SchaltkontaktBasisplatine"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfrageschaltzustand ro schaltkontaktbasisplatine"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1406,7 +2243,16 @@
             "Profile": "MAICO.AUSEIN",
             "ReadAddress": 805,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageSchaltzustand RO RelaisNachheizungZP1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfrageschaltzustand ro relaisnachheizungzp1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1421,7 +2267,16 @@
             "Profile": "MAICO.HEIZENKUEHLEN",
             "ReadAddress": 806,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageSchaltzustand RO SoleUmwaelzpumpeZP1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfrageschaltzustand ro soleumwaelzpumpezp1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1436,7 +2291,16 @@
             "Profile": "MAICO.HEIZENKUEHLEN",
             "ReadAddress": 807,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageSchaltzustand RO DreiWegeLuftklappeZP1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfrageschaltzustand ro dreiwegeluftklappezp1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1451,7 +2315,16 @@
             "Profile": "MAICO.ZONENKLAPPE",
             "ReadAddress": 808,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageSchaltzustand RO ZonenklappeZP1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfrageschaltzustand ro zonenklappezp1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1466,7 +2339,16 @@
             "Profile": "",
             "ReadAddress": 850,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO BetriebsstundenFeuchteschutzLueftungHi"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro betriebsstundenfeuchteschutzlueftunghi"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1481,7 +2363,16 @@
             "Profile": "",
             "ReadAddress": 851,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO BetriebsstundenFeuchteschutzLueftungLo"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro betriebsstundenfeuchteschutzlueftunglo"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1496,7 +2387,16 @@
             "Profile": "",
             "ReadAddress": 852,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO BetriebsstundenReduzierteLueftungHi"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro betriebsstundenreduziertelueftunghi"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1511,7 +2411,16 @@
             "Profile": "",
             "ReadAddress": 853,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO BetriebsstundenReduzierteLueftungLo"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro betriebsstundenreduziertelueftunglo"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1526,7 +2435,16 @@
             "Profile": "",
             "ReadAddress": 854,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO BetriebsstundenNennLueftungHi"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro betriebsstundennennlueftunghi"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1541,7 +2459,16 @@
             "Profile": "",
             "ReadAddress": 855,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO BetriebsstundenNennLueftungLo"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro betriebsstundennennlueftunglo"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1556,7 +2483,16 @@
             "Profile": "",
             "ReadAddress": 856,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO BetriebsstundenIntensivLueftungHi"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro betriebsstundenintensivlueftunghi"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1571,7 +2507,16 @@
             "Profile": "",
             "ReadAddress": 857,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO BetriebsstundenIntensivLueftungLo"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro betriebsstundenintensivlueftunglo"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1586,7 +2531,16 @@
             "Profile": "",
             "ReadAddress": 858,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO BetriebsstundenLueftungGesamtHi"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro betriebsstundenlueftunggesamthi"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1601,7 +2555,16 @@
             "Profile": "",
             "ReadAddress": 859,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO BetriebsstundenLueftungGesamtLo"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro betriebsstundenlueftunggesamtlo"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1616,7 +2579,16 @@
             "Profile": "",
             "ReadAddress": 860,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO RelaisNachheizungZP1Hi"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro relaisnachheizungzp1hi"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1631,7 +2603,16 @@
             "Profile": "",
             "ReadAddress": 861,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO RelaisNachheizungZP1Lo"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro relaisnachheizungzp1lo"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1646,7 +2627,16 @@
             "Profile": "",
             "ReadAddress": 862,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO SoleUmwaelzpumpeZP1Hi"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro soleumwaelzpumpezp1hi"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1661,7 +2651,16 @@
             "Profile": "",
             "ReadAddress": 863,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO SoleUmwaelzpumpeZP1Lo"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro soleumwaelzpumpezp1lo"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1676,7 +2675,16 @@
             "Profile": "",
             "ReadAddress": 864,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO DreiWegeLuftklappeZP1Hi"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro dreiwegeluftklappezp1hi"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1691,7 +2699,16 @@
             "Profile": "",
             "ReadAddress": 865,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO DreiWegeLuftklappeZP1Lo"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro dreiwegeluftklappezp1lo"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1706,7 +2723,16 @@
             "Profile": "",
             "ReadAddress": 866,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO ZonenklappeZP1Hi"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro zonenklappezp1hi"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1721,7 +2747,16 @@
             "Profile": "",
             "ReadAddress": 867,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO ZonenklappeZP1Lo"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro zonenklappezp1lo"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1736,7 +2771,16 @@
             "Profile": "",
             "ReadAddress": 868,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO SchaltkontaktHi"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro schaltkontakthi"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1751,7 +2795,16 @@
             "Profile": "",
             "ReadAddress": 869,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AbfrageBetriebsstunden RO SchaltkontaktLo"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abfragebetriebsstunden ro schaltkontaktlo"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1766,7 +2819,16 @@
             "Profile": "MAICO.PROZDELTAP",
             "ReadAddress": 900,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Filterueberwachungt RW ZulaessigesDeltaP"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Filterueberwachungt rw zulaessigesdeltap"
+                }
+            ],
             "WriteAddress": 900,
             "WriteFunctionCode": 6
         }
@@ -2452,14 +3514,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "compact_ventilation_unit",
     "Manufacturer": "MAICO",
-    "Product":"WS320_470",
+    "Product": "WS320_470",
     "Requests": {
         "Interval": 2000
     },
@@ -2470,7 +3532,16 @@
             "Name": "Virt.DatumUhrzeit",
             "Profile": "",
             "ReadAction": "return( sprintf('%02d.%02d.%04d %02d:%02d:%02d', $VALUES[\"A_2_3_102\"], $VALUES[\"A_2_3_101\"], $VALUES[\"A_2_3_100\"], $VALUES[\"A_2_3_103\"], $VALUES[\"A_2_3_104\"], $VALUES[\"A_2_3_105\"] ));",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt DatumUhrzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt datumuhrzeit"
+                }
+            ],
             "VariableType": 3,
             "WriteAction": ""
         },
@@ -2480,7 +3551,16 @@
             "Name": "Virt.BetriebsstundenFeuchteschutz",
             "Profile": "MAICO.BETRIEBSSTUNDEN",
             "ReadAction": "return(  $VALUES[\"A_2_3_850\"] * 65535 + $VALUES[\"A_2_3_851\"] );",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt BetriebsstundenFeuchteschutz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt betriebsstundenfeuchteschutz"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -2490,7 +3570,16 @@
             "Name": "Virt.BetriebsstundenReduzierteLueftung",
             "Profile": "MAICO.BETRIEBSSTUNDEN",
             "ReadAction": "return(  $VALUES[\"A_2_3_852\"] * 65535 + $VALUES[\"A_2_3_853\"] );",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt BetriebsstundenReduzierteLueftung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt betriebsstundenreduziertelueftung"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -2500,7 +3589,16 @@
             "Name": "Virt.BetriebsstundenNennLueftung",
             "Profile": "MAICO.BETRIEBSSTUNDEN",
             "ReadAction": "return(  $VALUES[\"A_2_3_854\"] * 65535 + $VALUES[\"A_2_3_855\"] );",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt BetriebsstundenNennLueftung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt betriebsstundennennlueftung"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -2510,7 +3608,16 @@
             "Name": "Virt.BetriebsstundenIntensivLueftung",
             "Profile": "MAICO.BETRIEBSSTUNDEN",
             "ReadAction": "return(  $VALUES[\"A_2_3_856\"] * 65535 + $VALUES[\"A_2_3_857\"] );",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt BetriebsstundenIntensivLueftung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt betriebsstundenintensivlueftung"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -2520,7 +3627,16 @@
             "Name": "Virt.BetriebsstundenLueftungGesamt",
             "Profile": "MAICO.BETRIEBSSTUNDEN",
             "ReadAction": "return(  $VALUES[\"A_2_3_858\"] * 65535 + $VALUES[\"A_2_3_859\"] );",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt BetriebsstundenLueftungGesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt betriebsstundenlueftunggesamt"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -2530,7 +3646,16 @@
             "Name": "Virt.BetriebsstundenRelaisNachheizungZP1",
             "Profile": "MAICO.BETRIEBSSTUNDEN",
             "ReadAction": "return(  $VALUES[\"A_2_3_860\"] * 65535 + $VALUES[\"A_2_3_861\"] );",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt BetriebsstundenRelaisNachheizungZP1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt betriebsstundenrelaisnachheizungzp1"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -2540,7 +3665,16 @@
             "Name": "Virt.BetriebsstundenSoleUmwaelzpumpeZP1",
             "Profile": "MAICO.BETRIEBSSTUNDEN",
             "ReadAction": "return(  $VALUES[\"A_2_3_862\"] * 65535 + $VALUES[\"A_2_3_863\"] );",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt BetriebsstundenSoleUmwaelzpumpeZP1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt betriebsstundensoleumwaelzpumpezp1"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -2550,7 +3684,16 @@
             "Name": "Virt.Betriebsstunden3WegeLuftklappeZP1",
             "Profile": "MAICO.BETRIEBSSTUNDEN",
             "ReadAction": "return(  $VALUES[\"A_2_3_864\"] * 65535 + $VALUES[\"A_2_3_865\"] );",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt Betriebsstunden3WegeLuftklappeZP1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt betriebsstunden3wegeluftklappezp1"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -2560,7 +3703,16 @@
             "Name": "Virt.BetriebsstundenZonenklappeZP1",
             "Profile": "MAICO.BETRIEBSSTUNDEN",
             "ReadAction": "return(  $VALUES[\"A_2_3_866\"] * 65535 + $VALUES[\"A_2_3_867\"] );",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt BetriebsstundenZonenklappeZP1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt betriebsstundenzonenklappezp1"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -2570,7 +3722,16 @@
             "Name": "Virt.BetriebsstundenSchaltkontakt",
             "Profile": "MAICO.BETRIEBSSTUNDEN",
             "ReadAction": "return(  $VALUES[\"A_2_3_868\"] * 65535 + $VALUES[\"A_2_3_869\"] );",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt BetriebsstundenSchaltkontakt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt betriebsstundenschaltkontakt"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -2580,7 +3741,16 @@
             "Name": "Virt.FehlerHinweise.AktuellerFehler",
             "Profile": "",
             "ReadAction": "return( $VALUES[\"A_2_3_401\"] * 65535 + $VALUES[\"A_2_3_402\"] );",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt FehlerHinweise AktuellerFehler"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt fehlerhinweise aktuellerfehler"
+                }
+            ],
             "VariableType": 1,
             "WriteAction": ""
         },
@@ -2590,7 +3760,16 @@
             "Name": "Virt.FehlerHinweise.AktuellerHinweis",
             "Profile": "",
             "ReadAction": "return( $VALUES[\"A_2_3_403\"] * 65535 + $VALUES[\"A_2_3_404\"] );",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Virt FehlerHinweise AktuellerHinweis"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Virt fehlerhinweise aktuellerhinweis"
+                }
+            ],
             "VariableType": 1,
             "WriteAction": ""
         }

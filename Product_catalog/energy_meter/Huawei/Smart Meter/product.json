@@ -11,7 +11,16 @@
             "Profile": "kW",
             "ReadAddress": 37516,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hausverbrauch"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Household Consumption"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "kW",
             "ReadAddress": 37113,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Netzbezug"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Grid Import"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -41,7 +59,16 @@
             "Profile": "kWh",
             "ReadAddress": 37119,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamter Hausverbrauch"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Household Consumption"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -56,7 +83,16 @@
             "Profile": "kWh",
             "ReadAddress": 37115,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "reactive Power"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -71,7 +107,16 @@
             "Profile": "kWh",
             "ReadAddress": 37121,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "reverse active Power"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reverse Active Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }
@@ -101,14 +146,14 @@
             "Type": 2
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "Energy_Meter",
     "Manufacturer": "Huawei",
-    "Product":"SMartMeter",
+    "Product": "SMartMeter",
     "Requests": {
         "Interval": 5000
     },

@@ -11,7 +11,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SunSpec DID"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SunSpec DID"
+                }
+            ]
         },
         {
             "Active": false,
@@ -24,7 +34,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SunSpec Length"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SunSpec Length"
+                }
+            ]
         },
         {
             "Active": false,
@@ -37,7 +57,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hersteller"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Manufacturer"
+                }
+            ]
         },
         {
             "Active": false,
@@ -50,7 +80,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Modell"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Model"
+                }
+            ]
         },
         {
             "Active": false,
@@ -63,7 +103,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Option"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Option"
+                }
+            ]
         },
         {
             "Active": false,
@@ -76,7 +126,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Version"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Version"
+                }
+            ]
         },
         {
             "Active": false,
@@ -89,7 +149,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Seriennummer"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Serial Number"
+                }
+            ]
         },
         {
             "Active": false,
@@ -102,7 +172,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Geräteadresse"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Device Address"
+                }
+            ]
         },
         {
             "Active": false,
@@ -115,7 +195,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SunSpec DID"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SunSpec DID"
+                }
+            ]
         },
         {
             "Active": false,
@@ -128,7 +218,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SunSpec Length"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SunSpec Length"
+                }
+            ]
         },
         {
             "Active": true,
@@ -141,7 +241,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current"
+                }
+            ]
         },
         {
             "Active": true,
@@ -154,7 +264,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current"
+                }
+            ]
         },
         {
             "Active": true,
@@ -167,7 +287,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current"
+                }
+            ]
         },
         {
             "Active": true,
@@ -180,7 +310,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current"
+                }
+            ]
         },
         {
             "Active": true,
@@ -193,7 +333,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current"
+                }
+            ]
         },
         {
             "Active": true,
@@ -206,7 +356,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage"
+                }
+            ]
         },
         {
             "Active": true,
@@ -219,7 +379,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage"
+                }
+            ]
         },
         {
             "Active": true,
@@ -232,7 +402,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage"
+                }
+            ]
         },
         {
             "Active": true,
@@ -245,7 +425,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage"
+                }
+            ]
         },
         {
             "Active": true,
@@ -258,7 +448,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage"
+                }
+            ]
         },
         {
             "Active": true,
@@ -271,7 +471,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage"
+                }
+            ]
         },
         {
             "Active": true,
@@ -284,7 +494,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage"
+                }
+            ]
         },
         {
             "Active": true,
@@ -297,7 +517,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage"
+                }
+            ]
         },
         {
             "Active": true,
@@ -310,7 +540,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage"
+                }
+            ]
         },
         {
             "Active": true,
@@ -323,7 +563,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Frequency"
+                }
+            ]
         },
         {
             "Active": true,
@@ -336,7 +586,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Frequency"
+                }
+            ]
         },
         {
             "Active": true,
@@ -349,7 +609,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power"
+                }
+            ]
         },
         {
             "Active": true,
@@ -362,7 +632,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power"
+                }
+            ]
         },
         {
             "Active": true,
@@ -375,7 +655,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power"
+                }
+            ]
         },
         {
             "Active": true,
@@ -388,7 +678,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power"
+                }
+            ]
         },
         {
             "Active": true,
@@ -401,7 +701,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -414,7 +724,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -427,7 +747,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -440,7 +770,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -453,7 +793,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -466,7 +816,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -479,7 +839,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -492,7 +862,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -505,7 +885,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -518,7 +908,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -531,7 +931,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": true,
@@ -544,7 +954,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor"
+                }
+            ]
         },
         {
             "Active": true,
@@ -557,7 +977,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor"
+                }
+            ]
         },
         {
             "Active": true,
@@ -570,7 +1000,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor"
+                }
+            ]
         },
         {
             "Active": true,
@@ -583,7 +1023,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor"
+                }
+            ]
         },
         {
             "Active": true,
@@ -596,7 +1046,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor"
+                }
+            ]
         },
         {
             "Active": true,
@@ -610,7 +1070,16 @@
             "ReadAddress": 40226,
             "ReadFunctionCode": 3,
             "SwapBytes": false,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Einspeisung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Export"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -625,7 +1094,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Einspeisung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Export"
+                }
+            ]
         },
         {
             "Active": true,
@@ -638,7 +1117,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Einspeisung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Export"
+                }
+            ]
         },
         {
             "Active": true,
@@ -651,7 +1140,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Einspeisung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Export"
+                }
+            ]
         },
         {
             "Active": true,
@@ -665,7 +1164,16 @@
             "ReadAddress": 40234,
             "ReadFunctionCode": 3,
             "SwapBytes": false,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Bezug"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Import"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -680,7 +1188,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Bezug"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Import"
+                }
+            ]
         },
         {
             "Active": true,
@@ -693,7 +1211,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Bezug"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Import"
+                }
+            ]
         },
         {
             "Active": true,
@@ -706,7 +1234,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Bezug"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Import"
+                }
+            ]
         },
         {
             "Active": true,
@@ -719,7 +1257,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Energy"
+                }
+            ]
         },
         {
             "Active": false,
@@ -732,7 +1280,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -745,7 +1303,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -758,7 +1326,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -771,7 +1349,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -784,7 +1372,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -797,7 +1395,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -810,7 +1418,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -823,7 +1441,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -836,7 +1464,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -849,7 +1487,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -862,7 +1510,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -875,7 +1533,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -888,7 +1556,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -901,7 +1579,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -914,7 +1602,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -927,7 +1625,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -940,7 +1648,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -953,7 +1671,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -966,7 +1694,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -979,7 +1717,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -992,7 +1740,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -1005,7 +1763,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -1018,7 +1786,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -1031,7 +1809,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -1044,7 +1832,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": false,
@@ -1057,7 +1855,17 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ]
         },
         {
             "Active": true,
@@ -1070,19 +1878,29 @@
             "ReadFunctionCode": 3,
             "SwapBytes": false,
             "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ereignisse"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Events"
+                }
+            ]
         }
     ],
     "ByteOrder": 0,
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Profiles": {},
     "Type": "Energy_Meter",
     "Manufacturer": "SolarEdge",
-    "Product":"SE-MTR-3Y-400V-A",
+    "Product": "SE-MTR-3Y-400V-A",
     "Requests": {
         "Interval": 10000
     },
@@ -1093,7 +1911,16 @@
             "Name": "Wechselstrom",
             "Profile": "~Ampere",
             "ReadAction": "return ($VALUES[\"A_5_3_40190\"] * (10 ** $VALUES[\"A_5_3_40194\"]));",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wechselstrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Wechselstrom"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -1103,7 +1930,16 @@
             "Name": "Wechselspannung",
             "Profile": "~Volt.230",
             "ReadAction": "return ($VALUES[\"A_5_3_40195\"] * (10 ** $VALUES[\"A_5_3_40203\"]));",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wechselspannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Wechselspannung"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -1113,7 +1949,16 @@
             "Name": "Dreiphasenwechselspannung",
             "Profile": "~Volt",
             "ReadAction": "return ($VALUES[\"A_5_3_40199\"] * (10 ** $VALUES[\"A_5_3_40203\"]));",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Dreiphasenwechselspannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Dreiphasenwechselspannung"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -1123,7 +1968,16 @@
             "Name": "Frequenz",
             "Profile": "~Hertz",
             "ReadAction": "return ($VALUES[\"A_5_3_40204\"] * (10 ** $VALUES[\"A_5_3_40205\"]));",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Frequency"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -1133,7 +1987,16 @@
             "Name": "Einspeisung / Bezug (+/-)",
             "Profile": "~Watt",
             "ReadAction": "return ($VALUES[\"A_5_3_40206\"] * (10 ** $VALUES[\"A_5_3_40210\"]));",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Einspeisung / Bezug (+/-)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Einspeisung / Bezug (+/-)"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -1143,7 +2006,16 @@
             "Name": "Mittlerer Leistungsfaktor",
             "Profile": "~Intensity.1",
             "ReadAction": "return abs(($VALUES[\"A_5_3_40221\"] * (10 ** $VALUES[\"A_5_3_40225\"]))/100);",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Mittlerer Leistungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Mittlerer Leistungsfaktor"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -1153,7 +2025,16 @@
             "Name": "Export",
             "Profile": "~Electricity",
             "ReadAction": "return ($VALUES[\"A_3_3_40226\"] * (10 ** $VALUES[\"A_5_3_40242\"]));",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Export"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Export"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -1163,7 +2044,16 @@
             "Name": "Import",
             "Profile": "~Electricity",
             "ReadAction": "return ($VALUES[\"A_3_3_40234\"] * (10 ** $VALUES[\"A_5_3_40242\"]));",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Import"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Import"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         }

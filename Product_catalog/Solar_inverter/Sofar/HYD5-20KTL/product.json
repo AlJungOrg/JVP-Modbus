@@ -1,2160 +1,3438 @@
 {
-    "Addresses": [
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Frequency_Grid",
-            "Profile": "~Hertz",
-            "ReadAddress": 1156,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_Output_Total",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1157,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ReactivePower_Output_Total",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1158,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ApparentPower_Output_Total",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1159,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_PCC_Total",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1160,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ReactivePower_PCC_Total",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1161,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ApparentPower_PCC_Total",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1162,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Phase_R",
-            "Profile": "~Volt",
-            "ReadAddress": 1165,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_Output_R",
-            "Profile": "~Ampere",
-            "ReadAddress": 1166,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_Output_R",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1167,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ReactivePower_Output_R",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1168,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.001,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PowerFactor_Output_R",
-            "Profile": "",
-            "ReadAddress": 1169,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_PCC_R",
-            "Profile": "~Ampere",
-            "ReadAddress": 1170,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_PCC_R",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1171,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ReactivePower_PCC_R",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1172,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.001,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PowerFactor_PCC_R",
-            "Profile": "",
-            "ReadAddress": 1173,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Phase_S",
-            "Profile": "~Volt",
-            "ReadAddress": 1165,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_Output_S",
-            "Profile": "~Ampere",
-            "ReadAddress": 1166,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_Output_S",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1167,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ReactivePower_Output_S",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1168,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.001,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PowerFactor_Output_S",
-            "Profile": "",
-            "ReadAddress": 1169,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_PCC_S",
-            "Profile": "~Ampere",
-            "ReadAddress": 1170,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_PCC_S",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1171,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ReactivePower_PCC_S",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1172,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.001,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PowerFactor_PCC_S",
-            "Profile": "",
-            "ReadAddress": 1173,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Phase_S",
-            "Profile": "~Volt",
-            "ReadAddress": 1165,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_Output_T",
-            "Profile": "~Ampere",
-            "ReadAddress": 1166,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_Output_T",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1167,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ReactivePower_Output_T",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1168,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.001,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PowerFactor_Output_T",
-            "Profile": "",
-            "ReadAddress": 1169,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_PCC_T",
-            "Profile": "~Ampere",
-            "ReadAddress": 1170,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_PCC_T",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1171,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ReactivePower_PCC_T",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1172,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.001,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PowerFactor_PCC_T",
-            "Profile": "",
-            "ReadAddress": 1173,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_PV_Ext",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1198,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_Load_System_Power",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1199,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Phase_L1N",
-            "Profile": "~Volt",
-            "ReadAddress": 1200,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_Output_L1N",
-            "Profile": "~Ampere",
-            "ReadAddress": 1201,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_Output_L1N",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1202,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_PCC_L1N",
-            "Profile": "~Ampere",
-            "ReadAddress": 1203,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_PCC_L1N",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1204,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Phase_L2N",
-            "Profile": "~Volt",
-            "ReadAddress": 1205,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_Output_L2N",
-            "Profile": "~Ampere",
-            "ReadAddress": 1206,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_Output_L2N",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1207,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_PCC_L2N",
-            "Profile": "~Ampere",
-            "ReadAddress": 1208,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_PCC_L2N",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1209,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Line_L1L2",
-            "Profile": "~Volt",
-            "ReadAddress": 1210,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Line_L2L3",
-            "Profile": "~Volt",
-            "ReadAddress": 1211,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Line_L3L1",
-            "Profile": "~Volt",
-            "ReadAddress": 1212,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.001,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PowerFactor",
-            "Profile": "",
-            "ReadAddress": 1213,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_Load_Total",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1284,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ReactivePower_Load_Total",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1285,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ApparentPower_Load_Total",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1286,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Frequency_OUTPUT",
-            "Profile": "~Hertz",
-            "ReadAddress": 1287,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Output_R",
-            "Profile": "~Volt",
-            "ReadAddress": 1290,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_LOAD_R",
-            "Profile": "~Ampere",
-            "ReadAddress": 1291,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_LOAD_R",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1292,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ReactivePower_Load_R",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1293,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ApparentPower_Load_R",
-            "Profile": "VA",
-            "ReadAddress": 1294,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Output_S",
-            "Profile": "~Volt",
-            "ReadAddress": 1298,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_LOAD_S",
-            "Profile": "~Ampere",
-            "ReadAddress": 1299,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_LOAD_S",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1300,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ReactivePower_Load_S",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1301,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ApparentPower_Load_S",
-            "Profile": "VA",
-            "ReadAddress": 1302,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Output_T",
-            "Profile": "~Volt",
-            "ReadAddress": 1306,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_LOAD_T",
-            "Profile": "~Ampere",
-            "ReadAddress": 1307,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_LOAD_T",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1308,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ReactivePower_Load_T",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1309,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ApparentPower_Load_T",
-            "Profile": "VA",
-            "ReadAddress": 1310,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Output_L1N",
-            "Profile": "~Volt",
-            "ReadAddress": 1314,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_LOAD_L1N",
-            "Profile": "~Ampere",
-            "ReadAddress": 1315,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_LOAD_L1N",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1316,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Output_L2N",
-            "Profile": "~Volt",
-            "ReadAddress": 1317,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_LOAD_L2N",
-            "Profile": "~Ampere",
-            "ReadAddress": 1318,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ActivePower_LOAD_L2N",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1319,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_PV1",
-            "Profile": "~Volt",
-            "ReadAddress": 1412,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_PV1",
-            "Profile": "~Ampere",
-            "ReadAddress": 1413,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power_PV1",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1414,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_PV2",
-            "Profile": "~Volt",
-            "ReadAddress": 1415,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_PV2",
-            "Profile": "~Ampere",
-            "ReadAddress": 1416,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power_PV2",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1417,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power_PV_Total",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1476,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Bat1",
-            "Profile": "~Volt",
-            "ReadAddress": 1540,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_Bat1",
-            "Profile": "~Ampere",
-            "ReadAddress": 1541,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power_Bat1",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1542,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Temp_Bat1",
-            "Profile": "~Temperature",
-            "ReadAddress": 1543,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "SOC_Bat1",
-            "Profile": "~Progress",
-            "ReadAddress": 1544,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "SOH_Bat1",
-            "Profile": "~Progress",
-            "ReadAddress": 1545,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ChargeCycle_Bat1",
-            "Profile": "",
-            "ReadAddress": 1546,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Voltage_Bat2",
-            "Profile": "~Volt",
-            "ReadAddress": 1547,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Current_Bat2",
-            "Profile": "~Ampere",
-            "ReadAddress": 1548,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power_Bat2",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1549,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Temp_Bat2",
-            "Profile": "~Temperature",
-            "ReadAddress": 1550,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "SOC_Bat2",
-            "Profile": "~Progress",
-            "ReadAddress": 1551,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "SOH_Bat2",
-            "Profile": "~Progress",
-            "ReadAddress": 1552,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "ChargeCycle_Bat2",
-            "Profile": "",
-            "ReadAddress": 1553,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power_Bat_Total",
-            "Profile": "~Power.KNX",
-            "ReadAddress": 1639,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "SOC_Bat_Average",
-            "Profile": "~Progress",
-            "ReadAddress": 1640,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PV_Generation_Today",
-            "Profile": "~Electricity",
-            "ReadAddress": 1668,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PV_Generation_Total",
-            "Profile": "~Electricity",
-            "ReadAddress": 1670,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Load_Consumption_Today",
-            "Profile": "~Electricity",
-            "ReadAddress": 1672,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Load_Consumption_Total",
-            "Profile": "~Electricity",
-            "ReadAddress": 1674,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Energy_Purchase_Today",
-            "Profile": "~Electricity",
-            "ReadAddress": 1676,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Energy_Purchase_Total",
-            "Profile": "~Electricity",
-            "ReadAddress": 1678,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Energy_Selling_Today",
-            "Profile": "~Electricity",
-            "ReadAddress": 1680,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Energy_Selling_Total",
-            "Profile": "~Electricity",
-            "ReadAddress": 1682,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat_Charge_Today",
-            "Profile": "~Electricity",
-            "ReadAddress": 1684,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat_Charge_Total",
-            "Profile": "~Electricity",
-            "ReadAddress": 1686,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat_Discharge_Today",
-            "Profile": "~Electricity",
-            "ReadAddress": 1688,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat_Discharge_Total",
-            "Profile": "~Electricity",
-            "ReadAddress": 1690,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PV_Generation_Month",
-            "Profile": "~Electricity",
-            "ReadAddress": 1692,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PV_Generation_Year",
-            "Profile": "~Electricity",
-            "ReadAddress": 1694,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Load_Consumption_Month",
-            "Profile": "~Electricity",
-            "ReadAddress": 1696,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Load_Consumption_Year",
-            "Profile": "~Electricity",
-            "ReadAddress": 1698,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Energy_Purchase_Month",
-            "Profile": "~Electricity",
-            "ReadAddress": 1700,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Energy_Purchase_Year",
-            "Profile": "~Electricity",
-            "ReadAddress": 1702,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Energy_Selling_Month",
-            "Profile": "~Electricity",
-            "ReadAddress": 1704,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Energy_Selling_Year",
-            "Profile": "~Electricity",
-            "ReadAddress": 1706,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat_Charge_Month",
-            "Profile": "~Electricity",
-            "ReadAddress": 1708,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat_Charge_Year",
-            "Profile": "~Electricity",
-            "ReadAddress": 1710,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat_Discharge_Month",
-            "Profile": "~Electricity",
-            "ReadAddress": 1712,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat_Discharge_Year",
-            "Profile": "~Electricity",
-            "ReadAddress": 1714,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_ID",
-            "Profile": "",
-            "ReadAddress": 4164,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4164,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Address",
-            "Profile": "",
-            "ReadAddress": 4165,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4165,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Potocol",
-            "Profile": "",
-            "ReadAddress": 4166,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4166,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Voltage_Over",
-            "Profile": "~Volt",
-            "ReadAddress": 4167,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4167,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Voltage_Charge",
-            "Profile": "~Volt",
-            "ReadAddress": 4168,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4168,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Voltage_Lack",
-            "Profile": "~Volt",
-            "ReadAddress": 4169,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4169,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Voltage_Discharge_Stop",
-            "Profile": "~Volt",
-            "ReadAddress": 4170,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4170,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Current_Charge_Limit",
-            "Profile": "~Ampere",
-            "ReadAddress": 4171,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4171,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Current_Discharge_Limit",
-            "Profile": "~Ampere",
-            "ReadAddress": 4172,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4172,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Depth_of_Discharge",
-            "Profile": "~Intensity.100",
-            "ReadAddress": 4173,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4173,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_End_of_Discharge",
-            "Profile": "~Intensity.100",
-            "ReadAddress": 4174,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4174,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Capacity",
-            "Profile": "",
-            "ReadAddress": 4175,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4175,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Voltage_Nominal",
-            "Profile": "~Volt",
-            "ReadAddress": 4176,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4176,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Cell_Type",
-            "Profile": "",
-            "ReadAddress": 4177,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4177,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_EPS_Buffer",
-            "Profile": "~Intensity.100",
-            "ReadAddress": 4178,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4178,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Control",
-            "Profile": "",
-            "ReadAddress": 4179,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4179,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Address2",
-            "Profile": "",
-            "ReadAddress": 4180,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4180,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Address3",
-            "Profile": "",
-            "ReadAddress": 4181,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4181,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "BatConfig_Address4",
-            "Profile": "",
-            "ReadAddress": 4182,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4183,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Energy_Storage_Mode_Control",
-            "Profile": "",
-            "ReadAddress": 4368,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 4368,
-            "WriteFunctionCode": 16
+  "Addresses": [
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Frequency_Grid",
+      "Profile": "~Hertz",
+      "ReadAddress": 1156,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Frequenz Netz"
+        },
+        {
+          "Language": "en",
+          "Name": "Frequency Grid"
         }
-    ],
-    "ByteOrder": 0,
-    "Profiles": {
-        "VA": {
-            "Associations": [],
-            "Digits": 2,
-            "Icon": "",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": " VA",
-            "Type": 2
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_Output_Total",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1157,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung Ausgang Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower Output Total"
         }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
     },
-    "ByteOrderFloats": true, 
-    "Active": true,
-    "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
-    "ConnectionType": "TCP",
-    "Type": "solar_inverter",
-    "Manufacturer": "Sofar",
-    "Product":"HYD5-20KTL",
-    "Requests": {
-        "Interval": 5000
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ReactivePower_Output_Total",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1158,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung Ausgang Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "ReactivePower Output Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
     },
-    "VirtualAddresses": []
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ApparentPower_Output_Total",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1159,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Scheinleistung Ausgang Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "ApparentPower Output Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_PCC_Total",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1160,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung PCC Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower PCC Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ReactivePower_PCC_Total",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1161,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung PCC Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "ReactivePower PCC Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ApparentPower_PCC_Total",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1162,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Scheinleistung PCC Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "ApparentPower PCC Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Phase_R",
+      "Profile": "~Volt",
+      "ReadAddress": 1165,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Phase R"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Phase R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_Output_R",
+      "Profile": "~Ampere",
+      "ReadAddress": 1166,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Ausgang R"
+        },
+        {
+          "Language": "en",
+          "Name": "Current Output R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_Output_R",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1167,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung Ausgang R"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower Output R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ReactivePower_Output_R",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1168,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung Ausgang R"
+        },
+        {
+          "Language": "en",
+          "Name": "ReactivePower Output R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PowerFactor_Output_R",
+      "Profile": "",
+      "ReadAddress": 1169,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistungsfaktor Ausgang R"
+        },
+        {
+          "Language": "en",
+          "Name": "PowerFactor Output R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_PCC_R",
+      "Profile": "~Ampere",
+      "ReadAddress": 1170,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom PCC R"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PCC R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_PCC_R",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1171,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung PCC R"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower PCC R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ReactivePower_PCC_R",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1172,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung PCC R"
+        },
+        {
+          "Language": "en",
+          "Name": "ReactivePower PCC R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PowerFactor_PCC_R",
+      "Profile": "",
+      "ReadAddress": 1173,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistungsfaktor PCC R"
+        },
+        {
+          "Language": "en",
+          "Name": "PowerFactor PCC R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Phase_S",
+      "Profile": "~Volt",
+      "ReadAddress": 1165,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Phase S"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Phase S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_Output_S",
+      "Profile": "~Ampere",
+      "ReadAddress": 1166,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Ausgang S"
+        },
+        {
+          "Language": "en",
+          "Name": "Current Output S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_Output_S",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1167,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung Ausgang S"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower Output S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ReactivePower_Output_S",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1168,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung Ausgang S"
+        },
+        {
+          "Language": "en",
+          "Name": "ReactivePower Output S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PowerFactor_Output_S",
+      "Profile": "",
+      "ReadAddress": 1169,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistungsfaktor Ausgang S"
+        },
+        {
+          "Language": "en",
+          "Name": "PowerFactor Output S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_PCC_S",
+      "Profile": "~Ampere",
+      "ReadAddress": 1170,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom PCC S"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PCC S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_PCC_S",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1171,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung PCC S"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower PCC S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ReactivePower_PCC_S",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1172,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung PCC S"
+        },
+        {
+          "Language": "en",
+          "Name": "ReactivePower PCC S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PowerFactor_PCC_S",
+      "Profile": "",
+      "ReadAddress": 1173,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistungsfaktor PCC S"
+        },
+        {
+          "Language": "en",
+          "Name": "PowerFactor PCC S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Phase_S",
+      "Profile": "~Volt",
+      "ReadAddress": 1165,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Phase S"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Phase S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_Output_T",
+      "Profile": "~Ampere",
+      "ReadAddress": 1166,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Ausgang T"
+        },
+        {
+          "Language": "en",
+          "Name": "Current Output T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_Output_T",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1167,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung Ausgang T"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower Output T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ReactivePower_Output_T",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1168,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung Ausgang T"
+        },
+        {
+          "Language": "en",
+          "Name": "ReactivePower Output T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PowerFactor_Output_T",
+      "Profile": "",
+      "ReadAddress": 1169,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistungsfaktor Ausgang T"
+        },
+        {
+          "Language": "en",
+          "Name": "PowerFactor Output T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_PCC_T",
+      "Profile": "~Ampere",
+      "ReadAddress": 1170,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom PCC T"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PCC T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_PCC_T",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1171,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung PCC T"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower PCC T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ReactivePower_PCC_T",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1172,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung PCC T"
+        },
+        {
+          "Language": "en",
+          "Name": "ReactivePower PCC T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PowerFactor_PCC_T",
+      "Profile": "",
+      "ReadAddress": 1173,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistungsfaktor PCC T"
+        },
+        {
+          "Language": "en",
+          "Name": "PowerFactor PCC T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_PV_Ext",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1198,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung PV Ext"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower PV Ext"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_Load_System_Power",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1199,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung Last System Power"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower Load System Power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Phase_L1N",
+      "Profile": "~Volt",
+      "ReadAddress": 1200,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Phase L1N"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Phase L1N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_Output_L1N",
+      "Profile": "~Ampere",
+      "ReadAddress": 1201,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Ausgang L1N"
+        },
+        {
+          "Language": "en",
+          "Name": "Current Output L1N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_Output_L1N",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1202,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung Ausgang L1N"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower Output L1N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_PCC_L1N",
+      "Profile": "~Ampere",
+      "ReadAddress": 1203,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom PCC L1N"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PCC L1N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_PCC_L1N",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1204,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung PCC L1N"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower PCC L1N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Phase_L2N",
+      "Profile": "~Volt",
+      "ReadAddress": 1205,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Phase L2N"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Phase L2N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_Output_L2N",
+      "Profile": "~Ampere",
+      "ReadAddress": 1206,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Ausgang L2N"
+        },
+        {
+          "Language": "en",
+          "Name": "Current Output L2N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_Output_L2N",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1207,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung Ausgang L2N"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower Output L2N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_PCC_L2N",
+      "Profile": "~Ampere",
+      "ReadAddress": 1208,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom PCC L2N"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PCC L2N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_PCC_L2N",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1209,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung PCC L2N"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower PCC L2N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Line_L1L2",
+      "Profile": "~Volt",
+      "ReadAddress": 1210,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Line L1L2"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Line L1L2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Line_L2L3",
+      "Profile": "~Volt",
+      "ReadAddress": 1211,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Line L2L3"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Line L2L3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Line_L3L1",
+      "Profile": "~Volt",
+      "ReadAddress": 1212,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Line L3L1"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Line L3L1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PowerFactor",
+      "Profile": "",
+      "ReadAddress": 1213,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistungsfaktor"
+        },
+        {
+          "Language": "en",
+          "Name": "PowerFactor"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_Load_Total",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1284,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung Last Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower Load Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ReactivePower_Load_Total",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1285,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung Last Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "ReactivePower Load Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ApparentPower_Load_Total",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1286,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Scheinleistung Last Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "ApparentPower Load Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Frequency_OUTPUT",
+      "Profile": "~Hertz",
+      "ReadAddress": 1287,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Frequenz OUTPUT"
+        },
+        {
+          "Language": "en",
+          "Name": "Frequency OUTPUT"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Output_R",
+      "Profile": "~Volt",
+      "ReadAddress": 1290,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Ausgang R"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Output R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_LOAD_R",
+      "Profile": "~Ampere",
+      "ReadAddress": 1291,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom LOAD R"
+        },
+        {
+          "Language": "en",
+          "Name": "Current LOAD R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_LOAD_R",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1292,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung LOAD R"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower LOAD R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ReactivePower_Load_R",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1293,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung Last R"
+        },
+        {
+          "Language": "en",
+          "Name": "ReactivePower Load R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ApparentPower_Load_R",
+      "Profile": "VA",
+      "ReadAddress": 1294,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Scheinleistung Last R"
+        },
+        {
+          "Language": "en",
+          "Name": "ApparentPower Load R"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Output_S",
+      "Profile": "~Volt",
+      "ReadAddress": 1298,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Ausgang S"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Output S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_LOAD_S",
+      "Profile": "~Ampere",
+      "ReadAddress": 1299,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom LOAD S"
+        },
+        {
+          "Language": "en",
+          "Name": "Current LOAD S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_LOAD_S",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1300,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung LOAD S"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower LOAD S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ReactivePower_Load_S",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1301,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung Last S"
+        },
+        {
+          "Language": "en",
+          "Name": "ReactivePower Load S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ApparentPower_Load_S",
+      "Profile": "VA",
+      "ReadAddress": 1302,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Scheinleistung Last S"
+        },
+        {
+          "Language": "en",
+          "Name": "ApparentPower Load S"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Output_T",
+      "Profile": "~Volt",
+      "ReadAddress": 1306,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Ausgang T"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Output T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_LOAD_T",
+      "Profile": "~Ampere",
+      "ReadAddress": 1307,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom LOAD T"
+        },
+        {
+          "Language": "en",
+          "Name": "Current LOAD T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_LOAD_T",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1308,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung LOAD T"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower LOAD T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ReactivePower_Load_T",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1309,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung Last T"
+        },
+        {
+          "Language": "en",
+          "Name": "ReactivePower Load T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ApparentPower_Load_T",
+      "Profile": "VA",
+      "ReadAddress": 1310,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Scheinleistung Last T"
+        },
+        {
+          "Language": "en",
+          "Name": "ApparentPower Load T"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Output_L1N",
+      "Profile": "~Volt",
+      "ReadAddress": 1314,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Ausgang L1N"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Output L1N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_LOAD_L1N",
+      "Profile": "~Ampere",
+      "ReadAddress": 1315,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom LOAD L1N"
+        },
+        {
+          "Language": "en",
+          "Name": "Current LOAD L1N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_LOAD_L1N",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1316,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung LOAD L1N"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower LOAD L1N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Output_L2N",
+      "Profile": "~Volt",
+      "ReadAddress": 1317,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Ausgang L2N"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Output L2N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_LOAD_L2N",
+      "Profile": "~Ampere",
+      "ReadAddress": 1318,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom LOAD L2N"
+        },
+        {
+          "Language": "en",
+          "Name": "Current LOAD L2N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ActivePower_LOAD_L2N",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1319,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung LOAD L2N"
+        },
+        {
+          "Language": "en",
+          "Name": "ActivePower LOAD L2N"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_PV1",
+      "Profile": "~Volt",
+      "ReadAddress": 1412,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung PV1"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage PV1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_PV1",
+      "Profile": "~Ampere",
+      "ReadAddress": 1413,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom PV1"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PV1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power_PV1",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1414,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Power PV1"
+        },
+        {
+          "Language": "en",
+          "Name": "Power PV1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_PV2",
+      "Profile": "~Volt",
+      "ReadAddress": 1415,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung PV2"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage PV2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_PV2",
+      "Profile": "~Ampere",
+      "ReadAddress": 1416,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom PV2"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PV2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power_PV2",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1417,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Power PV2"
+        },
+        {
+          "Language": "en",
+          "Name": "Power PV2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power_PV_Total",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1476,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Power PV Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "Power PV Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Bat1",
+      "Profile": "~Volt",
+      "ReadAddress": 1540,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Bat1"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Bat1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_Bat1",
+      "Profile": "~Ampere",
+      "ReadAddress": 1541,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Bat1"
+        },
+        {
+          "Language": "en",
+          "Name": "Current Bat1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power_Bat1",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1542,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Power Bat1"
+        },
+        {
+          "Language": "en",
+          "Name": "Power Bat1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Temp_Bat1",
+      "Profile": "~Temperature",
+      "ReadAddress": 1543,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Temperatur Bat1"
+        },
+        {
+          "Language": "en",
+          "Name": "Temp Bat1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "SOC_Bat1",
+      "Profile": "~Progress",
+      "ReadAddress": 1544,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Ladezustand Bat1"
+        },
+        {
+          "Language": "en",
+          "Name": "SOC Bat1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "SOH_Bat1",
+      "Profile": "~Progress",
+      "ReadAddress": 1545,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Gesundheitszustand Bat1"
+        },
+        {
+          "Language": "en",
+          "Name": "SOH Bat1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ChargeCycle_Bat1",
+      "Profile": "",
+      "ReadAddress": 1546,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Ladezyklen Bat1"
+        },
+        {
+          "Language": "en",
+          "Name": "ChargeCycle Bat1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Voltage_Bat2",
+      "Profile": "~Volt",
+      "ReadAddress": 1547,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Bat2"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage Bat2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Current_Bat2",
+      "Profile": "~Ampere",
+      "ReadAddress": 1548,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Bat2"
+        },
+        {
+          "Language": "en",
+          "Name": "Current Bat2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power_Bat2",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1549,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Power Bat2"
+        },
+        {
+          "Language": "en",
+          "Name": "Power Bat2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Temp_Bat2",
+      "Profile": "~Temperature",
+      "ReadAddress": 1550,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Temperatur Bat2"
+        },
+        {
+          "Language": "en",
+          "Name": "Temp Bat2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "SOC_Bat2",
+      "Profile": "~Progress",
+      "ReadAddress": 1551,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Ladezustand Bat2"
+        },
+        {
+          "Language": "en",
+          "Name": "SOC Bat2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "SOH_Bat2",
+      "Profile": "~Progress",
+      "ReadAddress": 1552,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Gesundheitszustand Bat2"
+        },
+        {
+          "Language": "en",
+          "Name": "SOH Bat2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "ChargeCycle_Bat2",
+      "Profile": "",
+      "ReadAddress": 1553,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Ladezyklen Bat2"
+        },
+        {
+          "Language": "en",
+          "Name": "ChargeCycle Bat2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power_Bat_Total",
+      "Profile": "~Power.KNX",
+      "ReadAddress": 1639,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Power Batterie Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "Power Bat Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "SOC_Bat_Average",
+      "Profile": "~Progress",
+      "ReadAddress": 1640,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Ladezustand Batterie Average"
+        },
+        {
+          "Language": "en",
+          "Name": "SOC Bat Average"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PV_Generation_Today",
+      "Profile": "~Electricity",
+      "ReadAddress": 1668,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PV Erzeugung Heute"
+        },
+        {
+          "Language": "en",
+          "Name": "PV Generation Today"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PV_Generation_Total",
+      "Profile": "~Electricity",
+      "ReadAddress": 1670,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PV Erzeugung Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "PV Generation Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Load_Consumption_Today",
+      "Profile": "~Electricity",
+      "ReadAddress": 1672,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Last Consumption Heute"
+        },
+        {
+          "Language": "en",
+          "Name": "Load Consumption Today"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Load_Consumption_Total",
+      "Profile": "~Electricity",
+      "ReadAddress": 1674,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Last Consumption Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "Load Consumption Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Energy_Purchase_Today",
+      "Profile": "~Electricity",
+      "ReadAddress": 1676,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Energie Bezug Heute"
+        },
+        {
+          "Language": "en",
+          "Name": "Energy Purchase Today"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Energy_Purchase_Total",
+      "Profile": "~Electricity",
+      "ReadAddress": 1678,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Energie Bezug Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "Energy Purchase Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Energy_Selling_Today",
+      "Profile": "~Electricity",
+      "ReadAddress": 1680,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Energie Einspeisung Heute"
+        },
+        {
+          "Language": "en",
+          "Name": "Energy Selling Today"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Energy_Selling_Total",
+      "Profile": "~Electricity",
+      "ReadAddress": 1682,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Energie Einspeisung Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "Energy Selling Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat_Charge_Today",
+      "Profile": "~Electricity",
+      "ReadAddress": 1684,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie Ladung Heute"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat Charge Today"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat_Charge_Total",
+      "Profile": "~Electricity",
+      "ReadAddress": 1686,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie Ladung Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat Charge Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat_Discharge_Today",
+      "Profile": "~Electricity",
+      "ReadAddress": 1688,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie Entladung Heute"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat Discharge Today"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat_Discharge_Total",
+      "Profile": "~Electricity",
+      "ReadAddress": 1690,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie Entladung Gesamt"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat Discharge Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PV_Generation_Month",
+      "Profile": "~Electricity",
+      "ReadAddress": 1692,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PV Erzeugung Monat"
+        },
+        {
+          "Language": "en",
+          "Name": "PV Generation Month"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PV_Generation_Year",
+      "Profile": "~Electricity",
+      "ReadAddress": 1694,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PV Erzeugung Jahr"
+        },
+        {
+          "Language": "en",
+          "Name": "PV Generation Year"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Load_Consumption_Month",
+      "Profile": "~Electricity",
+      "ReadAddress": 1696,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Last Consumption Monat"
+        },
+        {
+          "Language": "en",
+          "Name": "Load Consumption Month"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Load_Consumption_Year",
+      "Profile": "~Electricity",
+      "ReadAddress": 1698,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Last Consumption Jahr"
+        },
+        {
+          "Language": "en",
+          "Name": "Load Consumption Year"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Energy_Purchase_Month",
+      "Profile": "~Electricity",
+      "ReadAddress": 1700,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Energie Bezug Monat"
+        },
+        {
+          "Language": "en",
+          "Name": "Energy Purchase Month"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Energy_Purchase_Year",
+      "Profile": "~Electricity",
+      "ReadAddress": 1702,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Energie Bezug Jahr"
+        },
+        {
+          "Language": "en",
+          "Name": "Energy Purchase Year"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Energy_Selling_Month",
+      "Profile": "~Electricity",
+      "ReadAddress": 1704,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Energie Einspeisung Monat"
+        },
+        {
+          "Language": "en",
+          "Name": "Energy Selling Month"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Energy_Selling_Year",
+      "Profile": "~Electricity",
+      "ReadAddress": 1706,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Energie Einspeisung Jahr"
+        },
+        {
+          "Language": "en",
+          "Name": "Energy Selling Year"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat_Charge_Month",
+      "Profile": "~Electricity",
+      "ReadAddress": 1708,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie Ladung Monat"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat Charge Month"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat_Charge_Year",
+      "Profile": "~Electricity",
+      "ReadAddress": 1710,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie Ladung Jahr"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat Charge Year"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat_Discharge_Month",
+      "Profile": "~Electricity",
+      "ReadAddress": 1712,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie Entladung Monat"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat Discharge Month"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat_Discharge_Year",
+      "Profile": "~Electricity",
+      "ReadAddress": 1714,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie Entladung Jahr"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat Discharge Year"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_ID",
+      "Profile": "",
+      "ReadAddress": 4164,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig ID"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig ID"
+        }
+      ],
+      "WriteAddress": 4164,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Address",
+      "Profile": "",
+      "ReadAddress": 4165,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Address"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Address"
+        }
+      ],
+      "WriteAddress": 4165,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Potocol",
+      "Profile": "",
+      "ReadAddress": 4166,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Potocol"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Potocol"
+        }
+      ],
+      "WriteAddress": 4166,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Voltage_Over",
+      "Profile": "~Volt",
+      "ReadAddress": 4167,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Spannung Over"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Voltage Over"
+        }
+      ],
+      "WriteAddress": 4167,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Voltage_Charge",
+      "Profile": "~Volt",
+      "ReadAddress": 4168,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Spannung Ladung"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Voltage Charge"
+        }
+      ],
+      "WriteAddress": 4168,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Voltage_Lack",
+      "Profile": "~Volt",
+      "ReadAddress": 4169,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Spannung Lack"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Voltage Lack"
+        }
+      ],
+      "WriteAddress": 4169,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Voltage_Discharge_Stop",
+      "Profile": "~Volt",
+      "ReadAddress": 4170,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Spannung Entladung Stop"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Voltage Discharge Stop"
+        }
+      ],
+      "WriteAddress": 4170,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Current_Charge_Limit",
+      "Profile": "~Ampere",
+      "ReadAddress": 4171,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Strom Ladung Limit"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Current Charge Limit"
+        }
+      ],
+      "WriteAddress": 4171,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Current_Discharge_Limit",
+      "Profile": "~Ampere",
+      "ReadAddress": 4172,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Strom Entladung Limit"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Current Discharge Limit"
+        }
+      ],
+      "WriteAddress": 4172,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Depth_of_Discharge",
+      "Profile": "~Intensity.100",
+      "ReadAddress": 4173,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Depth of Entladung"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Depth of Discharge"
+        }
+      ],
+      "WriteAddress": 4173,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_End_of_Discharge",
+      "Profile": "~Intensity.100",
+      "ReadAddress": 4174,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig End of Entladung"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig End of Discharge"
+        }
+      ],
+      "WriteAddress": 4174,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Capacity",
+      "Profile": "",
+      "ReadAddress": 4175,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Capacity"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Capacity"
+        }
+      ],
+      "WriteAddress": 4175,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Voltage_Nominal",
+      "Profile": "~Volt",
+      "ReadAddress": 4176,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Spannung Nominal"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Voltage Nominal"
+        }
+      ],
+      "WriteAddress": 4176,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Cell_Type",
+      "Profile": "",
+      "ReadAddress": 4177,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Cell Type"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Cell Type"
+        }
+      ],
+      "WriteAddress": 4177,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_EPS_Buffer",
+      "Profile": "~Intensity.100",
+      "ReadAddress": 4178,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig EPS Buffer"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig EPS Buffer"
+        }
+      ],
+      "WriteAddress": 4178,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Control",
+      "Profile": "",
+      "ReadAddress": 4179,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Steuerung"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Control"
+        }
+      ],
+      "WriteAddress": 4179,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Address2",
+      "Profile": "",
+      "ReadAddress": 4180,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Address2"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Address2"
+        }
+      ],
+      "WriteAddress": 4180,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Address3",
+      "Profile": "",
+      "ReadAddress": 4181,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Address3"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Address3"
+        }
+      ],
+      "WriteAddress": 4181,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "BatConfig_Address4",
+      "Profile": "",
+      "ReadAddress": 4182,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "BatConfig Address4"
+        },
+        {
+          "Language": "en",
+          "Name": "BatConfig Address4"
+        }
+      ],
+      "WriteAddress": 4183,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Energy_Storage_Mode_Control",
+      "Profile": "",
+      "ReadAddress": 4368,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Energie Speicher Modus Steuerung"
+        },
+        {
+          "Language": "en",
+          "Name": "Energy Storage Mode Control"
+        }
+      ],
+      "WriteAddress": 4368,
+      "WriteFunctionCode": 16
+    }
+  ],
+  "ByteOrder": 0,
+  "Profiles": {
+    "VA": {
+      "Associations": [],
+      "Digits": 2,
+      "Icon": "",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " VA",
+      "Type": 2
+    }
+  },
+  "ByteOrderFloats": true,
+  "Active": true,
+  "ReferenceCountStartsAtZero": false,
+  "UseEnronMode": false,
+  "ConnectionType": "TCP",
+  "Type": "solar_inverter",
+  "Manufacturer": "Sofar",
+  "Product": "HYD5-20KTL",
+  "Requests": {
+    "Interval": 5000
+  },
+  "VirtualAddresses": []
 }

@@ -11,7 +11,16 @@
             "Profile": "Huawei.MeterStatus",
             "ReadAddress": 37100,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Meter status"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Zählerstatus"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "Huawei.Voltage",
             "ReadAddress": 37101,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid voltage A"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netzspannung A"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -41,7 +59,16 @@
             "Profile": "Huawei.Voltage",
             "ReadAddress": 37103,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid voltage B"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netzspannung B"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -56,7 +83,16 @@
             "Profile": "Huawei.Voltage",
             "ReadAddress": 37105,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid voltage C"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netzspannung C"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -71,7 +107,16 @@
             "Profile": "Huawei.Current",
             "ReadAddress": 37107,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid current A"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netzstrom A"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -86,7 +131,16 @@
             "Profile": "Huawei.Current",
             "ReadAddress": 37109,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid current B"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netzstrom B"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -101,7 +155,16 @@
             "Profile": "Huawei.Current",
             "ReadAddress": 37111,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid current C"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netzstrom C"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -116,7 +179,16 @@
             "Profile": "Huawei.Power.W",
             "ReadAddress": 37113,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -131,7 +203,16 @@
             "Profile": "",
             "ReadAddress": 37115,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Reactive power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -146,7 +227,16 @@
             "Profile": "",
             "ReadAddress": 37117,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Power factor"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -161,7 +251,16 @@
             "Profile": "Huawei.Frequeny",
             "ReadAddress": 37118,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid frequency"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netzfrequenz"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -176,7 +275,16 @@
             "Profile": "Huawei.Energie.kWh",
             "ReadAddress": 37119,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Positive active electricity"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Bezug Wirkenergie"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -191,7 +299,16 @@
             "Profile": "Huawei.Energie.kWh",
             "ReadAddress": 37121,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Reverse active power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Einspeisung Wirkenergie"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -206,7 +323,16 @@
             "Profile": "",
             "ReadAddress": 37123,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Accumulated reactive power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamte Blindenergie"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -221,7 +347,16 @@
             "Profile": "Huawei.MeterType",
             "ReadAddress": 37125,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Meter type"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Zählertyp"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -236,7 +371,16 @@
             "Profile": "Huawei.Power.W",
             "ReadAddress": 37132,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active power A"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung A"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -251,7 +395,16 @@
             "Profile": "Huawei.Power.W",
             "ReadAddress": 37134,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active power B"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung B"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -266,7 +419,16 @@
             "Profile": "Huawei.Power.W",
             "ReadAddress": 37136,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active power C"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung C"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }
@@ -377,14 +539,14 @@
             "Type": 2
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "Energy_Meter",
     "Manufacturer": "Huawei",
-    "Product":"DTSU666-H",
+    "Product": "DTSU666-H",
     "Requests": {
         "Interval": 5000
     },

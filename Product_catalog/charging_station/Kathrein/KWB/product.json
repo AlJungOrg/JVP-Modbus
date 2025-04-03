@@ -11,7 +11,16 @@
             "Profile": "",
             "ReadAddress": 1,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gerätenummer"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Device Number"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "",
             "ReadAddress": 9,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gerätetyp"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Device Type"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -41,7 +59,16 @@
             "Profile": "",
             "ReadAddress": 17,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Geräteseriennummer"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Device Serial"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -56,7 +83,16 @@
             "Profile": "KWB.DeviceInfo",
             "ReadAddress": 25,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Geräteinformation"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Device Info"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -71,7 +107,16 @@
             "Profile": "KWB.Device.Line-Mapping",
             "ReadAddress": 26,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gerätelinienzuordnung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Device Line Mapping"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -86,7 +131,16 @@
             "Profile": "",
             "ReadAddress": 27,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gerätezeitstempel (UTC)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Device Timestamp (UTC)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -101,7 +155,16 @@
             "Profile": "~Volt",
             "ReadAddress": 48,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung U1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage U1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -116,7 +179,16 @@
             "Profile": "~Volt",
             "ReadAddress": 50,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung U2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage U2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -131,7 +203,16 @@
             "Profile": "~Volt",
             "ReadAddress": 52,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung U3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage U3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -146,7 +227,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 54,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom I1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current I1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -161,7 +251,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 56,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom I2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current I2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -176,7 +275,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 58,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom I3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current I3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -191,7 +299,16 @@
             "Profile": "~Watt",
             "ReadAddress": 60,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung P1 (aktiv)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power P1 (active)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -206,7 +323,16 @@
             "Profile": "~Watt",
             "ReadAddress": 62,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung P2 (aktiv)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power P2 (active)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -221,7 +347,16 @@
             "Profile": "~Watt",
             "ReadAddress": 64,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung P3 (aktiv)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power P3 (active)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -236,7 +371,16 @@
             "Profile": "~Watt",
             "ReadAddress": 84,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtleistung (aktiv)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Power (active)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -251,7 +395,16 @@
             "Profile": "KWB.Energy.kWh",
             "ReadAddress": 92,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtenergie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -266,7 +419,16 @@
             "Profile": "KWB.EVSE.Status",
             "ReadAddress": 96,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVSE Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EVSE Status"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -281,7 +443,16 @@
             "Profile": "KWB.Error.State",
             "ReadAddress": 97,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVSE Fehlerstatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EVSE Error State"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -296,7 +467,16 @@
             "Profile": "KWB.PP.State",
             "ReadAddress": 98,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVSE PP-Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EVSE PP-State"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -311,7 +491,16 @@
             "Profile": "KWB.CP.State",
             "ReadAddress": 99,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVSE CP-Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EVSE CP-State"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -326,7 +515,16 @@
             "Profile": "KWB.EVSE.Relais.State",
             "ReadAddress": 100,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVSE Relais-Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EVSE Relais-State"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -341,7 +539,16 @@
             "Profile": "KWB.Ampere.mA",
             "ReadAddress": 101,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVSE Zugewiesener Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EVSE Granted Current"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -356,7 +563,16 @@
             "Profile": "KWB.Engery.Watt",
             "ReadAddress": 102,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EVSE Zugewiesene Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EVSE Granted Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -371,7 +587,16 @@
             "Profile": "KWB.Time.sec",
             "ReadAddress": 103,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladedauer"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Charging Duration"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -386,7 +611,16 @@
             "Profile": "KWB.Energy.Wh",
             "ReadAddress": 105,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Geladene Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Charging Energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -401,7 +635,16 @@
             "Profile": "KWB.EMS.Control",
             "ReadAddress": 160,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EMS-Steuerungsregister"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EMS-Control Control Register"
+                }
+            ],
             "WriteAddress": 160,
             "WriteFunctionCode": 6
         },
@@ -416,7 +659,16 @@
             "Profile": "KWB.EMS.Setpoint.Relais",
             "ReadAddress": 161,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EMS-Steuerung Sollwert Relais-Matrix"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EMS-Control Setpoint Relais-Matrix"
+                }
+            ],
             "WriteAddress": 161,
             "WriteFunctionCode": 6
         },
@@ -431,7 +683,16 @@
             "Profile": "KWB.EMS.set.charging.current",
             "ReadAddress": 162,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EMS-Steuerung Sollwert Ladestrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EMS-Control Setpoint Charging Current"
+                }
+            ],
             "WriteAddress": 162,
             "WriteFunctionCode": 6
         },
@@ -446,7 +707,16 @@
             "Profile": "KWB.EMS.Timeout.Period",
             "ReadAddress": 163,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EMS-Steuerung Timeout-Periode"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EMS-Control Timeout Period"
+                }
+            ],
             "WriteAddress": 163,
             "WriteFunctionCode": 6
         },
@@ -461,7 +731,16 @@
             "Profile": "KWB.EMS.Setpoint.Relais",
             "ReadAddress": 164,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EMS-Steuerung Timeout-Fallback-Muster"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EMS-Control Timeout Fallback Pattern"
+                }
+            ],
             "WriteAddress": 164,
             "WriteFunctionCode": 6
         },
@@ -476,7 +755,16 @@
             "Profile": "KWB.Ampere.mA",
             "ReadAddress": 165,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "EMS-Steuerung Timeout-Fallback-Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EMS-Control Timeout Fallback Current"
+                }
+            ],
             "WriteAddress": 165,
             "WriteFunctionCode": 6
         },
@@ -491,7 +779,16 @@
             "Profile": "~Hertz",
             "ReadAddress": 94,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Meter Frequency"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }
@@ -1082,14 +1379,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "charging_station",
     "Manufacturer": "Kathrein",
-    "Product":"KWB",
+    "Product": "KWB",
     "Requests": {
         "Interval": 60000
     },

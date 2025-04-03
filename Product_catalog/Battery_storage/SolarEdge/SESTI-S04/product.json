@@ -11,7 +11,16 @@
             "Profile": "",
             "ReadAddress": 57664,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Geräte ID"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Device ID"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "~Electricity.Wh",
             "ReadAddress": 57666,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Nennenergie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Rated Energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -42,7 +60,16 @@
             "ReadAddress": 57672,
             "ReadFunctionCode": 3,
             "SwapBytes": false,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Max Ladeleistung Spitze"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Max Charge Peak Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -57,7 +84,16 @@
             "Profile": "~Watt",
             "ReadAddress": 57668,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Max Charge Continues Power"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Max Charge Continues Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 16
         },
@@ -72,7 +108,16 @@
             "Profile": "~Watt",
             "ReadAddress": 57670,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Max Discharge Continues Power"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Max Discharge Continues Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 16
         },
@@ -87,7 +132,16 @@
             "Profile": "~Watt",
             "ReadAddress": 57674,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Max Entladeleistung Spitze"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Max Discharge Peak Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -102,7 +156,16 @@
             "Profile": "",
             "ReadAddress": 57708,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Mittlere Temperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Average Temperature"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -117,7 +180,16 @@
             "Profile": "",
             "ReadAddress": 57710,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Max Temperature"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Max Temperaturee"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -133,7 +205,16 @@
             "ReadAddress": 57712,
             "ReadFunctionCode": 3,
             "SwapBytes": false,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Momentanspannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Instantaneous Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -149,7 +230,16 @@
             "ReadAddress": 57714,
             "ReadFunctionCode": 3,
             "SwapBytes": false,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Momentanstrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Instantaneous Current"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -164,7 +254,16 @@
             "Profile": "~Watt",
             "ReadAddress": 57716,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Momentanleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Instantaneous Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -179,7 +278,16 @@
             "Profile": "~Electricity.Wh",
             "ReadAddress": 57718,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Gesamt Export Energiezähler"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Lifetime Export Energy Counter"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -194,7 +302,16 @@
             "Profile": "~Electricity.Wh",
             "ReadAddress": 57722,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Gesamt Import Energiezähler"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Lifetime Import Energy Counter"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -209,7 +326,16 @@
             "Profile": "~Electricity.Wh",
             "ReadAddress": 57726,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Max Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Max Energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -224,7 +350,16 @@
             "Profile": "~Electricity.Wh",
             "ReadAddress": 57728,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Verfügbare Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Available Energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -239,7 +374,16 @@
             "Profile": "0-100_Prozent",
             "ReadAddress": 62850,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Zustand der Gesundheit (SOH)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 State of Health (SOH)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -254,7 +398,16 @@
             "Profile": "0-100_Prozent",
             "ReadAddress": 57732,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Zustand der Energie (SOE)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 State of Energy (SOE)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -269,7 +422,16 @@
             "Profile": "SolarEdge_Speicherstatus",
             "ReadAddress": 57734,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Battery 1 Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Status"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -284,7 +446,16 @@
             "Profile": "SE_Storage_Control_Mode",
             "ReadAddress": 57348,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Storage Steuermodus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Storage Control Mode"
+                }
+            ],
             "WriteAddress": 57348,
             "WriteFunctionCode": 16
         },
@@ -299,7 +470,16 @@
             "Profile": "SE_Storage_AC_Charge_Police",
             "ReadAddress": 57349,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Storage AC Charge Policy"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Storage AC Charge Policy"
+                }
+            ],
             "WriteAddress": 57349,
             "WriteFunctionCode": 16
         },
@@ -314,7 +494,16 @@
             "Profile": "",
             "ReadAddress": 57350,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Storage AC Charge Limit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Storage AC Charge Limit"
+                }
+            ],
             "WriteAddress": 57350,
             "WriteFunctionCode": 16
         },
@@ -329,7 +518,16 @@
             "Profile": "0-100_Prozent",
             "ReadAddress": 57352,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Storage Backup Reserved Setting"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Storage Backup Reserved Setting"
+                }
+            ],
             "WriteAddress": 57352,
             "WriteFunctionCode": 16
         },
@@ -344,7 +542,16 @@
             "Profile": "SE_Storage_Default_Modes",
             "ReadAddress": 57354,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Storage Lade-/Entlade Modus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Storage Charge/Discharge Default Mode"
+                }
+            ],
             "WriteAddress": 57354,
             "WriteFunctionCode": 16
         },
@@ -359,7 +566,16 @@
             "Profile": "SE_Storedge_Timeout_Sekunden",
             "ReadAddress": 57355,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fernsteuerbefehl Timeout"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Remote Control Command Timeout"
+                }
+            ],
             "WriteAddress": 57355,
             "WriteFunctionCode": 16
         },
@@ -374,7 +590,16 @@
             "Profile": "SE_Storage_Control_Mode",
             "ReadAddress": 57358,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fernsteuerbefehl Modus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Remote Control Command Mode"
+                }
+            ],
             "WriteAddress": 57358,
             "WriteFunctionCode": 16
         },
@@ -389,7 +614,16 @@
             "Profile": "~Watt",
             "ReadAddress": 57358,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fernsteuer Ladegrenze"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Remote Control Charge Limit"
+                }
+            ],
             "WriteAddress": 57358,
             "WriteFunctionCode": 16
         },
@@ -404,7 +638,16 @@
             "Profile": "~Watt",
             "ReadAddress": 57360,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fernsteuer Entladegrenze"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Remote Control Discharge Limit"
+                }
+            ],
             "WriteAddress": 57360,
             "WriteFunctionCode": 16
         }
@@ -596,14 +839,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "Battery_storage",
     "Manufacturer": "SolarEdge",
-    "Product":"SESTI-S04",
+    "Product": "SESTI-S04",
     "Requests": {
         "Interval": 5000
     },

@@ -11,7 +11,16 @@
             "ReadAddress": 100,
             "ReadFunctionCode": 3,
             "SwapBytes": false,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Firmware-Version"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Firmware Version"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "ReadAddress": 104,
             "ReadFunctionCode": 3,
             "SwapBytes": false,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "OCPP CP Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "OCPP CP Status"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -45,6 +63,10 @@
                 {
                     "Language": "de",
                     "Name": "Fehlermeldungen 1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Error codes 1"
                 }
             ],
             "WriteAddress": 0,
@@ -65,6 +87,10 @@
                 {
                     "Language": "de",
                     "Name": "Fehlermeldungen 2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Error codes 2"
                 }
             ],
             "WriteAddress": 0,
@@ -85,6 +111,10 @@
                 {
                     "Language": "de",
                     "Name": "Fehlermeldungen 3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Error codes 3"
                 }
             ],
             "WriteAddress": 0,
@@ -105,6 +135,10 @@
                 {
                     "Language": "de",
                     "Name": "Fehlermeldungen 4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Error codes 4"
                 }
             ],
             "WriteAddress": 0,
@@ -125,6 +159,10 @@
                 {
                     "Language": "de",
                     "Name": "Protokollversion"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Protocol version"
                 }
             ],
             "WriteAddress": 0,
@@ -145,6 +183,10 @@
                 {
                     "Language": "de",
                     "Name": "Fahrzeugstatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Vehicle state"
                 }
             ],
             "WriteAddress": 0,
@@ -165,6 +207,10 @@
                 {
                     "Language": "de",
                     "Name": "CP Verfügbarkeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CP availability"
                 }
             ],
             "WriteAddress": 124,
@@ -185,6 +231,10 @@
                 {
                     "Language": "de",
                     "Name": "ModBus Adressen-Offset"
+                },
+                {
+                    "Language": "en",
+                    "Name": "ModBus address offset"
                 }
             ],
             "WriteAddress": 130,
@@ -206,6 +256,10 @@
                 {
                     "Language": "de",
                     "Name": "Sichere Stromabnahme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Safe current"
                 }
             ],
             "WriteAddress": 131,
@@ -227,6 +281,10 @@
                 {
                     "Language": "de",
                     "Name": "Master Zeitüberschreitung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Master Timeout"
                 }
             ],
             "WriteAddress": 132,
@@ -247,6 +305,10 @@
                 {
                     "Language": "de",
                     "Name": "Operator Stromlimit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Operator current limit"
                 }
             ],
             "WriteAddress": 0,
@@ -267,6 +329,10 @@
                 {
                     "Language": "de",
                     "Name": "Modell Ladepunkt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Model chargepoint"
                 }
             ],
             "WriteAddress": 0,
@@ -287,6 +353,10 @@
                 {
                     "Language": "de",
                     "Name": "Verriegelung Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Lock status"
                 }
             ],
             "WriteAddress": 0,
@@ -307,6 +377,10 @@
                 {
                     "Language": "de",
                     "Name": "Energie L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Energy L1"
                 }
             ],
             "WriteAddress": 0,
@@ -326,6 +400,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Energy L2"
+                },
+                {
+                    "Language": "en",
                     "Name": "Energy L2"
                 }
             ],
@@ -347,6 +425,10 @@
                 {
                     "Language": "de",
                     "Name": "Energie L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Energy L3"
                 }
             ],
             "WriteAddress": 0,
@@ -367,6 +449,10 @@
                 {
                     "Language": "de",
                     "Name": "Leistung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power L1"
                 }
             ],
             "WriteAddress": 0,
@@ -387,6 +473,10 @@
                 {
                     "Language": "de",
                     "Name": "Leistung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power L2"
                 }
             ],
             "WriteAddress": 0,
@@ -407,6 +497,10 @@
                 {
                     "Language": "de",
                     "Name": "Leistung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power L3"
                 }
             ],
             "WriteAddress": 0,
@@ -427,6 +521,10 @@
                 {
                     "Language": "de",
                     "Name": "Strom L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L1"
                 }
             ],
             "WriteAddress": 0,
@@ -447,6 +545,10 @@
                 {
                     "Language": "de",
                     "Name": "Strom L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L2"
                 }
             ],
             "WriteAddress": 0,
@@ -467,6 +569,10 @@
                 {
                     "Language": "de",
                     "Name": "Strom L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L3"
                 }
             ],
             "WriteAddress": 0,
@@ -487,6 +593,10 @@
                 {
                     "Language": "de",
                     "Name": "Gesamtenergie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total energy"
                 }
             ],
             "WriteAddress": 0,
@@ -507,6 +617,10 @@
                 {
                     "Language": "de",
                     "Name": "Gesamtleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total power"
                 }
             ],
             "WriteAddress": 0,
@@ -527,6 +641,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1"
                 }
             ],
             "WriteAddress": 0,
@@ -547,6 +665,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2"
                 }
             ],
             "WriteAddress": 0,
@@ -567,6 +689,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3"
                 }
             ],
             "WriteAddress": 0,
@@ -587,6 +713,10 @@
                 {
                     "Language": "de",
                     "Name": "DLM Modus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DLM mode"
                 }
             ],
             "WriteAddress": 0,
@@ -607,6 +737,10 @@
                 {
                     "Language": "de",
                     "Name": "DLM EV Leistungsgrenze L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DLM EV current limit L1"
                 }
             ],
             "WriteAddress": 0,
@@ -627,6 +761,10 @@
                 {
                     "Language": "de",
                     "Name": "DLM EV Leistungsgrenze L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DLM EV current limit L2"
                 }
             ],
             "WriteAddress": 0,
@@ -647,6 +785,10 @@
                 {
                     "Language": "de",
                     "Name": "DLM EV Leistungsgrenze L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DLM EV current limit L3"
                 }
             ],
             "WriteAddress": 0,
@@ -947,6 +1089,10 @@
                 {
                     "Language": "de",
                     "Name": "Geladene Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Charged Energy"
                 }
             ],
             "WriteAddress": 0,
@@ -967,6 +1113,10 @@
                 {
                     "Language": "de",
                     "Name": "Maximum genutzter Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Maximum used current"
                 }
             ],
             "WriteAddress": 0,
@@ -987,6 +1137,10 @@
                 {
                     "Language": "de",
                     "Name": "Startzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Start time"
                 }
             ],
             "WriteAddress": 0,
@@ -1007,6 +1161,10 @@
                 {
                     "Language": "de",
                     "Name": "Ladezeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Charge duration"
                 }
             ],
             "WriteAddress": 0,
@@ -1027,6 +1185,10 @@
                 {
                     "Language": "de",
                     "Name": "Endzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "End time"
                 }
             ],
             "WriteAddress": 0,
@@ -1047,6 +1209,10 @@
                 {
                     "Language": "de",
                     "Name": "Minimale Leistungsgrenze"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Minimum current limit"
                 }
             ],
             "WriteAddress": 0,
@@ -1087,6 +1253,10 @@
                 {
                     "Language": "de",
                     "Name": "EV Maximale Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "EV maximum current"
                 }
             ],
             "WriteAddress": 0,
@@ -1645,14 +1815,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "charging_station",
     "Manufacturer": "Mennekes",
-    "Product":"all_v2",
+    "Product": "all_v2",
     "Requests": {
         "Interval": 5000
     },

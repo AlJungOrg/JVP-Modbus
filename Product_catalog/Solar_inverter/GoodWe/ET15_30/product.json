@@ -1,665 +1,1016 @@
 {
-    "Addresses": [
+  "Addresses": [
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "I MPPT1",
+      "Profile": "A-DC",
+      "ReadAddress": 35345,
+      "ReadFunctionCode": 3,
+      "Translation": [
         {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "I MPPT1",
-            "Profile": "A-DC",
-            "ReadAddress": 35345,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
+          "Language": "de",
+          "Name": "I MPPT1"
         },
         {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "I MPPT2",
-            "Profile": "A-DC",
-            "ReadAddress": 35346,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "I MPPT3",
-            "Profile": "A-DC",
-            "ReadAddress": 35347,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "I PV String1",
-            "Profile": "A-DC",
-            "ReadAddress": 35104,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "I PV String2",
-            "Profile": "A-DC",
-            "ReadAddress": 35108,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "I PV String3",
-            "Profile": "A-DC",
-            "ReadAddress": 35112,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "I PV String4",
-            "Profile": "A-DC",
-            "ReadAddress": 35116,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "I PV String5",
-            "Profile": "A-DC",
-            "ReadAddress": 35305,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "I PV String6",
-            "Profile": "A-DC",
-            "ReadAddress": 35307,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "P MPPT1",
-            "Profile": "Watt.I",
-            "ReadAddress": 35337,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "P MPPT2",
-            "Profile": "Watt.I",
-            "ReadAddress": 35338,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "P MPPT3",
-            "Profile": "Watt.I",
-            "ReadAddress": 35339,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 3,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "P Total",
-            "Profile": "Watt.I",
-            "ReadAddress": 35301,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "V PV String1",
-            "Profile": "V-DC",
-            "ReadAddress": 35103,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "V PV String2",
-            "Profile": "V-DC",
-            "ReadAddress": 35107,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "V PV String3",
-            "Profile": "V-DC",
-            "ReadAddress": 35111,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "V PV String4",
-            "Profile": "V-DC",
-            "ReadAddress": 35115,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "V PV String5",
-            "Profile": "V-DC",
-            "ReadAddress": 35304,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "V PV String6",
-            "Profile": "V-DC",
-            "ReadAddress": 35306,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 6,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "EVU L1 P",
-            "Profile": "Watt.I",
-            "ReadAddress": 36019,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 6,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "EVU L2 P",
-            "Profile": "Watt.I",
-            "ReadAddress": 36021,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 6,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "EVU L3 P",
-            "Profile": "Watt.I",
-            "ReadAddress": 36023,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 6,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "EVU P Total",
-            "Profile": "Watt.I",
-            "ReadAddress": 36025,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat1 SOC",
-            "Profile": "~Intensity.100",
-            "ReadAddress": 47908,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat1 Min SOC OFFLINE",
-            "Profile": "~Intensity.100",
-            "ReadAddress": 45358,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 45358,
-            "WriteFunctionCode": 6
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat1 Min SOC ONLINE",
-            "Profile": "~Intensity.100",
-            "ReadAddress": 45356,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 45356,
-            "WriteFunctionCode": 6
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat1 Mode",
-            "Profile": "GoodWe_BatState",
-            "ReadAddress": 35184,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat1 Strom",
-            "Profile": "A-DC",
-            "ReadAddress": 47907,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat1 Spannung",
-            "Profile": "V-DC",
-            "ReadAddress": 47906,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 6,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat1 Leistung",
-            "Profile": "Watt.I",
-            "ReadAddress": 35182,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat1 SOH",
-            "Profile": "~Intensity.100",
-            "ReadAddress": 47909,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat2 SOC",
-            "Profile": "~Intensity.100",
-            "ReadAddress": 47926,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat2 Min SOC OFFLINE",
-            "Profile": "~Intensity.100",
-            "ReadAddress": 45383,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 45383,
-            "WriteFunctionCode": 6
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat2 Min SOC ONLINE",
-            "Profile": "~Intensity.100",
-            "ReadAddress": 45381,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 45381,
-            "WriteFunctionCode": 6
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat2 Mode",
-            "Profile": "GoodWe_BatState",
-            "ReadAddress": 35266,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat2 Strom",
-            "Profile": "A-DC",
-            "ReadAddress": 47925,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat2 Spannung",
-            "Profile": "V-DC",
-            "ReadAddress": 47924,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 6,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat2 Leistung",
-            "Profile": "Watt.I",
-            "ReadAddress": 35264,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 5,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Bat2 SOH",
-            "Profile": "~Intensity.100",
-            "ReadAddress": 47927,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
+          "Language": "en",
+          "Name": "Current MPPT1"
         }
-    ],
-    "ByteOrder": 0,
-    "Profiles": {
-        "A-DC": {
-            "Associations": [],
-            "Digits": 2,
-            "Icon": "",
-            "MaxValue": 100.0,
-            "MinValue": -100.0,
-            "Prefix": "",
-            "StepSize": 1.0,
-            "Suffix": " A DC",
-            "Type": 2
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "I MPPT2",
+      "Profile": "A-DC",
+      "ReadAddress": 35346,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "I MPPT2"
         },
-        "V-DC": {
-            "Associations": [],
-            "Digits": 2,
-            "Icon": "",
-            "MaxValue": 1000.0,
-            "MinValue": -100.0,
-            "Prefix": "",
-            "StepSize": 1.0,
-            "Suffix": " V DC",
-            "Type": 2
-        },
-        "Watt.I": {
-            "Associations": [],
-            "Digits": 0,
-            "Icon": "Electricity",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": " W",
-            "Type": 1
-        },
-        "GoodWe_BatState": {
-            "Associations": [
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "No Battery",
-                    "Value": 0.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "Sleep",
-                    "Name": "Standby",
-                    "Value": 1.0
-                },
-                {
-                    "Color": 16120728,
-                    "Icon": "EnergyStorage",
-                    "Name": "entlädt",
-                    "Value": 2.0
-                },
-                {
-                    "Color": 8450573,
-                    "Icon": "EnergyProduction",
-                    "Name": "lädt",
-                    "Value": 3.0
-                }
-            ],
-            "Digits": 0,
-            "Icon": "Battery",
-            "MaxValue": 3.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 1.0,
-            "Suffix": "",
-            "Type": 1
+        {
+          "Language": "en",
+          "Name": "Current MPPT2"
         }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
     },
-    "Requests": {
-        "Interval": 5000
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "I MPPT3",
+      "Profile": "A-DC",
+      "ReadAddress": 35347,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "I MPPT3"
+        },
+        {
+          "Language": "en",
+          "Name": "Current MPPT3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
     },
-    "VirtualAddresses": []
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "I PV String1",
+      "Profile": "A-DC",
+      "ReadAddress": 35104,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "I PV String1"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PV String1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "I PV String2",
+      "Profile": "A-DC",
+      "ReadAddress": 35108,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "I PV String2"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PV String2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "I PV String3",
+      "Profile": "A-DC",
+      "ReadAddress": 35112,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "I PV String3"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PV String3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "I PV String4",
+      "Profile": "A-DC",
+      "ReadAddress": 35116,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "I PV String4"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PV String4"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "I PV String5",
+      "Profile": "A-DC",
+      "ReadAddress": 35305,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "I PV String5"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PV String5"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "I PV String6",
+      "Profile": "A-DC",
+      "ReadAddress": 35307,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "I PV String6"
+        },
+        {
+          "Language": "en",
+          "Name": "Current PV String6"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "P MPPT1",
+      "Profile": "Watt.I",
+      "ReadAddress": 35337,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "P MPPT1"
+        },
+        {
+          "Language": "en",
+          "Name": "Power MPPT1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "P MPPT2",
+      "Profile": "Watt.I",
+      "ReadAddress": 35338,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "P MPPT2"
+        },
+        {
+          "Language": "en",
+          "Name": "Power MPPT2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "P MPPT3",
+      "Profile": "Watt.I",
+      "ReadAddress": 35339,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "P MPPT3"
+        },
+        {
+          "Language": "en",
+          "Name": "Power MPPT3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 3,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "P Total",
+      "Profile": "Watt.I",
+      "ReadAddress": 35301,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "P Total"
+        },
+        {
+          "Language": "en",
+          "Name": "Power Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "V PV String1",
+      "Profile": "V-DC",
+      "ReadAddress": 35103,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "V PV String1"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage PV String1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "V PV String2",
+      "Profile": "V-DC",
+      "ReadAddress": 35107,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "V PV String2"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage PV String2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "V PV String3",
+      "Profile": "V-DC",
+      "ReadAddress": 35111,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "V PV String3"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage PV String3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "V PV String4",
+      "Profile": "V-DC",
+      "ReadAddress": 35115,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "V PV String4"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage PV String4"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "V PV String5",
+      "Profile": "V-DC",
+      "ReadAddress": 35304,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "V PV String5"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage PV String5"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "V PV String6",
+      "Profile": "V-DC",
+      "ReadAddress": 35306,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "V PV String6"
+        },
+        {
+          "Language": "en",
+          "Name": "Voltage PV String6"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 6,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "EVU L1 P",
+      "Profile": "Watt.I",
+      "ReadAddress": 36019,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "EVU L1 P"
+        },
+        {
+          "Language": "en",
+          "Name": "Grid L1 Power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 6,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "EVU L2 P",
+      "Profile": "Watt.I",
+      "ReadAddress": 36021,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "EVU L2 P"
+        },
+        {
+          "Language": "en",
+          "Name": "Grid L2 Power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 6,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "EVU L3 P",
+      "Profile": "Watt.I",
+      "ReadAddress": 36023,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "EVU L3 P"
+        },
+        {
+          "Language": "en",
+          "Name": "Grid L3 Power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 6,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "EVU P Total",
+      "Profile": "Watt.I",
+      "ReadAddress": 36025,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "EVU P Total"
+        },
+        {
+          "Language": "en",
+          "Name": "Grid Power Total"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat1 SOC",
+      "Profile": "~Intensity.100",
+      "ReadAddress": 47908,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat1 SOC"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat1 SOC"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat1 Min SOC OFFLINE",
+      "Profile": "~Intensity.100",
+      "ReadAddress": 45358,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat1 Min SOC OFFLINE"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat1 Min SOC OFFLINE"
+        }
+      ],
+      "WriteAddress": 45358,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat1 Min SOC ONLINE",
+      "Profile": "~Intensity.100",
+      "ReadAddress": 45356,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat1 Min SOC ONLINE"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat1 Min SOC ONLINE"
+        }
+      ],
+      "WriteAddress": 45356,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat1 Mode",
+      "Profile": "GoodWe_BatState",
+      "ReadAddress": 35184,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat1 Mode"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat1 Mode"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat1 Strom",
+      "Profile": "A-DC",
+      "ReadAddress": 47907,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat1 Strom"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat1 Current"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat1 Spannung",
+      "Profile": "V-DC",
+      "ReadAddress": 47906,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat1 Spannung"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat1 Voltage"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 6,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat1 Leistung",
+      "Profile": "Watt.I",
+      "ReadAddress": 35182,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat1 Leistung"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat1 Power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat1 SOH",
+      "Profile": "~Intensity.100",
+      "ReadAddress": 47909,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat1 SOH"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat1 SOH"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat2 SOC",
+      "Profile": "~Intensity.100",
+      "ReadAddress": 47926,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat2 SOC"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat2 SOC"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat2 Min SOC OFFLINE",
+      "Profile": "~Intensity.100",
+      "ReadAddress": 45383,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat2 Min SOC OFFLINE"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat2 Min SOC OFFLINE"
+        }
+      ],
+      "WriteAddress": 45383,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat2 Min SOC ONLINE",
+      "Profile": "~Intensity.100",
+      "ReadAddress": 45381,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat2 Min SOC ONLINE"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat2 Min SOC ONLINE"
+        }
+      ],
+      "WriteAddress": 45381,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat2 Mode",
+      "Profile": "GoodWe_BatState",
+      "ReadAddress": 35266,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat2 Mode"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat2 Mode"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat2 Strom",
+      "Profile": "A-DC",
+      "ReadAddress": 47925,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat2 Strom"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat2 Current"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat2 Spannung",
+      "Profile": "V-DC",
+      "ReadAddress": 47924,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat2 Spannung"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat2 Voltage"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 6,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat2 Leistung",
+      "Profile": "Watt.I",
+      "ReadAddress": 35264,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat2 Leistung"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat2 Power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": 0,
+      "DataType": 5,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Bat2 SOH",
+      "Profile": "~Intensity.100",
+      "ReadAddress": 47927,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bat2 SOH"
+        },
+        {
+          "Language": "en",
+          "Name": "Bat2 SOH"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    }
+  ],
+  "ByteOrder": 0,
+  "Profiles": {
+    "A-DC": {
+      "Associations": [],
+      "Digits": 2,
+      "Icon": "",
+      "MaxValue": 100.0,
+      "MinValue": -100.0,
+      "Prefix": "",
+      "StepSize": 1.0,
+      "Suffix": " A DC",
+      "Type": 2
+    },
+    "V-DC": {
+      "Associations": [],
+      "Digits": 2,
+      "Icon": "",
+      "MaxValue": 1000.0,
+      "MinValue": -100.0,
+      "Prefix": "",
+      "StepSize": 1.0,
+      "Suffix": " V DC",
+      "Type": 2
+    },
+    "Watt.I": {
+      "Associations": [],
+      "Digits": 0,
+      "Icon": "Electricity",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " W",
+      "Type": 1
+    },
+    "GoodWe_BatState": {
+      "Associations": [
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "No Battery",
+          "Value": 0.0
+        },
+        {
+          "Color": -1,
+          "Icon": "Sleep",
+          "Name": "Standby",
+          "Value": 1.0
+        },
+        {
+          "Color": 16120728,
+          "Icon": "EnergyStorage",
+          "Name": "entlädt",
+          "Value": 2.0
+        },
+        {
+          "Color": 8450573,
+          "Icon": "EnergyProduction",
+          "Name": "lädt",
+          "Value": 3.0
+        }
+      ],
+      "Digits": 0,
+      "Icon": "Battery",
+      "MaxValue": 3.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 1.0,
+      "Suffix": "",
+      "Type": 1
+    }
+  },
+  "Requests": {
+    "Interval": 5000
+  },
+  "VirtualAddresses": []
 }

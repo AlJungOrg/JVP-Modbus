@@ -15,6 +15,10 @@
                 {
                     "Language": "de",
                     "Name": "Firmwareversion (unbearbeitet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Firmware Version (raw)"
                 }
             ],
             "WriteAddress": 0,
@@ -35,6 +39,10 @@
                 {
                     "Language": "de",
                     "Name": "maximaler Ladestrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Max rated/settable current"
                 }
             ],
             "WriteAddress": 0,
@@ -55,6 +63,10 @@
                 {
                     "Language": "de",
                     "Name": "Fehlercode"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Error Code"
                 }
             ],
             "WriteAddress": 0,
@@ -75,6 +87,10 @@
                 {
                     "Language": "de",
                     "Name": "Kabelverriegelung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Socket Lock State"
                 }
             ],
             "WriteAddress": 0,
@@ -95,6 +111,10 @@
                 {
                     "Language": "de",
                     "Name": "Ladestatus (unbearbeitet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Charging state (raw)"
                 }
             ],
             "WriteAddress": 0,
@@ -115,6 +135,10 @@
                 {
                     "Language": "de",
                     "Name": "eingestellter Ladestrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current charging current limit"
                 }
             ],
             "WriteAddress": 0,
@@ -135,6 +159,10 @@
                 {
                     "Language": "de",
                     "Name": "Ladestrom L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Charging current phase 1"
                 }
             ],
             "WriteAddress": 0,
@@ -155,6 +183,10 @@
                 {
                     "Language": "de",
                     "Name": "Ladestrom L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Charging current phase 2"
                 }
             ],
             "WriteAddress": 0,
@@ -175,6 +207,10 @@
                 {
                     "Language": "de",
                     "Name": "Ladestrom L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Charging current phase 3"
                 }
             ],
             "WriteAddress": 0,
@@ -195,6 +231,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage phase 1"
                 }
             ],
             "WriteAddress": 0,
@@ -215,6 +255,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage phase 2"
                 }
             ],
             "WriteAddress": 0,
@@ -235,6 +279,10 @@
                 {
                     "Language": "de",
                     "Name": "Spannung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage phase 3"
                 }
             ],
             "WriteAddress": 0,
@@ -255,6 +303,10 @@
                 {
                     "Language": "de",
                     "Name": "Wirkleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active power"
                 }
             ],
             "WriteAddress": 0,
@@ -275,6 +327,10 @@
                 {
                     "Language": "de",
                     "Name": "Energie aktueller Ladevorgang"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Energy delivered in charging session"
                 }
             ],
             "WriteAddress": 0,
@@ -295,6 +351,10 @@
                 {
                     "Language": "de",
                     "Name": "setze Ladestromlimit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Set charging current limit"
                 }
             ],
             "WriteAddress": 16640,
@@ -315,6 +375,10 @@
                 {
                     "Language": "de",
                     "Name": "Start/Stop Ladevorgang"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Start/Stop Charging Session"
                 }
             ],
             "WriteAddress": 16645,
@@ -425,14 +489,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "charging_station",
     "Manufacturer": "ABB",
-    "Product":"Terra_AC",
+    "Product": "Terra_AC",
     "Requests": {
         "Interval": 5000
     },

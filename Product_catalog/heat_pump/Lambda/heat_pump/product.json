@@ -11,7 +11,16 @@
             "Profile": "",
             "ReadAddress": 1,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Betriebsart"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Operating Mode"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "Temperatur",
             "ReadAddress": 3,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Durchschnittliche Außentemperatur 1h"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Average Outdoor Temperature (1h)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -41,7 +59,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 4,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Berechnete Außentemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Calculated Outdoor Temperature"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -56,7 +83,16 @@
             "Profile": "",
             "ReadAddress": 102,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Actual power (input or excess)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Actual Power (Input or Excess)"
+                }
+            ],
             "WriteAddress": 102,
             "WriteFunctionCode": 16
         },
@@ -71,7 +107,16 @@
             "Profile": "",
             "ReadAddress": 103,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Actual power consumption"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Actual Power Consumption"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -86,7 +131,16 @@
             "Profile": "",
             "ReadAddress": 104,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Power consumption setpoint"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Consumption Setpoint"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -101,7 +155,16 @@
             "Profile": "",
             "ReadAddress": 1000,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wärmepumpe Error state"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heat Pump Error State"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -116,7 +179,16 @@
             "Profile": "",
             "ReadAddress": 1001,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wärmepumpe Error number"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heat Pump Error Number"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -131,7 +203,16 @@
             "Profile": "",
             "ReadAddress": 1002,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wärmepumpe State"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heat Pump State"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -146,7 +227,16 @@
             "Profile": "",
             "ReadAddress": 1003,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Operating state"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Operating State"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -161,7 +251,16 @@
             "Profile": "Temperatur",
             "ReadAddress": 1004,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Vorlauf"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Flow Temperature"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -176,7 +275,16 @@
             "Profile": "Temperatur",
             "ReadAddress": 1005,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Rücklauf"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Return Temperature"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -191,7 +299,16 @@
             "Profile": "",
             "ReadAddress": 1006,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Volumen sink"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Volume Sink"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -206,7 +323,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 1007,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur EQ Eingang"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature EQ Input"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -221,7 +347,16 @@
             "Profile": "",
             "ReadAddress": 1008,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur EQ Ausgang"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature EQ Output"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -236,7 +371,16 @@
             "Profile": "",
             "ReadAddress": 1009,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Volumen source"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Volume Source"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -251,7 +395,16 @@
             "Profile": "Prozent0.00",
             "ReadAddress": 1010,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Compressor-Rating"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Compressor Rating"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -266,7 +419,16 @@
             "Profile": "~Power",
             "ReadAddress": 1011,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Abgabeleistung Qp (Leistung)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heat Output Qp"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -281,7 +443,16 @@
             "Profile": "~Power",
             "ReadAddress": 1012,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenzumrichter-Stromverbrauch"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Frequency Converter Power Consumption"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -296,7 +467,16 @@
             "Profile": "",
             "ReadAddress": 1013,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungszahl"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Coefficient of Performance"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -311,7 +491,16 @@
             "Profile": "~Power",
             "ReadAddress": 1020,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Statistic VdA E since last reset"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Statistic VdA Energy since Last Reset"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -326,7 +515,16 @@
             "Profile": "~Power",
             "ReadAddress": 1022,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Statistic VdA Q since last reset"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Statistic VdA Heat since Last Reset"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -341,7 +539,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 2002,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Warmwasser-Temperatureratur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DHW Temperature"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -356,7 +563,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 3002,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Pufferspeicher oben"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Buffer Top"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -371,7 +587,16 @@
             "Profile": "",
             "ReadAddress": 3050,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "max. Pufferspeicher-Temperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Max Buffer Temperature"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -386,7 +611,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 5002,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Vorlauf Radiatoren"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Radiator Flow Temperature"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -401,7 +635,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 5102,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Vorlauf Fußbodenheizung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Underfloor Heating Flow Temperature"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }
@@ -431,14 +674,14 @@
             "Type": 2
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "heat_pump",
     "Manufacturer": "Lambda",
-    "Product":"heat_pump",
+    "Product": "heat_pump",
     "Requests": {
         "Interval": 15000
     },
