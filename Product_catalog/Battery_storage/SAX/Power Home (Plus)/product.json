@@ -12,14 +12,18 @@
             "ReadAddress": 47,
             "ReadFunctionCode": 3,
             "Translation": [
-               {
-               "Language": "de",
-               "Name": "Leistung SAX_incl. Offset"
-               },
-               {
-               "Language": "en",
-               "Name": "Power SAX incl. Offset"
-               }
+                {
+                    "Language": "de",
+                    "Name": "Leistung SAX_incl. Offset"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power SAX incl. Offset"
+                },
+                {
+                    "Language": "es",
+                    "Name": "Potencia SAX incl. Offset"
+                }
             ],
             "WriteAddress": 41,
             "WriteFunctionCode": 16
@@ -36,14 +40,18 @@
             "ReadAddress": 0,
             "ReadFunctionCode": 0,
             "Translation": [
-               {
-               "Language": "de",
-               "Name": "Sollwert cos(Pih)"
-               },
-               {
-               "Language": "en",
-               "Name": "Sollwert cos(Pih)"
-               }
+                {
+                    "Language": "de",
+                    "Name": "Sollwert cos(Pih)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Setpoint cos(Pih)"
+                },
+                {
+                    "Language": "es",
+                    "Name": "Valor objetivo cos(Pih)"
+                }
             ],
             "WriteAddress": 42,
             "WriteFunctionCode": 16
@@ -59,7 +67,20 @@
             "Profile": "",
             "ReadAddress": 0,
             "ReadFunctionCode": 0,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsgrenzwert für Entladung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power limit for discharge"
+                },
+                {
+                    "Language": "es",
+                    "Name": "Límite de potencia para descarga"
+                }
+            ],
             "WriteAddress": 43,
             "WriteFunctionCode": 16
         },
@@ -74,7 +95,20 @@
             "Profile": "",
             "ReadAddress": 0,
             "ReadFunctionCode": 0,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsgrenzwert für Ladung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power limit for charge"
+                },
+                {
+                    "Language": "es",
+                    "Name": "Límite de potencia para carga"
+                }
+            ],
             "WriteAddress": 44,
             "WriteFunctionCode": 16
         },
@@ -89,7 +123,20 @@
             "Profile": "",
             "ReadAddress": 45,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Schaltzustand"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Switch state"
+                },
+                {
+                    "Language": "es",
+                    "Name": "Estado del interruptor"
+                }
+            ],
             "WriteAddress": 45,
             "WriteFunctionCode": 16
         },
@@ -104,7 +151,20 @@
             "Profile": "",
             "ReadAddress": 46,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SoC"
+                },
+                {
+                    "Language": "en",
+                    "Name": "State of Charge"
+                },
+                {
+                    "Language": "es",
+                    "Name": "Estado de carga"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -123,6 +183,14 @@
                 {
                     "Language": "de",
                     "Name": "Leistung Smartmeter incl. Offset"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Smartmeter incl. Offset"
+                },
+                {
+                    "Language": "es",
+                    "Name": "Potencia Smartmeter incl. Offset"
                 }
             ],
             "WriteAddress": 0,
@@ -130,15 +198,15 @@
         }
     ],
     "ByteOrder": 0,
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Profiles": {},
     "Type": "Battery_storage",
     "Manufacturer": "SAX",
-    "Product":"Power Home (Plus)",
+    "Product": "Power Home (Plus)",
     "Requests": {
         "Interval": 5000
     },
@@ -153,6 +221,14 @@
                 {
                     "Language": "de",
                     "Name": "Leistung SAX"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power SAX"
+                },
+                {
+                    "Language": "es",
+                    "Name": "Potencia SAX"
                 }
             ],
             "VariableType": 1,
@@ -168,6 +244,14 @@
                 {
                     "Language": "de",
                     "Name": "Leistung Smartmeter"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Smartmeter"
+                },
+                {
+                    "Language": "es",
+                    "Name": "Potencia Smartmeter"
                 }
             ],
             "VariableType": 1,

@@ -11,7 +11,16 @@
             "Profile": "CION.Ladefreigabe",
             "ReadAddress": 100,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladefreigabe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Charging Release"
+                }
+            ],
             "WriteAddress": 100,
             "WriteFunctionCode": 6
         },
@@ -26,7 +35,16 @@
             "Profile": "CION.Ladestrom",
             "ReadAddress": 101,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladestrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Charging Current"
+                }
+            ],
             "WriteAddress": 101,
             "WriteFunctionCode": 6
         },
@@ -41,7 +59,16 @@
             "Profile": "CION.Ladestrom",
             "ReadAddress": 126,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Aktueller Ladestromwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Charging Current Value"
+                }
+            ],
             "WriteAddress": 126,
             "WriteFunctionCode": 0
         },
@@ -56,7 +83,16 @@
             "Profile": "CION.Ladestrom",
             "ReadAddress": 127,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximaler Ladestromwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Maximum Charging Current Value"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -71,7 +107,16 @@
             "Profile": "",
             "ReadAddress": 139,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "CP-Signal"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CP Signal"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -86,7 +131,16 @@
             "Profile": "CION.Temperatur",
             "ReadAddress": 303,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperaturen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperatures"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -101,7 +155,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 302,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Netzspannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Mains Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }
@@ -155,14 +218,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "charging_station",
     "Manufacturer": "Schrack",
-    "Product":"CION",
+    "Product": "CION",
     "Requests": {
         "Interval": 5000
     },

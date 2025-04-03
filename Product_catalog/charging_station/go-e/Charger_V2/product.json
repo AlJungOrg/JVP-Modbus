@@ -12,7 +12,16 @@
             "ReadAddress": 201,
             "ReadFunctionCode": 3,
             "SwapBytes": false,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zugriffsstatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Access State"
+                }
+            ],
             "WriteAddress": 201,
             "WriteFunctionCode": 6
         },
@@ -27,7 +36,16 @@
             "Profile": "GOe_Adapter",
             "ReadAddress": 202,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Adaptereingang"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Adapter Input"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -42,7 +60,16 @@
             "Profile": "GOe_Switch",
             "ReadAddress": 200,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Erlauben"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Allow"
+                }
+            ],
             "WriteAddress": 200,
             "WriteFunctionCode": 6
         },
@@ -57,7 +84,16 @@
             "Profile": "~Ampere.16",
             "ReadAddress": 114,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -72,7 +108,16 @@
             "Profile": "~Ampere.16",
             "ReadAddress": 116,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -87,7 +132,16 @@
             "Profile": "~Ampere.16",
             "ReadAddress": 118,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -102,7 +156,16 @@
             "Profile": "GOe_Amp",
             "ReadAddress": 300,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom EEPROM"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current EEPROM"
+                }
+            ],
             "WriteAddress": 300,
             "WriteFunctionCode": 6
         },
@@ -117,7 +180,16 @@
             "Profile": "GOe_Amp",
             "ReadAddress": 212,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stromstärke L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Strength L1"
+                }
+            ],
             "WriteAddress": 212,
             "WriteFunctionCode": 6
         },
@@ -132,7 +204,16 @@
             "Profile": "GOe_Amp",
             "ReadAddress": 213,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stromstärke L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Strength L2"
+                }
+            ],
             "WriteAddress": 213,
             "WriteFunctionCode": 6
         },
@@ -147,7 +228,16 @@
             "Profile": "GOe_Amp",
             "ReadAddress": 214,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stromstärke L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Strength L3"
+                }
+            ],
             "WriteAddress": 214,
             "WriteFunctionCode": 6
         },
@@ -162,7 +252,16 @@
             "Profile": "GOe_Amp",
             "ReadAddress": 215,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stromstärke L4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Strength L4"
+                }
+            ],
             "WriteAddress": 215,
             "WriteFunctionCode": 6
         },
@@ -177,7 +276,16 @@
             "Profile": "GOe_Amp",
             "ReadAddress": 216,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stromstärke L6"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Strength L6"
+                }
+            ],
             "WriteAddress": 216,
             "WriteFunctionCode": 6
         },
@@ -192,7 +300,16 @@
             "Profile": "GOe_Amp",
             "ReadAddress": 211,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximale Stromstärke"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Maximum Current"
+                }
+            ],
             "WriteAddress": 211,
             "WriteFunctionCode": 6
         },
@@ -207,7 +324,16 @@
             "Profile": "GOe_Amp",
             "ReadAddress": 299,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Flüchtige Stromstärke"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Volatile Current"
+                }
+            ],
             "WriteAddress": 299,
             "WriteFunctionCode": 6
         },
@@ -222,7 +348,16 @@
             "Profile": "GOe_CableUnlockMode",
             "ReadAddress": 204,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kabelverriegelungsmodus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cable Lock Mode"
+                }
+            ],
             "WriteAddress": 204,
             "WriteFunctionCode": 6
         },
@@ -237,7 +372,16 @@
             "Profile": "GOe_Status",
             "ReadAddress": 100,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fahrzeugstatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Car State"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -252,7 +396,16 @@
             "Profile": "GOe_Switch.rev",
             "ReadAddress": 217,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Cloud deaktiviert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cloud Disabled"
+                }
+            ],
             "WriteAddress": 217,
             "WriteFunctionCode": 6
         },
@@ -267,7 +420,16 @@
             "Profile": "",
             "ReadAddress": 132,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladeenergie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Energy Charge"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -282,7 +444,16 @@
             "Profile": "GOe_Energy",
             "ReadAddress": 128,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtenergie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -297,7 +468,16 @@
             "Profile": "GOe_Error",
             "ReadAddress": 107,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehler"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Error"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -312,7 +492,16 @@
             "Profile": "~Intensity.255",
             "ReadAddress": 206,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LED-Helligkeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LED Brightness"
+                }
+            ],
             "WriteAddress": 206,
             "WriteFunctionCode": 6
         },
@@ -327,7 +516,16 @@
             "Profile": "GOe_Switch",
             "ReadAddress": 207,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "LED Energiesparen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "LED Save Energy"
+                }
+            ],
             "WriteAddress": 207,
             "WriteFunctionCode": 6
         },
@@ -342,7 +540,16 @@
             "Profile": "GOe_Switch",
             "ReadAddress": 218,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Norwegen-Modus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Norway Mode"
+                }
+            ],
             "WriteAddress": 218,
             "WriteFunctionCode": 6
         },
@@ -357,7 +564,16 @@
             "Profile": "GOe_Phase",
             "ReadAddress": 205,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Phasen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Phases"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -372,7 +588,16 @@
             "Profile": "GOe_kwh",
             "ReadAddress": 146,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power L1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -387,7 +612,16 @@
             "Profile": "GOe_kwh",
             "ReadAddress": 148,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power L2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -402,7 +636,16 @@
             "Profile": "GOe_kwh",
             "ReadAddress": 150,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power L3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -417,7 +660,16 @@
             "Profile": "GOe_Energy",
             "ReadAddress": 120,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -432,7 +684,16 @@
             "Profile": "GOe_AmpCable",
             "ReadAddress": 101,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PP-Kabel"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PP Cable"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -447,7 +708,16 @@
             "Profile": "GOe_Volt",
             "ReadAddress": 108,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -462,7 +732,16 @@
             "Profile": "GOe_Volt",
             "ReadAddress": 110,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -477,7 +756,16 @@
             "Profile": "GOe_Volt",
             "ReadAddress": 112,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -492,7 +780,16 @@
             "Profile": "GOe_Volt",
             "ReadAddress": 144,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage N"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -507,7 +804,16 @@
             "Profile": "",
             "ReadAddress": 105,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Firmware-Version"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Firmware Version"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -522,7 +828,16 @@
             "Profile": "",
             "ReadAddress": 203,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Entsperrt durch"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Unlocked By"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }
@@ -1006,14 +1321,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "charging_station",
     "Manufacturer": "go-e",
-    "Product":"Charger_V2",
+    "Product": "Charger_V2",
     "Requests": {
         "Interval": 5000
     },

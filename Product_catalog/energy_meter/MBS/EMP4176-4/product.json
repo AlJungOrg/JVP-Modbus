@@ -11,7 +11,16 @@
             "Profile": "MBS.kWh",
             "ReadAddress": 4201,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Bezug (kWh)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Import (kWh)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "MBS.kWh",
             "ReadAddress": 4281,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Lieferung (kWh)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Export (kWh)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -41,7 +59,16 @@
             "Profile": "MBS.Watt",
             "ReadAddress": 4527,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung (W)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power (W)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -56,7 +83,16 @@
             "Profile": "MBS.Volt",
             "ReadAddress": 4567,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Aktuelle Spannung L1 (V)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1 (V)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -71,7 +107,16 @@
             "Profile": "MBS.Volt",
             "ReadAddress": 4568,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Aktuelle Spannung L2 (V)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2 (V)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -86,7 +131,16 @@
             "Profile": "MBS.Volt",
             "ReadAddress": 4569,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Aktuelle Spannung L3 (V)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3 (V)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -101,7 +155,16 @@
             "Profile": "MBS.Frequenz",
             "ReadAddress": 4626,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz (Hz)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Frequency (Hz)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -116,7 +179,16 @@
             "Profile": "MBS.Spannungsausfall",
             "ReadAddress": 4627,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannungsausfälle"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage Interruptions"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }
@@ -190,14 +262,14 @@
             "Type": 2
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "Energy_Meter",
     "Manufacturer": "MBS",
-    "Product":"Professional_375_TCPIP",
+    "Product": "Professional_375_TCPIP",
     "Requests": {
         "Interval": 5000
     },
@@ -208,7 +280,16 @@
             "Name": "Lieferung (W)",
             "Profile": "EMU.Watt",
             "ReadAction": "if ($VALUES['A_6_3_4527'] < 0)\r\n    { return $VALUES['A_6_3_4527'] * (-1); }\r\nelse { return 0;}",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Lieferung (W)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Export (W)"
+                }
+            ],
             "VariableType": 1,
             "WriteAction": ""
         },
@@ -218,7 +299,16 @@
             "Name": "Bezug (W)",
             "Profile": "EMU.Watt",
             "ReadAction": "if ($VALUES['A_6_3_4527'] >= 0)\r\n    { return $VALUES['A_6_3_4527']; }\r\nelse { return 0;}",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Bezug (W)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Import (W)"
+                }
+            ],
             "VariableType": 1,
             "WriteAction": ""
         }

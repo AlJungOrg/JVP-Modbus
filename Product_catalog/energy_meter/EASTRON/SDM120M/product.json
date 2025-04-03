@@ -11,7 +11,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 6,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "~Volt",
             "ReadAddress": 0,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -41,7 +59,16 @@
             "Profile": "~Watt",
             "ReadAddress": 12,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -56,7 +83,16 @@
             "Profile": "SDM120M_VA",
             "ReadAddress": 18,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -71,7 +107,16 @@
             "Profile": "SDM120M_VAr",
             "ReadAddress": 344,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamte Blindleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Reactive Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -86,7 +131,16 @@
             "Profile": "SDM120M_VAr",
             "ReadAddress": 24,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -101,7 +155,16 @@
             "Profile": "SDM120M_kWh",
             "ReadAddress": 342,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Wirkenergie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Active Energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -116,7 +179,16 @@
             "Profile": "SDM120M_kWh",
             "ReadAddress": 72,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Bezug Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Imported Energy"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -131,7 +203,16 @@
             "Profile": "~Watt",
             "ReadAddress": 86,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximaler Gesamtsystemleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Maximum System Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -146,7 +227,16 @@
             "Profile": "~Watt",
             "ReadAddress": 88,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strombedarf"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Demand"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -161,7 +251,16 @@
             "Profile": "~Watt",
             "ReadAddress": 84,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtsystemleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "System Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -176,7 +275,16 @@
             "Profile": "~Hertz",
             "ReadAddress": 70,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Frequency"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }
@@ -217,14 +325,14 @@
             "Type": 2
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "Energy_Meter",
     "Manufacturer": "EASTRON",
-    "Product":"SDM120M",
+    "Product": "SDM120M",
     "Requests": {
         "Interval": 5000
     },

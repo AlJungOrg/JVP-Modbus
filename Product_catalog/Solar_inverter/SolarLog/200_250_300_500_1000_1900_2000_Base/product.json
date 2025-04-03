@@ -11,7 +11,16 @@
             "Profile": "~UnixTimestamp",
             "ReadAddress": 3500,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Letzte Aktualisierungszeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Last Update Time"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "Watt.SolarLog",
             "ReadAddress": 3502,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Pac"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -41,7 +59,16 @@
             "Profile": "Watt.SolarLog",
             "ReadAddress": 3504,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DC-Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Pdc"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -56,7 +83,16 @@
             "Profile": "Volt.SolarLog",
             "ReadAddress": 3506,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Uac"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -71,7 +107,16 @@
             "Profile": "Volt.SolarLog",
             "ReadAddress": 3507,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DC-Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Udc"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -86,7 +131,16 @@
             "Profile": "Yield.SolarLog",
             "ReadAddress": 3508,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Tagesertrag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Daily Yield"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -101,7 +155,16 @@
             "Profile": "Yield.SolarLog",
             "ReadAddress": 3510,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ertrag gestern"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Yesterday Yield"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -116,7 +179,16 @@
             "Profile": "Yield.SolarLog",
             "ReadAddress": 3512,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Monatsertrag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Monthly Yield"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -131,7 +203,16 @@
             "Profile": "Yield.SolarLog",
             "ReadAddress": 3514,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Jahresertrag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Yearly Yield"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -146,7 +227,16 @@
             "Profile": "Yield.SolarLog",
             "ReadAddress": 3516,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtertrag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Yield"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -161,7 +251,16 @@
             "Profile": "Watt.SolarLog",
             "ReadAddress": 3518,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Verbrauch"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Pac Consumption"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -176,7 +275,16 @@
             "Profile": "Yield.SolarLog",
             "ReadAddress": 3520,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Tagesverbrauch"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Daily Yield Consumption"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -191,7 +299,16 @@
             "Profile": "Yield.SolarLog",
             "ReadAddress": 3522,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verbrauch gestern"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Yesterday Yield Consumption"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -206,7 +323,16 @@
             "Profile": "Yield.SolarLog",
             "ReadAddress": 3524,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Monatsverbrauch"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Monthly Yield Consumption"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -221,7 +347,16 @@
             "Profile": "Yield.SolarLog",
             "ReadAddress": 3526,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Jahresverbrauch"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Yearly Yield Consumption"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -236,7 +371,16 @@
             "Profile": "Yield.SolarLog",
             "ReadAddress": 3528,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtverbrauch"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Yield Consumption"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -251,7 +395,16 @@
             "Profile": "Power.SolarLog",
             "ReadAddress": 3530,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }
@@ -303,14 +456,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "solar_inverter",
     "Manufacturer": "SolarLog",
-    "Product":"200_250_300_500_1000_1900_2000_Base",
+    "Product": "200_250_300_500_1000_1900_2000_Base",
     "Requests": {
         "Interval": 5000
     },

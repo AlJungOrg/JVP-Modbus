@@ -11,7 +11,16 @@
             "Profile": "~Ampere",
             "ReadAddress": 300,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladeleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Charging Power"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "Wallbe_Charge_enable",
             "ReadAddress": 400,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Laden Start-Stop"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Start-Stop Charging"
+                }
+            ],
             "WriteAddress": 400,
             "WriteFunctionCode": 5
         },
@@ -41,7 +59,16 @@
             "Profile": "Ampere.Z2D",
             "ReadAddress": 528,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladeleistung setzen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Set Charging Power"
+                }
+            ],
             "WriteAddress": 528,
             "WriteFunctionCode": 6
         },
@@ -56,7 +83,16 @@
             "Profile": "Wallbe_Status",
             "ReadAddress": 100,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Status"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 16
         }
@@ -129,14 +165,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "charging_station",
     "Manufacturer": "Wallbe",
-    "Product":"Eco_2_0",
+    "Product": "Eco_2_0",
     "Requests": {
         "Interval": 5000
     },

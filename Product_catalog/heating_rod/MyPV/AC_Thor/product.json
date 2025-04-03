@@ -1,1338 +1,2130 @@
 {
-    "Addresses": [
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power",
-            "Profile": "",
-            "ReadAddress": 1000,
-            "ReadFunctionCode": 0,
-            "Translation": [],
-            "WriteAddress": 1000,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Temp1",
-            "Profile": "",
-            "ReadAddress": 1001,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "HW 1 max (hot water)",
-            "Profile": "",
-            "ReadAddress": 1002,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1002,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Status",
-            "Profile": "",
-            "ReadAddress": 1003,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power timout",
-            "Profile": "",
-            "ReadAddress": 1004,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1004,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Boost mode",
-            "Profile": "",
-            "ReadAddress": 1005,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1005,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "HW 1 min (hot water)",
-            "Profile": "",
-            "ReadAddress": 1006,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1006,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Boost time 1 start",
-            "Profile": "",
-            "ReadAddress": 1007,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1007,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Boost time 1 stop",
-            "Profile": "",
-            "ReadAddress": 1008,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1008,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Hour",
-            "Profile": "",
-            "ReadAddress": 1009,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1009,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Minute",
-            "Profile": "",
-            "ReadAddress": 1010,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1010,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Second",
-            "Profile": "",
-            "ReadAddress": 1011,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1011,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Boost activate",
-            "Profile": "",
-            "ReadAddress": 1012,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1012,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "AC-THOR Number",
-            "Profile": "",
-            "ReadAddress": 1013,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1013,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "max Power",
-            "Profile": "",
-            "ReadAddress": 1014,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1014,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "tempchip",
-            "Profile": "",
-            "ReadAddress": 1015,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Control Firmware Version",
-            "Profile": "",
-            "ReadAddress": 1016,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PS firmware version",
-            "Profile": "",
-            "ReadAddress": 1017,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "AC-THOR serial number",
-            "Profile": "",
-            "ReadAddress": 1018,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "AC-THOR serial number",
-            "Profile": "",
-            "ReadAddress": 1019,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "AC-THOR serial number",
-            "Profile": "",
-            "ReadAddress": 1020,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "AC-THOR serial number",
-            "Profile": "",
-            "ReadAddress": 1021,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "AC-THOR serial number",
-            "Profile": "",
-            "ReadAddress": 1022,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "AC-THOR serial number",
-            "Profile": "",
-            "ReadAddress": 1023,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "AC-THOR serial number",
-            "Profile": "",
-            "ReadAddress": 1024,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "AC-THOR serial number",
-            "Profile": "",
-            "ReadAddress": 1025,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Boost time 2 start",
-            "Profile": "",
-            "ReadAddress": 1026,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1026,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Boost time 2 stop",
-            "Profile": "",
-            "ReadAddress": 1027,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1027,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Control Firmare sub version",
-            "Profile": "",
-            "ReadAddress": 1028,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Control Firmware Update Available",
-            "Profile": "",
-            "ReadAddress": 1029,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Temp 2",
-            "Profile": "",
-            "ReadAddress": 1030,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Temp 3",
-            "Profile": "",
-            "ReadAddress": 1031,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Temp 4",
-            "Profile": "",
-            "ReadAddress": 1032,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Temp 5",
-            "Profile": "",
-            "ReadAddress": 1033,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Temp 6",
-            "Profile": "",
-            "ReadAddress": 1034,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Temp 7",
-            "Profile": "",
-            "ReadAddress": 1035,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Temp 8",
-            "Profile": "",
-            "ReadAddress": 1036,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "HW 2 max (hot water)",
-            "Profile": "",
-            "ReadAddress": 1037,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1037,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "HW 3 max (hot water)",
-            "Profile": "",
-            "ReadAddress": 1038,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1038,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "HW 2 min (hot water)",
-            "Profile": "",
-            "ReadAddress": 1039,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1039,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "HW 3 min (hot water)",
-            "Profile": "",
-            "ReadAddress": 1040,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1040,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "RH 1 max (room heating)",
-            "Profile": "",
-            "ReadAddress": 1041,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1041,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "RH 2 max (room heating)",
-            "Profile": "",
-            "ReadAddress": 1042,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1042,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "RH 3 max (room heating)",
-            "Profile": "",
-            "ReadAddress": 1043,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1043,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "RH 1 day min (room heating)",
-            "Profile": "",
-            "ReadAddress": 1044,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1044,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "RH 2 day min (room heating)",
-            "Profile": "",
-            "ReadAddress": 1045,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1045,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "RH 3 day min (room heating)",
-            "Profile": "",
-            "ReadAddress": 1046,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1046,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "RH 1 night min (room heating)",
-            "Profile": "",
-            "ReadAddress": 1047,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1047,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "RH 2 night min (room heating)",
-            "Profile": "",
-            "ReadAddress": 1048,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1048,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "RH 3 night min (room heating)",
-            "Profile": "",
-            "ReadAddress": 1049,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1049,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Night flag",
-            "Profile": "",
-            "ReadAddress": 1050,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "UTC correction",
-            "Profile": "",
-            "ReadAddress": 1051,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1051,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "DST correction",
-            "Profile": "",
-            "ReadAddress": 1052,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1052,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Legionella interval",
-            "Profile": "",
-            "ReadAddress": 1053,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1053,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Legionella start",
-            "Profile": "",
-            "ReadAddress": 1054,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1054,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Legionella temp",
-            "Profile": "",
-            "ReadAddress": 1055,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1055,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Legionella mode",
-            "Profile": "",
-            "ReadAddress": 1056,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1056,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Stratification flag",
-            "Profile": "",
-            "ReadAddress": 1057,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Relay 1 status",
-            "Profile": "",
-            "ReadAddress": 1058,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "load state",
-            "Profile": "",
-            "ReadAddress": 1059,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "load nominal power",
-            "Profile": "",
-            "ReadAddress": 1060,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "U L1",
-            "Profile": "",
-            "ReadAddress": 1061,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "I L1",
-            "Profile": "",
-            "ReadAddress": 1062,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "U Out",
-            "Profile": "",
-            "ReadAddress": 1063,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Freq",
-            "Profile": "",
-            "ReadAddress": 1064,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Operation mode",
-            "Profile": "",
-            "ReadAddress": 1065,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1065,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "9s state",
-            "Profile": "",
-            "ReadAddress": 1066,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "U L2",
-            "Profile": "",
-            "ReadAddress": 1067,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "I L2",
-            "Profile": "",
-            "ReadAddress": 1068,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Meter Power",
-            "Profile": "",
-            "ReadAddress": 1069,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Control type",
-            "Profile": "",
-            "ReadAddress": 1070,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1070,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Pmax_abs; Max. power currently possible. Also includes power of slaves.",
-            "Profile": "",
-            "ReadAddress": 1071,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "U L3",
-            "Profile": "",
-            "ReadAddress": 1072,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "I L3",
-            "Profile": "",
-            "ReadAddress": 1073,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "P out1",
-            "Profile": "",
-            "ReadAddress": 1074,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "P out2",
-            "Profile": "",
-            "ReadAddress": 1075,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "P out3",
-            "Profile": "",
-            "ReadAddress": 1076,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "operation state",
-            "Profile": "",
-            "ReadAddress": 1077,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power high word",
-            "Profile": "",
-            "ReadAddress": 1078,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1078,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power low word",
-            "Profile": "",
-            "ReadAddress": 1079,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1079,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power + relays",
-            "Profile": "",
-            "ReadAddress": 1080,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1080,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Device state",
-            "Profile": "",
-            "ReadAddress": 1081,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 1081,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power of the queried device (In Multi-Mode this is the power of the single device that is queried)",
-            "Profile": "",
-            "ReadAddress": 1082,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Solar part of device power",
-            "Profile": "",
-            "ReadAddress": 1083,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Grid part of device power",
-            "Profile": "",
-            "ReadAddress": 1084,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "PWM-out",
-            "Profile": "",
-            "ReadAddress": 1085,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Meter measurement value high word (negative = feed-in)",
-            "Profile": "",
-            "ReadAddress": 1087,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Meter measurement value low word (negative = feed-in)",
-            "Profile": "",
-            "ReadAddress": 1088,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
+  "Addresses": [
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power",
+      "Profile": "",
+      "ReadAddress": 1000,
+      "ReadFunctionCode": 0,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistung"
+        },
+        {
+          "Language": "en",
+          "Name": "Power"
         }
-    ],
-    "ByteOrder": 0,
-    "ByteOrderFloats": true, 
-    "Active": true,
-    "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
-    "ConnectionType": "TCP",
-    "Profiles": {},
-    "Type": "heating_rod",
-    "Manufacturer": "MyPV",
-    "Product":"AC_Thor",
-    "Requests": {
-        "Interval": 5000
+      ],
+      "WriteAddress": 1000,
+      "WriteFunctionCode": 16
     },
-    "VirtualAddresses": []
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Temp1",
+      "Profile": "",
+      "ReadAddress": 1001,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Temperatur1"
+        },
+        {
+          "Language": "en",
+          "Name": "Temp1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "HW 1 max (hot water)",
+      "Profile": "",
+      "ReadAddress": 1002,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "HW 1 max. (Warmwasser)"
+        },
+        {
+          "Language": "en",
+          "Name": "HW 1 max (hot water)"
+        }
+      ],
+      "WriteAddress": 1002,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Status",
+      "Profile": "",
+      "ReadAddress": 1003,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Status"
+        },
+        {
+          "Language": "en",
+          "Name": "Status"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power timout",
+      "Profile": "",
+      "ReadAddress": 1004,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistung timAusgang"
+        },
+        {
+          "Language": "en",
+          "Name": "Power timout"
+        }
+      ],
+      "WriteAddress": 1004,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Boost mode",
+      "Profile": "",
+      "ReadAddress": 1005,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Boost Modus"
+        },
+        {
+          "Language": "en",
+          "Name": "Boost mode"
+        }
+      ],
+      "WriteAddress": 1005,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "HW 1 min (hot water)",
+      "Profile": "",
+      "ReadAddress": 1006,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "HW 1 min. (Warmwasser)"
+        },
+        {
+          "Language": "en",
+          "Name": "HW 1 min (hot water)"
+        }
+      ],
+      "WriteAddress": 1006,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Boost time 1 start",
+      "Profile": "",
+      "ReadAddress": 1007,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Boost time 1 Start"
+        },
+        {
+          "Language": "en",
+          "Name": "Boost time 1 start"
+        }
+      ],
+      "WriteAddress": 1007,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Boost time 1 stop",
+      "Profile": "",
+      "ReadAddress": 1008,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Boost time 1 Stopp"
+        },
+        {
+          "Language": "en",
+          "Name": "Boost time 1 stop"
+        }
+      ],
+      "WriteAddress": 1008,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Hour",
+      "Profile": "",
+      "ReadAddress": 1009,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Stunde"
+        },
+        {
+          "Language": "en",
+          "Name": "Hour"
+        }
+      ],
+      "WriteAddress": 1009,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Minute",
+      "Profile": "",
+      "ReadAddress": 1010,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Minute"
+        },
+        {
+          "Language": "en",
+          "Name": "Minute"
+        }
+      ],
+      "WriteAddress": 1010,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Second",
+      "Profile": "",
+      "ReadAddress": 1011,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Sekunde"
+        },
+        {
+          "Language": "en",
+          "Name": "Second"
+        }
+      ],
+      "WriteAddress": 1011,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Boost activate",
+      "Profile": "",
+      "ReadAddress": 1012,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Boost aktivieren"
+        },
+        {
+          "Language": "en",
+          "Name": "Boost activate"
+        }
+      ],
+      "WriteAddress": 1012,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "AC-THOR Number",
+      "Profile": "",
+      "ReadAddress": 1013,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "AC-THOR Nummer"
+        },
+        {
+          "Language": "en",
+          "Name": "AC-THOR Number"
+        }
+      ],
+      "WriteAddress": 1013,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "max Power",
+      "Profile": "",
+      "ReadAddress": 1014,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "max. Leistung"
+        },
+        {
+          "Language": "en",
+          "Name": "max Power"
+        }
+      ],
+      "WriteAddress": 1014,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "tempchip",
+      "Profile": "",
+      "ReadAddress": 1015,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "tempchip"
+        },
+        {
+          "Language": "en",
+          "Name": "tempchip"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Control Firmware Version",
+      "Profile": "",
+      "ReadAddress": 1016,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Steuerung Firmware Version"
+        },
+        {
+          "Language": "en",
+          "Name": "Control Firmware Version"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PS firmware version",
+      "Profile": "",
+      "ReadAddress": 1017,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PS Firmware Version"
+        },
+        {
+          "Language": "en",
+          "Name": "PS firmware version"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "AC-THOR serial number",
+      "Profile": "",
+      "ReadAddress": 1018,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "AC-THOR Seriennummer"
+        },
+        {
+          "Language": "en",
+          "Name": "AC-THOR serial number"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "AC-THOR serial number",
+      "Profile": "",
+      "ReadAddress": 1019,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "AC-THOR Seriennummer"
+        },
+        {
+          "Language": "en",
+          "Name": "AC-THOR serial number"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "AC-THOR serial number",
+      "Profile": "",
+      "ReadAddress": 1020,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "AC-THOR Seriennummer"
+        },
+        {
+          "Language": "en",
+          "Name": "AC-THOR serial number"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "AC-THOR serial number",
+      "Profile": "",
+      "ReadAddress": 1021,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "AC-THOR Seriennummer"
+        },
+        {
+          "Language": "en",
+          "Name": "AC-THOR serial number"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "AC-THOR serial number",
+      "Profile": "",
+      "ReadAddress": 1022,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "AC-THOR Seriennummer"
+        },
+        {
+          "Language": "en",
+          "Name": "AC-THOR serial number"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "AC-THOR serial number",
+      "Profile": "",
+      "ReadAddress": 1023,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "AC-THOR Seriennummer"
+        },
+        {
+          "Language": "en",
+          "Name": "AC-THOR serial number"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "AC-THOR serial number",
+      "Profile": "",
+      "ReadAddress": 1024,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "AC-THOR Seriennummer"
+        },
+        {
+          "Language": "en",
+          "Name": "AC-THOR serial number"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "AC-THOR serial number",
+      "Profile": "",
+      "ReadAddress": 1025,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "AC-THOR Seriennummer"
+        },
+        {
+          "Language": "en",
+          "Name": "AC-THOR serial number"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Boost time 2 start",
+      "Profile": "",
+      "ReadAddress": 1026,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Boost time 2 Start"
+        },
+        {
+          "Language": "en",
+          "Name": "Boost time 2 start"
+        }
+      ],
+      "WriteAddress": 1026,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Boost time 2 stop",
+      "Profile": "",
+      "ReadAddress": 1027,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Boost time 2 Stopp"
+        },
+        {
+          "Language": "en",
+          "Name": "Boost time 2 stop"
+        }
+      ],
+      "WriteAddress": 1027,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Control Firmare sub version",
+      "Profile": "",
+      "ReadAddress": 1028,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Steuerung Firmare sub Version"
+        },
+        {
+          "Language": "en",
+          "Name": "Control Firmare sub version"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Control Firmware Update Available",
+      "Profile": "",
+      "ReadAddress": 1029,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Steuerung Firmware Update Available"
+        },
+        {
+          "Language": "en",
+          "Name": "Control Firmware Update Available"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Temp 2",
+      "Profile": "",
+      "ReadAddress": 1030,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Temperatur 2"
+        },
+        {
+          "Language": "en",
+          "Name": "Temp 2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Temp 3",
+      "Profile": "",
+      "ReadAddress": 1031,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Temperatur 3"
+        },
+        {
+          "Language": "en",
+          "Name": "Temp 3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Temp 4",
+      "Profile": "",
+      "ReadAddress": 1032,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Temperatur 4"
+        },
+        {
+          "Language": "en",
+          "Name": "Temp 4"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Temp 5",
+      "Profile": "",
+      "ReadAddress": 1033,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Temperatur 5"
+        },
+        {
+          "Language": "en",
+          "Name": "Temp 5"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Temp 6",
+      "Profile": "",
+      "ReadAddress": 1034,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Temperatur 6"
+        },
+        {
+          "Language": "en",
+          "Name": "Temp 6"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Temp 7",
+      "Profile": "",
+      "ReadAddress": 1035,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Temperatur 7"
+        },
+        {
+          "Language": "en",
+          "Name": "Temp 7"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Temp 8",
+      "Profile": "",
+      "ReadAddress": 1036,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Temperatur 8"
+        },
+        {
+          "Language": "en",
+          "Name": "Temp 8"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "HW 2 max (hot water)",
+      "Profile": "",
+      "ReadAddress": 1037,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "HW 2 max. (Warmwasser)"
+        },
+        {
+          "Language": "en",
+          "Name": "HW 2 max (hot water)"
+        }
+      ],
+      "WriteAddress": 1037,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "HW 3 max (hot water)",
+      "Profile": "",
+      "ReadAddress": 1038,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "HW 3 max. (Warmwasser)"
+        },
+        {
+          "Language": "en",
+          "Name": "HW 3 max (hot water)"
+        }
+      ],
+      "WriteAddress": 1038,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "HW 2 min (hot water)",
+      "Profile": "",
+      "ReadAddress": 1039,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "HW 2 min. (Warmwasser)"
+        },
+        {
+          "Language": "en",
+          "Name": "HW 2 min (hot water)"
+        }
+      ],
+      "WriteAddress": 1039,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "HW 3 min (hot water)",
+      "Profile": "",
+      "ReadAddress": 1040,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "HW 3 min. (Warmwasser)"
+        },
+        {
+          "Language": "en",
+          "Name": "HW 3 min (hot water)"
+        }
+      ],
+      "WriteAddress": 1040,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "RH 1 max (room heating)",
+      "Profile": "",
+      "ReadAddress": 1041,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "RH 1 max. (Raumheizung)"
+        },
+        {
+          "Language": "en",
+          "Name": "RH 1 max (room heating)"
+        }
+      ],
+      "WriteAddress": 1041,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "RH 2 max (room heating)",
+      "Profile": "",
+      "ReadAddress": 1042,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "RH 2 max. (Raumheizung)"
+        },
+        {
+          "Language": "en",
+          "Name": "RH 2 max (room heating)"
+        }
+      ],
+      "WriteAddress": 1042,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "RH 3 max (room heating)",
+      "Profile": "",
+      "ReadAddress": 1043,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "RH 3 max. (Raumheizung)"
+        },
+        {
+          "Language": "en",
+          "Name": "RH 3 max (room heating)"
+        }
+      ],
+      "WriteAddress": 1043,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "RH 1 day min (room heating)",
+      "Profile": "",
+      "ReadAddress": 1044,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "RH 1 day min. (Raumheizung)"
+        },
+        {
+          "Language": "en",
+          "Name": "RH 1 day min (room heating)"
+        }
+      ],
+      "WriteAddress": 1044,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "RH 2 day min (room heating)",
+      "Profile": "",
+      "ReadAddress": 1045,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "RH 2 day min. (Raumheizung)"
+        },
+        {
+          "Language": "en",
+          "Name": "RH 2 day min (room heating)"
+        }
+      ],
+      "WriteAddress": 1045,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "RH 3 day min (room heating)",
+      "Profile": "",
+      "ReadAddress": 1046,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "RH 3 day min. (Raumheizung)"
+        },
+        {
+          "Language": "en",
+          "Name": "RH 3 day min (room heating)"
+        }
+      ],
+      "WriteAddress": 1046,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "RH 1 night min (room heating)",
+      "Profile": "",
+      "ReadAddress": 1047,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "RH 1 night min. (Raumheizung)"
+        },
+        {
+          "Language": "en",
+          "Name": "RH 1 night min (room heating)"
+        }
+      ],
+      "WriteAddress": 1047,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "RH 2 night min (room heating)",
+      "Profile": "",
+      "ReadAddress": 1048,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "RH 2 night min. (Raumheizung)"
+        },
+        {
+          "Language": "en",
+          "Name": "RH 2 night min (room heating)"
+        }
+      ],
+      "WriteAddress": 1048,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "RH 3 night min (room heating)",
+      "Profile": "",
+      "ReadAddress": 1049,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "RH 3 night min. (Raumheizung)"
+        },
+        {
+          "Language": "en",
+          "Name": "RH 3 night min (room heating)"
+        }
+      ],
+      "WriteAddress": 1049,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Night flag",
+      "Profile": "",
+      "ReadAddress": 1050,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Night flag"
+        },
+        {
+          "Language": "en",
+          "Name": "Night flag"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "UTC correction",
+      "Profile": "",
+      "ReadAddress": 1051,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "UTC Korrektur"
+        },
+        {
+          "Language": "en",
+          "Name": "UTC correction"
+        }
+      ],
+      "WriteAddress": 1051,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "DST correction",
+      "Profile": "",
+      "ReadAddress": 1052,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "DST Korrektur"
+        },
+        {
+          "Language": "en",
+          "Name": "DST correction"
+        }
+      ],
+      "WriteAddress": 1052,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Legionella interval",
+      "Profile": "",
+      "ReadAddress": 1053,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Legionella interval"
+        },
+        {
+          "Language": "en",
+          "Name": "Legionella interval"
+        }
+      ],
+      "WriteAddress": 1053,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Legionella start",
+      "Profile": "",
+      "ReadAddress": 1054,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Legionella Start"
+        },
+        {
+          "Language": "en",
+          "Name": "Legionella start"
+        }
+      ],
+      "WriteAddress": 1054,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Legionella temp",
+      "Profile": "",
+      "ReadAddress": 1055,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Legionella temp"
+        },
+        {
+          "Language": "en",
+          "Name": "Legionella temp"
+        }
+      ],
+      "WriteAddress": 1055,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Legionella mode",
+      "Profile": "",
+      "ReadAddress": 1056,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Legionella Modus"
+        },
+        {
+          "Language": "en",
+          "Name": "Legionella mode"
+        }
+      ],
+      "WriteAddress": 1056,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Stratification flag",
+      "Profile": "",
+      "ReadAddress": 1057,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Stratification flag"
+        },
+        {
+          "Language": "en",
+          "Name": "Stratification flag"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Relay 1 status",
+      "Profile": "",
+      "ReadAddress": 1058,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Relay 1 status"
+        },
+        {
+          "Language": "en",
+          "Name": "Relay 1 status"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "load state",
+      "Profile": "",
+      "ReadAddress": 1059,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Last Status"
+        },
+        {
+          "Language": "en",
+          "Name": "load state"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "load nominal power",
+      "Profile": "",
+      "ReadAddress": 1060,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Last nomin.al power"
+        },
+        {
+          "Language": "en",
+          "Name": "load nominal power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "U L1",
+      "Profile": "",
+      "ReadAddress": 1061,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "U L1"
+        },
+        {
+          "Language": "en",
+          "Name": "U L1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "I L1",
+      "Profile": "",
+      "ReadAddress": 1062,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "I L1"
+        },
+        {
+          "Language": "en",
+          "Name": "I L1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "U Out",
+      "Profile": "",
+      "ReadAddress": 1063,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "U Out"
+        },
+        {
+          "Language": "en",
+          "Name": "U Out"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Freq",
+      "Profile": "",
+      "ReadAddress": 1064,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Freq"
+        },
+        {
+          "Language": "en",
+          "Name": "Freq"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Operation mode",
+      "Profile": "",
+      "ReadAddress": 1065,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Operation Modus"
+        },
+        {
+          "Language": "en",
+          "Name": "Operation mode"
+        }
+      ],
+      "WriteAddress": 1065,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "9s state",
+      "Profile": "",
+      "ReadAddress": 1066,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "9s Status"
+        },
+        {
+          "Language": "en",
+          "Name": "9s state"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "U L2",
+      "Profile": "",
+      "ReadAddress": 1067,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "U L2"
+        },
+        {
+          "Language": "en",
+          "Name": "U L2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "I L2",
+      "Profile": "",
+      "ReadAddress": 1068,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "I L2"
+        },
+        {
+          "Language": "en",
+          "Name": "I L2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Meter Power",
+      "Profile": "",
+      "ReadAddress": 1069,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Meter Leistung"
+        },
+        {
+          "Language": "en",
+          "Name": "Meter Power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Control type",
+      "Profile": "",
+      "ReadAddress": 1070,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Steuerung Typ"
+        },
+        {
+          "Language": "en",
+          "Name": "Control type"
+        }
+      ],
+      "WriteAddress": 1070,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Pmax_abs; Max. power currently possible. Also includes power of slaves.",
+      "Profile": "",
+      "ReadAddress": 1071,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Pmax._abs; Max. power currently possible. Also includes power of slaves."
+        },
+        {
+          "Language": "en",
+          "Name": "Pmax_abs; Max. power currently possible. Also includes power of slaves."
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "U L3",
+      "Profile": "",
+      "ReadAddress": 1072,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "U L3"
+        },
+        {
+          "Language": "en",
+          "Name": "U L3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "I L3",
+      "Profile": "",
+      "ReadAddress": 1073,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "I L3"
+        },
+        {
+          "Language": "en",
+          "Name": "I L3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "P out1",
+      "Profile": "",
+      "ReadAddress": 1074,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "P Ausgang1"
+        },
+        {
+          "Language": "en",
+          "Name": "P out1"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "P out2",
+      "Profile": "",
+      "ReadAddress": 1075,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "P Ausgang2"
+        },
+        {
+          "Language": "en",
+          "Name": "P out2"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "P out3",
+      "Profile": "",
+      "ReadAddress": 1076,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "P Ausgang3"
+        },
+        {
+          "Language": "en",
+          "Name": "P out3"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "operation state",
+      "Profile": "",
+      "ReadAddress": 1077,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Betrieb Status"
+        },
+        {
+          "Language": "en",
+          "Name": "operation state"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power high word",
+      "Profile": "",
+      "ReadAddress": 1078,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistung High-Word"
+        },
+        {
+          "Language": "en",
+          "Name": "Power high word"
+        }
+      ],
+      "WriteAddress": 1078,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power low word",
+      "Profile": "",
+      "ReadAddress": 1079,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistung Low-Word"
+        },
+        {
+          "Language": "en",
+          "Name": "Power low word"
+        }
+      ],
+      "WriteAddress": 1079,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power + relays",
+      "Profile": "",
+      "ReadAddress": 1080,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistung + relays"
+        },
+        {
+          "Language": "en",
+          "Name": "Power + relays"
+        }
+      ],
+      "WriteAddress": 1080,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Device state",
+      "Profile": "",
+      "ReadAddress": 1081,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Gerät Status"
+        },
+        {
+          "Language": "en",
+          "Name": "Device state"
+        }
+      ],
+      "WriteAddress": 1081,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power of the queried device (In Multi-Mode this is the power of the single device that is queried)",
+      "Profile": "",
+      "ReadAddress": 1082,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistung of the queried device (In Multi-Mode this is the power of the single device that is queried)"
+        },
+        {
+          "Language": "en",
+          "Name": "Power of the queried device (In Multi-Mode this is the power of the single device that is queried)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Solar part of device power",
+      "Profile": "",
+      "ReadAddress": 1083,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Solar part of device power"
+        },
+        {
+          "Language": "en",
+          "Name": "Solar part of device power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Grid part of device power",
+      "Profile": "",
+      "ReadAddress": 1084,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Netz part of device power"
+        },
+        {
+          "Language": "en",
+          "Name": "Grid part of device power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PWM-out",
+      "Profile": "",
+      "ReadAddress": 1085,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PWM-Ausgang"
+        },
+        {
+          "Language": "en",
+          "Name": "PWM-out"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Meter measurement value high word (negative = feed-in)",
+      "Profile": "",
+      "ReadAddress": 1087,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Meter Messung Wert High-Word (negativ = Einspeisung)"
+        },
+        {
+          "Language": "en",
+          "Name": "Meter measurement value high word (negative = feed-in)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Meter measurement value low word (negative = feed-in)",
+      "Profile": "",
+      "ReadAddress": 1088,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Meter Messung Wert Low-Word (negativ = Einspeisung)"
+        },
+        {
+          "Language": "en",
+          "Name": "Meter measurement value low word (negative = feed-in)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
+    }
+  ],
+  "ByteOrder": 0,
+  "ByteOrderFloats": true,
+  "Active": true,
+  "ReferenceCountStartsAtZero": false,
+  "UseEnronMode": false,
+  "ConnectionType": "TCP",
+  "Profiles": {},
+  "Type": "heating_rod",
+  "Manufacturer": "MyPV",
+  "Product": "AC_Thor",
+  "Requests": {
+    "Interval": 5000
+  },
+  "VirtualAddresses": []
 }

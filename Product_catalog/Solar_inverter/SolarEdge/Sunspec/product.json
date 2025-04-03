@@ -15,6 +15,10 @@
                 {
                     "Language": "de",
                     "Name": "SunSpec ID"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SunSpec ID"
                 }
             ],
             "WriteAddress": 0,
@@ -34,6 +38,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "SunSpec DID"
+                },
+                {
+                    "Language": "en",
                     "Name": "SunSpec DID"
                 }
             ],
@@ -55,6 +63,10 @@
                 {
                     "Language": "de",
                     "Name": "SunSpec Länge"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SunSpec Length"
                 }
             ],
             "WriteAddress": 0,
@@ -71,7 +83,12 @@
             "Profile": "",
             "ReadAddress": 40004,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Manufacturer"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -86,7 +103,12 @@
             "Profile": "",
             "ReadAddress": 40020,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Model"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -104,6 +126,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Version"
+                },
+                {
+                    "Language": "en",
                     "Name": "Version"
                 }
             ],
@@ -125,6 +151,10 @@
                 {
                     "Language": "de",
                     "Name": "Seriennummer"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Serial Number"
                 }
             ],
             "WriteAddress": 0,
@@ -145,6 +175,10 @@
                 {
                     "Language": "de",
                     "Name": "Modbus Geräte-ID"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MODBUS Unit ID"
                 }
             ],
             "WriteAddress": 0,
@@ -164,6 +198,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "SunSpec DID (Inverter)"
+                },
+                {
+                    "Language": "en",
                     "Name": "SunSpec DID (Inverter)"
                 }
             ],
@@ -185,6 +223,10 @@
                 {
                     "Language": "de",
                     "Name": "SunSpec Länge (Inverter)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SunSpec Length (Inverter)"
                 }
             ],
             "WriteAddress": 0,
@@ -205,6 +247,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Gesamtstromwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Total Current value"
                 }
             ],
             "WriteAddress": 0,
@@ -225,6 +271,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Phase A (L1) Stromwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Phase A Current value"
                 }
             ],
             "WriteAddress": 0,
@@ -245,6 +295,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Phase B (L2) Stromwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Phase B Current value"
                 }
             ],
             "WriteAddress": 0,
@@ -265,6 +319,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Phase C (L3) Stromwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Phase C Current value"
                 }
             ],
             "WriteAddress": 0,
@@ -285,6 +343,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Strom Skalierungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Current scale factor"
                 }
             ],
             "WriteAddress": 0,
@@ -305,6 +367,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Spannung Phase AB (L1-L2) Wert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Voltage Phase AB value"
                 }
             ],
             "WriteAddress": 0,
@@ -325,6 +391,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Spannung Phase BC (L2-L3) Wert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Voltage Phase BC value"
                 }
             ],
             "WriteAddress": 0,
@@ -345,6 +415,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Spannung Phase CA (L3-L1) Wert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Voltage Phase CA value"
                 }
             ],
             "WriteAddress": 0,
@@ -365,6 +439,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Spannung Skalierungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Voltage scale factor"
                 }
             ],
             "WriteAddress": 0,
@@ -385,6 +463,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Leistungswert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Power value"
                 }
             ],
             "WriteAddress": 0,
@@ -405,6 +487,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Leistung Skalierungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Power scale factor"
                 }
             ],
             "WriteAddress": 0,
@@ -425,6 +511,10 @@
                 {
                     "Language": "de",
                     "Name": "Frequenzwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Frequency value"
                 }
             ],
             "WriteAddress": 0,
@@ -445,6 +535,10 @@
                 {
                     "Language": "de",
                     "Name": "Frequenz Skalierungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Frequency scale factor"
                 }
             ],
             "WriteAddress": 0,
@@ -465,6 +559,10 @@
                 {
                     "Language": "de",
                     "Name": "Scheinleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power value"
                 }
             ],
             "WriteAddress": 0,
@@ -485,6 +583,10 @@
                 {
                     "Language": "de",
                     "Name": "Scheinleistung Skalierungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power scale factor"
                 }
             ],
             "WriteAddress": 0,
@@ -505,6 +607,10 @@
                 {
                     "Language": "de",
                     "Name": "Blindleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power value"
                 }
             ],
             "WriteAddress": 0,
@@ -525,6 +631,10 @@
                 {
                     "Language": "de",
                     "Name": "Blindleistung Skalierungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power scale factor"
                 }
             ],
             "WriteAddress": 0,
@@ -545,6 +655,10 @@
                 {
                     "Language": "de",
                     "Name": "Leistungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor value"
                 }
             ],
             "WriteAddress": 0,
@@ -565,6 +679,10 @@
                 {
                     "Language": "de",
                     "Name": "Leistungsfaktor Skalierungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor scale factor"
                 }
             ],
             "WriteAddress": 0,
@@ -585,6 +703,10 @@
                 {
                     "Language": "de",
                     "Name": "AC Gesamt-Energieproduktion"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Lifetime Energy production"
                 }
             ],
             "WriteAddress": 0,
@@ -605,6 +727,10 @@
                 {
                     "Language": "de",
                     "Name": "AC Gesamt-Energieproduktion Skalierungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Lifetime Energy production scale factor"
                 }
             ],
             "WriteAddress": 0,
@@ -625,6 +751,10 @@
                 {
                     "Language": "de",
                     "Name": "DC-Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DC Current value"
                 }
             ],
             "WriteAddress": 0,
@@ -645,6 +775,10 @@
                 {
                     "Language": "de",
                     "Name": "DC-Strom Skalierungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DC Current value scale factor"
                 }
             ],
             "WriteAddress": 0,
@@ -665,6 +799,10 @@
                 {
                     "Language": "de",
                     "Name": "DC-Spannungswert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DC Voltage value"
                 }
             ],
             "WriteAddress": 0,
@@ -685,6 +823,10 @@
                 {
                     "Language": "de",
                     "Name": "DC-Spannung Skalierungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DC Voltage scale factor"
                 }
             ],
             "WriteAddress": 0,
@@ -705,6 +847,10 @@
                 {
                     "Language": "de",
                     "Name": "DC-Leistungswert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DC Power value"
                 }
             ],
             "WriteAddress": 0,
@@ -725,6 +871,10 @@
                 {
                     "Language": "de",
                     "Name": "DC-Leistung Skalierungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DC Power scale factor"
                 }
             ],
             "WriteAddress": 0,
@@ -745,6 +895,10 @@
                 {
                     "Language": "de",
                     "Name": "Kühlkörpertemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heat Sink Temperature"
                 }
             ],
             "WriteAddress": 0,
@@ -765,6 +919,10 @@
                 {
                     "Language": "de",
                     "Name": "Kühlkörpertemperatur Skalierungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heat Sink Temperature scale factor"
                 }
             ],
             "WriteAddress": 0,
@@ -785,6 +943,10 @@
                 {
                     "Language": "de",
                     "Name": "Betriebszustand"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Operating State"
                 }
             ],
             "WriteAddress": 0,
@@ -854,14 +1016,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "solar_inverter",
     "Manufacturer": "SolarEdge",
-    "Product":"Sunspec",
+    "Product": "Sunspec",
     "Requests": {
         "Interval": 5000
     },
@@ -876,6 +1038,10 @@
                 {
                     "Language": "de",
                     "Name": "AC_Gesamtstromwert (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "AC Total Current (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -891,6 +1057,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Phase A (L1) Stromwert (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_AC_CurrentA (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -906,6 +1076,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Phase B (L2) Stromwert (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_AC_CurrentB (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -921,6 +1095,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Phase V (L3) Stromwert (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_AC_CurrentC (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -936,6 +1114,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Spannung Phase AB (L1-L2) Wert (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_AC_Voltage_AB (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -951,6 +1133,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Spannung Phase BC (L2-L3) Wert (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_AC_VoltageBC (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -966,6 +1152,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Spannung Phase CA (L3-L1) Wert (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_AC_VoltageCA (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -981,6 +1171,10 @@
                 {
                     "Language": "de",
                     "Name": "Frequenz (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_AC_Frequency (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -996,6 +1190,10 @@
                 {
                     "Language": "de",
                     "Name": "Scheinleistung (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_AC_VA (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -1011,6 +1209,10 @@
                 {
                     "Language": "de",
                     "Name": "Blindleistung (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_AC_VAR (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -1026,6 +1228,10 @@
                 {
                     "Language": "de",
                     "Name": "Leistungsfaktor (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_AC_PF calculated"
                 }
             ],
             "VariableType": 2,
@@ -1041,6 +1247,10 @@
                 {
                     "Language": "de",
                     "Name": "AC-Leistungswert (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_AC_Power (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -1056,6 +1266,10 @@
                 {
                     "Language": "de",
                     "Name": "AC Gesamt-Energieproduktion (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_AC_Energy_WH (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -1071,6 +1285,10 @@
                 {
                     "Language": "de",
                     "Name": "DC-Strom (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_DC_Current (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -1086,6 +1304,10 @@
                 {
                     "Language": "de",
                     "Name": "DC-Spannungswert (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_DC_Voltage (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -1101,6 +1323,10 @@
                 {
                     "Language": "de",
                     "Name": "DC-Leistungswert (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_DC_Power (calculated)"
                 }
             ],
             "VariableType": 2,
@@ -1116,6 +1342,10 @@
                 {
                     "Language": "de",
                     "Name": "Kühlkörpertemperatur (berechnet)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "I_Temp_Sink (calculated)"
                 }
             ],
             "VariableType": 2,

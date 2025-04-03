@@ -1,316 +1,1018 @@
 {
-    "Addresses": [
+  "Addresses": [
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 30,
+      "Name": "Model",
+      "Profile": "",
+      "ReadAddress": 30000,
+      "ReadFunctionCode": 3,
+      "Translation": [
         {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 30,
-            "Name": "Model",
-            "Profile": "",
-            "ReadAddress": 30000,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
+          "Language": "de",
+          "Name": "Modell"
         },
         {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 20,
-            "Name": "SN",
-            "Profile": "",
-            "ReadAddress": 30015,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 20,
-            "Name": "PN",
-            "Profile": "",
-            "ReadAddress": 30025,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Model ID",
-            "Profile": "",
-            "ReadAddress": 30070,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Number of MPP trackers",
-            "Profile": "",
-            "ReadAddress": 30072,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 6,
-            "Factor": 0.001,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Peak active power of current day",
-            "Profile": "Huawei.Power.kW",
-            "ReadAddress": 32078,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 6,
-            "Factor": 0.001,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Active power",
-            "Profile": "Huawei.Power.kW",
-            "ReadAddress": 32080,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Efficiency",
-            "Profile": "~Intensity.1",
-            "ReadAddress": 32086,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Internal temperature",
-            "Profile": "~Temperature",
-            "ReadAddress": 32087,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Device status",
-            "Profile": "Huawei.DeviceStatus",
-            "ReadAddress": 32089,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Accumulated energy yield",
-            "Profile": "Huawei.Energie.kWh",
-            "ReadAddress": 32106,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Daily energy  yield",
-            "Profile": "Huawei.Energie.kWh",
-            "ReadAddress": 32114,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 6,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Power meter: Active power",
-            "Profile": "Huawei.Power.W",
-            "ReadAddress": 37113,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Grid code",
-            "Profile": "",
-            "ReadAddress": 42000,
-            "ReadFunctionCode": 3,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
+          "Language": "en",
+          "Name": "Model"
         }
-    ],
-    "ByteOrder": 0,
-    "Profiles": {
-        "Huawei.DeviceStatus": {
-            "Associations": [
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Standby: Initialisierung",
-                    "Value": 0.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Standby: Erkennung des Isolationswiderstandes",
-                    "Value": 1.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Standby: Erkennung von Strahlung",
-                    "Value": 2.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Standby: Drid-Erkennung",
-                    "Value": 3.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Start",
-                    "Value": 256.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Netzgebunden",
-                    "Value": 512.0
-                },
-                {
-                    "Color": -1,
-                    "Icon": "",
-                    "Name": "Standby: keine Strahlung",
-                    "Value": 40960.0
-                }
-            ],
-            "Digits": 0,
-            "Icon": "",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": "",
-            "Type": 1
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 20,
+      "Name": "SN",
+      "Profile": "",
+      "ReadAddress": 30015,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Seriennummer"
         },
-        "Huawei.Energie.kWh": {
-            "Associations": [],
-            "Digits": 1,
-            "Icon": "",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": " kWh",
-            "Type": 2
-        },
-        "Huawei.Power.W": {
-            "Associations": [],
-            "Digits": 0,
-            "Icon": "",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": " W",
-            "Type": 1
-        },
-        "Huawei.Power.kW": {
-            "Associations": [],
-            "Digits": 3,
-            "Icon": "",
-            "MaxValue": 0.0,
-            "MinValue": 0.0,
-            "Prefix": "",
-            "StepSize": 0.0,
-            "Suffix": " kW",
-            "Type": 2
+        {
+          "Language": "en",
+          "Name": "SN"
         }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
     },
-    "ByteOrderFloats": true, 
-    "Active": true,
-    "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
-    "ConnectionType": "TCP",
-    "Type": "solar_inverter",
-    "Manufacturer": "Huawei",
-    "Product":"SUN200-4.6KTL-L1",
-    "Requests": {
-        "Interval": 5000
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 20,
+      "Name": "PN",
+      "Profile": "",
+      "ReadAddress": 30025,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Teilenummer"
+        },
+        {
+          "Language": "en",
+          "Name": "PN"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 16
     },
-    "VirtualAddresses": []
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 30,
+      "Name": "Firmware version",
+      "Profile": "",
+      "ReadAddress": 30035,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Firmwareversion"
+        },
+        {
+          "Language": "en",
+          "Name": "Firmware version"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 10,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 30,
+      "Name": "Software Version",
+      "Profile": "",
+      "ReadAddress": 30050,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Softwareversion"
+        },
+        {
+          "Language": "en",
+          "Name": "Software Version"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Model ID",
+      "Profile": "",
+      "ReadAddress": 30070,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Modell-ID"
+        },
+        {
+          "Language": "en",
+          "Name": "Model ID"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Number of strings",
+      "Profile": "",
+      "ReadAddress": 30071,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Anzahl Strings"
+        },
+        {
+          "Language": "en",
+          "Name": "Number of strings"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Number of MPP trackers",
+      "Profile": "",
+      "ReadAddress": 30072,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Anzahl MPP-Tracker"
+        },
+        {
+          "Language": "en",
+          "Name": "Number of MPP trackers"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PV1 voltage",
+      "Profile": "Huawei.Voltage",
+      "ReadAddress": 32016,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PV1 Spannung"
+        },
+        {
+          "Language": "en",
+          "Name": "PV1 voltage"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PV1 current",
+      "Profile": "Huawei.Current",
+      "ReadAddress": 32017,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PV1 Strom"
+        },
+        {
+          "Language": "en",
+          "Name": "PV1 current"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PV2 voltage",
+      "Profile": "Huawei.Voltage",
+      "ReadAddress": 32018,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PV2 Spannung"
+        },
+        {
+          "Language": "en",
+          "Name": "PV2 voltage"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "PV2 current",
+      "Profile": "Huawei.Current",
+      "ReadAddress": 32019,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PV2 Strom"
+        },
+        {
+          "Language": "en",
+          "Name": "PV2 current"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 6,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Input power",
+      "Profile": "Huawei.Power.kW",
+      "ReadAddress": 32064,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Eingangsleistung"
+        },
+        {
+          "Language": "en",
+          "Name": "Input power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Phase A voltage (L1)",
+      "Profile": "~Volt.230",
+      "ReadAddress": 32069,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Phase A (L1)"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase A voltage (L1)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Phase B voltage (L2)",
+      "Profile": "~Volt.230",
+      "ReadAddress": 32070,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Phase B (L2)"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase B voltage (L2)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Phase C voltage (L3)",
+      "Profile": "~Volt.230",
+      "ReadAddress": 32071,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spannung Phase C (L3)"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase C voltage (L3)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 6,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Phase A current (L1)",
+      "Profile": "~Ampere.16",
+      "ReadAddress": 32072,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Phase A (L1)"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase A current (L1)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 6,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Phase B current (L2)",
+      "Profile": "~Ampere.16",
+      "ReadAddress": 32074,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Phase B (L2)"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase B current (L2)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 6,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Phase C current (L3)",
+      "Profile": "~Ampere.16",
+      "ReadAddress": 32076,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Phase C (L3)"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase C current (L3)"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 6,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Peak active power of current day",
+      "Profile": "Huawei.Power.kW",
+      "ReadAddress": 32078,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Spitzenwirkleistung des Tages"
+        },
+        {
+          "Language": "en",
+          "Name": "Peak active power of current day"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 6,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Active power",
+      "Profile": "Huawei.Power.kW",
+      "ReadAddress": 32080,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wirkleistung"
+        },
+        {
+          "Language": "en",
+          "Name": "Active power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 6,
+      "Factor": 0.001,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Reactive power",
+      "Profile": "",
+      "ReadAddress": 32082,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung"
+        },
+        {
+          "Language": "en",
+          "Name": "Reactive power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Grid frequency",
+      "Profile": "Huawei.Frequeny",
+      "ReadAddress": 32085,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Netzfrequenz"
+        },
+        {
+          "Language": "en",
+          "Name": "Grid frequency"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Efficiency",
+      "Profile": "~Intensity.1",
+      "ReadAddress": 32086,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Effizienz"
+        },
+        {
+          "Language": "en",
+          "Name": "Efficiency"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 5,
+      "Factor": 0.1,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Internal temperature",
+      "Profile": "~Temperature",
+      "ReadAddress": 32087,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Innere Temperatur"
+        },
+        {
+          "Language": "en",
+          "Name": "Internal temperature"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Device status",
+      "Profile": "Huawei.DeviceStatus",
+      "ReadAddress": 32089,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Gerätestatus"
+        },
+        {
+          "Language": "en",
+          "Name": "Device status"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Fault Code",
+      "Profile": "",
+      "ReadAddress": 32090,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Fehlercode"
+        },
+        {
+          "Language": "en",
+          "Name": "Fault Code"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Startup Time",
+      "Profile": "~UnixTimestamp",
+      "ReadAddress": 32091,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Startzeit"
+        },
+        {
+          "Language": "en",
+          "Name": "Startup Time"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Shutdown Time",
+      "Profile": "~UnixTimestamp",
+      "ReadAddress": 32093,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Abschaltzeit"
+        },
+        {
+          "Language": "en",
+          "Name": "Shutdown Time"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Accumulated energy yield",
+      "Profile": "Huawei.Energie.kWh",
+      "ReadAddress": 32106,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Gesamter Energieertrag"
+        },
+        {
+          "Language": "en",
+          "Name": "Accumulated energy yield"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 6,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Power meter: Active power",
+      "Profile": "Huawei.Power.W",
+      "ReadAddress": 37113,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Leistungsmesser: Wirkleistung"
+        },
+        {
+          "Language": "en",
+          "Name": "Power meter: Active power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Daily energy  yield",
+      "Profile": "Huawei.Energie.kWh",
+      "ReadAddress": 32114,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Täglicher Energieertrag"
+        },
+        {
+          "Language": "en",
+          "Name": "Daily energy  yield"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Monthly energy yield",
+      "Profile": "Huawei.Energie.kWh",
+      "ReadAddress": 32116,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Monatlicher Energieertrag"
+        },
+        {
+          "Language": "en",
+          "Name": "Monthly energy yield"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 3,
+      "Factor": 0.01,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Yearly energy yield",
+      "Profile": "Huawei.Energie.kWh",
+      "ReadAddress": 32118,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Jährlicher Energieertrag"
+        },
+        {
+          "Language": "en",
+          "Name": "Yearly energy yield"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0,
+      "Ident": "",
+      "Length": 0,
+      "Name": "Grid code",
+      "Profile": "",
+      "ReadAddress": 42000,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Netzcode"
+        },
+        {
+          "Language": "en",
+          "Name": "Grid code"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    }
+  ],
+  "ByteOrder": 0,
+  "Profiles": {
+    "Huawei.Current": {
+      "Associations": [],
+      "Digits": 2,
+      "Icon": "",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " A",
+      "Type": 2
+    },
+    "Huawei.DeviceStatus": {
+      "Associations": [
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Standby: Initialisierung",
+          "Value": 0.0
+        },
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Standby: Erkennung des Isolationswiderstandes",
+          "Value": 1.0
+        },
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Standby: Erkennung von Strahlung",
+          "Value": 2.0
+        },
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Standby: Drid-Erkennung",
+          "Value": 3.0
+        },
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Start",
+          "Value": 256.0
+        },
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Netzgebunden",
+          "Value": 512.0
+        },
+        {
+          "Color": -1,
+          "Icon": "",
+          "Name": "Standby: keine Strahlung",
+          "Value": 40960.0
+        }
+      ],
+      "Digits": 0,
+      "Icon": "",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": "",
+      "Type": 1
+    },
+    "Huawei.Energie.kWh": {
+      "Associations": [],
+      "Digits": 1,
+      "Icon": "",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " kWh",
+      "Type": 2
+    },
+    "Huawei.Frequeny": {
+      "Associations": [],
+      "Digits": 2,
+      "Icon": "",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " Hz",
+      "Type": 2
+    },
+    "Huawei.Power.W": {
+      "Associations": [],
+      "Digits": 0,
+      "Icon": "",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " W",
+      "Type": 1
+    },
+    "Huawei.Power.kW": {
+      "Associations": [],
+      "Digits": 3,
+      "Icon": "",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " kW",
+      "Type": 2
+    },
+    "Huawei.Voltage": {
+      "Associations": [],
+      "Digits": 1,
+      "Icon": "",
+      "MaxValue": 0.0,
+      "MinValue": 0.0,
+      "Prefix": "",
+      "StepSize": 0.0,
+      "Suffix": " V",
+      "Type": 2
+    }
+  },
+  "ByteOrderFloats": true,
+  "Active": true,
+  "ReferenceCountStartsAtZero": false,
+  "UseEnronMode": false,
+  "ConnectionType": "TCP",
+  "Type": "solar_inverter",
+  "Manufacturer": "Huawei",
+  "Product": "SUN2000-10TKL-M1",
+  "Requests": {
+    "Interval": 5000
+  },
+  "VirtualAddresses": [
+    {
+      "Active": true,
+      "Ident": "",
+      "Name": "PV1 Leistung",
+      "Profile": "Huawei.Power.kW",
+      "ReadAction": "return($VALUES[\"A_5_3_32016\"] * $VALUES[\"A_5_3_32017\"])/1000;",
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PV1 Leistung"
+        },
+        {
+          "Language": "en",
+          "Name": "PV1 Leistung"
+        }
+      ],
+      "VariableType": 2,
+      "WriteAction": ""
+    },
+    {
+      "Active": true,
+      "Ident": "",
+      "Name": "PV2 Leistung",
+      "Profile": "Huawei.Power.kW",
+      "ReadAction": "return($VALUES[\"A_5_3_32018\"]*$VALUES[\"A_5_3_32019\"])/1000;",
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "PV2 Leistung"
+        },
+        {
+          "Language": "en",
+          "Name": "PV2 Leistung"
+        }
+      ],
+      "VariableType": 2,
+      "WriteAction": ""
+    }
+  ]
 }

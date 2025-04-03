@@ -15,6 +15,10 @@
                 {
                     "Language": "de",
                     "Name": "Momentanwert Strom L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Instantaneous Current L1"
                 }
             ],
             "WriteAddress": 0,
@@ -35,6 +39,10 @@
                 {
                     "Language": "de",
                     "Name": "Momentanwert Strom L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Instantaneous Current L2"
                 }
             ],
             "WriteAddress": 0,
@@ -55,6 +63,10 @@
                 {
                     "Language": "de",
                     "Name": "Momentanwert Strom L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Instantaneous Current L3"
                 }
             ],
             "WriteAddress": 0,
@@ -75,6 +87,10 @@
                 {
                     "Language": "de",
                     "Name": "Momentanwert Spannung L1 N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Instantaneous Voltage L1-N"
                 }
             ],
             "WriteAddress": 0,
@@ -95,6 +111,10 @@
                 {
                     "Language": "de",
                     "Name": "Momentanwert Spannung L2 N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Instantaneous Voltage L2-N"
                 }
             ],
             "WriteAddress": 0,
@@ -115,6 +135,10 @@
                 {
                     "Language": "de",
                     "Name": "Momentanwert Spannung L3 N "
+                },
+                {
+                    "Language": "en",
+                    "Name": "Instantaneous Voltage L3-N"
                 }
             ],
             "WriteAddress": 0,
@@ -135,6 +159,10 @@
                 {
                     "Language": "de",
                     "Name": "Momentanwert Wirkleistung Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Instantaneous Active Power Total"
                 }
             ],
             "WriteAddress": 0,
@@ -155,6 +183,10 @@
                 {
                     "Language": "de",
                     "Name": "Momentanwert Wirkleistung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Instantaneous Active Power L1"
                 }
             ],
             "WriteAddress": 0,
@@ -175,6 +207,10 @@
                 {
                     "Language": "de",
                     "Name": "Momentanwert Wirkleistung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Instantaneous Active Power L2"
                 }
             ],
             "WriteAddress": 0,
@@ -195,6 +231,10 @@
                 {
                     "Language": "de",
                     "Name": "Momentanwert Wirkleistung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Instantaneous Active Power L3"
                 }
             ],
             "WriteAddress": 0,
@@ -215,6 +255,10 @@
                 {
                     "Language": "de",
                     "Name": "Zählerstand"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Meter Reading"
                 }
             ],
             "WriteAddress": 0,
@@ -222,15 +266,15 @@
         }
     ],
     "ByteOrder": 0,
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Profiles": {},
     "Type": "Energy_Meter",
     "Manufacturer": "Schneider_Electric",
-    "Product":"iEM3155",
+    "Product": "iEM3155",
     "Requests": {
         "Interval": 10000
     },

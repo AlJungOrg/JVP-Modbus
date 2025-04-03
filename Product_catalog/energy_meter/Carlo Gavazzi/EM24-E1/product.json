@@ -15,6 +15,10 @@
                 {
                     "Language": "de",
                     "Name": "L1 - Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "L1 - Voltage"
                 }
             ],
             "WriteAddress": 0,
@@ -35,6 +39,10 @@
                 {
                     "Language": "de",
                     "Name": "L1 - Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "L1 - Current"
                 }
             ],
             "WriteAddress": 0,
@@ -55,6 +63,10 @@
                 {
                     "Language": "de",
                     "Name": "L1 - Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "L1 - Power"
                 }
             ],
             "WriteAddress": 0,
@@ -75,6 +87,10 @@
                 {
                     "Language": "de",
                     "Name": "L1 - Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "L1 - Energy"
                 }
             ],
             "WriteAddress": 0,
@@ -91,7 +107,16 @@
             "Profile": "",
             "ReadAddress": 46,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "L1 - power factor"
+                },
+                {
+                    "Language": "de",
+                    "Name": "L1 - power factor"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -110,6 +135,10 @@
                 {
                     "Language": "de",
                     "Name": "L2 - Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "L2 - Voltage"
                 }
             ],
             "WriteAddress": 0,
@@ -130,6 +159,10 @@
                 {
                     "Language": "de",
                     "Name": "L2 - Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "L2 - Current"
                 }
             ],
             "WriteAddress": 0,
@@ -150,6 +183,10 @@
                 {
                     "Language": "de",
                     "Name": "L2 - Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "L2 - Power"
                 }
             ],
             "WriteAddress": 0,
@@ -170,6 +207,10 @@
                 {
                     "Language": "de",
                     "Name": "L2 - Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "L2 - Energy"
                 }
             ],
             "WriteAddress": 0,
@@ -186,7 +227,16 @@
             "Profile": "",
             "ReadAddress": 47,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "L2 - power factor"
+                },
+                {
+                    "Language": "de",
+                    "Name": "L2 - power factor"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -205,6 +255,10 @@
                 {
                     "Language": "de",
                     "Name": "L3 - Spannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "L3 - Voltage"
                 }
             ],
             "WriteAddress": 0,
@@ -225,6 +279,10 @@
                 {
                     "Language": "de",
                     "Name": "L3 - Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "L3 - Current"
                 }
             ],
             "WriteAddress": 0,
@@ -245,6 +303,10 @@
                 {
                     "Language": "de",
                     "Name": "L3 - Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "L3 - Power"
                 }
             ],
             "WriteAddress": 0,
@@ -265,6 +327,10 @@
                 {
                     "Language": "de",
                     "Name": "L3 - Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "L3 - Energy"
                 }
             ],
             "WriteAddress": 0,
@@ -281,7 +347,16 @@
             "Profile": "",
             "ReadAddress": 48,
             "ReadFunctionCode": 3,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "L3 - power factor"
+                },
+                {
+                    "Language": "de",
+                    "Name": "L3 - power factor"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -300,6 +375,10 @@
                 {
                     "Language": "de",
                     "Name": "Summe - Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total - Power"
                 }
             ],
             "WriteAddress": 0,
@@ -320,6 +399,10 @@
                 {
                     "Language": "de",
                     "Name": "Summe - Energie - Netzbezug"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total - Energy from Grid"
                 }
             ],
             "WriteAddress": 0,
@@ -340,6 +423,10 @@
                 {
                     "Language": "de",
                     "Name": "Summe - Energie - Einspeisung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total - Energy to Grid"
                 }
             ],
             "WriteAddress": 0,
@@ -360,6 +447,10 @@
                 {
                     "Language": "de",
                     "Name": "Netzfrequenz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Grid Frequency"
                 }
             ],
             "WriteAddress": 0,
@@ -368,14 +459,14 @@
     ],
     "ByteOrder": 3,
     "Profiles": {},
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "Energy_Meter",
     "Manufacturer": "Carlo_Gavazzi",
-    "Product":"CG-EM24-ETH",
+    "Product": "CG-EM24-ETH",
     "Requests": {
         "Interval": 5000
     },

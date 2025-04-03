@@ -11,7 +11,16 @@
             "Profile": "~Temperature",
             "ReadAddress": 1,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Außentemperatur (R1)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Außentemperatur (R1)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -26,7 +35,16 @@
             "Profile": "WPM_M.Vor_Ruecklauf_Temperatur",
             "ReadAddress": 2,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur Rücklauf (R2)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature Rücklauf (R2)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -41,7 +59,16 @@
             "Profile": "WPM_M.Vor_Ruecklauf_Temperatur",
             "ReadAddress": 53,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur Rücklaufsoll"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature Rücklaufsoll"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -56,7 +83,16 @@
             "Profile": "",
             "ReadAddress": 58,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur Warmwassersoll"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature Warmwassersoll"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -71,7 +107,16 @@
             "Profile": "WPM_M.Vor_Ruecklauf_Temperatur",
             "ReadAddress": 5,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur Vorlauf (R9)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature Vorlauf (R9)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -86,7 +131,16 @@
             "Profile": "",
             "ReadAddress": 6,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur Wärmequelleneintritt (R24)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature Wärmequelleneintritt (R24)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -101,7 +155,16 @@
             "Profile": "",
             "ReadAddress": 7,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur Wärmequelleneintritt (R6)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature Wärmequelleneintritt (R6)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -116,7 +179,16 @@
             "Profile": "WPM_M.Vor_Ruecklauf_Temperatur",
             "ReadAddress": 54,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Solltemperatur 2.Heizkreis"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Solltemperatur 2.Heating Circuit"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -131,7 +203,16 @@
             "Profile": "WPM_M.Vor_Ruecklauf_Temperatur",
             "ReadAddress": 9,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur 2.Heizkreis (R5)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature 2.Heizkreis (R5)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -146,7 +227,16 @@
             "Profile": "",
             "ReadAddress": 10,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Solltemperatur 3.Heizkreis (R13)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Solltemperatur 3.Heating Circuit (R13)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -161,7 +251,16 @@
             "Profile": "",
             "ReadAddress": 10,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur 3.Heizkreis (R13)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature 3.Heizkreis (R13)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -176,7 +275,16 @@
             "Profile": "",
             "ReadAddress": 11,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Raumtemperatur 1 / RT-RTH Econ"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Room Temperature 1 / RT-RTH Econ"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -191,7 +299,16 @@
             "Profile": "",
             "ReadAddress": 12,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Raumtemperatur 2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Room Temperature 2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -206,7 +323,16 @@
             "Profile": "",
             "ReadAddress": 13,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Raumfeuchte 1 / RT-RTH Econ"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Raumfeuchte 1 / RT-RTH Econ"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -221,7 +347,16 @@
             "Profile": "",
             "ReadAddress": 14,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Raumfeuchte 2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Raumfeuchte 2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -236,7 +371,16 @@
             "Profile": "",
             "ReadAddress": 72,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verdichter 1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Compressor 1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -251,7 +395,16 @@
             "Profile": "",
             "ReadAddress": 73,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verdichter 2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Compressor 2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -266,7 +419,16 @@
             "Profile": "",
             "ReadAddress": 74,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Primärpumpe / Ventilator (M11)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Primary Pump / Ventilator (M11)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -281,7 +443,16 @@
             "Profile": "",
             "ReadAddress": 75,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "2. Wärmeerzeuger (E10)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "2nd Heat Generator (E10)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -296,7 +467,16 @@
             "Profile": "",
             "ReadAddress": 76,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Heizungspumpe (M13)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heating Pump (M13)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -311,7 +491,16 @@
             "Profile": "",
             "ReadAddress": 77,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Warmwasserpumpe (M18)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hot Waterpumpe (M18)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -326,7 +515,16 @@
             "Profile": "",
             "ReadAddress": 78,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Flanschheizung (E9)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Flange Heater (E9)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -341,7 +539,16 @@
             "Profile": "",
             "ReadAddress": 79,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Schwimmbadpumpe (M19)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Pool Pump (M19)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -356,7 +563,16 @@
             "Profile": "",
             "ReadAddress": 71,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zusatzumwälzpumpe (M16)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Additional Circulation Pump (M16)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -371,7 +587,16 @@
             "Profile": "",
             "ReadAddress": 303,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wärmemenge Heizen 1-4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heat Quantity Heizen 1-4"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -386,7 +611,16 @@
             "Profile": "",
             "ReadAddress": 304,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wärmemenge Heizen 5-8"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heat Quantity Heizen 5-8"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -401,7 +635,16 @@
             "Profile": "",
             "ReadAddress": 305,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wärmemenge Heizen 9-12"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heat Quantity Heizen 9-12"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -416,7 +659,16 @@
             "Profile": "WPM_M_Parallelverschiebung",
             "ReadAddress": 243,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Parallelverschiebung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Parallel Shift"
+                }
+            ],
             "WriteAddress": 243,
             "WriteFunctionCode": 6
         },
@@ -431,7 +683,16 @@
             "Profile": "",
             "ReadAddress": 46,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Raumtemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Room Temperature"
+                }
+            ],
             "WriteAddress": 46,
             "WriteFunctionCode": 6
         },
@@ -446,7 +707,16 @@
             "Profile": "",
             "ReadAddress": 244,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Festwertsolltemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Fixed Setpoint Temperature"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -461,7 +731,16 @@
             "Profile": "WPM_M_Heiztemperatur",
             "ReadAddress": 245,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Heizkurvenendpunkt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heating Curve End Point"
+                }
+            ],
             "WriteAddress": 245,
             "WriteFunctionCode": 6
         },
@@ -476,7 +755,16 @@
             "Profile": "WPM_M_Hysterese",
             "ReadAddress": 47,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hysterese"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hysteresis"
+                }
+            ],
             "WriteAddress": 47,
             "WriteFunctionCode": 6
         },
@@ -491,7 +779,16 @@
             "Profile": "",
             "ReadAddress": 289,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Auswahl Heizkreis 2/3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Auswahl Heating Circuit 2/3"
+                }
+            ],
             "WriteAddress": 289,
             "WriteFunctionCode": 6
         },
@@ -506,7 +803,16 @@
             "Profile": "WPM_M_Heiztemperatur",
             "ReadAddress": 291,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Heizkurvenendpunkt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heating Curve End Point"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -521,7 +827,16 @@
             "Profile": "",
             "ReadAddress": 292,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Festwertsolltemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Fixed Setpoint Temperature"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -536,7 +851,16 @@
             "Profile": "WPM_M_Parallelverschiebung",
             "ReadAddress": 293,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Parallelverschiebung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Parallel Shift"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -551,7 +875,16 @@
             "Profile": "",
             "ReadAddress": 294,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Mischerlaufzeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Mixer Run Time"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -566,7 +899,16 @@
             "Profile": "",
             "ReadAddress": 93,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Mischerhysterese"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Mixer Hysteresis"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -581,7 +923,16 @@
             "Profile": "",
             "ReadAddress": 295,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximale Temperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Maximale Temperature"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -596,7 +947,16 @@
             "Profile": "WPM_M_Modus",
             "ReadAddress": 222,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Betriebsmodus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Operating Mode"
+                }
+            ],
             "WriteAddress": 222,
             "WriteFunctionCode": 6
         },
@@ -611,7 +971,16 @@
             "Profile": "WPM_M_Statusmeldungen",
             "ReadAddress": 103,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Statusmeldungen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Statusmeldungen"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -626,7 +995,16 @@
             "Profile": "WPM_M_Sperre",
             "ReadAddress": 104,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wärmepumpe Sperre"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Wärmepumpe Sperre"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -641,7 +1019,16 @@
             "Profile": "WPM_M_Stoermeldungen",
             "ReadAddress": 105,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Störmeldung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Error Message"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -656,7 +1043,16 @@
             "Profile": "",
             "ReadAddress": 106,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sensorik"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Sensors"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -671,7 +1067,16 @@
             "Profile": "",
             "ReadAddress": 213,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Stunde"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hour"
+                }
+            ],
             "WriteAddress": 213,
             "WriteFunctionCode": 6
         },
@@ -686,7 +1091,16 @@
             "Profile": "",
             "ReadAddress": 214,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Minute"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Minute"
+                }
+            ],
             "WriteAddress": 213,
             "WriteFunctionCode": 6
         },
@@ -701,7 +1115,16 @@
             "Profile": "",
             "ReadAddress": 215,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Monat"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Month"
+                }
+            ],
             "WriteAddress": 213,
             "WriteFunctionCode": 6
         },
@@ -716,7 +1139,16 @@
             "Profile": "",
             "ReadAddress": 217,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Tag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Day"
+                }
+            ],
             "WriteAddress": 213,
             "WriteFunctionCode": 6
         },
@@ -731,7 +1163,16 @@
             "Profile": "",
             "ReadAddress": 218,
             "ReadFunctionCode": 4,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Jahr"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Year"
+                }
+            ],
             "WriteAddress": 213,
             "WriteFunctionCode": 6
         },
@@ -746,7 +1187,16 @@
             "Profile": "~Switch",
             "ReadAddress": 41,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verdichter 1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Compressor 1"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -761,7 +1211,16 @@
             "Profile": "~Switch",
             "ReadAddress": 42,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Verdichter 2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Compressor 2"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -776,7 +1235,16 @@
             "Profile": "~Switch",
             "ReadAddress": 43,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Primärpumpe (M11) / Ventilator (M2)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Primary Pump (M11) / Ventilator (M2)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -791,7 +1259,16 @@
             "Profile": "~Switch",
             "ReadAddress": 44,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "2.Wärmeerzeuger (E10)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "2.Wärmeerzeuger (E10)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -806,7 +1283,16 @@
             "Profile": "~Switch",
             "ReadAddress": 45,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Heizungspumpe (M13)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heating Pump (M13)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -821,7 +1307,16 @@
             "Profile": "~Switch",
             "ReadAddress": 46,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Warmwasserpumpe (M18)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hot Waterpumpe (M18)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -836,7 +1331,16 @@
             "Profile": "~Switch",
             "ReadAddress": 47,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Mischer (M21) Auf"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Mixer (M21) Auf"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -851,7 +1355,16 @@
             "Profile": "~Switch",
             "ReadAddress": 48,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Mischer (M21) Zu"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Mixer (M21) Zu"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -866,7 +1379,16 @@
             "Profile": "~Switch",
             "ReadAddress": 49,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zusatzumwälzpumpe (M16)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Additional Circulation Pump (M16)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -881,7 +1403,16 @@
             "Profile": "~Switch",
             "ReadAddress": 50,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Flanschheizung (E9)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Flange Heater (E9)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -896,7 +1427,16 @@
             "Profile": "~Switch",
             "ReadAddress": 51,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Heizungspumpe (M15)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heating Pump (M15)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -911,7 +1451,16 @@
             "Profile": "~Switch",
             "ReadAddress": 52,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Mischer (M22) Auf"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Mixer (M22) Auf"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -926,7 +1475,16 @@
             "Profile": "~Switch",
             "ReadAddress": 53,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Mischer (M22) Zu"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Mixer (M22) Zu"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -941,7 +1499,16 @@
             "Profile": "~Switch",
             "ReadAddress": 56,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Schwimmbadpumpe (M19)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Pool Pump (M19)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -956,7 +1523,16 @@
             "Profile": "~Switch",
             "ReadAddress": 57,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sammelstörmeldung (H5)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Collective Error Message (H5)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -971,7 +1547,16 @@
             "Profile": "~Switch",
             "ReadAddress": 59,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Heizungspumpe (M14)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heating Pump (M14)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -986,7 +1571,16 @@
             "Profile": "~Switch",
             "ReadAddress": 60,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Kühlpumpe (M17)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cooling Pump (M17)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1001,7 +1595,16 @@
             "Profile": "~Switch",
             "ReadAddress": 61,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Heizungspumpe (M20)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heating Pump (M20)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1016,7 +1619,16 @@
             "Profile": "~Switch",
             "ReadAddress": 66,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Umschaltung Raumthermostate Heizen/Kühlen (N9)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Umschaltung Raumthermostate Heating/Kühlen (N9)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1031,7 +1643,16 @@
             "Profile": "~Switch",
             "ReadAddress": 68,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Primärpumpe Kühlen (M12)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Primärpumpe Cooling (M12)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
@@ -1046,7 +1667,16 @@
             "Profile": "~Switch",
             "ReadAddress": 71,
             "ReadFunctionCode": 1,
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Solarpumpe (M23)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Solar Pump (M23)"
+                }
+            ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         }
@@ -1657,14 +2287,14 @@
             "Type": 1
         }
     },
-    "ByteOrderFloats": true, 
+    "ByteOrderFloats": true,
     "Active": true,
     "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
+    "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "heat_pump",
     "Manufacturer": "Buderus",
-    "Product":"WPM100",
+    "Product": "WPM100",
     "Requests": {
         "Interval": 5000
     },
@@ -1675,7 +2305,16 @@
             "Name": "Wärmemenge Heizen",
             "Profile": "",
             "ReadAction": "return $VALUES['A_2_4_303'] + 10000 * $VALUES['A_2_4_304'] + 100000000 * $VALUES['A_2_4_305'] ;",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wärmemenge Heizen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heat Quantity Heizen"
+                }
+            ],
             "VariableType": 2,
             "WriteAction": ""
         },
@@ -1685,7 +2324,16 @@
             "Name": "Zeit",
             "Profile": "~UnixTimestamp",
             "ReadAction": "$Y = $VALUES['A_2_4_218'];\r\n$M = $VALUES['A_2_4_215'];\r\n$D = $VALUES['A_2_4_217'];\r\n$H = $VALUES['A_2_4_213'];\r\n$Min = $VALUES['A_2_4_214'];\r\n\r\n$strDate = sprintf ('20%s/%s/%s %s:%s', $Y, $M, $D, $H, $Min);\r\nreturn strtotime($strDate);\r\n",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zeit"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Time"
+                }
+            ],
             "VariableType": 1,
             "WriteAction": ""
         },
@@ -1695,7 +2343,16 @@
             "Name": "Sperrgrund",
             "Profile": "",
             "ReadAction": "return GetValueFormatted(57983);",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sperrgrund"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Lock Reason"
+                }
+            ],
             "VariableType": 3,
             "WriteAction": ""
         },
@@ -1705,7 +2362,16 @@
             "Name": "Status",
             "Profile": "",
             "ReadAction": "return GetValueFormatted(46815);",
-            "Translation": [],
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Status"
+                }
+            ],
             "VariableType": 3,
             "WriteAction": ""
         }

@@ -15,6 +15,10 @@
                 {
                     "Language": "de",
                     "Name": "Raumisttemp-HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Room actual temperature HK1"
                 }
             ],
             "WriteAddress": 0,
@@ -35,6 +39,10 @@
                 {
                     "Language": "de",
                     "Name": "Raumsolltemp-HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Room target temperature HK1"
                 }
             ],
             "WriteAddress": 0,
@@ -55,6 +63,10 @@
                 {
                     "Language": "de",
                     "Name": "Raumfeuchte-HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Room humidity HK1"
                 }
             ],
             "WriteAddress": 0,
@@ -75,6 +87,10 @@
                 {
                     "Language": "de",
                     "Name": "Raumisttemp-HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Room actual temperature HK2"
                 }
             ],
             "WriteAddress": 0,
@@ -95,6 +111,10 @@
                 {
                     "Language": "de",
                     "Name": "Raumsolltemp-HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Room target temperature HK2"
                 }
             ],
             "WriteAddress": 0,
@@ -115,6 +135,10 @@
                 {
                     "Language": "de",
                     "Name": "Raumfeuchte-HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Room humidity HK2"
                 }
             ],
             "WriteAddress": 0,
@@ -135,6 +159,10 @@
                 {
                     "Language": "de",
                     "Name": "Aussentemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Outdoor temperature"
                 }
             ],
             "WriteAddress": 0,
@@ -155,6 +183,10 @@
                 {
                     "Language": "de",
                     "Name": "Istwert-HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Actual value HK1"
                 }
             ],
             "WriteAddress": 0,
@@ -175,6 +207,10 @@
                 {
                     "Language": "de",
                     "Name": "Sollwert-HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Setpoint HK1"
                 }
             ],
             "WriteAddress": 0,
@@ -195,6 +231,10 @@
                 {
                     "Language": "de",
                     "Name": "Istwert-HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Actual value HK2"
                 }
             ],
             "WriteAddress": 0,
@@ -215,6 +255,10 @@
                 {
                     "Language": "de",
                     "Name": "Sollwert-HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Setpoint HK2"
                 }
             ],
             "WriteAddress": 0,
@@ -235,6 +279,10 @@
                 {
                     "Language": "de",
                     "Name": "Vorlauftemp"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Flow temperature"
                 }
             ],
             "WriteAddress": 0,
@@ -255,6 +303,10 @@
                 {
                     "Language": "de",
                     "Name": "Ruecklauftemp"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Return temperature"
                 }
             ],
             "WriteAddress": 0,
@@ -275,6 +327,10 @@
                 {
                     "Language": "de",
                     "Name": "Druck-Heizkreis"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heating circuit pressure"
                 }
             ],
             "WriteAddress": 0,
@@ -295,6 +351,10 @@
                 {
                     "Language": "de",
                     "Name": "Volumenstrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Flow rate"
                 }
             ],
             "WriteAddress": 0,
@@ -315,6 +375,10 @@
                 {
                     "Language": "de",
                     "Name": "WW-Isttemp"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hot water actual temp"
                 }
             ],
             "WriteAddress": 0,
@@ -335,6 +399,10 @@
                 {
                     "Language": "de",
                     "Name": "WW-Solltemp"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hot water target temp"
                 }
             ],
             "WriteAddress": 0,
@@ -355,6 +423,10 @@
                 {
                     "Language": "de",
                     "Name": "Zuluft-Ist_Luefterdrehzahl"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Supply air fan speed actual"
                 }
             ],
             "WriteAddress": 0,
@@ -375,6 +447,10 @@
                 {
                     "Language": "de",
                     "Name": "Zuluft-Soll_Volumenstrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Supply air volume target"
                 }
             ],
             "WriteAddress": 0,
@@ -395,6 +471,10 @@
                 {
                     "Language": "de",
                     "Name": "Abluft-Ist_Luefterdrehzahl"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Exhaust air fan speed actual"
                 }
             ],
             "WriteAddress": 0,
@@ -415,6 +495,10 @@
                 {
                     "Language": "de",
                     "Name": "Abluft-Soll_Volumenstrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Exhaust air volume target"
                 }
             ],
             "WriteAddress": 0,
@@ -435,6 +519,10 @@
                 {
                     "Language": "de",
                     "Name": "Abluftfeuchte"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Exhaust air humidity"
                 }
             ],
             "WriteAddress": 0,
@@ -455,6 +543,10 @@
                 {
                     "Language": "de",
                     "Name": "Ablufttemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Exhaust air temperature"
                 }
             ],
             "WriteAddress": 0,
@@ -475,6 +567,10 @@
                 {
                     "Language": "de",
                     "Name": "Ablufttaupunkt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Exhaust air dew point"
                 }
             ],
             "WriteAddress": 0,
@@ -495,6 +591,10 @@
                 {
                     "Language": "de",
                     "Name": "Taupunkttemperatur-HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Dew point temperature HK1"
                 }
             ],
             "WriteAddress": 0,
@@ -515,6 +615,10 @@
                 {
                     "Language": "de",
                     "Name": "Taupunkttemperatur-HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Dew point temperature HK2"
                 }
             ],
             "WriteAddress": 0,
@@ -535,6 +639,10 @@
                 {
                     "Language": "de",
                     "Name": "Kollektortemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Collector temperature eratur"
                 }
             ],
             "WriteAddress": 0,
@@ -555,6 +663,10 @@
                 {
                     "Language": "de",
                     "Name": "Heissgastemperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Hot gas temperature eratur"
                 }
             ],
             "WriteAddress": 0,
@@ -575,6 +687,10 @@
                 {
                     "Language": "de",
                     "Name": "Hochdruck"
+                },
+                {
+                    "Language": "en",
+                    "Name": "High pressure"
                 }
             ],
             "WriteAddress": 0,
@@ -595,6 +711,10 @@
                 {
                     "Language": "de",
                     "Name": "Niederdruck"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Low pressure"
                 }
             ],
             "WriteAddress": 0,
@@ -615,6 +735,10 @@
                 {
                     "Language": "de",
                     "Name": "Verdichterstarts"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Compressor starts"
                 }
             ],
             "WriteAddress": 0,
@@ -635,6 +759,10 @@
                 {
                     "Language": "de",
                     "Name": "Verdichterdrehzahl"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Compressor speed"
                 }
             ],
             "WriteAddress": 0,
@@ -655,6 +783,10 @@
                 {
                     "Language": "de",
                     "Name": "Mischwassermenge "
+                },
+                {
+                    "Language": "en",
+                    "Name": "Mixed water quantity"
                 }
             ],
             "WriteAddress": 0,
@@ -675,6 +807,10 @@
                 {
                     "Language": "de",
                     "Name": "Betriebsart"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Operating mode"
                 }
             ],
             "WriteAddress": 1000,
@@ -694,6 +830,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Raumsoll Heizen Tag HK1"
+                },
+                {
+                    "Language": "en",
                     "Name": "Raumsoll Heizen Tag HK1"
                 }
             ],
@@ -715,6 +855,10 @@
                 {
                     "Language": "de",
                     "Name": "Raumsoll Heizen Nacht HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Raumsoll Heizen Nacht HK1"
                 }
             ],
             "WriteAddress": 1002,
@@ -734,6 +878,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Heizkreistemp-Soll-Hand-HK1"
+                },
+                {
+                    "Language": "en",
                     "Name": "Heizkreistemp-Soll-Hand-HK1"
                 }
             ],
@@ -755,6 +903,10 @@
                 {
                     "Language": "de",
                     "Name": "Raum-Soll-Temp-Tag-HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Raum-Soll-Temp-Tag-HK2"
                 }
             ],
             "WriteAddress": 1004,
@@ -774,6 +926,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Raum-Soll-Temp-Nacht-HK2"
+                },
+                {
+                    "Language": "en",
                     "Name": "Raum-Soll-Temp-Nacht-HK2"
                 }
             ],
@@ -795,6 +951,10 @@
                 {
                     "Language": "de",
                     "Name": "Heizkreistemp-Soll-Hand-HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heizkreistemp-Soll-Hand-HK2"
                 }
             ],
             "WriteAddress": 1006,
@@ -814,6 +974,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Steigung-Heizkurve-HK1"
+                },
+                {
+                    "Language": "en",
                     "Name": "Steigung-Heizkurve-HK1"
                 }
             ],
@@ -835,6 +999,10 @@
                 {
                     "Language": "de",
                     "Name": "Fusspunkt-Heizkurve-HK1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Fusspunkt-Heizkurve-HK1"
                 }
             ],
             "WriteAddress": 1008,
@@ -854,6 +1022,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Steigung-Heizkurve-HK2"
+                },
+                {
+                    "Language": "en",
                     "Name": "Steigung-Heizkurve-HK2"
                 }
             ],
@@ -875,6 +1047,10 @@
                 {
                     "Language": "de",
                     "Name": "Fusspunkt-Heizkurve-HK2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Fusspunkt-Heizkurve-HK2"
                 }
             ],
             "WriteAddress": 1010,
@@ -894,6 +1070,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "WW-Soll-Tag"
+                },
+                {
+                    "Language": "en",
                     "Name": "WW-Soll-Tag"
                 }
             ],
@@ -915,6 +1095,10 @@
                 {
                     "Language": "de",
                     "Name": "WW-Soll-Nacht"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WW-Soll-Nacht"
                 }
             ],
             "WriteAddress": 1012,
@@ -934,6 +1118,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "WW-Soll-Handbetrieb"
+                },
+                {
+                    "Language": "en",
                     "Name": "WW-Soll-Handbetrieb"
                 }
             ],
@@ -955,6 +1143,10 @@
                 {
                     "Language": "de",
                     "Name": "MWM-Soll-Tag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MWM-Soll-Tag"
                 }
             ],
             "WriteAddress": 1014,
@@ -974,6 +1166,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "MWM-Soll-Nacht"
+                },
+                {
+                    "Language": "en",
                     "Name": "MWM-Soll-Nacht"
                 }
             ],
@@ -995,6 +1191,10 @@
                 {
                     "Language": "de",
                     "Name": "MWM-Soll-Hand"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MWM-Soll-Hand"
                 }
             ],
             "WriteAddress": 1016,
@@ -1014,6 +1214,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Stufe-Tag-Lüftung"
+                },
+                {
+                    "Language": "en",
                     "Name": "Stufe-Tag-Lüftung"
                 }
             ],
@@ -1035,6 +1239,10 @@
                 {
                     "Language": "de",
                     "Name": "Stufe-Nacht-Lüftung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Stufe-Nacht-Lüftung"
                 }
             ],
             "WriteAddress": 1018,
@@ -1054,6 +1262,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Stufe-Party-Lüftung"
+                },
+                {
+                    "Language": "en",
                     "Name": "Stufe-Party-Lüftung"
                 }
             ],
@@ -1075,12 +1287,16 @@
                 {
                     "Language": "de",
                     "Name": "Stufe-Hand-Lüftung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Stufe-Hand-Lüftung"
                 }
             ],
             "WriteAddress": 1020,
             "WriteFunctionCode": 6
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 5,
@@ -1095,12 +1311,16 @@
                 {
                     "Language": "de",
                     "Name": "RaumTemp-Tag-HK1-Kühlen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "RaumTemp-Tag-HK1-Kühlen"
                 }
             ],
             "WriteAddress": 1021,
             "WriteFunctionCode": 6
-		},
-		{
+        },
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 5,
@@ -1115,12 +1335,16 @@
                 {
                     "Language": "de",
                     "Name": "RaumTemp-Nacht-HK1-Kühlen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "RaumTemp-Nacht-HK1-Kühlen"
                 }
             ],
             "WriteAddress": 1022,
             "WriteFunctionCode": 6
-		},
-		{
+        },
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 5,
@@ -1135,12 +1359,16 @@
                 {
                     "Language": "de",
                     "Name": "RaumTemp-Tag-HK2-Kühlen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "RaumTemp-Tag-HK2-Kühlen"
                 }
             ],
             "WriteAddress": 1023,
             "WriteFunctionCode": 6
-		},
-		{
+        },
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 5,
@@ -1155,12 +1383,16 @@
                 {
                     "Language": "de",
                     "Name": "RaumTemp-Nacht-HK2-Kühlen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "RaumTemp-Nacht-HK2-Kühlen"
                 }
             ],
             "WriteAddress": 1024,
             "WriteFunctionCode": 6
-		},
-		{
+        },
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1175,12 +1407,16 @@
                 {
                     "Language": "de",
                     "Name": "Reset THZ"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reset THZ"
                 }
             ],
             "WriteAddress": 1025,
             "WriteFunctionCode": 6
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1194,6 +1430,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Restart_ISG"
+                },
+                {
+                    "Language": "en",
                     "Name": "Restart_ISG"
                 }
             ],
@@ -1215,6 +1455,10 @@
                 {
                     "Language": "de",
                     "Name": "Betriebsstatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Betriebsstatus"
                 }
             ],
             "WriteAddress": 0,
@@ -1234,6 +1478,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Fehlerstatus"
+                },
+                {
+                    "Language": "en",
                     "Name": "Fehlerstatus"
                 }
             ],
@@ -1255,6 +1503,10 @@
                 {
                     "Language": "de",
                     "Name": "BUS-Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "BUS-Status"
                 }
             ],
             "WriteAddress": 0,
@@ -1274,6 +1526,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "WM-Heizen-Tag"
+                },
+                {
+                    "Language": "en",
                     "Name": "WM-Heizen-Tag"
                 }
             ],
@@ -1295,6 +1551,10 @@
                 {
                     "Language": "de",
                     "Name": "WM-Heizen-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-Heizen-Summe"
                 }
             ],
             "WriteAddress": 0,
@@ -1314,6 +1574,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "WM-Heizen-Summe"
+                },
+                {
+                    "Language": "en",
                     "Name": "WM-Heizen-Summe"
                 }
             ],
@@ -1335,6 +1599,10 @@
                 {
                     "Language": "de",
                     "Name": "WM-WW-Tag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-WW-Tag"
                 }
             ],
             "WriteAddress": 0,
@@ -1354,6 +1622,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "WM-WW-Summe"
+                },
+                {
+                    "Language": "en",
                     "Name": "WM-WW-Summe"
                 }
             ],
@@ -1375,6 +1647,10 @@
                 {
                     "Language": "de",
                     "Name": "WM-WW-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-WW-Summe"
                 }
             ],
             "WriteAddress": 0,
@@ -1394,6 +1670,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "WM-NE-Heizen-Summe"
+                },
+                {
+                    "Language": "en",
                     "Name": "WM-NE-Heizen-Summe"
                 }
             ],
@@ -1415,6 +1695,10 @@
                 {
                     "Language": "de",
                     "Name": "WM-NE-Heizen-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-NE-Heizen-Summe"
                 }
             ],
             "WriteAddress": 0,
@@ -1434,6 +1718,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "WM-NE-WW-Summe"
+                },
+                {
+                    "Language": "en",
                     "Name": "WM-NE-WW-Summe"
                 }
             ],
@@ -1455,6 +1743,10 @@
                 {
                     "Language": "de",
                     "Name": "WM-NE-WW-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-NE-WW-Summe"
                 }
             ],
             "WriteAddress": 0,
@@ -1474,6 +1766,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "WM-WRG-Tag"
+                },
+                {
+                    "Language": "en",
                     "Name": "WM-WRG-Tag"
                 }
             ],
@@ -1495,6 +1791,10 @@
                 {
                     "Language": "de",
                     "Name": "WM-WRG-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-WRG-Summe"
                 }
             ],
             "WriteAddress": 0,
@@ -1514,6 +1814,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "WM-WRG-Summe"
+                },
+                {
+                    "Language": "en",
                     "Name": "WM-WRG-Summe"
                 }
             ],
@@ -1535,6 +1839,10 @@
                 {
                     "Language": "de",
                     "Name": "WM-Solar-HZ-Tag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-Solar-HZ-Tag"
                 }
             ],
             "WriteAddress": 0,
@@ -1554,6 +1862,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "WM-Solar-HZ-Summe"
+                },
+                {
+                    "Language": "en",
                     "Name": "WM-Solar-HZ-Summe"
                 }
             ],
@@ -1575,12 +1887,16 @@
                 {
                     "Language": "de",
                     "Name": "WM-Solar-HZ-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-Solar-HZ-Summe"
                 }
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1595,12 +1911,16 @@
                 {
                     "Language": "de",
                     "Name": "WM-Solar-WW-Tag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-Solar-WW-Tag"
                 }
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1615,12 +1935,16 @@
                 {
                     "Language": "de",
                     "Name": "WM-Solar-WW-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-Solar-WW-Summe"
                 }
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1635,12 +1959,16 @@
                 {
                     "Language": "de",
                     "Name": "WM-Solar-WW-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-Solar-WW-Summe"
                 }
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1655,12 +1983,16 @@
                 {
                     "Language": "de",
                     "Name": "WM-Kuehlen-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-Kuehlen-Summe"
                 }
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1675,12 +2007,16 @@
                 {
                     "Language": "de",
                     "Name": "WM-Kuehlen-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "WM-Kuehlen-Summe"
                 }
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1695,12 +2031,16 @@
                 {
                     "Language": "de",
                     "Name": "P-Heizung-Tag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "P-Heizung-Tag"
                 }
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1715,12 +2055,16 @@
                 {
                     "Language": "de",
                     "Name": "P-Heizung-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "P-Heizung-Summe"
                 }
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1735,12 +2079,16 @@
                 {
                     "Language": "de",
                     "Name": "P-Heizung-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "P-Heizung-Summe"
                 }
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1755,12 +2103,16 @@
                 {
                     "Language": "de",
                     "Name": "P-WW-Tag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "P-WW-Tag"
                 }
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1775,12 +2127,16 @@
                 {
                     "Language": "de",
                     "Name": "P-WW-Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "P-WW-Summe"
                 }
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
         },
-		{
+        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 2,
@@ -1794,6 +2150,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "P-WW-Summe"
+                },
+                {
+                    "Language": "en",
                     "Name": "P-WW-Summe"
                 }
             ],
@@ -1815,6 +2175,10 @@
                 {
                     "Language": "de",
                     "Name": "Verdichter-Heizen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Verdichter-Heizen"
                 }
             ],
             "WriteAddress": 0,
@@ -1834,6 +2198,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Verdichter Kuehlen"
+                },
+                {
+                    "Language": "en",
                     "Name": "Verdichter Kuehlen"
                 }
             ],
@@ -1855,6 +2223,10 @@
                 {
                     "Language": "de",
                     "Name": "Verdichter-WW"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Verdichter-WW"
                 }
             ],
             "WriteAddress": 0,
@@ -1874,6 +2246,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Elektr-NE-Heizen"
+                },
+                {
+                    "Language": "en",
                     "Name": "Elektr-NE-Heizen"
                 }
             ],
@@ -1895,6 +2271,10 @@
                 {
                     "Language": "de",
                     "Name": "Elektr-NE-WW"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Elektr-NE-WW"
                 }
             ],
             "WriteAddress": 0,
@@ -1914,7 +2294,7 @@
             "Suffix": " l/min",
             "Type": 2
         },
-		"Stiebel.Eltron.Flow.High.Float": {
+        "Stiebel.Eltron.Flow.High.Float": {
             "Associations": [],
             "Digits": 0,
             "Icon": "",
@@ -1979,7 +2359,7 @@
             "StepSize": 1.0,
             "Suffix": " °C",
             "Type": 2
-		},
+        },
         "Stiebel.Eltron.Blower.Float": {
             "Associations": [],
             "Digits": 0,
@@ -1990,7 +2370,7 @@
             "StepSize": 1.0,
             "Suffix": " Hz",
             "Type": 2
-		},
+        },
         "Stiebel.Eltron.Compressor.Float": {
             "Associations": [],
             "Digits": 0,
@@ -2001,7 +2381,7 @@
             "StepSize": 1.0,
             "Suffix": " Hz",
             "Type": 2
-		},
+        },
         "Stiebel.Eltron.Volume.Flow.Float": {
             "Associations": [],
             "Digits": 0,
@@ -2011,8 +2391,8 @@
             "Prefix": "",
             "StepSize": 1.0,
             "Suffix": " m³/h",
-            "Type": 2	
-		},
+            "Type": 2
+        },
         "Stiebel.Eltron.Water.Flow.Float": {
             "Associations": [],
             "Digits": 2,
@@ -2022,7 +2402,7 @@
             "Prefix": "",
             "StepSize": 1.0,
             "Suffix": " l",
-            "Type": 2	
+            "Type": 2
         },
         "Stiebel.Eltron.1-5_Kelvin.Float": {
             "Associations": [],
@@ -2045,7 +2425,7 @@
             "StepSize": 0.5,
             "Suffix": " °C",
             "Type": 2
-		},
+        },
         "Tecalor.Watertemp.10_65.Float": {
             "Associations": [],
             "Digits": 0,
@@ -2056,7 +2436,7 @@
             "StepSize": 0.5,
             "Suffix": " °C",
             "Type": 2
-		},
+        },
         "Tecalor.Water.50_288.Int": {
             "Associations": [],
             "Digits": 0,
@@ -2078,7 +2458,7 @@
             "StepSize": 0.01,
             "Suffix": "",
             "Type": 2
-		},
+        },
         "Tecalor.Heating.Footpoint": {
             "Associations": [],
             "Digits": 2,
@@ -2089,7 +2469,7 @@
             "StepSize": 0.5,
             "Suffix": " °C",
             "Type": 2
-		},
+        },
         "Tecalor.BlowerStages.Int": {
             "Associations": [],
             "Digits": 0,
@@ -2133,7 +2513,7 @@
                     "Name": "Absenk-Betrieb",
                     "Value": 4.0
                 },
-				{
+                {
                     "Color": -1,
                     "Icon": "",
                     "Name": "Handbetrieb",
@@ -2179,7 +2559,7 @@
             "Suffix": "",
             "Type": 1
         },
-		"Tecalor.Restart_ISG.Int": {
+        "Tecalor.Restart_ISG.Int": {
             "Associations": [
                 {
                     "Color": -1,
@@ -2193,7 +2573,7 @@
                     "Name": "Reset",
                     "Value": 1.0
                 },
-				{
+                {
                     "Color": -1,
                     "Icon": "",
                     "Name": "Menue",
@@ -2552,6 +2932,10 @@
                 {
                     "Language": "de",
                     "Name": "Schaltprogramm-aktiv"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Schaltprogramm-aktiv"
                 }
             ],
             "VariableType": 0,
@@ -2566,6 +2950,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Verdichter"
+                },
+                {
+                    "Language": "en",
                     "Name": "Verdichter"
                 }
             ],
@@ -2582,6 +2970,10 @@
                 {
                     "Language": "de",
                     "Name": "Heizen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heizen"
                 }
             ],
             "VariableType": 0,
@@ -2596,6 +2988,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Kuehlen"
+                },
+                {
+                    "Language": "en",
                     "Name": "Kuehlen"
                 }
             ],
@@ -2612,6 +3008,10 @@
                 {
                     "Language": "de",
                     "Name": "Warmwasserbereitung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Warmwasserbereitung"
                 }
             ],
             "VariableType": 0,
@@ -2626,6 +3026,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Elektrische-Nacherwaermung"
+                },
+                {
+                    "Language": "en",
                     "Name": "Elektrische-Nacherwaermung"
                 }
             ],
@@ -2642,6 +3046,10 @@
                 {
                     "Language": "de",
                     "Name": "Service"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Service"
                 }
             ],
             "VariableType": 0,
@@ -2656,6 +3064,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "EVU-Sperre"
+                },
+                {
+                    "Language": "en",
                     "Name": "EVU-Sperre"
                 }
             ],
@@ -2672,6 +3084,10 @@
                 {
                     "Language": "de",
                     "Name": "Filterwechsel-Beide"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Filterwechsel-Beide"
                 }
             ],
             "VariableType": 0,
@@ -2687,12 +3103,16 @@
                 {
                     "Language": "de",
                     "Name": "Lueftung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Lueftung"
                 }
             ],
             "VariableType": 0,
             "WriteAction": ""
         },
-		{
+        {
             "Active": true,
             "Ident": "",
             "Name": "V_Min_one_IWS_in_Depfrost_modeP",
@@ -2702,12 +3122,16 @@
                 {
                     "Language": "de",
                     "Name": "Heizkreispumpe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Heizkreispumpe"
                 }
             ],
             "VariableType": 0,
             "WriteAction": ""
         },
-		{
+        {
             "Active": true,
             "Ident": "",
             "Name": "V_Min_one_IWS_in_Depfrost_modeP",
@@ -2717,12 +3141,16 @@
                 {
                     "Language": "de",
                     "Name": "Abtauen-Verdampfer"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Abtauen-Verdampfer"
                 }
             ],
             "VariableType": 0,
             "WriteAction": ""
         },
-		{
+        {
             "Active": true,
             "Ident": "",
             "Name": "V_Min_one_IWS_in_Depfrost_modeP",
@@ -2732,12 +3160,16 @@
                 {
                     "Language": "de",
                     "Name": "Filterwechsel-Abluft"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Filterwechsel-Abluft"
                 }
             ],
             "VariableType": 0,
             "WriteAction": ""
         },
-		{
+        {
             "Active": true,
             "Ident": "",
             "Name": "V_Min_one_IWS_in_Depfrost_modeP",
@@ -2747,12 +3179,16 @@
                 {
                     "Language": "de",
                     "Name": "Filterwechsel-Zuluft"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Filterwechsel-Zuluft"
                 }
             ],
             "VariableType": 0,
             "WriteAction": ""
         },
-		{
+        {
             "Active": true,
             "Ident": "",
             "Name": "V_Min_one_IWS_in_Depfrost_modeP",
@@ -2761,6 +3197,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "Aufheizprogramm-Aktiv"
+                },
+                {
+                    "Language": "en",
                     "Name": "Aufheizprogramm-Aktiv"
                 }
             ],
@@ -2777,6 +3217,10 @@
                 {
                     "Language": "de",
                     "Name": "V_Heizen_Summe Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_Heizen_Summe Wärme"
                 }
             ],
             "VariableType": 2,
@@ -2791,6 +3235,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "V_WW_Summe Wärme"
+                },
+                {
+                    "Language": "en",
                     "Name": "V_WW_Summe Wärme"
                 }
             ],
@@ -2807,6 +3255,10 @@
                 {
                     "Language": "de",
                     "Name": "V_NHZ Heizen Summe Wärme"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_NHZ Heizen Summe Wärme"
                 }
             ],
             "VariableType": 2,
@@ -2821,6 +3273,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "V_NHZ WW Summe Wärme"
+                },
+                {
+                    "Language": "en",
                     "Name": "V_NHZ WW Summe Wärme"
                 }
             ],
@@ -2837,6 +3293,10 @@
                 {
                     "Language": "de",
                     "Name": "V_Heizen_Summe Lesitung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "V_Heizen_Summe Lesitung"
                 }
             ],
             "VariableType": 2,
@@ -2851,6 +3311,10 @@
             "Translation": [
                 {
                     "Language": "de",
+                    "Name": "V_WW_Summe Leistung"
+                },
+                {
+                    "Language": "en",
                     "Name": "V_WW_Summe Leistung"
                 }
             ],
