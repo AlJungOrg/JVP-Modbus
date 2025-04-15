@@ -1,0 +1,1095 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Strom",
+            "Profile": "~Ampere",
+            "ReadAddress": 4760,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batteriespannung",
+            "Profile": "BMS.Volt_2",
+            "ReadAddress": 4752,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batteriespannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery Voltage"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 12,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Soc",
+            "Profile": "Prozent_INT",
+            "ReadAddress": 4774,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Soc"
+                },
+                {
+                    "Language": "en",
+                    "Name": "State of Charge"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 1,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Soh",
+            "Profile": "Prozent_INT",
+            "ReadAddress": 4792,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Soh"
+                },
+                {
+                    "Language": "en",
+                    "Name": "State of Health"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Restkapazität",
+            "Profile": "BMS.AH",
+            "ReadAddress": 4776,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Restkapazität"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Remaining Capacity"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Gesamtkapazität",
+            "Profile": "BMS.AH",
+            "ReadAddress": 4780,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtkapazität"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Capacity"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ladezyklen",
+            "Profile": "",
+            "ReadAddress": 4784,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ladezyklen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Charge Cycles"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 1",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4608,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 2",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4610,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 3",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4612,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 4",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4614,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 5",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4616,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 5"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 5"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 6",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4618,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 6"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 6"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 7",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4620,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 7"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 7"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 8",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4622,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 8"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 8"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 9",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4624,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 9"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 9"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 10",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4626,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 10"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 10"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 11",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4628,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 11"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 11"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 12",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4630,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 12"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 12"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 13",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4632,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 13"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 13"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 14",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4634,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 14"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 14"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 15",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4636,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 15"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 15"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zellspannung 16",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4638,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zellspannung 16"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Cell Voltage 16"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur 1",
+            "Profile": "BMS.Temp",
+            "ReadAddress": 4764,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur 1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature 1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur 2",
+            "Profile": "BMS.Temp",
+            "ReadAddress": 4766,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur 2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature 2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "MOSFET Temperatur",
+            "Profile": "BMS.Temp",
+            "ReadAddress": 4746,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MOSFET Temperatur"
+                },
+                {
+                    "Language": "en",
+                    "Name": "MOSFET Temperature"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Leistung",
+            "Profile": "~Watt",
+            "ReadAddress": 4756,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Durchschn. Zellspannung",
+            "Profile": "BMS.Volt",
+            "ReadAddress": 4676,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Durchschn. Zellspannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Average Cell Voltage"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Max. Diff. Zellspannung ",
+            "Profile": "",
+            "ReadAddress": 4678,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Max. Diff. Zellspannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Max Cell Voltage Difference"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Balancerstrom",
+            "Profile": "",
+            "ReadAddress": 4772,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Balancerstrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Balancer Current"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 1,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Balancer Status",
+            "Profile": "BMS_Balancer_Status",
+            "ReadAddress": 4774,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Balancer Status"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Balancer Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Alarmmeldungen",
+            "Profile": "BMS_Fehler",
+            "ReadAddress": 4768,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Alarmmeldungen"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Alarms"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur 3",
+            "Profile": "BMS.Temp",
+            "ReadAddress": 4856,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur 3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature 3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur 4",
+            "Profile": "BMS.Temp",
+            "ReadAddress": 4858,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Temperatur 4"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Temperature 4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "BMS.AH": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "Ah",
+            "Type": 2
+        },
+        "BMS.Temp": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "temperature-full",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " °C",
+            "Type": 2
+        },
+        "BMS.Volt": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 2
+        },
+        "BMS.Volt_2": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "Electricity",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 2
+        },
+        "BMS_Balancer_Status": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Aus",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 65280,
+                    "Icon": "",
+                    "Name": "Laden",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Entladen",
+                    "Value": 2.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 3.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "BMS_Fehler": {
+            "Associations": [
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "WireRes",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "MosOTP",
+                    "Value": 2.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "CellQuantity",
+                    "Value": 4.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "CurSensorErr",
+                    "Value": 8.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "CellOVP",
+                    "Value": 16.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "BatOVP",
+                    "Value": 32.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "ChOCP",
+                    "Value": 64.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "ChSCP",
+                    "Value": 128.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "ChOTP",
+                    "Value": 256.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "ChUTP",
+                    "Value": 512.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "AlarmCPUAuxCommuErr",
+                    "Value": 1024.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "AlarmCellUVP",
+                    "Value": 2048.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "AlarmBatUVP",
+                    "Value": 4096.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "AlarmDchOCP",
+                    "Value": 8192.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "AlarmDchSCP",
+                    "Value": 16384.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "AlarmDchOTP",
+                    "Value": 32768.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "AlarmChargeMOS",
+                    "Value": 65536.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "AlarmDischargeMOS",
+                    "Value": 131072.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "GPSDisconneted",
+                    "Value": 262144.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "Modify PWD. in time",
+                    "Value": 524288.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "Discharge On Failed",
+                    "Value": 1048576.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "triangle-exclamation",
+                    "Name": "Battery Over Temp Alarm",
+                    "Value": 2097152.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "info",
+            "MaxValue": 1.1111111111111111e+21,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Prozent_INT": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "%",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "Max. Zellspannung",
+            "Profile": "BMS.Volt",
+            "ReadAction": "$Spannung1\t=\t$VALUES[\"A_2_3_4608\"];\r\n$Spannung2\t=\t$VALUES[\"A_2_3_4610\"];\r\n$Spannung3\t=\t$VALUES[\"A_2_3_4612\"];\r\n$Spannung4\t=\t$VALUES[\"A_2_3_4614\"];\r\n$Spannung5\t=\t$VALUES[\"A_2_3_4616\"];\r\n$Spannung6\t=\t$VALUES[\"A_2_3_4618\"];\r\n$Spannung7\t=\t$VALUES[\"A_2_3_4620\"];\r\n$Spannung8\t=\t$VALUES[\"A_2_3_4622\"];\r\n$Spannung9\t=\t$VALUES[\"A_2_3_4624\"];\r\n$Spannung10\t=\t$VALUES[\"A_2_3_4626\"];\r\n$Spannung11\t=\t$VALUES[\"A_2_3_4628\"];\r\n$Spannung12\t=\t$VALUES[\"A_2_3_4630\"];\r\n$Spannung13\t=\t$VALUES[\"A_2_3_4632\"];\r\n$Spannung14\t=\t$VALUES[\"A_2_3_4634\"];\r\n$Spannung15\t=\t$VALUES[\"A_2_3_4636\"];\r\n$Spannung16\t=\t$VALUES[\"A_2_3_4638\"];\r\n\t\t\t\r\n\t\t\t\r\n$alleSpannungen = array($Spannung1, $Spannung2, $Spannung3, $Spannung4, $Spannung5, $Spannung6, $Spannung7, $Spannung8, $Spannung9, $Spannung10, $Spannung11, $Spannung12, $Spannung13, $Spannung14, $Spannung15, $Spannung16);\t\r\n$max = max($alleSpannungen);\r\nreturn $max;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Max. Zellspannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Max. Zellspannung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "Min. Zellspannung",
+            "Profile": "BMS.Volt",
+            "ReadAction": "$Spannung1\t=\t$VALUES[\"A_2_3_4608\"];\r\n$Spannung2\t=\t$VALUES[\"A_2_3_4610\"];\r\n$Spannung3\t=\t$VALUES[\"A_2_3_4612\"];\r\n$Spannung4\t=\t$VALUES[\"A_2_3_4614\"];\r\n$Spannung5\t=\t$VALUES[\"A_2_3_4616\"];\r\n$Spannung6\t=\t$VALUES[\"A_2_3_4618\"];\r\n$Spannung7\t=\t$VALUES[\"A_2_3_4620\"];\r\n$Spannung8\t=\t$VALUES[\"A_2_3_4622\"];\r\n$Spannung9\t=\t$VALUES[\"A_2_3_4624\"];\r\n$Spannung10\t=\t$VALUES[\"A_2_3_4626\"];\r\n$Spannung11\t=\t$VALUES[\"A_2_3_4628\"];\r\n$Spannung12\t=\t$VALUES[\"A_2_3_4630\"];\r\n$Spannung13\t=\t$VALUES[\"A_2_3_4632\"];\r\n$Spannung14\t=\t$VALUES[\"A_2_3_4634\"];\r\n$Spannung15\t=\t$VALUES[\"A_2_3_4636\"];\r\n$Spannung16\t=\t$VALUES[\"A_2_3_4638\"];\r\n\t\t\t\r\n\t\t\t\r\n$alleSpannungen = array($Spannung1, $Spannung2, $Spannung3, $Spannung4, $Spannung5, $Spannung6, $Spannung7, $Spannung8, $Spannung9, $Spannung10, $Spannung11, $Spannung12, $Spannung13, $Spannung14, $Spannung15, $Spannung16);\t\r\n$min = min($alleSpannungen);\r\nreturn $min;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Min. Zellspannung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Min. Zellspannung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}

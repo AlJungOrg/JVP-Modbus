@@ -1,0 +1,178 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Voltage L1-N (V), FLOAT, slave=1",
+            "Profile": "~Volt.230",
+            "ReadAddress": 19000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1-N"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Voltage L2-N (V), FLOAT, slave=1",
+            "Profile": "~Volt.230",
+            "ReadAddress": 19002,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2-N"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Voltage L3-N (V), FLOAT, slave=1",
+            "Profile": "~Volt.230",
+            "ReadAddress": 19004,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3-N"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Sum Power (W), FLOAT, slave = 1",
+            "Profile": "~Power",
+            "ReadAddress": 19026,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Sum Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Summenleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Sum Current (A), FLOAT, slave = 1",
+            "Profile": "~Ampere",
+            "ReadAddress": 19018,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Sum Current"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamtstrom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperature Input 1 Float, Slave 1",
+            "Profile": "~Temperature",
+            "ReadAddress": 10865,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Temperature Input 1"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Temperatur Eingang 1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperature Input 2, Float, Slave 1",
+            "Profile": "~Temperature",
+            "ReadAddress": 10867,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Temperature Input 2"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Temperatur Eingang 2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {},
+    "Requests": {
+        "Interval": 10000
+    },
+    "VirtualAddresses": []
+}
