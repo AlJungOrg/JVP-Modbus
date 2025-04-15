@@ -1,0 +1,1218 @@
+{
+  "Addresses": [
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "AC_Current_40070",
+      "Length": 0,
+      "Name": "AC Current",
+      "Profile": "~Ampere",
+      "ReadAddress": 40070,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wechselstrom"
+        },
+        {
+          "Language": "en",
+          "Name": "AC Current"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Phase_A_Current_40071",
+      "Length": 0,
+      "Name": "Phase A Current",
+      "Profile": "~Ampere",
+      "ReadAddress": 40071,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Phase A"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase A Current"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Phase_B_Current_40072",
+      "Length": 0,
+      "Name": "Phase B Current",
+      "Profile": "~Ampere",
+      "ReadAddress": 40072,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Phase B"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase B Current"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Phase_C_Current_40073",
+      "Length": 0,
+      "Name": "Phase C Current",
+      "Profile": "~Ampere",
+      "ReadAddress": 40073,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Strom Phase C"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase C Current"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_A_SF_40074",
+      "Length": 0,
+      "Name": "Scale factor [A SF]",
+      "Profile": "",
+      "ReadAddress": 40074,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor [A SF]"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor [A SF]"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Phase_Voltage_AB_40075",
+      "Length": 0,
+      "Name": "Phase Voltage AB",
+      "Profile": "~Volt",
+      "ReadAddress": 40075,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Phase Spannung AB"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase Voltage AB"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Phase_Voltage_BC_40076",
+      "Length": 0,
+      "Name": "Phase Voltage BC",
+      "Profile": "~Volt",
+      "ReadAddress": 40076,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Phase Spannung BC"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase Voltage BC"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Phase_Voltage_CA_40077",
+      "Length": 0,
+      "Name": "Phase Voltage CA",
+      "Profile": "~Volt",
+      "ReadAddress": 40077,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Phase Spannung CA"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase Voltage CA"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Phase_Voltage_AN_40078",
+      "Length": 0,
+      "Name": "Phase Voltage AN",
+      "Profile": "~Volt",
+      "ReadAddress": 40078,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Phase Spannung AN"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase Voltage AN"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Phase_Voltage_BN_40079",
+      "Length": 0,
+      "Name": "Phase Voltage BN",
+      "Profile": "~Volt",
+      "ReadAddress": 40079,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Phase Spannung BN"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase Voltage BN"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Phase_Voltage_CN_40080",
+      "Length": 0,
+      "Name": "Phase Voltage CN",
+      "Profile": "~Volt",
+      "ReadAddress": 40080,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Phase Spannung CN"
+        },
+        {
+          "Language": "en",
+          "Name": "Phase Voltage CN"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_V_SF_40081",
+      "Length": 0,
+      "Name": "Scale factor [V SF]",
+      "Profile": "",
+      "ReadAddress": 40081,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor [V SF]"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor [V SF]"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 0.0,
+      "Ident": "AC_Power_40082",
+      "Length": 0,
+      "Name": "AC Power",
+      "Profile": "~Watt",
+      "ReadAddress": 40082,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wechselstromleistung"
+        },
+        {
+          "Language": "en",
+          "Name": "AC Power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_W_SF_40083",
+      "Length": 0,
+      "Name": "Scale factor [W SF]",
+      "Profile": "",
+      "ReadAddress": 40083,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor [W SF]"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor [W SF]"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Line_Frequency_40084",
+      "Length": 0,
+      "Name": "Line Frequency",
+      "Profile": "~Hertz",
+      "ReadAddress": 40084,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Netzfrequenz"
+        },
+        {
+          "Language": "en",
+          "Name": "Line Frequency"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_HZ_SF_40085",
+      "Length": 0,
+      "Name": "Scale factor [HZ SF]",
+      "Profile": "",
+      "ReadAddress": 40085,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor [HZ SF]"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor [HZ SF]"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 0.0,
+      "Ident": "AC_Apparent_Power_40086",
+      "Length": 0,
+      "Name": "AC Apparent Power",
+      "Profile": "~ApparentPower",
+      "ReadAddress": 40086,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Scheinleistung AC"
+        },
+        {
+          "Language": "en",
+          "Name": "AC Apparent Power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_VA_SF_40087",
+      "Length": 0,
+      "Name": "Scale factor [VA SF]",
+      "Profile": "",
+      "ReadAddress": 40087,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor [VA SF]"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor [VA SF]"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 0.0,
+      "Ident": "AC_Reactive_Power_40088",
+      "Length": 0,
+      "Name": "AC Reactive Power",
+      "Profile": "~ReactivePower",
+      "ReadAddress": 40088,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Blindleistung AC"
+        },
+        {
+          "Language": "en",
+          "Name": "AC Reactive Power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_VAR_SF_40089",
+      "Length": 0,
+      "Name": "Scale factor [VAR SF]",
+      "Profile": "",
+      "ReadAddress": 40089,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor [VAR SF]"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor [VAR SF]"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 0.0,
+      "Ident": "AC_Power_Factor_40090",
+      "Length": 0,
+      "Name": "AC Power Factor",
+      "Profile": "~Percent",
+      "ReadAddress": 40090,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Wechselstromleistung Factor"
+        },
+        {
+          "Language": "en",
+          "Name": "AC Power Factor"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_PF_SF_40091",
+      "Length": 0,
+      "Name": "Scale factor [PF SF]",
+      "Profile": "",
+      "ReadAddress": 40091,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor [PF SF]"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor [PF SF]"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 9,
+      "Factor": 0.0,
+      "Ident": "AC_Energy_40092",
+      "Length": 0,
+      "Name": "AC Energy",
+      "Profile": "~Electricity",
+      "ReadAddress": 40092,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Energie AC"
+        },
+        {
+          "Language": "en",
+          "Name": "AC Energy"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_WH_SF_40094",
+      "Length": 0,
+      "Name": "Scale factor [WH SF]",
+      "Profile": "",
+      "ReadAddress": 40094,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor [WH SF]"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor [WH SF]"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "DC_Current_40095",
+      "Length": 0,
+      "Name": "DC Current",
+      "Profile": "~Ampere",
+      "ReadAddress": 40095,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Gleichstrom"
+        },
+        {
+          "Language": "en",
+          "Name": "DC Current"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_DCA_SF_40096",
+      "Length": 0,
+      "Name": "Scale factor [DCA SF]",
+      "Profile": "",
+      "ReadAddress": 40096,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor [DCA SF]"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor [DCA SF]"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "DC_Voltage_40097",
+      "Length": 0,
+      "Name": "DC Voltage",
+      "Profile": "~Volt",
+      "ReadAddress": 40097,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "DC Spannung"
+        },
+        {
+          "Language": "en",
+          "Name": "DC Voltage"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_DCV_SF_40098",
+      "Length": 0,
+      "Name": "Scale factor [DCV SF]",
+      "Profile": "",
+      "ReadAddress": 40098,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor [DCV SF]"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor [DCV SF]"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 0.0,
+      "Ident": "DC_Power_40099",
+      "Length": 0,
+      "Name": "DC Power",
+      "Profile": "~Watt",
+      "ReadAddress": 40099,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Gleichstromleistung"
+        },
+        {
+          "Language": "en",
+          "Name": "DC Power"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_DCW_SF_40100",
+      "Length": 0,
+      "Name": "Scale factor [DCW SF]",
+      "Profile": "",
+      "ReadAddress": 40100,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor [DCW SF]"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor [DCW SF]"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 0.0,
+      "Ident": "Cabinet_Temperature_40101",
+      "Length": 0,
+      "Name": "Cabinet Temperature",
+      "Profile": "~Temperature",
+      "ReadAddress": 40101,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Schaltschranktemperatur"
+        },
+        {
+          "Language": "en",
+          "Name": "Cabinet Temperature"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 0.0,
+      "Ident": "Heat_Sink_Temperature_40102",
+      "Length": 0,
+      "Name": "Heat Sink Temperature",
+      "Profile": "~Temperature",
+      "ReadAddress": 40102,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "K\u00fchlk\u00f6rpertemperatur"
+        },
+        {
+          "Language": "en",
+          "Name": "Heat Sink Temperature"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 0.0,
+      "Ident": "Transformer_Temperature_40103",
+      "Length": 0,
+      "Name": "Transformer Temperature",
+      "Profile": "~Temperature",
+      "ReadAddress": 40103,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Transformator-Temperatur"
+        },
+        {
+          "Language": "en",
+          "Name": "Transformer Temperature"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 0.0,
+      "Ident": "Other_Temperature_40104",
+      "Length": 0,
+      "Name": "Other Temperature",
+      "Profile": "~Temperature",
+      "ReadAddress": 40104,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Andere Temperatur"
+        },
+        {
+          "Language": "en",
+          "Name": "Other Temperature"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_TMP_SF_40105",
+      "Length": 0,
+      "Name": "Scale factor [TMP SF]",
+      "Profile": "",
+      "ReadAddress": 40105,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor [TMP SF]"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor [TMP SF]"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Enumerated_value__Operating_state_40106",
+      "Length": 0,
+      "Name": "Enumerated value.  Operating state",
+      "Profile": "",
+      "ReadAddress": 40106,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Enumerated value.  Betriebszustand"
+        },
+        {
+          "Language": "en",
+          "Name": "Enumerated value.  Operating state"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Vendor_specific_operating_state_code_40107",
+      "Length": 0,
+      "Name": "Vendor specific operating state code",
+      "Profile": "",
+      "ReadAddress": 40107,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Vendor specific operating state code"
+        },
+        {
+          "Language": "en",
+          "Name": "Vendor specific operating state code"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 9,
+      "Factor": 0.0,
+      "Ident": "Bitmask_value_Event_fields_40108",
+      "Length": 0,
+      "Name": "Bitmask value. Event fields",
+      "Profile": "",
+      "ReadAddress": 40108,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Bitmask value. Ereignisfelder"
+        },
+        {
+          "Language": "en",
+          "Name": "Bitmask value. Event fields"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 9,
+      "Factor": 0.0,
+      "Ident": "Reserved_for_future_use_40110",
+      "Length": 0,
+      "Name": "Reserved for future use",
+      "Profile": "",
+      "ReadAddress": 40110,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Reserved for future use"
+        },
+        {
+          "Language": "en",
+          "Name": "Reserved for future use"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 9,
+      "Factor": 0.0,
+      "Ident": "Vendor_defined_events_40112",
+      "Length": 0,
+      "Name": "Vendor defined events",
+      "Profile": "",
+      "ReadAddress": 40112,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Herstellerdefinierte Ereignisse"
+        },
+        {
+          "Language": "en",
+          "Name": "Vendor defined events"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 9,
+      "Factor": 0.0,
+      "Ident": "Vendor_defined_events_40114",
+      "Length": 0,
+      "Name": "Vendor defined events",
+      "Profile": "",
+      "ReadAddress": 40114,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Herstellerdefinierte Ereignisse"
+        },
+        {
+          "Language": "en",
+          "Name": "Vendor defined events"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 9,
+      "Factor": 0.0,
+      "Ident": "Vendor_defined_events_40116",
+      "Length": 0,
+      "Name": "Vendor defined events",
+      "Profile": "",
+      "ReadAddress": 40116,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Herstellerdefinierte Ereignisse"
+        },
+        {
+          "Language": "en",
+          "Name": "Vendor defined events"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 9,
+      "Factor": 0.0,
+      "Ident": "Vendor_defined_events_40118",
+      "Length": 0,
+      "Name": "Vendor defined events",
+      "Profile": "",
+      "ReadAddress": 40118,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Herstellerdefinierte Ereignisse"
+        },
+        {
+          "Language": "en",
+          "Name": "Vendor defined events"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Type_of_DER_device_Default_value_is_4_to_indicate_PV_device_40122",
+      "Length": 0,
+      "Name": "Type of DER device. Default value is 4 to indicate PV device.",
+      "Profile": "",
+      "ReadAddress": 40122,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Typ des DER-Ger\u00e4ts. Default value is 4 to indicate PV device."
+        },
+        {
+          "Language": "en",
+          "Name": "Type of DER device. Default value is 4 to indicate PV device."
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Continuous_power_output_capability_of_the_inverter_40123",
+      "Length": 0,
+      "Name": "Continuous power output capability of the inverter.",
+      "Profile": "~Watt",
+      "ReadAddress": 40123,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Dauerleistungskapazit\u00e4t des Wechselrichters."
+        },
+        {
+          "Language": "en",
+          "Name": "Continuous power output capability of the inverter."
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_40124",
+      "Length": 0,
+      "Name": "Scale factor",
+      "Profile": "",
+      "ReadAddress": 40124,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 7,
+      "Factor": 0.0,
+      "Ident": "Continuous_Volt_Ampere_capability_of_the_inverter_40125",
+      "Length": 0,
+      "Name": "Continuous Volt Ampere capability of the inverter.",
+      "Profile": "~ApparentPower",
+      "ReadAddress": 40125,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Dauer-VA-Kapazit\u00e4t des Wechselrichters."
+        },
+        {
+          "Language": "en",
+          "Name": "Continuous Volt Ampere capability of the inverter."
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 1.0,
+      "Ident": "Scale_factor_40126",
+      "Length": 0,
+      "Name": "Scale factor",
+      "Profile": "",
+      "ReadAddress": 40126,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Skalierungsfaktor"
+        },
+        {
+          "Language": "en",
+          "Name": "Scale factor"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 0.0,
+      "Ident": "Continuous_VAR_capability_of_the_inverter_in_quadrant_1_40127",
+      "Length": 0,
+      "Name": "Continuous VAR capability of the inverter in quadrant 1.",
+      "Profile": "~ReactivePower",
+      "ReadAddress": 40127,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Dauer-VAR-Kapazit\u00e4t im Quadrant 1."
+        },
+        {
+          "Language": "en",
+          "Name": "Continuous VAR capability of the inverter in quadrant 1."
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 8,
+      "Factor": 0.0,
+      "Ident": "Continuous_VAR_capability_of_the_inverter_in_quadrant_2_40128",
+      "Length": 0,
+      "Name": "Continuous VAR capability of the inverter in quadrant 2.",
+      "Profile": "~ReactivePower",
+      "ReadAddress": 40128,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Dauer-VAR-Kapazit\u00e4t im Quadrant 2."
+        },
+        {
+          "Language": "en",
+          "Name": "Continuous VAR capability of the inverter in quadrant 2."
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    }
+  ],
+  "ByteOrder": 0,
+  "ByteOrderFloats": true,
+  "Active": true,
+  "ReferenceCountStartsAtZero": false,
+  "UseEnronMode": false,
+  "ConnectionType": "TCP",
+  "Profiles": {},
+  "Type": "Energy_Meter",
+  "Manufacturer": "ABB",
+  "Product": "3p81",
+  "Requests": {
+    "Interval": 5000
+  },
+  "VirtualAddresses": []
+}
