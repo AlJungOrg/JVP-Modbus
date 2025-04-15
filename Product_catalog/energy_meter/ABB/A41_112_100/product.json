@@ -4,7 +4,7 @@
             "Active": true,
             "ByteOrder": -1,
             "DataType": 7,
-            "Factor": 0,
+            "Factor": 0, 
             "Ident": "Voltage_L1_N_112",
             "Length": 0,
             "Name": "Voltage L1 N",

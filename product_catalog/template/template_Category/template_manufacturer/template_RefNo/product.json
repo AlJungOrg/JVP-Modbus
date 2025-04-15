@@ -2,15 +2,15 @@
     "Addresses": [
         {
             "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
+            "ByteOrder": -1, // -1: vom Gerät übernehmen; 0:Big Endian; 1:Little Endian
+            "DataType": 2, // 0:boolean; 2:uint16; 3:uint32; 5:int16; 6:int32; 7:float; 8:int64; 9:Double; 10:string; 11:uint64; 14:stringHex
             "Factor": 0.1,
             "Ident": "Phase3GridVoltage",
             "Length": 0,
             "Name": "Phase 3 grid voltage",
             "Profile": "~Volt",
             "ReadAddress": 42,
-            "ReadFunctionCode": 4,
+            "ReadFunctionCode": 4, // 0:keine Verwendung; 1:Read Coils; 2:Read Discrete Inputs; 3:Read Holding Register; 4:Read Input Register
             "Translation": [
             {
                 "Language": "de",
@@ -21,8 +21,8 @@
                 "Name": "Phase 3 grid voltage"
             }
             ],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
+            "WriteAddress": 0, 
+            "WriteFunctionCode": 0 // 0:keine Verwendung; 6:Write Single Holding Register; 15:Write Multiple Coils; 16: Write Multiple Holding Register
         }
     ],
     "ByteOrder": 0,
