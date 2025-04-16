@@ -350,7 +350,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Home own consumption from battery"
+          "Name": "Hausverbrauch aus Batterie"
         },
         {
           "Language": "en",
@@ -374,7 +374,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Home own consumption from grid"
+          "Name": "Hausverbrauch aus dem Netz"
         },
         {
           "Language": "en",
@@ -398,7 +398,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total home consumption Battery"
+          "Name": "Gesamtverbrauch Batterie"
         },
         {
           "Language": "en",
@@ -422,7 +422,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total home consumption Grid"
+          "Name": "Gesamtverbrauch Netz"
         },
         {
           "Language": "en",
@@ -446,7 +446,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total home consumption PV"
+          "Name": "Gesamtverbrauch PV"
         },
         {
           "Language": "en",
@@ -470,7 +470,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Home own consumption from PV"
+          "Name": "Hausverbrauch aus PV"
         },
         {
           "Language": "en",
@@ -494,7 +494,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total home consumption"
+          "Name": "Gesamtverbrauch"
         },
         {
           "Language": "en",
@@ -518,7 +518,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Isolation resistance"
+          "Name": "Isolationswiderstand"
         },
         {
           "Language": "en",
@@ -542,7 +542,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Power limit from EVU"
+          "Name": "Leistungsbegrenzung durch EVU"
         },
         {
           "Language": "en",
@@ -566,7 +566,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total home consumption rate"
+          "Name": "Gesamtverbrauchsrate"
         },
         {
           "Language": "en",
@@ -590,7 +590,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Worktime"
+          "Name": "Betriebszeit"
         },
         {
           "Language": "en",
@@ -638,7 +638,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Grid frequency"
+          "Name": "Netzfrequenz"
         },
         {
           "Language": "en",
@@ -662,7 +662,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Current Phase 1"
+          "Name": "Strom Phase 1"
         },
         {
           "Language": "en",
@@ -686,7 +686,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Active power Phase 1"
+          "Name": "Wirkleistung Phase 1"
         },
         {
           "Language": "en",
@@ -710,7 +710,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Voltage Phase 1"
+          "Name": "Spannung Phase 1"
         },
         {
           "Language": "en",
@@ -950,7 +950,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery max. charge current"
+          "Name": "Maximaler Batterieladestrom"
         },
         {
           "Language": "en",
@@ -1046,7 +1046,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery ready flag"
+          "Name": "Batterie-Bereitschaftsflag"
         },
         {
           "Language": "en",
@@ -1094,7 +1094,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery temperature"
+          "Name": "Batterietemperatur"
         },
         {
           "Language": "en",
@@ -1118,7 +1118,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery voltage"
+          "Name": "Batteriespannung"
         },
         {
           "Language": "en",
@@ -1598,7 +1598,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total apparent power (powermeter) "
+          "Name": "Total apparent power (powermeter)"
         },
         {
           "Language": "en",
