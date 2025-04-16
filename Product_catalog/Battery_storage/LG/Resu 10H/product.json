@@ -844,7 +844,7 @@
     "ReferenceCountStartsAtZero": false,
     "UseEnronMode": false,
     "ConnectionType": "TCP",
-    "Type": "Battery_storage",
+    "Type": "battery_storage",
     "Manufacturer": "LG",
     "Product": "Resu_10H",
     "Requests": {

@@ -304,6 +304,14 @@
             "Type": 1
         }
     },
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "battery_storage",
+    "Manufacturer": "Fenecom",
+    "Product":"Fenecom Home",
     "Requests": {
         "Interval": 3000
     },

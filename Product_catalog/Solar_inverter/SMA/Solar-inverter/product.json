@@ -9,7 +9,7 @@
       "Length": 0,
       "Name": "AC Current",
       "Profile": "~A",
-      "ReadAddress": 40070,
+      "ReadAddress": 40185,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -33,7 +33,7 @@
       "Length": 0,
       "Name": "Phase A Current",
       "Profile": "~A",
-      "ReadAddress": 40071,
+      "ReadAddress": 40186,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -57,7 +57,7 @@
       "Length": 0,
       "Name": "Phase B Current",
       "Profile": "~A",
-      "ReadAddress": 40072,
+      "ReadAddress": 40187,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -81,7 +81,7 @@
       "Length": 0,
       "Name": "Phase C Current",
       "Profile": "~A",
-      "ReadAddress": 40073,
+      "ReadAddress": 40188,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -103,18 +103,18 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Scale factor [A SF]",
+      "Name": "Scale factor [A_SF]",
       "Profile": "",
-      "ReadAddress": 40074,
+      "ReadAddress": 40189,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "en",
-          "Name": "Scale factor [A SF]"
+          "Name": "Scale factor [A_SF]"
         },
         {
           "Language": "de",
-          "Name": "Skalierungsfaktor [A SF]"
+          "Name": "Scale factor [A_SF]"
         }
       ],
       "WriteAddress": 0,
@@ -129,7 +129,7 @@
       "Length": 0,
       "Name": "Phase Voltage AB",
       "Profile": "~V",
-      "ReadAddress": 40075,
+      "ReadAddress": 40190,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -153,7 +153,7 @@
       "Length": 0,
       "Name": "Phase Voltage BC",
       "Profile": "~V",
-      "ReadAddress": 40076,
+      "ReadAddress": 40191,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -177,7 +177,7 @@
       "Length": 0,
       "Name": "Phase Voltage CA",
       "Profile": "~V",
-      "ReadAddress": 40077,
+      "ReadAddress": 40192,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -201,7 +201,7 @@
       "Length": 0,
       "Name": "Phase Voltage AN",
       "Profile": "~V",
-      "ReadAddress": 40078,
+      "ReadAddress": 40193,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -225,7 +225,7 @@
       "Length": 0,
       "Name": "Phase Voltage BN",
       "Profile": "~V",
-      "ReadAddress": 40079,
+      "ReadAddress": 40194,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -249,7 +249,7 @@
       "Length": 0,
       "Name": "Phase Voltage CN",
       "Profile": "~V",
-      "ReadAddress": 40080,
+      "ReadAddress": 40195,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -271,18 +271,18 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Scale factor [V SF]",
+      "Name": "Scale factor [V_SF]",
       "Profile": "",
-      "ReadAddress": 40081,
+      "ReadAddress": 40196,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "en",
-          "Name": "Scale factor [V SF]"
+          "Name": "Scale factor [V_SF]"
         },
         {
           "Language": "de",
-          "Name": "Skalierungsfaktor [V SF]"
+          "Name": "Scale factor [V_SF]"
         }
       ],
       "WriteAddress": 0,
@@ -297,7 +297,7 @@
       "Length": 0,
       "Name": "AC Power",
       "Profile": "~W",
-      "ReadAddress": 40082,
+      "ReadAddress": 40197,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -319,18 +319,18 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Scale factor [W SF]",
+      "Name": "Scale factor [W_SF]",
       "Profile": "",
-      "ReadAddress": 40083,
+      "ReadAddress": 40198,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "en",
-          "Name": "Scale factor [W SF]"
+          "Name": "Scale factor [W_SF]"
         },
         {
           "Language": "de",
-          "Name": "Skalierungsfaktor [W SF]"
+          "Name": "Scale factor [W_SF]"
         }
       ],
       "WriteAddress": 0,
@@ -345,7 +345,7 @@
       "Length": 0,
       "Name": "Line Frequency",
       "Profile": "~Hz",
-      "ReadAddress": 40084,
+      "ReadAddress": 40199,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -367,18 +367,18 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Scale factor [HZ SF]",
+      "Name": "Scale factor [HZ_SF]",
       "Profile": "",
-      "ReadAddress": 40085,
+      "ReadAddress": 40200,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "en",
-          "Name": "Scale factor [HZ SF]"
+          "Name": "Scale factor [HZ_SF]"
         },
         {
           "Language": "de",
-          "Name": "Skalierungsfaktor [HZ SF]"
+          "Name": "Scale factor [HZ_SF]"
         }
       ],
       "WriteAddress": 0,
@@ -393,7 +393,7 @@
       "Length": 0,
       "Name": "AC Apparent Power",
       "Profile": "~VA",
-      "ReadAddress": 40086,
+      "ReadAddress": 40201,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -415,18 +415,18 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Scale factor [VA SF]",
+      "Name": "Scale factor [VA_SF]",
       "Profile": "",
-      "ReadAddress": 40087,
+      "ReadAddress": 40202,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "en",
-          "Name": "Scale factor [VA SF]"
+          "Name": "Scale factor [VA_SF]"
         },
         {
           "Language": "de",
-          "Name": "Skalierungsfaktor [VA SF]"
+          "Name": "Scale factor [VA_SF]"
         }
       ],
       "WriteAddress": 0,
@@ -441,7 +441,7 @@
       "Length": 0,
       "Name": "AC Reactive Power",
       "Profile": "~var",
-      "ReadAddress": 40088,
+      "ReadAddress": 40203,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -463,18 +463,18 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Scale factor [VAR SF]",
+      "Name": "Scale factor [VAR_SF]",
       "Profile": "",
-      "ReadAddress": 40089,
+      "ReadAddress": 40204,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "en",
-          "Name": "Scale factor [VAR SF]"
+          "Name": "Scale factor [VAR_SF]"
         },
         {
           "Language": "de",
-          "Name": "Skalierungsfaktor [VAR SF]"
+          "Name": "Scale factor [VAR_SF]"
         }
       ],
       "WriteAddress": 0,
@@ -489,7 +489,7 @@
       "Length": 0,
       "Name": "AC Power Factor",
       "Profile": "~Pct",
-      "ReadAddress": 40090,
+      "ReadAddress": 40205,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -511,18 +511,18 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Scale factor [PF SF]",
+      "Name": "Scale factor [PF_SF]",
       "Profile": "",
-      "ReadAddress": 40091,
+      "ReadAddress": 40206,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "en",
-          "Name": "Scale factor [PF SF]"
+          "Name": "Scale factor [PF_SF]"
         },
         {
           "Language": "de",
-          "Name": "Skalierungsfaktor [PF SF]"
+          "Name": "Scale factor [PF_SF]"
         }
       ],
       "WriteAddress": 0,
@@ -537,7 +537,7 @@
       "Length": 0,
       "Name": "AC Energy",
       "Profile": "~Wh",
-      "ReadAddress": 40092,
+      "ReadAddress": 40207,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -559,18 +559,18 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Scale factor [WH SF]",
+      "Name": "Scale factor [WH_SF]",
       "Profile": "",
-      "ReadAddress": 40094,
+      "ReadAddress": 40209,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "en",
-          "Name": "Scale factor [WH SF]"
+          "Name": "Scale factor [WH_SF]"
         },
         {
           "Language": "de",
-          "Name": "Skalierungsfaktor [WH SF]"
+          "Name": "Scale factor [WH_SF]"
         }
       ],
       "WriteAddress": 0,
@@ -585,7 +585,7 @@
       "Length": 0,
       "Name": "DC Current",
       "Profile": "~A",
-      "ReadAddress": 40095,
+      "ReadAddress": 40210,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -607,18 +607,18 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Scale factor [DCA SF]",
+      "Name": "Scale factor [DCA_SF]",
       "Profile": "",
-      "ReadAddress": 40096,
+      "ReadAddress": 40211,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "en",
-          "Name": "Scale factor [DCA SF]"
+          "Name": "Scale factor [DCA_SF]"
         },
         {
           "Language": "de",
-          "Name": "Skalierungsfaktor [DCA SF]"
+          "Name": "Scale factor [DCA_SF]"
         }
       ],
       "WriteAddress": 0,
@@ -633,7 +633,7 @@
       "Length": 0,
       "Name": "DC Voltage",
       "Profile": "~V",
-      "ReadAddress": 40097,
+      "ReadAddress": 40212,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -655,18 +655,18 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Scale factor [DCV SF]",
+      "Name": "Scale factor [DCV_SF]",
       "Profile": "",
-      "ReadAddress": 40098,
+      "ReadAddress": 40213,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "en",
-          "Name": "Scale factor [DCV SF]"
+          "Name": "Scale factor [DCV_SF]"
         },
         {
           "Language": "de",
-          "Name": "Skalierungsfaktor [DCV SF]"
+          "Name": "Scale factor [DCV_SF]"
         }
       ],
       "WriteAddress": 0,
@@ -681,7 +681,7 @@
       "Length": 0,
       "Name": "DC Power",
       "Profile": "~W",
-      "ReadAddress": 40099,
+      "ReadAddress": 40214,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -703,18 +703,18 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Scale factor [DCW SF]",
+      "Name": "Scale factor [DCW_SF]",
       "Profile": "",
-      "ReadAddress": 40100,
+      "ReadAddress": 40215,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "en",
-          "Name": "Scale factor [DCW SF]"
+          "Name": "Scale factor [DCW_SF]"
         },
         {
           "Language": "de",
-          "Name": "Skalierungsfaktor [DCW SF]"
+          "Name": "Scale factor [DCW_SF]"
         }
       ],
       "WriteAddress": 0,
@@ -729,7 +729,7 @@
       "Length": 0,
       "Name": "Cabinet Temperature",
       "Profile": "~C",
-      "ReadAddress": 40101,
+      "ReadAddress": 40216,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -753,7 +753,7 @@
       "Length": 0,
       "Name": "Heat Sink Temperature",
       "Profile": "~C",
-      "ReadAddress": 40102,
+      "ReadAddress": 40217,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -777,7 +777,7 @@
       "Length": 0,
       "Name": "Transformer Temperature",
       "Profile": "~C",
-      "ReadAddress": 40103,
+      "ReadAddress": 40218,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -801,7 +801,7 @@
       "Length": 0,
       "Name": "Other Temperature",
       "Profile": "~C",
-      "ReadAddress": 40104,
+      "ReadAddress": 40219,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -823,18 +823,18 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Scale factor [TMP SF]",
+      "Name": "Scale factor [TMP_SF]",
       "Profile": "",
-      "ReadAddress": 40105,
+      "ReadAddress": 40220,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "en",
-          "Name": "Scale factor [TMP SF]"
+          "Name": "Scale factor [TMP_SF]"
         },
         {
           "Language": "de",
-          "Name": "Skalierungsfaktor [TMP SF]"
+          "Name": "Scale factor [TMP_SF]"
         }
       ],
       "WriteAddress": 0,
@@ -849,7 +849,7 @@
       "Length": 0,
       "Name": "Enumerated value.  Operating state",
       "Profile": "",
-      "ReadAddress": 40106,
+      "ReadAddress": 40221,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -873,7 +873,7 @@
       "Length": 0,
       "Name": "Vendor specific operating state code",
       "Profile": "",
-      "ReadAddress": 40107,
+      "ReadAddress": 40222,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -897,7 +897,7 @@
       "Length": 0,
       "Name": "Bitmask value. Event fields",
       "Profile": "",
-      "ReadAddress": 40108,
+      "ReadAddress": 40223,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -921,7 +921,7 @@
       "Length": 0,
       "Name": "Reserved for future use",
       "Profile": "",
-      "ReadAddress": 40110,
+      "ReadAddress": 40225,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -945,7 +945,7 @@
       "Length": 0,
       "Name": "Vendor defined events",
       "Profile": "",
-      "ReadAddress": 40112,
+      "ReadAddress": 40227,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -969,7 +969,7 @@
       "Length": 0,
       "Name": "Vendor defined events",
       "Profile": "",
-      "ReadAddress": 40114,
+      "ReadAddress": 40229,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -993,7 +993,7 @@
       "Length": 0,
       "Name": "Vendor defined events",
       "Profile": "",
-      "ReadAddress": 40116,
+      "ReadAddress": 40231,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -1017,7 +1017,7 @@
       "Length": 0,
       "Name": "Vendor defined events",
       "Profile": "",
-      "ReadAddress": 40118,
+      "ReadAddress": 40233,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -1041,7 +1041,7 @@
       "Length": 0,
       "Name": "Type of DER device. Default value is 4 to indicate PV device.",
       "Profile": "",
-      "ReadAddress": 40122,
+      "ReadAddress": 40237,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -1065,7 +1065,7 @@
       "Length": 0,
       "Name": "Continuous power output capability of the inverter.",
       "Profile": "~W",
-      "ReadAddress": 40123,
+      "ReadAddress": 40238,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -1089,7 +1089,7 @@
       "Length": 0,
       "Name": "Scale factor",
       "Profile": "",
-      "ReadAddress": 40124,
+      "ReadAddress": 40239,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -1113,7 +1113,7 @@
       "Length": 0,
       "Name": "Continuous Volt Ampere capability of the inverter.",
       "Profile": "~VA",
-      "ReadAddress": 40125,
+      "ReadAddress": 40240,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -1137,7 +1137,7 @@
       "Length": 0,
       "Name": "Scale factor",
       "Profile": "",
-      "ReadAddress": 40126,
+      "ReadAddress": 40241,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -1161,7 +1161,7 @@
       "Length": 0,
       "Name": "Continuous VAR capability of the inverter in quadrant 1.",
       "Profile": "~var",
-      "ReadAddress": 40127,
+      "ReadAddress": 40242,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -1185,7 +1185,7 @@
       "Length": 0,
       "Name": "Continuous VAR capability of the inverter in quadrant 2.",
       "Profile": "~var",
-      "ReadAddress": 40128,
+      "ReadAddress": 40243,
       "ReadFunctionCode": 3,
       "Translation": [
         {
@@ -1208,19 +1208,19 @@
   "UseEnronMode" : false,
   "ConnectionType": "TCP",
   "Profiles": {},
-  "Type": "energy_meter",
-  "Manufacturer": "ABB",
-  "Product":"3p81",
+  "Type": "Solar_inverter",
+  "Manufacturer": "SMA",
+  "Product":"Solar-inverter",
   "Requests": {
     "Interval": 10000
   },
   "VirtualAddresses": [],
   "Metadata": {
-    "manufacturer": "abb",
-    "model": "3p81",
+    "manufacturer": "sma",
+    "model": "solar-inverter",
     "description": "",
     "version": "",
-    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/abb-3p81.htm",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/sma-solar-inverter.htm",
     "tags": {
       "industry": "Unknown",
       "application": "Unknown"

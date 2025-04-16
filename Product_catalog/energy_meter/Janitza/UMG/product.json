@@ -171,6 +171,14 @@
     ],
     "ByteOrder": 0,
     "Profiles": {},
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "Energy_Meter",
+    "Manufacturer": "Janitza",
+    "Product":"UMG",
     "Requests": {
         "Interval": 10000
     },

@@ -956,6 +956,14 @@
             "Type": 2
         }
     },
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "energy_meter",
+    "Manufacturer": "Fronius",
+    "Product":"Fronius Smartmeter",
     "Requests": {
         "Interval": 5000
     },

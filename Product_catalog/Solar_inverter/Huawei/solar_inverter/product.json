@@ -825,8 +825,8 @@
   "ConnectionType": "TCP",
   "Profiles": {},
   "Type": "solar_inverter",
-  "Manufacturer": "Growatt",
-  "Product": "TL3-X",
+  "Manufacturer": "Huawei",
+  "Product": "solar_inverter",
   "Requests": {
     "Interval": 5000
   },

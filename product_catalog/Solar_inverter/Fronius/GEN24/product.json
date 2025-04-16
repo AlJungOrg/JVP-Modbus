@@ -3191,8 +3191,16 @@
       "Type": 1
     }
   },
+  "ByteOrderFloats": true, 
+  "Active": true,
+  "ReferenceCountStartsAtZero": false,
+  "UseEnronMode" : false,
+  "ConnectionType": "TCP",
+  "Type": "Solar_inverter",
+  "Manufacturer": "Fronius",
+  "Product":"GEN24",
   "Requests": {
-    "Interval": 600000
+    "Interval": 60000
   },
   "VirtualAddresses": [
     {

@@ -3723,6 +3723,14 @@
     ],
     "ByteOrder": 0,
     "Profiles": {},
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "charging_station",
+    "Manufacturer": "Schneider",
+    "Product":"EVlink Wallbox G4 Smart",
     "Requests": {
         "Interval": 5000
     },

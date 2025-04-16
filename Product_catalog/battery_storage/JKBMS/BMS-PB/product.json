@@ -1049,6 +1049,14 @@
             "Type": 1
         }
     },
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "battery_storage",
+    "Manufacturer": "JKBMS",
+    "Product":"BMS-PBXX",
     "Requests": {
         "Interval": 5000
     },

@@ -861,5 +861,13 @@
     "Requests": {
         "Interval": 2000
     },
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "heating_rod",
+    "Manufacturer": "MyPV",
+    "Product":"AC Elwa 2",
     "VirtualAddresses": []
 }

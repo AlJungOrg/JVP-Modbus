@@ -2918,6 +2918,14 @@
             "Type": 2
         }
     },
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "compact_ventilation_unit",
+    "Manufacturer": "Stiebel Eltron",
+    "Product":"ISG Gateway",
     "Requests": {
         "Interval": 10000
     },

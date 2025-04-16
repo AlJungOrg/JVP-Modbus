@@ -266,6 +266,14 @@
             "Type": 1
         }
     },
+    "ByteOrderFloats": true, 
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode" : false,
+    "ConnectionType": "TCP",
+    "Type": "charging_station",
+    "Manufacturer": "ChargeHere",
+    "Product":"All",
     "Requests": {
         "Interval": 10000
     },
