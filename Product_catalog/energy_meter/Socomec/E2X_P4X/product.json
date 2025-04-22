@@ -1,0 +1,762 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Reserved (-)",
+            "Profile": "",
+            "ReadAddress": 50512,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reserved"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reserved"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Phase to Phase Voltage: U12 (0.01 V)",
+            "Profile": "~0.01 V",
+            "ReadAddress": 50514,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung Phase-zu-Phase U12"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Phase to Phase Voltage: U12"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Phase to Phase Voltage: U23 (0.01 V)",
+            "Profile": "~0.01 V",
+            "ReadAddress": 50516,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung Phase-zu-Phase U23"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Phase to Phase Voltage: U23"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Phase to Phase Voltage: U31 (0.01 V)",
+            "Profile": "~0.01 V",
+            "ReadAddress": 50518,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung Phase-zu-Phase U31"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Phase to Phase Voltage: U31"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Simple voltage : V1 (0.01 V)",
+            "Profile": "~0.01 V",
+            "ReadAddress": 50520,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Einfache Spannung  V1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Simple voltage : V1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Simple voltage : V2 (0.01 V)",
+            "Profile": "~0.01 V",
+            "ReadAddress": 50522,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Einfache Spannung  V2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Simple voltage : V2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Simple voltage : V3 (0.01 V)",
+            "Profile": "~0.01 V",
+            "ReadAddress": 50524,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Einfache Spannung  V3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Simple voltage : V3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Frequency : F (0.01 Hz)",
+            "Profile": "~0.01 Hz",
+            "ReadAddress": 50526,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz  F"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Frequency : F"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Current : I1 (mA)",
+            "Profile": "~mA",
+            "ReadAddress": 50528,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom  I1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current : I1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Current : I2 (mA)",
+            "Profile": "~mA",
+            "ReadAddress": 50530,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom  I2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current : I2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Current : I3 (mA)",
+            "Profile": "~mA",
+            "ReadAddress": 50532,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom  I3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current : I3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Neutral Current : In (mA)",
+            "Profile": "~mA",
+            "ReadAddress": 50534,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Neutral Strom  In"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Neutral Current : In"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Active Power +/- : P (10 W)",
+            "Profile": "~10 W",
+            "ReadAddress": 50536,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": " Wirkleistung +/-  P"
+                },
+                {
+                    "Language": "en",
+                    "Name": " Active Power +/- : P"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Reactive Power +/- : Q (10 var)",
+            "Profile": "~10 var",
+            "ReadAddress": 50538,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": " Blindleistung +/-  Q"
+                },
+                {
+                    "Language": "en",
+                    "Name": " Reactive Power +/- : Q"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Apparent Power : S (10 VA)",
+            "Profile": "~10 VA",
+            "ReadAddress": 50540,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": " Scheinleistung  S"
+                },
+                {
+                    "Language": "en",
+                    "Name": " Apparent Power : S"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Power Factor : -: leading et + : lagging : PF (0.001)",
+            "Profile": "~0.001",
+            "ReadAddress": 50542,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": " Leistungsfaktor  - fuehrend et +  nachlaufend  PF"
+                },
+                {
+                    "Language": "en",
+                    "Name": " Power Factor : -: leading et + : lagging : PF"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Active Power phase 1 +/- : P1 (10 W)",
+            "Profile": "~10 W",
+            "ReadAddress": 50544,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung phase 1 +/-  P1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power phase 1 +/- : P1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Active Power phase 2 +/- : P2 (10 W)",
+            "Profile": "~10 W",
+            "ReadAddress": 50546,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung phase 2 +/-  P2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power phase 2 +/- : P2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Active Power phase 3 +/- : P3 (10 W)",
+            "Profile": "~10 W",
+            "ReadAddress": 50548,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung phase 3 +/-  P3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power phase 3 +/- : P3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Reactive Power phase 1 +/- : Q1 (10 var)",
+            "Profile": "~10 var",
+            "ReadAddress": 50550,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung phase 1 +/-  Q1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power phase 1 +/- : Q1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Reactive Power phase 2 +/- : Q2 (10 var)",
+            "Profile": "~10 var",
+            "ReadAddress": 50552,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung phase 2 +/-  Q2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power phase 2 +/- : Q2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Reactive Power phase 3 +/- : Q3 (10 var)",
+            "Profile": "~10 var",
+            "ReadAddress": 50554,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung phase 3 +/-  Q3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power phase 3 +/- : Q3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Apparent Power phase 1 : S1 (10 VA)",
+            "Profile": "~10 VA",
+            "ReadAddress": 50556,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung phase 1  S1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power phase 1 : S1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Apparent Power phase 2 : S2 (10 VA)",
+            "Profile": "~10 VA",
+            "ReadAddress": 50558,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung phase 2  S2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power phase 2 : S2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Apparent Power phase 3 : S3 (10 VA)",
+            "Profile": "~10 VA",
+            "ReadAddress": 50560,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung phase 3  S3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power phase 3 : S3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Power Factor phase 1 -: leading and + : lagging : PF1 (0.001)",
+            "Profile": "~0.001",
+            "ReadAddress": 50562,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor phase 1 - f\u00fchrend and +  nachlaufend  PF1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor phase 1 -: leading and + : lagging : PF1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Power Factor phase 2 -: leading and + : lagging : PF2 (0.001)",
+            "Profile": "~0.001",
+            "ReadAddress": 50564,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor phase 2 - f\u00fchrend and +  nachlaufend  PF2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor phase 2 -: leading and + : lagging : PF2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Power Factor phase 3 -: leading and + : lagging : PF3 (0.001)",
+            "Profile": "~0.001",
+            "ReadAddress": 50566,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor phase 3 - f\u00fchrend and +  nachlaufend  PF3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor phase 3 -: leading and + : lagging : PF3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "System value I Sys : ( I1+I2+I3) / 3 (mA)",
+            "Profile": "~mA",
+            "ReadAddress": 50568,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Systemwert I Sys  ( I1+I2+I3) / 3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "System value I Sys : ( I1+I2+I3) / 3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 2,
+            "Name": "System value U Sys : (U12 + U23 + U31 ) / 3 (0.01 V)",
+            "Profile": "~0.01 V",
+            "ReadAddress": 50570,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Systemwert U Sys  (U12 + U23 + U31 ) / 3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "System value U Sys : (U12 + U23 + U31 ) / 3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 2,
+            "Name": "System value V Sys : (V1 + V2 + V3 ) / 3 (0.01 V)",
+            "Profile": "~0.01 V",
+            "ReadAddress": 50572,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Systemwert V Sys  (V1 + V2 + V3 ) / 3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "System value V Sys : (V1 + V2 + V3 ) / 3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Profiles": {},
+    "Type": "Energy_Meter",
+    "Manufacturer": "Socomec",
+    "Product": "Unknown",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}
