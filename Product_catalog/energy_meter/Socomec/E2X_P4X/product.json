@@ -3,6 +3,1206 @@
         {
             "Active": true,
             "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 1 Positive active Energy : Ea+ (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 19840,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 1 positive Wirkenergie  Ea+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 1 Positive active Energy : Ea+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 1 Residual positive active Energy : rEa+ (0.1 Wh)",
+            "Profile": "~0.1 Wh",
+            "ReadAddress": 19842,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 1 Rest positive Wirkenergie  rEa+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 1 Residual positive active Energy : rEa+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 1 Negative active Energy : Ea- (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 19843,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 1 negative Wirkenergie  Ea-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 1 Negative active Energy : Ea-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 1 Residual negative active Energy : rEa- (0.1 Wh)",
+            "Profile": "~0.1 Wh",
+            "ReadAddress": 19845,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 1 Rest negative Wirkenergie  rEa-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 1 Residual negative active Energy : rEa-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 1 Positive reactive Energy : Er+ (kvarh)",
+            "Profile": "~kvarh",
+            "ReadAddress": 19846,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 1 positive reWirkenergie  Er+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 1 Positive reactive Energy : Er+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 1 Residual positive reactive Energy : rEr+ (0.1 varh)",
+            "Profile": "~0.1 varh",
+            "ReadAddress": 19848,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 1 Rest positive reWirkenergie  rEr+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 1 Residual positive reactive Energy : rEr+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 1 Negative reactive Energy : Er- (kvarh)",
+            "Profile": "~kvarh",
+            "ReadAddress": 19849,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 1 negative reWirkenergie  Er-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 1 Negative reactive Energy : Er-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 1 Residual negative reactive Energy : rEr- (0.1 varh)",
+            "Profile": "~0.1 varh",
+            "ReadAddress": 19851,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 1 Rest negative reWirkenergie  rEr-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 1 Residual negative reactive Energy : rEr-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 1 Apparent Energy : Eap (kVAh)",
+            "Profile": "~kVAh",
+            "ReadAddress": 19852,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 1 Scheinenergie  Eap"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 1 Apparent Energy : Eap"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 1 Residual apparent Energy : rEap (0.1 VAh)",
+            "Profile": "~0.1 VAh",
+            "ReadAddress": 19854,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 1 Rest apparent Energie  rEap"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 1 Residual apparent Energy : rEap"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 2 Positive active Energy : Ea+ (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 19855,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 2 positive Wirkenergie  Ea+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 2 Positive active Energy : Ea+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 2 Residual positive active Energy : rEa+ (0.1 Wh)",
+            "Profile": "~0.1 Wh",
+            "ReadAddress": 19857,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 2 Rest positive Wirkenergie  rEa+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 2 Residual positive active Energy : rEa+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 2 Negative active Energy : Ea- (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 19858,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 2 negative Wirkenergie  Ea-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 2 Negative active Energy : Ea-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 2 Residual negative active Energy : rEa- (0.1 Wh)",
+            "Profile": "~0.1 Wh",
+            "ReadAddress": 19860,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 2 Rest negative Wirkenergie  rEa-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 2 Residual negative active Energy : rEa-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 2 Positive reactive Energy : Er+ (kvarh)",
+            "Profile": "~kvarh",
+            "ReadAddress": 19861,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 2 positive reWirkenergie  Er+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 2 Positive reactive Energy : Er+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 2 Residual positive reactive Energy : rEr+ (0.1 varh)",
+            "Profile": "~0.1 varh",
+            "ReadAddress": 19863,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 2 Rest positive reWirkenergie  rEr+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 2 Residual positive reactive Energy : rEr+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 2 Negative reactive Energy : Er- (kvarh)",
+            "Profile": "~kvarh",
+            "ReadAddress": 19864,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 2 negative reWirkenergie  Er-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 2 Negative reactive Energy : Er-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 2 Residual negative reactive Energy : rEr- (0.1 varh)",
+            "Profile": "~0.1 varh",
+            "ReadAddress": 19866,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 2 Rest negative reWirkenergie  rEr-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 2 Residual negative reactive Energy : rEr-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 2 Apparent Energy : Eap (kVAh)",
+            "Profile": "~kVAh",
+            "ReadAddress": 19867,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 2 Scheinenergie  Eap"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 2 Apparent Energy : Eap"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 2 Residual apparent Energy : rEap (0.1 VAh)",
+            "Profile": "~0.1 VAh",
+            "ReadAddress": 19869,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 2 Rest apparent Energie  rEap"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 2 Residual apparent Energy : rEap"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 3 Positive active Energy : Ea+ (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 19870,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 3 positive Wirkenergie  Ea+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 3 Positive active Energy : Ea+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 3 Residual positive active Energy : rEa+ (0.1 Wh)",
+            "Profile": "~0.1 Wh",
+            "ReadAddress": 19872,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 3 Rest positive Wirkenergie  rEa+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 3 Residual positive active Energy : rEa+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 3 Negative active Energy : Ea- (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 19873,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 3 negative Wirkenergie  Ea-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 3 Negative active Energy : Ea-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 3 Residual negative active Energy : rEa- (0.1 Wh)",
+            "Profile": "~0.1 Wh",
+            "ReadAddress": 19875,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 3 Rest negative Wirkenergie  rEa-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 3 Residual negative active Energy : rEa-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 3 Positive reactive Energy : Er+ (kvarh)",
+            "Profile": "~kvarh",
+            "ReadAddress": 19876,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 3 positive reWirkenergie  Er+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 3 Positive reactive Energy : Er+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 3 Residual positive reactive Energy : rEr+ (0.1 varh)",
+            "Profile": "~0.1 varh",
+            "ReadAddress": 19878,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 3 Rest positive reWirkenergie  rEr+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 3 Residual positive reactive Energy : rEr+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 3 Negative reactive Energy : Er- (kvarh)",
+            "Profile": "~kvarh",
+            "ReadAddress": 19879,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 3 negative reWirkenergie  Er-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 3 Negative reactive Energy : Er-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 3 Residual negative reactive Energy : rEr- (0.1 varh)",
+            "Profile": "~0.1 varh",
+            "ReadAddress": 19881,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 3 Rest negative reWirkenergie  rEr-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 3 Residual negative reactive Energy : rEr-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Line 3 Apparent Energy : Eap (kVAh)",
+            "Profile": "~kVAh",
+            "ReadAddress": 19882,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 3 Scheinenergie  Eap"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 3 Apparent Energy : Eap"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Line 3 Residual apparent Energy : rEap (0.1 VAh)",
+            "Profile": "~0.1 VAh",
+            "ReadAddress": 19884,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Linie 3 Rest apparent Energie  rEap"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Line 3 Residual apparent Energy : rEap"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Positive active Energy : Ea+ (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 25987,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt positive Wirkenergie  Ea+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Positive active Energy : Ea+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Residual positive active Energy : rEa+ (0.1 Wh)",
+            "Profile": "~0.1 Wh",
+            "ReadAddress": 25989,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Rest positive Wirkenergie  rEa+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Residual positive active Energy : rEa+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Negative active Energy : Ea- (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 25990,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt negative Wirkenergie  Ea-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Negative active Energy : Ea-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Residual negative active Energy : rEa- (0.1 Wh)",
+            "Profile": "~0.1 Wh",
+            "ReadAddress": 25992,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Rest negative Wirkenergie  rEa-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Residual negative active Energy : rEa-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Positive reactive Energy : Er+ (kvarh)",
+            "Profile": "~kvarh",
+            "ReadAddress": 25993,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt positive reWirkenergie  Er+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Positive reactive Energy : Er+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Residual positive reactive Energy : rEr+ (0.1 varh)",
+            "Profile": "~0.1 varh",
+            "ReadAddress": 25995,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Rest positive reWirkenergie  rEr+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Residual positive reactive Energy : rEr+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Negative reactive Energy : Er- (kvarh)",
+            "Profile": "~kvarh",
+            "ReadAddress": 25996,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt negative reWirkenergie  Er-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Negative reactive Energy : Er-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Residual negative reactive Energy : rEr- (0.1 varh)",
+            "Profile": "~0.1 varh",
+            "ReadAddress": 25998,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Rest negative reWirkenergie  rEr-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Residual negative reactive Energy : rEr-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Apparent Energy : Eap (kVAh)",
+            "Profile": "~kVAh",
+            "ReadAddress": 25999,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Scheinenergie  Eap"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Apparent Energy : Eap"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Total Residual apparent Energy : rEap (0.1 VAh)",
+            "Profile": "~0.1 VAh",
+            "ReadAddress": 26001,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Rest apparent Energie  rEap"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Residual apparent Energy : rEap"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Partial positive active Energy : Ea+ (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 26016,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Teilweise positive Wirkenergie  Ea+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Partial positive active Energy : Ea+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Partial residual positive active Energy : rEa+ (0.1 Wh)",
+            "Profile": "~0.1 Wh",
+            "ReadAddress": 26018,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Teilweise residual positive Wirkenergie  rEa+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Partial residual positive active Energy : rEa+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Partial negative active Energy : Ea- (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 26019,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Teilweise negative Wirkenergie  Ea-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Partial negative active Energy : Ea-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Partial residual negative active Energy : rEa- (0.1 Wh)",
+            "Profile": "~0.1 Wh",
+            "ReadAddress": 26021,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Teilweise residual negative Wirkenergie  rEa-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Partial residual negative active Energy : rEa-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Partial positive reactive Energy : Er+ (kvarh)",
+            "Profile": "~kvarh",
+            "ReadAddress": 26022,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Teilweise positive reWirkenergie  Er+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Partial positive reactive Energy : Er+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Partial residual positive reactive Energy : rEr+ (0.1 varh)",
+            "Profile": "~0.1 varh",
+            "ReadAddress": 26024,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Teilweise residual positive reWirkenergie  rEr+"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Partial residual positive reactive Energy : rEr+"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Partial negative reactive Energy : Er- (kvarh)",
+            "Profile": "~kvarh",
+            "ReadAddress": 26025,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Teilweise negative reWirkenergie  Er-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Partial negative reactive Energy : Er-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Partial residual negative reactive Energy : rEr- (0.1 varh)",
+            "Profile": "~0.1 varh",
+            "ReadAddress": 26027,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Teilweise residual negative reWirkenergie  rEr-"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Partial residual negative reactive Energy : rEr-"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Partial Apparent Energy : Eap (kVAh)",
+            "Profile": "~kVAh",
+            "ReadAddress": 26028,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Teilweise Scheinenergie  Eap"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Partial Apparent Energy : Eap"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Partial residual apparent Energy : rEap (0.1 VAh)",
+            "Profile": "~0.1 VAh",
+            "ReadAddress": 26030,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Teilweise residual apparent Energie  rEap"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Partial residual apparent Energy : rEap"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
             "DataType": 0,
             "Factor": 0,
             "Ident": "",
@@ -743,6 +1943,102 @@
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Slave Address",
+            "Profile": "",
+            "ReadAddress": 57344,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Slave Adresse"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Slave Address"
+                }
+            ],
+            "WriteAddress": 6,
+            "WriteFunctionCode": 57344
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Backlight timeout",
+            "Profile": "",
+            "ReadAddress": 28930,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hintergrundbeleuchtung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Backlight timeout"
+                }
+            ],
+            "WriteAddress": 6,
+            "WriteFunctionCode": 28930
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Reset Min/Max and AVG",
+            "Profile": "",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reset Minimal und Maximalwerte und Durchschnittswerte"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reset Min/Max and AVG"
+                }
+            ],
+            "WriteAddress": 6,
+            "WriteFunctionCode": 57888
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Reset Partial Energies",
+            "Profile": "",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Reset Partielle Zählerwerte"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reset Partial Energies"
+                }
+            ],
+            "WriteAddress": 6,
+            "WriteFunctionCode": 57890
         }
     ],
     "ByteOrder": 0,
@@ -754,7 +2050,7 @@
     "Profiles": {},
     "Type": "Energy_Meter",
     "Manufacturer": "Socomec",
-    "Product": "Unknown",
+    "Product": "EXX_PXX",
     "Requests": {
         "Interval": 5000
     },
