@@ -1203,6 +1203,486 @@
         {
             "Active": true,
             "ByteOrder": 0,
+             "DataType": 10,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 4,
+            "Name": "SOCO",
+            "Profile": "",
+            "ReadAddress": 50000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "SOCO"
+                },
+                {
+                    "Language": "en",
+                    "Name": "SOCO"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Product order ID (Countis:100, Protection:200, Atys:300, Diris:400)",
+            "Profile": "",
+            "ReadAddress": 50004,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Produkt Bestellnummer (Countis:100, Protection:200, Atys:300, Diris:400)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Product order ID (Countis:100, Protection:200, Atys:300, Diris:400)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Product ID (EX: 1000 ATS3)",
+            "Profile": "",
+            "ReadAddress": 50005,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Produkt Kennung (EX: 1000 ATS3)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Product ID (EX: 1000 ATS3)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "JBUS Table Version (EX: 101 Version 1.01)",
+            "Profile": "",
+            "ReadAddress": 50006,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "JBUS-Tabelle Version (EX: 101 Version 1.01)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "JBUS Table Version (EX: 101 Version 1.01)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Product software version (EX: 100 Version 1.00)",
+            "Profile": "",
+            "ReadAddress": 50007,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Produkt SoftwareVersion (EX: 100 Version 1.00)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Product software version (EX: 100 Version 1.00)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Serial_AA_SS",
+            "Profile": "",
+            "ReadAddress": 50008,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Seriennummer_AA_SS"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Serial_AA_SS"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Serial_SST_L",
+            "Profile": "",
+            "ReadAddress": 50009,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Seriennummer_SST_L"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Serial_SST_L"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Serial_order",
+            "Profile": "",
+            "ReadAddress": 50010,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Seriennummer_order"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Serial_order"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Serial_Reserve (LOT number)",
+            "Profile": "",
+            "ReadAddress": 50011,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Seriennummer_Reserve (Losnummer)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Serial_Reserve (LOT number)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Product version (Major)",
+            "Profile": "",
+            "ReadAddress": 50018,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Produkt Version (Major)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Product version (Major)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Product version (Minor)",
+            "Profile": "",
+            "ReadAddress": 50019,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Produkt Version (Minor)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Product version (Minor)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Product version (Revision)",
+            "Profile": "",
+            "ReadAddress": 50020,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Produkt Version (Revision)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Product version (Revision)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Product version (Build)",
+            "Profile": "",
+            "ReadAddress": 50021,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Produkt Version (Build)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Product version (Build)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 8,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 3,
+            "Name": "Product build date",
+            "Profile": "",
+            "ReadAddress": 50022,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Produkt Erstellungsdatum"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Product build date"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+             "DataType": 10,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 4,
+            "Name": "Product VLO (EX : \"880100\")",
+            "Profile": "",
+            "ReadAddress": 50030,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Produkt VLO (EX : \"880100\")"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Product VLO (EX : \"880100\")"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+             "DataType": 10,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 8,
+            "Name": "Vendor name (EX : \"SOCOMEC\")",
+            "Profile": "",
+            "ReadAddress": 50042,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "HerstellerName (EX : \"SOCOMEC\")"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Vendor name (EX : \"SOCOMEC\")"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+             "DataType": 10,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 8,
+            "Name": "Product name (EX : \"DIRIS A40R\")",
+            "Profile": "",
+            "ReadAddress": 50050,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Produkt Name (EX : \"DIRIS A40R\")"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Product name (EX : \"DIRIS A40R\")"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+             "DataType": 10,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 8,
+            "Name": "Extended name",
+            "Profile": "",
+            "ReadAddress": 50058,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Erweitert Name"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Extended name"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 1,
+            "Name": "Ressource version (Build 2)",
+            "Profile": "",
+            "ReadAddress": 50066,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ressource Version (Build 2)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Ressource version (Build 2)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Net ID",
+            "Profile": "",
+            "ReadAddress": 50067,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Net Kennung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Net ID"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
             "DataType": 0,
             "Factor": 0,
             "Ident": "",
