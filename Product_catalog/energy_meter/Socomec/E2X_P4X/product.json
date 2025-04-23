@@ -27,7 +27,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 0.01,
             "Ident": "",
             "Length": 2,
@@ -51,7 +51,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 0.01,
             "Ident": "",
             "Length": 2,
@@ -75,7 +75,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 0.01,
             "Ident": "",
             "Length": 2,
@@ -99,7 +99,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 0.01,
             "Ident": "",
             "Length": 2,
@@ -123,7 +123,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 0.01,
             "Ident": "",
             "Length": 2,
@@ -147,7 +147,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 0.01,
             "Ident": "",
             "Length": 2,
@@ -171,7 +171,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 0.01,
             "Ident": "",
             "Length": 2,
@@ -195,7 +195,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -219,7 +219,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -243,7 +243,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -267,7 +267,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -339,7 +339,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 10,
             "Ident": "",
             "Length": 2,
@@ -531,7 +531,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 10,
             "Ident": "",
             "Length": 2,
@@ -555,7 +555,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 10,
             "Ident": "",
             "Length": 2,
@@ -579,7 +579,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 10,
             "Ident": "",
             "Length": 2,
@@ -662,7 +662,7 @@
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": "Leistungsfaktor phase 3 - f\u00fchrend and +  nachlaufend  PF3"
+                    "Name": "Leistungsfaktor phase 3 - fuehrend and +  nachlaufend  PF3"
                 },
                 {
                     "Language": "en",
@@ -675,7 +675,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -699,7 +699,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 0.01,
             "Ident": "",
             "Length": 2,
@@ -723,7 +723,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 6,
+            "DataType": 3,
             "Factor": 0.01,
             "Ident": "",
             "Length": 2,
