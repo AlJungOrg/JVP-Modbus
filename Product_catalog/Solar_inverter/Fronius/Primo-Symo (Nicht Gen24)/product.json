@@ -1,0 +1,2228 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "1_Mn",
+            "Length": 16,
+            "Name": "Common_Manufacturer",
+            "Profile": "",
+            "ReadAddress": 40004,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hersteller"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "1_Md",
+            "Length": 16,
+            "Name": "Common_Device",
+            "Profile": "",
+            "ReadAddress": 40020,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gerätetyp"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "1_Vr",
+            "Length": 8,
+            "Name": "Common_SW_version ",
+            "Profile": "",
+            "ReadAddress": 40044,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Software Version"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "1_Opt",
+            "Length": 16,
+            "Name": "Common_Options",
+            "Profile": "",
+            "ReadAddress": 40036,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Dateenmanager"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "1_SN",
+            "Length": 16,
+            "Name": "Common_Serialnumber",
+            "Profile": "",
+            "ReadAddress": 40052,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Seriennummer"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "1_DA",
+            "Length": 0,
+            "Name": "Common_Modbus_Device_Address",
+            "Profile": "",
+            "ReadAddress": 40068,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Modbus Adresse"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "11x_A",
+            "Length": 0,
+            "Name": "Device_AC_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAddress": 40071,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "11x_AphA",
+            "Length": 0,
+            "Name": "Device_AC_Phase_A_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAddress": 40073,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Strom-L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "11x_AphB",
+            "Length": 0,
+            "Name": "Device_AC_Phase_B_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAddress": 40075,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Strom-L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "11x_AphC",
+            "Length": 0,
+            "Name": "Device_AC_Phase_C_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAddress": 40077,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Strom-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "11x_PPVphAB",
+            "Length": 0,
+            "Name": "Device_AC_Phase_Voltage_AB",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40079,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung L1-L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "11x_PPVphBC",
+            "Length": 0,
+            "Name": "Device_AC_Phase_Voltage_BC",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40081,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung L2-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "11x_PPVphCA",
+            "Length": 0,
+            "Name": "Device_AC_Phase_Voltage_CA",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40083,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung L1-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "11x_PhVphA",
+            "Length": 0,
+            "Name": "Device_AC_Phase_Voltage_AN",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40085,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung L1-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "11x_PhVphB",
+            "Length": 0,
+            "Name": "Device_AC_Phase_Voltage_BN",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40087,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung L2-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "11x_PhVphC",
+            "Length": 0,
+            "Name": "Device_AC_Phase_Voltage_CN",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40089,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Spannung L3-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "11x_W",
+            "Length": 0,
+            "Name": "Device_AC_Power",
+            "Profile": "Fronius.Power.Float",
+            "ReadAddress": 40091,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Ausgangsleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "11x_Hz",
+            "Length": 0,
+            "Name": "Device_AC_Frequency",
+            "Profile": "Fronius.Frequency.Float",
+            "ReadAddress": 40093,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Frequenz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "11x_VA",
+            "Length": 0,
+            "Name": "Device_AC_Apparent_Power",
+            "Profile": "Fronius.Apparent_power.Float",
+            "ReadAddress": 40095,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Scheinleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "11x_VAr",
+            "Length": 0,
+            "Name": "Device_AC_Reactive_Power",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40097,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Blindleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "11x_PF",
+            "Length": 0,
+            "Name": "Device_AC_Power_Factor",
+            "Profile": "Fronius.Battery.Float",
+            "ReadAddress": 40099,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "11x_WH",
+            "Length": 0,
+            "Name": "Device_AC_Energy",
+            "Profile": "Fronius.Electricity.Float",
+            "ReadAddress": 40101,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Wirkarbeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "11x_DCW",
+            "Length": 0,
+            "Name": "Device_DC_Power",
+            "Profile": "Fronius.Power.Float",
+            "ReadAddress": 40107,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "DC-Leistung PV"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "11x_St",
+            "Length": 0,
+            "Name": "Device_Operating_Code",
+            "Profile": "Fronius.StateCode.Int",
+            "ReadAddress": 40117,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Betriebszustand"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "11x_Evt1",
+            "Length": 0,
+            "Name": "Device_Evt1",
+            "Profile": "Fronius.Evt1",
+            "ReadAddress": 40119,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ereignis-Fehler"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "11x_EvtVnd1",
+            "Length": 0,
+            "Name": "Device_EvtVnd1",
+            "Profile": "Fronius.Symo.EvtVnd1",
+            "ReadAddress": 40123,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ereignisfelder Kunde"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "11x_EvtVnd2",
+            "Length": 0,
+            "Name": "Device_EvtVnd2",
+            "Profile": "Fronius.Symo.EvtVnd2",
+            "ReadAddress": 40125,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ereignisfelder Techniker"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "160_DCA_SF",
+            "Length": 0,
+            "Name": "MPPT_Current_Scale_Factor",
+            "Profile": "Fronius.Scale.Int",
+            "ReadAddress": 40265,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "160_DCV_SF",
+            "Length": 0,
+            "Name": "MPPT_Voltage_Scale_Factor",
+            "Profile": "Fronius.Scale.Int",
+            "ReadAddress": 40266,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "160_DCW_SF",
+            "Length": 0,
+            "Name": "MPPT_Power_Scale_Factor",
+            "Profile": "Fronius.Scale.Int",
+            "ReadAddress": 40267,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistung Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "160_DCWH_SF",
+            "Length": 0,
+            "Name": "MPPT_Energy_Scale_Factor",
+            "Profile": "Fronius.Scale.Int",
+            "ReadAddress": 40268,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Arbeit Skalierungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_N",
+            "Length": 0,
+            "Name": "MPPT_Number_of_Modules",
+            "Profile": "",
+            "ReadAddress": 40271,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Anzahl MPPT"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_1_ID",
+            "Length": 0,
+            "Name": "MPPT1_Input_ID",
+            "Profile": "",
+            "ReadAddress": 40273,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1_ID"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "160_module_1_IDStr",
+            "Length": 8,
+            "Name": "MPPT1_Input_ID_Sting",
+            "Profile": "",
+            "ReadAddress": 40274,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_1_DCA",
+            "Length": 0,
+            "Name": "MPPT1_DC_Current",
+            "Profile": "Fronius.Current.Int",
+            "ReadAddress": 40282,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1_Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_1_DCV",
+            "Length": 0,
+            "Name": "MPPT1_DC_Voltage",
+            "Profile": "Fronius.Voltage.Int",
+            "ReadAddress": 40283,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1_Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_1_DCW",
+            "Length": 0,
+            "Name": "MPPT1_DC_Power",
+            "Profile": "Fronius.Power.Int",
+            "ReadAddress": 40284,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1_Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "160_module_1_DCWH",
+            "Length": 0,
+            "Name": "MPPT1_Lifetime Energy",
+            "Profile": "Fronius.Electricity.Int",
+            "ReadAddress": 40285,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1_Wirkarbeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "160_module_1_Tms",
+            "Length": 0,
+            "Name": "MPPT1_Timestamp",
+            "Profile": "~UnixTimestampTime",
+            "ReadAddress": 40287,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT1_Zeitstempel"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_2_ID",
+            "Length": 0,
+            "Name": "MPPT2_Input_ID",
+            "Profile": "",
+            "ReadAddress": 40293,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2_ID"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "160_module_2_IDStr",
+            "Length": 8,
+            "Name": "MPPT2_Input_ID_Sting",
+            "Profile": "",
+            "ReadAddress": 40294,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_2_DCA",
+            "Length": 0,
+            "Name": "MPPT2_DC_Current",
+            "Profile": "Fronius.Current.Int",
+            "ReadAddress": 40302,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2_Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_2_DCV",
+            "Length": 0,
+            "Name": "MPPT2_DC_Voltage",
+            "Profile": "Fronius.Voltage.Int",
+            "ReadAddress": 40303,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2_Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "160_module_2_DCW",
+            "Length": 0,
+            "Name": "MPPT2_DC_Power",
+            "Profile": "Fronius.Power.Int",
+            "ReadAddress": 40304,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2_Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "160_module_2_DCWH",
+            "Length": 0,
+            "Name": "MPPT2_Lifetime Energy",
+            "Profile": "Fronius.Electricity.Int",
+            "ReadAddress": 40305,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2_Wirkarbeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "160_module_2_Tms",
+            "Length": 0,
+            "Name": "MPPT2_Timestamp",
+            "Profile": "~UnixTimestampTime",
+            "ReadAddress": 40307,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "MPPT2_Zeitstempel"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "120_WRtg",
+            "Length": 0,
+            "Name": "Nameplate_power_output_capability ",
+            "Profile": "Fronius.Power.Float",
+            "ReadAddress": 40134,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "120_VARtg",
+            "Length": 0,
+            "Name": "Nameplate_Volt-Current_capability",
+            "Profile": "Fronius.Apparent_power.Float",
+            "ReadAddress": 40136,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Scheinleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "120_VArRtgQ1",
+            "Length": 0,
+            "Name": "Nameplate_Continuous_VAR_capabilit_Q1",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40138,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Blindleistung Q1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "120_VArRtgQ4",
+            "Length": 0,
+            "Name": "Nameplate_Continuous_VAR_capabilit_Q4",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40141,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "AC-Blindleistung Q4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "120_ARtg",
+            "Length": 0,
+            "Name": "Nameplate_Maximum_RMS_AC_current ",
+            "Profile": "Fronius.Current.Float",
+            "ReadAddress": 40143,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Max AC Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "120_PFRtgQ1",
+            "Length": 0,
+            "Name": "Nameplate_min_power_factor_Q1",
+            "Profile": "Fronius.CosPhi.Float",
+            "ReadAddress": 40145,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Min Leistungsfaktor Q1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "120_PFRtgQ4",
+            "Length": 0,
+            "Name": "Nameplate_min_power_factor_Q4",
+            "Profile": "Fronius.CosPhi.Float",
+            "ReadAddress": 40148,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Min Leistungsfaktor Q4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "120_WHRtg",
+            "Length": 0,
+            "Name": "Nameplate_Nominal_energy_rating",
+            "Profile": "Fronius.Power.Float",
+            "ReadAddress": 40150,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "maximale Nennleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "120_MaxChaRte",
+            "Length": 0,
+            "Name": "Nameplate_Max_Imput",
+            "Profile": "Fronius.Power.Float",
+            "ReadAddress": 40154,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "maximale Eingangsleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.001,
+            "Ident": "120_MaxDisChaRte",
+            "Length": 0,
+            "Name": "Nameplate_Max_Output",
+            "Profile": "Fronius.Power.Float",
+            "ReadAddress": 40156,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "maximale Ausgangssleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "121_VMax",
+            "Length": 0,
+            "Name": "Settings_Max_Power_Output",
+            "Profile": "Fronius.Power.Float",
+            "ReadAddress": 40161,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Max AC-Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "121_VRef",
+            "Length": 0,
+            "Name": "Settings_Voltage_at_the_PCC",
+            "Profile": "Fronius.Voltage.Int",
+            "ReadAddress": 40162,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Referenzspannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 10,
+            "Ident": "121_VRefOfs",
+            "Length": 0,
+            "Name": "Settings_Offset _from_PCC_to_inverter.",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAddress": 40163,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Abweichung Referenzspannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "121_VAMax",
+            "Length": 0,
+            "Name": "Settings_Max_apparent_power",
+            "Profile": "Fronius.Apparent_power.Float",
+            "ReadAddress": 40166,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Max Scheinleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "121_VArMaxQ1",
+            "Length": 0,
+            "Name": "Settings_Continuous_VAR_capabilit_Q1",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40167,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung Q1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "121_VArMaxQ4",
+            "Length": 0,
+            "Name": "Settings_Continuous_VAR_capabilit_Q4",
+            "Profile": "Fronius.Reactive_power.Float",
+            "ReadAddress": 40170,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung Q4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "121_PFMinQ1",
+            "Length": 0,
+            "Name": "Settings_min_power_factor_Q1",
+            "Profile": "Fronius.CosPhi.Float",
+            "ReadAddress": 40172,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Min Leistungsfaktor Q1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "121_PFMinQ4",
+            "Length": 0,
+            "Name": "Settings_min_power_factor_Q4",
+            "Profile": "Fronius.CosPhi.Float",
+            "ReadAddress": 40175,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Min Leistungsfaktor Q4"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "122_PVConn",
+            "Length": 0,
+            "Name": "Status_PV_Inverter_status",
+            "Profile": "Fronius.Conn.Status.Int",
+            "ReadAddress": 40193,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichter Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "122_StorConn",
+            "Length": 0,
+            "Name": "Status_Battery_Inverter_status",
+            "Profile": "Fronius.Conn.Status.Int",
+            "ReadAddress": 40194,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "122_ECPConn",
+            "Length": 0,
+            "Name": "Status_ECP_connection",
+            "Profile": "Fronius.ECPConn.Status.Int",
+            "ReadAddress": 40195,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Netz Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 11,
+            "Factor": 0.001,
+            "Ident": "122_ActWh",
+            "Length": 0,
+            "Name": "Status_AC_lifetime active_energy_output",
+            "Profile": "Fronius.Electricity.Float",
+            "ReadAddress": 40196,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkarbeit (Lifetime)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "122_StActCtl",
+            "Length": 0,
+            "Name": "Status_controls_are_currently_active",
+            "Profile": "",
+            "ReadAddress": 40226,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichter-Modi"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "122_TmSrc",
+            "Length": 4,
+            "Name": "Status_time_synchronization.",
+            "Profile": "",
+            "ReadAddress": 40228,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zeitsynchronisation"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0,
+            "Ident": "122_Tms",
+            "Length": 0,
+            "Name": "Status_Seconds_since_01-01-2000_00-00-UTC",
+            "Profile": "~UnixTimestampTime",
+            "ReadAddress": 40232,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zeit RTC"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+       "Fronius.Conn.Status.Int": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Verbunden",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Ansprechbar",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Arbeitet",
+                    "Value": 7.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Information",
+            "MaxValue": 7.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Fronius.ECPConn.Status.Int": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wechselrichter speist nicht ein",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wechselrichter speist gerade ein",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Information",
+            "MaxValue": 7.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Fronius.Apparent_power.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kVA",
+            "Type": 2
+        },
+        "Fronius.CosPhi.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "0",
+            "MaxValue": 1.0,
+            "MinValue": -1.0,
+            "Prefix": "",
+            "StepSize": 0.01,
+            "Suffix": " cos Phi",
+            "Type": 2
+        },
+        "Fronius.Current.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 32.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " A",
+            "Type": 2
+        },
+        "Fronius.Power.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kW",
+            "Type": 2
+        },
+        "Fronius.Current.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "0",
+            "MaxValue": 32.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " A",
+            "Type": 1
+        },
+        "Fronius.Electricity.Float": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 2
+        },
+        "Fronius.Electricity.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " Wh",
+            "Type": 1
+        },
+        "Fronius.Power.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "Fronius.Scale.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "10^",
+            "StepSize": 0.0,
+            "Suffix": " ",
+            "Type": 1
+        },
+        "Fronius.Voltage.Int": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 1
+        },
+        "Fronius.Battery.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "EnergyStorage",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " %",
+            "Type": 2
+        },
+        "Fronius.Evt1": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Erdschluss",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "DC-Überspannung",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "AC-Trennschalter offen",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "DC-Trennschalter offen",
+                    "Value": 8.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Abschaltung des Netzes",
+                    "Value": 16.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wechselrichter geöffnet",
+                    "Value": 32.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Manuelle Abschaltung",
+                    "Value": 64.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Übertemperatur",
+                    "Value": 128.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Frequenz über dem Grenzwert",
+                    "Value": 256.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Frequenz unter dem Grenzwert",
+                    "Value": 512.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wechselspannung über dem Grenzwert",
+                    "Value": 1024.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wechselspannung unter Grenzwert",
+                    "Value": 2048.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Durchgebrannte String-Sicherung",
+                    "Value": 4096.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unter Temperatur",
+                    "Value": 8192.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Allgemeiner Speicher- oder Kommunikationsfehler (intern)",
+                    "Value": 16384.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Hardware-Testfehler",
+                    "Value": 32768.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 32768.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Fronius.Frequency.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "Electricity",
+            "MaxValue": 60.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " Hz",
+            "Type": 2
+        },
+        "Fronius.Reactive_power.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "0",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kVar",
+            "Type": 2
+        },
+        "Fronius.StateCode.Int": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wechselrichter ist aus",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Auto-Shutdown",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wechselrichter startet",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wechselrichter arbeitet normal",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Leistungsreduktion aktiv",
+                    "Value": 5.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wechselrichter schaltet ab",
+                    "Value": 6.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Ein oder mehr Fehler existieren",
+                    "Value": 7.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Standby",
+                    "Value": 8.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Keine SolarNet Kommunikation",
+                    "Value": 9.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Keine Kommunikation mit Wechselrichter möglich",
+                    "Value": 10.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Überstrom an SolarNet Stecker erkannt",
+                    "Value": 11.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wechselrichter wird gerade up- gedatet",
+                    "Value": 12.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "AFCI Event (Arc-Erkennung)",
+                    "Value": 13.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "Information",
+            "MaxValue": 13.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Fronius.Symo.EvtVnd1": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Netzfehler",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Überstrom AC",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Überstrom DC",
+                    "Value": 8.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Übertemperatur",
+                    "Value": 16.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Leistung niedrig",
+                    "Value": 32.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "DC niedrig",
+                    "Value": 64.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Zwischenkreisfehler",
+                    "Value": 128.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "AC-Frequenz zu hoch",
+                    "Value": 256.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "AC-Frequenz zu niedrig",
+                    "Value": 512.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Wechselspannung zu hoch",
+                    "Value": 1024.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "AC-Spannung zu niedrig",
+                    "Value": 2048.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Gleichstromeinspeisung",
+                    "Value": 4096.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Relaisproblem",
+                    "Value": 8192.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Interner Endstufenfehler",
+                    "Value": 16384.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Guard Controller - AC-Spannungsfehler",
+                    "Value": 65536.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Guard Controller - AC-Frequenzfehler",
+                    "Value": 131072.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Fehler beim Anti-Insellösungstest",
+                    "Value": 1048576.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Feste Spannung niedriger als die aktuelle MPP-Spannung",
+                    "Value": 2097152.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Speicherfehler",
+                    "Value": 4194304.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Interner Kommunikationsfehler",
+                    "Value": 16777216.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Temperatursensoren defekt",
+                    "Value": 33554432.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "DC- oder AC-Platinenfehler",
+                    "Value": 67108864.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "ENS-Fehler",
+                    "Value": 134217728.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Defekte Sicherung",
+                    "Value": 536870912.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 536870912.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Fronius.Symo.EvtVnd2": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "24h keine Einspeisung",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Inkompatible oder veraltete Software",
+                    "Value": 64.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Leistungsminderung aufgrund von Übertemperatur",
+                    "Value": 128.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Inkompatibles Merkmal",
+                    "Value": 512.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Leistungsreduzierung bei Fehlern",
+                    "Value": 2048.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Lichtbogen erkannt",
+                    "Value": 4096.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "AFCI-Selbsttest fehlgeschlagen",
+                    "Value": 8192.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Stromsensor-Fehler",
+                    "Value": 16384.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "AFCI defekt",
+                    "Value": 65536.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Power Stack Versorgung fehlt",
+                    "Value": 262144.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Fehler beim Anti-Insellösungstest",
+                    "Value": 1048576.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "AC-Polarität vertauscht",
+                    "Value": 2097152.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Blitzstörung",
+                    "Value": 8388608.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Allgemeiner Fehler",
+                    "Value": 16777216.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Fehler bei der Leistungsbegrenzung",
+                    "Value": 67108864.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Interner Programmstatus des Prozessors",
+                    "Value": 536870912.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "SolarNet-Ausgabe",
+                    "Value": 1073741824.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1073741824.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Fronius.Voltage.Float": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 420.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 2
+        }
+    },
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT1_DC_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAction": "return ($VALUES[\"160_module_1_DCA\"] * 10 ** $VALUES[\"160_DCA_SF\"] );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT1_Strom"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT1_DC_Voltage",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAction": "return ($VALUES[\"160_module_1_DCV\"] * 10 ** $VALUES[\"160_DCV_SF\"] );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT1_Spannung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT1_DC_Power",
+            "Profile": "Fronius.Power.Float",
+            "ReadAction": "return ($VALUES[\"160_module_1_DCW\"] * 10 ** $VALUES[\"160_DCW_SF\"] /1000 );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT1_Leistung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT1_LifetimeEnergy",
+            "Profile": "Fronius.Electricity.Float",
+            "ReadAction": "return ($VALUES[\"160_module_1_DCWH\"] * 10 ** $VALUES[\"160_DCWH_SF\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT1_Wirkarbeit"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT2_DC_Current",
+            "Profile": "Fronius.Current.Float",
+            "ReadAction": "return ($VALUES[\"160_module_2_DCA\"] * 10 ** $VALUES[\"160_DCA_SF\"] );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT2_Strom"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT2_DC_Voltage",
+            "Profile": "Fronius.Voltage.Float",
+            "ReadAction": "return ($VALUES[\"160_module_2_DCV\"] * 10 ** $VALUES[\"160_DCV_SF\"] );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT2_Spannung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT2_DC_Power",
+            "Profile": "Fronius.Power.Float",
+            "ReadAction": "return ($VALUES[\"160_module_2_DCW\"] * 10 ** $VALUES[\"160_DCW_SF\"] /1000 );",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT2_Leistung"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "V_MPPT2_LifetimeEnergy",
+            "Profile": "Fronius.Electricity.Float",
+            "ReadAction": "return ($VALUES[\"160_module_2_DCWH\"] * 10 ** $VALUES[\"160_DCWH_SF\"]) / 1000;",
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "V_MPPT2_Wirkarbeit"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}
