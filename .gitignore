@@ -1,2 +1,7 @@
 .vscode/settings.json
 Product_catalog/battery_storage/LG/Resu 10H/product copy.json
+CopyModbusTemplates.bat
+jsonschema.json
+JsonSchemaValidator.exe
+JsonSchemaValidator.pdb
+RunValidator.bat

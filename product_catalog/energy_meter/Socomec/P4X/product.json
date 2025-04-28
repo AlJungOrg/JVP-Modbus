@@ -2445,8 +2445,8 @@
                     "Name": "Slave Address"
                 }
             ],
-            "WriteAddress": 6,
-            "WriteFunctionCode": 57344
+            "WriteAddress": 57344,
+            "WriteFunctionCode": 6
         },
         {
             "Active": true,
@@ -2469,8 +2469,8 @@
                     "Name": "Backlight timeout"
                 }
             ],
-            "WriteAddress": 6,
-            "WriteFunctionCode": 28930
+            "WriteAddress": 628930,
+            "WriteFunctionCode": 6
         },
         {
             "Active": true,
@@ -2493,8 +2493,8 @@
                     "Name": "Reset Min/Max and AVG"
                 }
             ],
-            "WriteAddress": 6,
-            "WriteFunctionCode": 57888
+            "WriteAddress": 657888,
+            "WriteFunctionCode": 6
         },
         {
             "Active": true,
@@ -2517,8 +2517,8 @@
                     "Name": "Reset Partial Energies"
                 }
             ],
-            "WriteAddress": 6,
-            "WriteFunctionCode": 57890
+            "WriteAddress": 657890,
+            "WriteFunctionCode": 6
         }
     ],
     "ByteOrder": 0,

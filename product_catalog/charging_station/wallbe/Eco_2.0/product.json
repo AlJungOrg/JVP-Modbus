@@ -46,7 +46,7 @@
                 }
             ],
             "WriteAddress": 400,
-            "WriteFunctionCode": 5
+            "WriteFunctionCode": 6
         },
         {
             "Active": true,
