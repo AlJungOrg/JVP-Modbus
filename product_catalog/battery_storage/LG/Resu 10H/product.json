@@ -581,30 +581,6 @@
         },
         {
             "Active": true,
-            "ByteOrder": -1,
-            "DataType": 2,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Remote Control Command Mode",
-            "Profile": "SE_Storage_Control_Mode",
-            "ReadAddress": 57358,
-            "ReadFunctionCode": 3,
-            "Translation": [
-                {
-                    "Language": "de",
-                    "Name": "Fernsteuerungsmodus"
-                },
-                {
-                    "Language": "en",
-                    "Name": "Remote Control Command Mode"
-                }
-            ],
-            "WriteAddress": 57358,
-            "WriteFunctionCode": 16
-        },
-        {
-            "Active": true,
             "ByteOrder": 3,
             "DataType": 7,
             "Factor": 0,

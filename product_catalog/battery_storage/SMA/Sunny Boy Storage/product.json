@@ -7681,21 +7681,6 @@
             "WriteFunctionCode": 0
         },
         {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Firmware-Version des Batteriemanagementsystems",
-            "Profile": "",
-            "ReadAddress": 31389,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 3,
@@ -7771,20 +7756,6 @@
             "WriteFunctionCode": 0
         },
         {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 3,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Hersteller",
-            "Profile": "SMA_SBS_Status_3",
-            "ReadAddress": 30055,
-            "ReadFunctionCode": 4,
-            "Translation": [],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        }, {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 3,

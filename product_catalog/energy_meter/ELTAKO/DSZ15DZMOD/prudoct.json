@@ -1,0 +1,450 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Voltage L1-N (V)",
+            "Profile": "~V",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Voltage L2-N (V)",
+            "Profile": "~V",
+            "ReadAddress": 2,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Voltage L3-N (V)",
+            "Profile": "~V",
+            "ReadAddress": 4,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3-N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Current L1 (A)",
+            "Profile": "~A",
+            "ReadAddress": 6,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Current L2 (A)",
+            "Profile": "~A",
+            "ReadAddress": 8,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Current L3 (A)",
+            "Profile": "~A",
+            "ReadAddress": 10,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Active Power L1 (kW)",
+            "Profile": "~kW",
+            "ReadAddress": 12,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Active Power L2 (kW)",
+            "Profile": "~kW",
+            "ReadAddress": 14,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Active Power L3 (kW)",
+            "Profile": "~kW",
+            "ReadAddress": 16,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Power Factor L1",
+            "Profile": "",
+            "ReadAddress": 30,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Power Factor L2",
+            "Profile": "",
+            "ReadAddress": 32,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Power Factor L3",
+            "Profile": "",
+            "ReadAddress": 34,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Active Power (kW)",
+            "Profile": "~kW",
+            "ReadAddress": 52,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Wirkleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Active Power"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Power Factor",
+            "Profile": "",
+            "ReadAddress": 62,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Leistungsfaktor"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Power Factor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Import Active Energy (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 72,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Import Active Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Import Active Energy"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Total Export Active Energy (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 74,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Export Active Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Export Active Energy"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Part Import Active Energy (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 96,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Teilweise Import Active Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Part Import Active Energy"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Part Export Active Energy (kWh)",
+            "Profile": "~kWh",
+            "ReadAddress": 98,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Teilweise Export Active Energie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Part Export Active Energy"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "RTU",
+    "Profiles": {},
+    "Type": "Energy_Meter",
+    "Manufacturer": "Eltako",
+    "Product": "DSZ15DZMOD",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}

@@ -607,30 +607,6 @@
             "Factor": 0.01,
             "Ident": "",
             "Length": 0,
-            "Name": "Durchschnittliche Spannung LN",
-            "Profile": "~Volt",
-            "ReadAddress": 51,
-            "ReadFunctionCode": 3,
-            "Translation": [
-                {
-                    "Language": "de",
-                    "Name": "Durchschnittliche Spannung LN"
-                },
-                {
-                    "Language": "en",
-                    "Name": "Average Voltage LN"
-                }
-            ],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": 0,
-            "DataType": 3,
-            "Factor": 0.01,
-            "Ident": "",
-            "Length": 0,
             "Name": "Durchschnittliche Spannung LL",
             "Profile": "~Volt",
             "ReadAddress": 53,

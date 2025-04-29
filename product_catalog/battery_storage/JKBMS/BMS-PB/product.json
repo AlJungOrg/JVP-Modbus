@@ -723,30 +723,6 @@
         {
             "Active": true,
             "ByteOrder": -1,
-            "DataType": 1,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Balancer Status",
-            "Profile": "BMS_Balancer_Status",
-            "ReadAddress": 4774,
-            "ReadFunctionCode": 3,
-            "Translation": [
-                {
-                    "Language": "de",
-                    "Name": "Balancer Status"
-                },
-                {
-                    "Language": "en",
-                    "Name": "Balancer Status"
-                }
-            ],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
             "DataType": 3,
             "Factor": 0,
             "Ident": "",

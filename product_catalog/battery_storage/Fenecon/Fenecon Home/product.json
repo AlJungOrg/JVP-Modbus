@@ -239,30 +239,6 @@
             ],
             "WriteAddress": 0,
             "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 7,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "EssDischargePower",
-            "Profile": "~Watt",
-            "ReadAddress": 415,
-            "ReadFunctionCode": 4,
-            "Translation": [
-                {
-                    "Language": "de",
-                    "Name": "EssDischargePower"
-                },
-                {
-                    "Language": "en",
-                    "Name": "EssDischargePower"
-                }
-            ],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
         }
     ],
     "ByteOrder": 0,
