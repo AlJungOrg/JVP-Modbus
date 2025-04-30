@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Addresses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Active": { "type": "boolean" },
+          "ByteOrder": { "type": "integer", "minimum": -1, "maximum": 3 },
+          "DataType": { "type": "integer", "minimum": -1, "maximum": 14 },
+          "Factor": { "type": "number" },
+          "Name": { "type": "string" },
+          "Description": { "type": "string" },
+          "Profile": { "type": "string" },
+          "ReadAddress": { "type": "integer" },
+          "ReadFunctionCode": { "type": "integer", "enum": [0, 1, 2, 3, 4, 6, 15, 16] },
+          "WriteAddress": { "type": "integer" },
+          "WriteFunctionCode": { "type": "integer", "enum": [0, 1, 2, 3, 4, 6, 15, 16] },
+          "Translation": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Language": { "type": "string" },
+                "Name": { "type": "string" }
+              },
+              "required": ["Language", "Name"]
+            }
+          },
+          "Interval": { "type": "integer" }
+        },
+        "required": [
+          "Active", "DataType", "Factor", 
+          "Profile", "ReadAddress", "ReadFunctionCode", "WriteAddress",
+          "WriteFunctionCode", "Translation"
+        ]
+      }
+    },
+    "ByteOrder": { "type": "integer", "minimum": -1, "maximum": 3 },
+    "ByteOrderFloats": { "type": "boolean" },
+    "Active": { "type": "boolean" },
+    "ReferenceCountStartsAtZero": { "type": "boolean" },
+    "UseEnronMode": { "type": "boolean" },
+    "Name": { "type": "string" },
+    "Description": { "type": "string" },
+    "ConnectionType": { "type": "string", "enum": ["TCP", "RTU"] },
+    "Profiles": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "Associations": { "type": "array", "items": {} },
+          "Digits": { "type": "integer" },
+          "Icon": { "type": "string" },
+          "MaxValue": { "type": "number" },
+          "MinValue": { "type": "number" },
+          "Prefix": { "type": "string" },
+          "StepSize": { "type": "number" },
+          "Suffix": { "type": "string" },
+          "Type": { "type": "integer" }
+        },
+        "required": [
+          "Associations", "Digits", "Icon", "MaxValue", "MinValue", "Prefix",
+          "StepSize", "Suffix", "Type"
+        ]
+      }
+    },
+    "Requests": {
+      "type": "object",
+      "properties": {
+        "Interval": { "type": "integer" }
+      },
+      "required": ["Interval"]
+    },
+    "Type": { "type": "string" },
+    "Manufacturer": { "type": "string" },
+    "Product": { "type": "string" }
+  },
+  "required": [
+    "Addresses", "ByteOrder", "Profiles", "Requests"
+  ]
+}

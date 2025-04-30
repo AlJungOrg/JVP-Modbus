@@ -317,30 +317,6 @@
       "ByteOrder": -1,
       "DataType": 0,
       "Factor": 0,
-      "Ident": "D2",
-      "Length": 0,
-      "Name": "Störung Verdichter 2",
-      "Profile": "Waterkotte.JaNein",
-      "ReadAddress": 2,
-      "ReadFunctionCode": 1,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Störung Verdichter 2"
-        },
-        {
-          "Language": "en",
-          "Name": "Fault Compressor 2"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": false,
-      "ByteOrder": -1,
-      "DataType": 0,
-      "Factor": 0,
       "Ident": "D1187",
       "Length": 0,
       "Name": "Störung Verdichter 3",
@@ -379,30 +355,6 @@
         {
           "Language": "en",
           "Name": "Störung Verdichter 4"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 2,
-      "Factor": 0.1,
-      "Ident": "A1",
-      "Length": 0,
-      "Name": "Außentemperatur",
-      "Profile": "~Temperature",
-      "ReadAddress": 1,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Außentemperatur"
-        },
-        {
-          "Language": "en",
-          "Name": "Outdoor temperature"
         }
       ],
       "WriteAddress": 0,

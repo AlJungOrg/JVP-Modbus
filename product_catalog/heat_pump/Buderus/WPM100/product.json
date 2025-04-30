@@ -247,30 +247,6 @@
             "Factor": 0.1,
             "Ident": "",
             "Length": 0,
-            "Name": "Temperatur 3.Heizkreis (R13)",
-            "Profile": "",
-            "ReadAddress": 10,
-            "ReadFunctionCode": 4,
-            "Translation": [
-                {
-                    "Language": "de",
-                    "Name": "Temperatur 3.Heizkreis (R13)"
-                },
-                {
-                    "Language": "en",
-                    "Name": "Temperature 3.Heizkreis (R13)"
-                }
-            ],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 5,
-            "Factor": 0.1,
-            "Ident": "",
-            "Length": 0,
             "Name": "Raumtemperatur 1 / RT-RTH Econ",
             "Profile": "",
             "ReadAddress": 11,
@@ -1101,7 +1077,7 @@
                     "Name": "Minute"
                 }
             ],
-            "WriteAddress": 213,
+            "WriteAddress": 214,
             "WriteFunctionCode": 6
         },
         {
@@ -1125,7 +1101,7 @@
                     "Name": "Month"
                 }
             ],
-            "WriteAddress": 213,
+            "WriteAddress": 215,
             "WriteFunctionCode": 6
         },
         {
@@ -1149,7 +1125,7 @@
                     "Name": "Day"
                 }
             ],
-            "WriteAddress": 213,
+            "WriteAddress": 217,
             "WriteFunctionCode": 6
         },
         {
@@ -1173,7 +1149,7 @@
                     "Name": "Year"
                 }
             ],
-            "WriteAddress": 213,
+            "WriteAddress": 218,
             "WriteFunctionCode": 6
         },
         {
@@ -1303,54 +1279,6 @@
             "Factor": 0,
             "Ident": "",
             "Length": 0,
-            "Name": "Warmwasserpumpe (M18)",
-            "Profile": "~Switch",
-            "ReadAddress": 46,
-            "ReadFunctionCode": 1,
-            "Translation": [
-                {
-                    "Language": "de",
-                    "Name": "Warmwasserpumpe (M18)"
-                },
-                {
-                    "Language": "en",
-                    "Name": "Hot Waterpumpe (M18)"
-                }
-            ],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 0,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Mischer (M21) Auf",
-            "Profile": "~Switch",
-            "ReadAddress": 47,
-            "ReadFunctionCode": 1,
-            "Translation": [
-                {
-                    "Language": "de",
-                    "Name": "Mischer (M21) Auf"
-                },
-                {
-                    "Language": "en",
-                    "Name": "Mixer (M21) Auf"
-                }
-            ],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 0,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
             "Name": "Mischer (M21) Zu",
             "Profile": "~Switch",
             "ReadAddress": 48,
@@ -1459,30 +1387,6 @@
                 {
                     "Language": "en",
                     "Name": "Mixer (M22) Auf"
-                }
-            ],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": true,
-            "ByteOrder": -1,
-            "DataType": 0,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Mischer (M22) Zu",
-            "Profile": "~Switch",
-            "ReadAddress": 53,
-            "ReadFunctionCode": 1,
-            "Translation": [
-                {
-                    "Language": "de",
-                    "Name": "Mischer (M22) Zu"
-                },
-                {
-                    "Language": "en",
-                    "Name": "Mixer (M22) Zu"
                 }
             ],
             "WriteAddress": 0,
@@ -1651,30 +1555,6 @@
                 {
                     "Language": "en",
                     "Name": "Primärpumpe Cooling (M12)"
-                }
-            ],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "DataType": 0,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "Solarpumpe (M23)",
-            "Profile": "~Switch",
-            "ReadAddress": 71,
-            "ReadFunctionCode": 1,
-            "Translation": [
-                {
-                    "Language": "de",
-                    "Name": "Solarpumpe (M23)"
-                },
-                {
-                    "Language": "en",
-                    "Name": "Solar Pump (M23)"
                 }
             ],
             "WriteAddress": 0,

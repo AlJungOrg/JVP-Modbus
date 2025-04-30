@@ -269,30 +269,6 @@
       "ByteOrder": -1,
       "DataType": 3,
       "Factor": 0.1,
-      "Ident": "PV2TotalEnergyToday",
-      "Length": 0,
-      "Name": "PV2 total energy today",
-      "Profile": "~Electricity",
-      "ReadAddress": 63,
-      "ReadFunctionCode": 4,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "PV2 Gesamtenergie heute"
-        },
-        {
-          "Language": "en",
-          "Name": "PV2 total energy today"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 3,
-      "Factor": 0.1,
       "Ident": "PV1InputPower",
       "Length": 0,
       "Name": "PV1 input power",
@@ -485,30 +461,6 @@
       "ByteOrder": -1,
       "DataType": 2,
       "Factor": 0,
-      "Ident": "ActivePowerRate",
-      "Length": 0,
-      "Name": "Active power rate",
-      "Profile": "",
-      "ReadAddress": 3,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Wirkleistungsrate"
-        },
-        {
-          "Language": "en",
-          "Name": "Active power rate"
-        }
-      ],
-      "WriteAddress": 3,
-      "WriteFunctionCode": 6
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 2,
-      "Factor": 0,
       "Ident": "MemoryState",
       "Length": 0,
       "Name": "Memory state",
@@ -619,30 +571,6 @@
         {
           "Language": "en",
           "Name": "Phase 2 grid output current"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 2,
-      "Factor": 0.1,
-      "Ident": "Phase3GridVoltage",
-      "Length": 0,
-      "Name": "Phase 3 grid voltage",
-      "Profile": "~Volt",
-      "ReadAddress": 42,
-      "ReadFunctionCode": 4,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Phase 3 Netzspannung"
-        },
-        {
-          "Language": "en",
-          "Name": "Phase 3 grid voltage"
         }
       ],
       "WriteAddress": 0,
