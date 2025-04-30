@@ -7985,6 +7985,15 @@
             "Type": 1
         },
         "SMA_SBS_Status_3": {
+                        
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 16777213.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1,
             "Associations": [
                 {
                     "Color": -1,
