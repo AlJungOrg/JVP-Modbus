@@ -18,7 +18,7 @@
                 },
                 {
                     "Language": "en",
-                    "Name": "Temperatur S1"
+                    "Name": "Temperature S1"
                 }
             ],
             "WriteAddress": 0,
@@ -42,7 +42,7 @@
                 },
                 {
                     "Language": "en",
-                    "Name": "Temperatur S2"
+                    "Name": "Temperature S2"
                 }
             ],
             "WriteAddress": 0,
@@ -66,7 +66,7 @@
                 },
                 {
                     "Language": "en",
-                    "Name": "Temperatur S3"
+                    "Name": "Temperature S3"
                 }
             ],
             "WriteAddress": 0,
@@ -90,7 +90,7 @@
                 },
                 {
                     "Language": "en",
-                    "Name": "Temperatur S4"
+                    "Name": "Temperature S4"
                 }
             ],
             "WriteAddress": 0,
@@ -114,7 +114,7 @@
                 },
                 {
                     "Language": "en",
-                    "Name": "Speed Pumpe 1 "
+                    "Name": "Pump 1 Power"
                 }
             ],
             "WriteAddress": 0,
@@ -138,7 +138,7 @@
                 },
                 {
                     "Language": "en",
-                    "Name": "Speed Pumpe 2"
+                    "Name": "Pump 2 Power"
                 }
             ],
             "WriteAddress": 0,
@@ -162,7 +162,7 @@
                 },
                 {
                     "Language": "en",
-                    "Name": "Waermemenge"
+                    "Name": "Heat Quantity"
                 }
             ],
             "WriteAddress": 0,
@@ -186,7 +186,7 @@
                 },
                 {
                     "Language": "en",
-                    "Name": "VFD Sensor Temperatur"
+                    "Name": "VFD Sensor Temperature"
                 }
             ],
             "WriteAddress": 0,
@@ -210,7 +210,7 @@
                 },
                 {
                     "Language": "en",
-                    "Name": "Durchfluss"
+                    "Name": "Flow"
                 }
             ],
             "WriteAddress": 0,

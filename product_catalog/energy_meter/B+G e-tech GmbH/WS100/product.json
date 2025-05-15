@@ -15,11 +15,11 @@
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": ""
+                    "Name": "Spannung"
                 },
                 {
                     "Language": "en",
-                    "Name": ""
+                    "Name": "Voltage"
                 }
             ],
             "Interval": 6000
@@ -39,11 +39,11 @@
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": ""
+                    "Name": "Strom"
                 },
                 {
                     "Language": "en",
-                    "Name": ""
+                    "Name": "Current"
                 }
             ],
             "Interval": 6000
@@ -63,11 +63,11 @@
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": ""
+                    "Name": "Wirkleistung"
                 },
                 {
                     "Language": "en",
-                    "Name": ""
+                    "Name": "Active Power"
                 }
             ],
             "Interval": 6000
@@ -87,11 +87,11 @@
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": ""
+                    "Name": "Scheinleistung"
                 },
                 {
                     "Language": "en",
-                    "Name": ""
+                    "Name": "Apparent Power"
                 }
             ],
             "Interval": 6000
@@ -111,11 +111,11 @@
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": ""
+                    "Name": "Blindleistung"
                 },
                 {
                     "Language": "en",
-                    "Name": ""
+                    "Name": "Reactive Power"
                 }
             ],
             "Interval": 6000
@@ -135,11 +135,11 @@
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": ""
+                    "Name": "Frequenz"
                 },
                 {
                     "Language": "en",
-                    "Name": ""
+                    "Name": "Frequency"
                 }
             ],
             "Interval": 6000
@@ -159,11 +159,11 @@
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": ""
+                    "Name": "Leistungsfaktor"
                 },
                 {
                     "Language": "en",
-                    "Name": ""
+                    "Name": "Power Factor"
                 }
             ],
             "Interval": 6000
@@ -183,11 +183,11 @@
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": ""
+                    "Name": "Gesamt Wirkarbeit Bezug"
                 },
                 {
                     "Language": "en",
-                    "Name": ""
+                    "Name": "Total forward active energy"
                 }
             ],
             "Interval": 6000

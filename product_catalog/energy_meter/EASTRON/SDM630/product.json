@@ -15,11 +15,11 @@
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": ""
+                    "Name": "Spannung L1"
                 },
                 {
                     "Language": "en",
-                    "Name": ""
+                    "Name": "Voltage L1"
                 }
             ],
             "Interval": 6000
@@ -39,11 +39,11 @@
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": ""
+                    "Name": "Frequenz"
                 },
                 {
                     "Language": "en",
-                    "Name": ""
+                    "Name": "Frequency"
                 }
             ],
             "Interval": 6000
@@ -63,11 +63,11 @@
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": ""
+                    "Name": "Wirkleistung"
                 },
                 {
                     "Language": "en",
-                    "Name": ""
+                    "Name": "Active Power"
                 }
             ],
             "Interval": 6000
