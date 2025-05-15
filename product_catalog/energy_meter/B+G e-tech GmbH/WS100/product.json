@@ -1,0 +1,209 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Name": "Voltage",
+            "Description": "Voltage",
+            "Profile": "",
+            "ReadAddress": 256,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 256,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Name": "Current",
+            "Description": "Current",
+            "Profile": "",
+            "ReadAddress": 258,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 258,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 1,
+            "Name": "Active Power",
+            "Description": "Active Power",
+            "Profile": "",
+            "ReadAddress": 260,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 260,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 1,
+            "Name": "Apparent Power",
+            "Description": "Apparent Power",
+            "Profile": "",
+            "ReadAddress": 262,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 262,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 1,
+            "Name": "Reactive Power",
+            "Description": "Reactive Power",
+            "Profile": "",
+            "ReadAddress": 264,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 264,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Name": "Frequency",
+            "Description": "Frequency",
+            "Profile": "",
+            "ReadAddress": 266,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 266,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Name": "Power Factor",
+            "Description": "Power Factor",
+            "Profile": "",
+            "ReadAddress": 267,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 267,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Name": "Total forward active energy",
+            "Description": "Total forward active energy",
+            "Profile": "",
+            "ReadAddress": 270,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 270,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": true,
+    "UseEnronMode": false,
+    "Name": "WS100-1943",
+    "Description": "",
+    "ConnectionType": "TCP",
+    "Profiles": {},
+    "Requests": {
+        "Interval": 6000
+    },
+    "Type": "Energy_Meter"
+}

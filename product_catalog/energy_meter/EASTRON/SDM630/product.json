@@ -1,0 +1,89 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Name": "Voltage L1",
+            "Description": "",
+            "Profile": "",
+            "ReadAddress": 1,
+            "ReadFunctionCode": 4,
+            "WriteAddress": 1,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Name": "Frequenzy",
+            "Description": "",
+            "Profile": "",
+            "ReadAddress": 71,
+            "ReadFunctionCode": 4,
+            "WriteAddress": 71,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Name": "active Power",
+            "Description": "",
+            "Profile": "",
+            "ReadAddress": 73,
+            "ReadFunctionCode": 4,
+            "WriteAddress": 73,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "Name": "SDM630",
+    "Description": "",
+    "ConnectionType": "TCP",
+    "Profiles": {},
+    "Requests": {
+        "Interval": 6000
+    },
+    "Type": "Energy_Meter"
+}

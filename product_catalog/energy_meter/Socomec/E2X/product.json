@@ -1,0 +1,233 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Name": "Simple voltage : V1",
+            "Description": "Simple voltage : V1",
+            "Profile": "",
+            "ReadAddress": 50520,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 50520,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 1,
+            "Name": "Sum Active Power +/- : P",
+            "Description": "Sum Active Power +/- : P",
+            "Profile": "",
+            "ReadAddress": 50536,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 50536,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Name": "\tTotal Positive Active Energy (no resetable) : Ea+",
+            "Description": "\tTotal Positive Active Energy (no resetable) : Ea+",
+            "Profile": "",
+            "ReadAddress": 50946,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 50946,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Name": "Total Positive Reactive Energy (no resetable) : Er +",
+            "Description": "Total Positive Reactive Energy (no resetable) : Er +",
+            "Profile": "",
+            "ReadAddress": 50948,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 50948,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Name": "Total Apparent Energy (no resetable) : Eap",
+            "Description": "Total Apparent Energy (no resetable) : Eap",
+            "Profile": "",
+            "ReadAddress": 50950,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 50950,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Name": "Partial Positive Active Energy: Ea+",
+            "Description": "Partial Positive Active Energy: Ea+",
+            "Profile": "",
+            "ReadAddress": 50956,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 50956,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 5000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Name": "Partial Apparent Energy : Eap",
+            "Description": "Partial Apparent Energy : Eap",
+            "Profile": "",
+            "ReadAddress": 50960,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 50960,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Name": "Partial Negative Reactive Energy : Er -",
+            "Description": "Partial Negative Reactive Energy : Er -",
+            "Profile": "",
+            "ReadAddress": 50964,
+            "ReadFunctionCode": 3,
+            "WriteAddress": 50964,
+            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Name": "Socomec_Reset Partielle  Zählerwerte",
+            "Description": "Socomec_Reset Partielle  Zählerwerte",
+            "Profile": "",
+            "ReadAddress": 57890,
+            "ReadFunctionCode": 0,
+            "WriteAddress": 57890,
+            "WriteFunctionCode": 16,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": ""
+                },
+                {
+                    "Language": "en",
+                    "Name": ""
+                }
+            ],
+            "Interval": 6000
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": true,
+    "UseEnronMode": false,
+    "Name": "Countis E28",
+    "Description": "",
+    "ConnectionType": "TCP",
+    "Profiles": {},
+    "Requests": {
+        "Interval": 6000
+    },
+    "Type": "Energy_Meter"
+}
