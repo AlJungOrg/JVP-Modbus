@@ -3,7 +3,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -27,7 +27,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -51,7 +51,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -75,7 +75,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -99,7 +99,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -123,7 +123,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -147,7 +147,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -171,7 +171,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -195,7 +195,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -219,7 +219,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -243,7 +243,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -267,7 +267,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -291,7 +291,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -315,7 +315,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -339,7 +339,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -363,7 +363,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -387,7 +387,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -411,7 +411,7 @@
         {
             "Active": true,
             "ByteOrder": 0,
-            "DataType": 3,
+            "DataType": 6,
             "Factor": 1,
             "Ident": "",
             "Length": 2,
@@ -436,7 +436,7 @@
     "ByteOrder": 0,
     "ByteOrderFloats": true,
     "Active": true,
-    "ReferenceCountStartsAtZero": false,
+    "ReferenceCountStartsAtZero": true,
     "UseEnronMode": false,
     "ConnectionType": "RTU",
     "Profiles": {},
