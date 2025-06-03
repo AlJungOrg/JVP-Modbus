@@ -676,7 +676,7 @@
   "ByteOrder": 0,
   "ByteOrderFloats": true,
   "Active": true,
-  "ReferenceCountStartsAtZero": false,
+  "ReferenceCountStartsAtZero": true,
   "UseEnronMode": false,
   "ConnectionType": "RTU",
   "Profiles": {},
