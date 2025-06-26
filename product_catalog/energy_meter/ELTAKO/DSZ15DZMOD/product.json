@@ -14,11 +14,11 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Spannung von L1 zu N"
+          "Name": " L1 Spannung zu N"
         },
         {
           "Language": "en",
-          "Name": "Voltage of L1 to N"
+          "Name": " L1 Voltage to N"
         }
       ],
       "WriteAddress": 0,
@@ -38,11 +38,11 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Spannung von L2 zu N"
+          "Name": " L2 Spannung zu N"
         },
         {
           "Language": "en",
-          "Name": "Voltage of L2 to N"
+          "Name": "L2 Voltage to N"
         }
       ],
       "WriteAddress": 0,
@@ -62,11 +62,11 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Spannung von L3 zu N"
+          "Name": "L3 Spannung zu N"
         },
         {
           "Language": "en",
-          "Name": "Voltage of L3 to N"
+          "Name": "L3 Voltage to N"
         }
       ],
       "WriteAddress": 0,
@@ -326,8 +326,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "L2 Blindleistung"
-        },
+          "Name": "L2 Blindleistung"},
         {
           "Language": "en",
           "Name": "L2 reactive power"
