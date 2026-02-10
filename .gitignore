@@ -4,3 +4,11 @@ CopyModbusTemplates.bat
 JsonSchemaValidator.exe
 JsonSchemaValidator.pdb
 RunValidator.bat
+product_catalog/battery_storage/Marstek/Venus E/modbusMarstekVenusE.json
+product_catalog/energy_meter/EASTRON/SDM72D-M-2/modbus_SDM72DMv2.json
+product_catalog/energy_meter/Fronius/SM TS65A-3/Fronius_SM_TS65A-3.json
+product_catalog/heat_pump/IDM/idm-WP/idm-WP-modbus_202503.json
+product_catalog/solar_inverter/Huawei/DTSU666-H/Huawei_DTSU666-H_modbus_1_0.json
+product_catalog/solar_inverter/M-TEC/Energy Butler/modbus_M-TEC Hybrid Wechselrichter Energy Butler_v2.json
+product_catalog/solar_inverter/SOLAX/X1-Boost/Solax X1-Boost G3.0-G3.1-G3.2.json
+product_catalog/solar_inverter/Solplanet/ASW08KH-T3/modbus_solplanet_ASW08KH-T3.json

@@ -1,0 +1,1472 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 16,
+            "Name": "Inverter_SN",
+            "Profile": "",
+            "ReadAddress": 10000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Inverter_SN"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichter SN"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Inverter_Running_Status",
+            "Profile": "",
+            "ReadAddress": 10105,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Inverter_Running_Status"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichter Betriebsstatus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Phase A Power on Meter",
+            "Profile": "",
+            "ReadAddress": 10994,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Phase A Power on Meter"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Phase A Leistung on Meter"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Phase B Power on Meter",
+            "Profile": "",
+            "ReadAddress": 10996,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Phase B Power on Meter"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Phase B Leistung on Meter"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Phase C Power on Meter",
+            "Profile": "",
+            "ReadAddress": 10998,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Phase C Power on Meter"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Phase C Leistung on Meter"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total Power on Meter",
+            "Profile": "",
+            "ReadAddress": 11000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total Power on Meter"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Leistung on Meter"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total Grid-Injection Energy on Meter",
+            "Profile": "",
+            "ReadAddress": 11002,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total Grid-Injection Energy on Meter"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Netz-Einspeisung Energie on Meter"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total Purchasing Energy  from Grid on Meter",
+            "Profile": "",
+            "ReadAddress": 11004,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total Purchasing Energy  from Grid on Meter"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Bezug Energie from Netz on Meter"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Lines A/B Voltage",
+            "Profile": "",
+            "ReadAddress": 11006,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid Lines A/B Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz Lines A/B Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Lines B/C Voltage",
+            "Profile": "",
+            "ReadAddress": 11007,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid Lines B/C Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz Lines B/C Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Lines C/A Voltage",
+            "Profile": "",
+            "ReadAddress": 11008,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid Lines C/A Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz Lines C/A Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Phase A Voltage",
+            "Profile": "",
+            "ReadAddress": 11009,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid Phase A Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz Phase A Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Phase A Current",
+            "Profile": "",
+            "ReadAddress": 11010,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid Phase A Current"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz Phase A Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Phase B Voltage",
+            "Profile": "",
+            "ReadAddress": 11011,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid Phase B Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz Phase B Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Phase B Current",
+            "Profile": "",
+            "ReadAddress": 11012,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid Phase B Current"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz Phase B Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Phase C Voltage",
+            "Profile": "",
+            "ReadAddress": 11013,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid Phase C Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz Phase C Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Phase C Current",
+            "Profile": "",
+            "ReadAddress": 11014,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid Phase C Current"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz Phase C Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Frequency",
+            "Profile": "",
+            "ReadAddress": 11015,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid Frequency"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz Frequenz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "P_AC",
+            "Profile": "",
+            "ReadAddress": 11016,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "P_AC"
+                },
+                {
+                    "Language": "de",
+                    "Name": "P AC"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total PV Generation on that day",
+            "Profile": "",
+            "ReadAddress": 11018,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total PV Generation on that day"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt PV Erzeugung on heute"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total PV Generation from Installation",
+            "Profile": "",
+            "ReadAddress": 11020,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total PV Generation from Installation"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt PV Erzeugung from Installation"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total PV Generation Time from Installation",
+            "Profile": "",
+            "ReadAddress": 11022,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total PV Generation Time from Installation"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt PV Erzeugung Zeit from Installation"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV Input Total Power",
+            "Profile": "",
+            "ReadAddress": 11028,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV Input Total Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV Eingang Gesamt Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV1 Voltage",
+            "Profile": "",
+            "ReadAddress": 11038,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV1 Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV1 Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV1 Current",
+            "Profile": "",
+            "ReadAddress": 11039,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV1 Current"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV1 Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV2 Voltage",
+            "Profile": "",
+            "ReadAddress": 11040,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV2 Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV2 Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV2 Current",
+            "Profile": "",
+            "ReadAddress": 11041,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV2 Current"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV2 Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV1 Input Power",
+            "Profile": "",
+            "ReadAddress": 11062,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV1 Input Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV1 Eingang Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV2 Input Power",
+            "Profile": "",
+            "ReadAddress": 11064,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV2 Input Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV2 Eingang Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery DC Voltage",
+            "Profile": "",
+            "ReadAddress": 30254,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery DC Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie DC Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery DC Current",
+            "Profile": "",
+            "ReadAddress": 30255,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery DC Current"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie DC Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery Mode",
+            "Profile": "",
+            "ReadAddress": 30256,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery Mode"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie Mode"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery Power",
+            "Profile": "",
+            "ReadAddress": 30258,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Injection Energy on that day [Meter]",
+            "Profile": "",
+            "ReadAddress": 31000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid Injection Energy on that day [Meter]"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz Einspeisung Energie on heute [Meter]"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid Purchasing Energy on that day [Meter]",
+            "Profile": "",
+            "ReadAddress": 31001,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid Purchasing Energy on that day [Meter]"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz Bezug Energie on heute [Meter]"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Backup Output Energy on that day",
+            "Profile": "",
+            "ReadAddress": 31002,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Backup Output Energy on that day"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Backup Ausgang Energie on heute"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery Charge Energy on that day",
+            "Profile": "",
+            "ReadAddress": 31003,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery Charge Energy on that day"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie Charge Energie on heute"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery Discharge Energy on that day",
+            "Profile": "",
+            "ReadAddress": 31004,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery Discharge Energy on that day"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie Discharge Energie on heute"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV Generation Energy on that day",
+            "Profile": "",
+            "ReadAddress": 31005,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV Generation Energy on that day"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV Erzeugung Energie on heute"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Loading Energy on that day",
+            "Profile": "",
+            "ReadAddress": 31006,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Loading Energy on that day"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Loading Energie on heute"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Energy Purchased from Grid on that day",
+            "Profile": "",
+            "ReadAddress": 31008,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy Purchased from Grid on that day"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energie Purchased from Netz on heute"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total Energy injected to grid",
+            "Profile": "",
+            "ReadAddress": 31102,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total Energy injected to grid"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Energie injected to grid"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total Energy Purchased from Grid from Meter",
+            "Profile": "",
+            "ReadAddress": 31104,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total Energy Purchased from Grid from Meter"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Energie Purchased from Netz from Meter"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total Output Energy on backup port",
+            "Profile": "",
+            "ReadAddress": 31106,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total Output Energy on backup port"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Ausgang Energie on backup port"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total Energy Charged to Battery",
+            "Profile": "",
+            "ReadAddress": 31108,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total Energy Charged to Battery"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Energie geladen to Batterie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total Energy Discharged from Battery",
+            "Profile": "",
+            "ReadAddress": 31110,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total Energy Discharged from Battery"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Energie entladen from Batterie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total PV Generation",
+            "Profile": "",
+            "ReadAddress": 31112,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total PV Generation"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt PV Erzeugung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total Loading Energy consumed at grid side",
+            "Profile": "",
+            "ReadAddress": 31114,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total Loading Energy consumed at grid side"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Loading Energie verbraucht at grid side"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total Energy Purchased from Grid at inverter side",
+            "Profile": "",
+            "ReadAddress": 31118,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total Energy Purchased from Grid at inverter side"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt Energie Purchased from Netz at inverter side"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "State of Charge (SOC)",
+            "Profile": "",
+            "ReadAddress": 33000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "State of Charge (SOC)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Ladezustand (SOC)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "State of Health (SOH)",
+            "Profile": "",
+            "ReadAddress": 33001,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "State of Health (SOH)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesundheitszustand (SOH)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Max Cell Temperature",
+            "Profile": "",
+            "ReadAddress": 33009,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Max Cell Temperature"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Max Cell Temperature"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Min Cell Temperature",
+            "Profile": "",
+            "ReadAddress": 33011,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Min Cell Temperature"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Min Cell Temperature"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Max Cell Voltage",
+            "Profile": "",
+            "ReadAddress": 33013,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Max Cell Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Max Cell Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Min Cell Voltage",
+            "Profile": "",
+            "ReadAddress": 33015,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Min Cell Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Min Cell Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Profiles": {},
+    "Type": "PV_Hybrid_Inverter",
+    "Manufacturer": "M-TEC",
+    "Product": "Hybrid Wechselrichter Energy Butler",
+    "Requests": {
+        "Interval": 15000
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "Verbrauch",
+            "Profile": "",
+            "ReadAction": "return ($VALUES[\"A_6_3_11016\"] - $VALUES[\"A_6_3_11000\"]);",
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Verbrauch"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Verbrauch"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "AC Leistung L1 (Grid Phase A Power)",
+            "Profile": "",
+            "ReadAction": "return ($VALUES[\"A_2_3_11009\"] * $VALUES[\"A_2_3_11010\"]/1000);",
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "AC Leistung L1 (Grid Phase A Power)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "AC Leistung L1 (Netz Phase A Leistung)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "AC Leistung L2 (Grid Phase B Power)",
+            "Profile": "",
+            "ReadAction": "return ($VALUES[\"A_2_3_11011\"] * $VALUES[\"A_2_3_11012\"]/1000);",
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "AC Leistung L2 (Grid Phase B Power)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "AC Leistung L2 (Netz Phase B Leistung)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "AC Leistung L2 (Grid Phase C Power)",
+            "Profile": "",
+            "ReadAction": "return ($VALUES[\"A_2_3_11013\"] * $VALUES[\"A_2_3_11014\"]/1000);",
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "AC Leistung L2 (Grid Phase C Power)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "AC Leistung L2 (Netz Phase C Leistung)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "AC Leistung Total (Grid Total Power)",
+            "Profile": "",
+            "ReadAction": "return (($VALUES[\"A_2_3_11009\"] * $VALUES[\"A_2_3_11010\"] + $VALUES[\"A_2_3_11011\"] * $VALUES[\"A_2_3_11012\"] + $VALUES[\"A_2_3_11013\"] * $VALUES[\"A_2_3_11014\"])/1000);",
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "AC Leistung Total (Grid Total Power)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "AC Leistung Gesamt (Netz Gesamt Leistung)"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "Consumption_Energy_today",
+            "Profile": "",
+            "ReadAction": "return ($VALUES[\"A_2_3_31005\"] - $VALUES[\"A_2_3_31000\"] + $VALUES[\"A_2_3_31001\"] - $VALUES[\"A_2_3_31003\"] + $VALUES[\"A_2_3_31004\"]);",
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Consumption_Energy_today"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Consumption Energie heute"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        },
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "Energy_Consumption_today_new",
+            "Profile": "",
+            "ReadAction": "return ($VALUES[\"A_3_3_11018\"] + $VALUES[\"A_2_3_31001\"]- $VALUES[\"A_2_3_31000\"]);",
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy_Consumption_today_new"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energie Consumption heute new"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}

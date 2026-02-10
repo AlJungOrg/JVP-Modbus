@@ -1,0 +1,1141 @@
+{
+    "Addresses": [
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "RaumSoll Normal",
+            "Profile": "",
+            "ReadAddress": 1401,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Room setpoint Normal"
+                },
+                {
+                    "Language": "de",
+                    "Name": "RaumSoll Normal"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "RaumSoll Eco",
+            "Profile": "",
+            "ReadAddress": 1415,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Room setpoint Eco"
+                },
+                {
+                    "Language": "de",
+                    "Name": "RaumSoll Eco"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WW-Temperatur (Zapfstelle)",
+            "Profile": "",
+            "ReadAddress": 1014,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "DHW temperature (tap)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WW-Temperatur (Zapfstelle)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WW-Temperatur (unten)",
+            "Profile": "",
+            "ReadAddress": 1012,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "DHW temperature (bottom)"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WW-Temperatur (unten)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EEX D",
+            "Profile": "",
+            "ReadAddress": 1048,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "EEX D"
+                },
+                {
+                    "Language": "de",
+                    "Name": "EEX D"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP VL",
+            "Profile": "",
+            "ReadAddress": 1050,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Flow"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP VL"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP RL",
+            "Profile": "",
+            "ReadAddress": 1052,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Return"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP RL"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP LuftansaugTemp",
+            "Profile": "",
+            "ReadAddress": 1060,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Air intake temp"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP LuftansaugTemp"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP WärmetauscherTemp",
+            "Profile": "",
+            "ReadAddress": 1062,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Heat exchanger temp"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP WärmetauscherTemp"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP AnsaugTemp2",
+            "Profile": "",
+            "ReadAddress": 1064,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Intake temp 2"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP AnsaugTemp2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "GLT Raumtemperatur",
+            "Profile": "",
+            "ReadAddress": 1650,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "BMS Room temperature"
+                },
+                {
+                    "Language": "de",
+                    "Name": "GLT Raumtemperatur"
+                }
+            ],
+            "WriteAddress": 1650,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "GLT RaumFeuchte",
+            "Profile": "",
+            "ReadAddress": 1692,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "BMS Room humidity"
+                },
+                {
+                    "Language": "de",
+                    "Name": "GLT RaumFeuchte"
+                }
+            ],
+            "WriteAddress": 1692,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HKA Heizkurve",
+            "Profile": "",
+            "ReadAddress": 1429,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HC A Heating curve"
+                },
+                {
+                    "Language": "de",
+                    "Name": "HKA Heizkurve"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HKA Verschiebung",
+            "Profile": "",
+            "ReadAddress": 1505,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HC A Offset"
+                },
+                {
+                    "Language": "de",
+                    "Name": "HKA Verschiebung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HKA VL Soll",
+            "Profile": "",
+            "ReadAddress": 1378,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HC A Flow Setpoint"
+                },
+                {
+                    "Language": "de",
+                    "Name": "HKA VL Soll"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HKA VL Ist",
+            "Profile": "",
+            "ReadAddress": 1350,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HC A Flow Actual"
+                },
+                {
+                    "Language": "de",
+                    "Name": "HKA VL Ist"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HKA RaumSoll",
+            "Profile": "",
+            "ReadAddress": 1401,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HC A Room setpoint"
+                },
+                {
+                    "Language": "de",
+                    "Name": "HKA RaumSoll"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HKA RaumSoll Eco",
+            "Profile": "",
+            "ReadAddress": 1415,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HC A Room setpoint Eco"
+                },
+                {
+                    "Language": "de",
+                    "Name": "HKA RaumSoll Eco"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HKA Raumtemp Ist",
+            "Profile": "",
+            "ReadAddress": 1364,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HC A Raumtemp Actual"
+                },
+                {
+                    "Language": "de",
+                    "Name": "HKA Raumtemp Ist"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WW-Soll",
+            "Profile": "",
+            "ReadAddress": 1032,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "DHW setpoint"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WW-Soll"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Heizgrenze",
+            "Profile": "",
+            "ReadAddress": 1442,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Heating limit"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Heizgrenze"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "HKA Soll",
+            "Profile": "",
+            "ReadAddress": 1350,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HC A Setpoint"
+                },
+                {
+                    "Language": "de",
+                    "Name": "HKA Soll"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Betriebsart System",
+            "Profile": "IDM-BetriebsArt",
+            "ReadAddress": 1005,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Operating mode System"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Betriebsart System"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Status WP",
+            "Profile": "",
+            "ReadAddress": 1090,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Status HP"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Status WP"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Betriebsart Heizkreis",
+            "Profile": "",
+            "ReadAddress": 1393,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Operating mode Heating circuit"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Betriebsart Heizkreis"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WPMeldung",
+            "Profile": "",
+            "ReadAddress": 1004,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP message"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WPMeldung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wärmespeicher",
+            "Profile": "",
+            "ReadAddress": 1008,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Thermal storage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wärmespeicher"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Aussentemp",
+            "Profile": "",
+            "ReadAddress": 1000,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Outdoor temperature"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Aussentemp"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Aussentemp 16hAVG",
+            "Profile": "~Temperature",
+            "ReadAddress": 1002,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Outdoor temperature 16h avg"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Aussentemp 16hAVG"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP Leistungsaufnahme",
+            "Profile": "",
+            "ReadAddress": 4122,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Power consumption"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP Leistungsaufnahme"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP eHeizstab",
+            "Profile": "",
+            "ReadAddress": 76,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Electric heater rod"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP eHeizstab"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP th Leistung",
+            "Profile": "",
+            "ReadAddress": 1790,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Thermal power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP th Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP Wärmemenge gesamt",
+            "Profile": "",
+            "ReadAddress": 1750,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Total heat energy"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP Wärmemenge gesamt"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP MengeHeizen",
+            "Profile": "",
+            "ReadAddress": 1748,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Heating energy"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP MengeHeizen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP MengeHeizstab",
+            "Profile": "",
+            "ReadAddress": 1762,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP MengElectric heater rod"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP MengeHeizstab"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP MengeKühlen",
+            "Profile": "",
+            "ReadAddress": 1752,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Cooling energy"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP MengeKühlen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP MengeKühlenPassiv",
+            "Profile": "",
+            "ReadAddress": 1758,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Cooling energyPassiv"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP MengeKühlenPassiv"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP MengeAbtauen",
+            "Profile": "",
+            "ReadAddress": 1756,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Defrost energy"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP MengeAbtauen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP MengeWarmwasser",
+            "Profile": "",
+            "ReadAddress": 1754,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP DHW energy"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP MengeWarmwasser"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP Ladepumpe",
+            "Profile": "",
+            "ReadAddress": 1104,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Charging pump"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP Ladepumpe"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "WP Ventil WW-Heizen",
+            "Profile": "",
+            "ReadAddress": 1112,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "HP Valve DHW heating"
+                },
+                {
+                    "Language": "de",
+                    "Name": "WP Ventil WW-Heizen"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Anforderung Heizen",
+            "Profile": "JaNein",
+            "ReadAddress": 1710,
+            "ReadFunctionCode": 1,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Request Heating"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Anforderung Heizen"
+                }
+            ],
+            "WriteAddress": 1710,
+            "WriteFunctionCode": 5
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Anforderung Kühlen",
+            "Profile": "JaNein",
+            "ReadAddress": 1711,
+            "ReadFunctionCode": 1,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Request Cooling"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Anforderung Kühlen"
+                }
+            ],
+            "WriteAddress": 1711,
+            "WriteFunctionCode": 5
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Anforderung WW",
+            "Profile": "JaNein",
+            "ReadAddress": 1712,
+            "ReadFunctionCode": 1,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Request DHW"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Anforderung WW"
+                }
+            ],
+            "WriteAddress": 1712,
+            "WriteFunctionCode": 5
+        }
+    ],
+    "ByteOrder": 3,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Profiles": {
+        "IDM-BetriebsArt": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Standby",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Automatik",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Abwesend",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "nur WW",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "nur Heizung",
+                    "Value": 5.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "IPS",
+            "MaxValue": 5.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "JaNein": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "nein",
+                    "Value": false
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "ja",
+                    "Value": true
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 0
+        }
+    },
+    "Type": "Heat_Pump",
+    "Manufacturer": "iDM",
+    "Product": "WP Modbus 202503",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}

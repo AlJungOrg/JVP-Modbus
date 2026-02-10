@@ -1,0 +1,416 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Spannung PV1",
+            "Profile": "~Volt",
+            "ReadAddress": 1024,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Voltage PV1"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Spannung PV1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Spannung PV2",
+            "Profile": "~Volt",
+            "ReadAddress": 1025,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Voltage PV2"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Spannung PV2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Strom PV1",
+            "Profile": "~Ampere",
+            "ReadAddress": 1026,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Current PV1"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Strom PV1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Strom PV2",
+            "Profile": "~Electricity",
+            "ReadAddress": 1027,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Current PV2"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Strom PV2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Spannung AC",
+            "Profile": "~Volt",
+            "ReadAddress": 1028,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Voltage AC"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Spannung AC"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Frequenz AC",
+            "Profile": "~Hertz",
+            "ReadAddress": 1031,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Frequency AC"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Frequenz AC"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Strom AC",
+            "Profile": "~Ampere",
+            "ReadAddress": 1034,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Current AC"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Strom AC"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur Inverter",
+            "Profile": "Temperatur-Solax",
+            "ReadAddress": 1037,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Temperature Inverter"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Temperatur Inverter"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Leistung AC",
+            "Profile": "Watt",
+            "ReadAddress": 1038,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Power AC"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Leistung AC"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Modus",
+            "Profile": "",
+            "ReadAddress": 1039,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Mode"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Modus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Leistung PV1",
+            "Profile": "Watt",
+            "ReadAddress": 1044,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Power PV1"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Leistung PV1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Leistung PV2",
+            "Profile": "Watt",
+            "ReadAddress": 1045,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Power PV2"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Leistung PV2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Energie gesamt",
+            "Profile": "~Electricity",
+            "ReadAddress": 1059,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy total"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energie gesamt"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Energie Tag",
+            "Profile": "~Electricity",
+            "ReadAddress": 1061,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Energy today"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energie Tag"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperatur Board",
+            "Profile": "Temperatur-Solax",
+            "ReadAddress": 1068,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Temperature Board"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Temperatur Board"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Profiles": {
+        "Temperatur-Solax": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "temperature-empty",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " °C",
+            "Type": 1
+        },
+        "Watt": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "EnergySolar",
+            "MaxValue": 2000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " W",
+            "Type": 1
+        }
+    },
+    "Type": "PV_Inverter",
+    "Manufacturer": "SolaX",
+    "Product": "X1-Boost G3",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}

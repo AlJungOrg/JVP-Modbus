@@ -1,0 +1,554 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter status",
+            "Profile": "Huawei.MeterStatus",
+            "ReadAddress": 37100,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Meter status"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Z\u00e4hler Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid voltage A",
+            "Profile": "Huawei.Voltage",
+            "ReadAddress": 37101,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid voltage A"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz spannung Phase A"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid voltage B",
+            "Profile": "Huawei.Voltage",
+            "ReadAddress": 37103,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid voltage B"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz spannung Phase B"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid voltage C",
+            "Profile": "Huawei.Voltage",
+            "ReadAddress": 37105,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid voltage C"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz spannung Phase C"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid current A",
+            "Profile": "Huawei.Current",
+            "ReadAddress": 37107,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid current A"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz strom Phase A"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid current B",
+            "Profile": "Huawei.Current",
+            "ReadAddress": 37109,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid current B"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz strom Phase B"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid current C",
+            "Profile": "Huawei.Current",
+            "ReadAddress": 37111,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid current C"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz strom Phase C"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Active power",
+            "Profile": "Huawei.Power.W",
+            "ReadAddress": 37113,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Reactive power",
+            "Profile": "",
+            "ReadAddress": 37115,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Reactive power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Phase Blindleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Power factor",
+            "Profile": "",
+            "ReadAddress": 37117,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Power factor"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid frequency",
+            "Profile": "Huawei.Frequeny",
+            "ReadAddress": 37118,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid frequency"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz frequenz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Positive active electricity",
+            "Profile": "Huawei.Energie.kWh",
+            "ReadAddress": 37119,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Positive active electricity"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Positive Wirkarbeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Reverse active power",
+            "Profile": "Huawei.Energie.kWh",
+            "ReadAddress": 37121,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Reverse active power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "R\u00fcckspeiseenergie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Accumulated reactive power",
+            "Profile": "",
+            "ReadAddress": 37123,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Accumulated reactive power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Phase Aufsummierte Phase Blindarbeit"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter type",
+            "Profile": "Huawei.MeterType",
+            "ReadAddress": 37125,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Meter type"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Z\u00e4hler Typ"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Active power A",
+            "Profile": "Huawei.Power.W",
+            "ReadAddress": 37132,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active power A"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Phase A"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Active power B",
+            "Profile": "Huawei.Power.W",
+            "ReadAddress": 37134,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active power B"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Phase B"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Active power C",
+            "Profile": "Huawei.Power.W",
+            "ReadAddress": 37136,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active power C"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung Phase C"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Profiles": {
+        "Huawei.Current": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " A",
+            "Type": 2
+        },
+        "Huawei.Energie.kWh": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 2
+        },
+        "Huawei.Frequeny": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " Hz",
+            "Type": 2
+        },
+        "Huawei.MeterStatus": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "offline",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "normal",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Huawei.MeterType": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "single-phase",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "three-phase",
+                    "Value": 1.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Huawei.Power.W": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " W",
+            "Type": 1
+        },
+        "Huawei.Voltage": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " V",
+            "Type": 2
+        }
+    },
+    "Type": "Energy_Meter",
+    "Manufacturer": "Huawei",
+    "Product": "DTSU666-H",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}

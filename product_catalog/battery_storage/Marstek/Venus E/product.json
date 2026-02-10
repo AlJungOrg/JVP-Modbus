@@ -1,0 +1,551 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Bat voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 32101,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Bat voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "InvState",
+            "Profile": "Marstek.Inverterstat",
+            "ReadAddress": 35100,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "InvState"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichterstatus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "BatInjPower",
+            "Profile": "PowerInt",
+            "ReadAddress": 32202,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "BatInjPower"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie EinspeiseLeistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "BatOffgridPower",
+            "Profile": "PowerInt",
+            "ReadAddress": 32302,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "BatOffgridPower"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie InselLeistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "BatStateOfCharge",
+            "Length": 0,
+            "Name": "BatSoC",
+            "Profile": "StateOfChargeInt",
+            "ReadAddress": 32104,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "BatSoC"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie Ladezustand"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "BatTotalPow",
+            "Length": 0,
+            "Name": "BatTotalChargePower",
+            "Profile": "",
+            "ReadAddress": 32105,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "BatTotalChargePower"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie GesamtLadenLeistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "BatIntTemp",
+            "Profile": "Temperature_2",
+            "ReadAddress": 35000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "BatIntTemp"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie IntTemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "ForcibleChargePower",
+            "Profile": "Marstek.ForceChargePower",
+            "ReadAddress": 42020,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "ForcibleChargePower"
+                },
+                {
+                    "Language": "de",
+                    "Name": "ErzwungenLadenLeistung"
+                }
+            ],
+            "WriteAddress": 42020,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "ForcibleDischargePower",
+            "Profile": "Marstek.ForceChargePower",
+            "ReadAddress": 42021,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "ForcibleDischargePower"
+                },
+                {
+                    "Language": "de",
+                    "Name": "ErzwungenEntladenLeistung"
+                }
+            ],
+            "WriteAddress": 42021,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "UserWorkMode",
+            "Profile": "Marstek.Userworkmode",
+            "ReadAddress": 43000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "UserWorkMode"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Benutzermodus"
+                }
+            ],
+            "WriteAddress": 43000,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "RS485ControlMode",
+            "Profile": "MarstekBat.EnableExternalControl",
+            "ReadAddress": 42000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "RS485ControlMode"
+                },
+                {
+                    "Language": "de",
+                    "Name": "RS485-Steuermodus"
+                }
+            ],
+            "WriteAddress": 42000,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "ModBusAddress",
+            "Profile": "",
+            "ReadAddress": 41100,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "ModBusAddress"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Modbus-Adresse"
+                }
+            ],
+            "WriteAddress": 41100,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "ForciblyChargeDischargeMode",
+            "Profile": "Marstek.ForciblyChargeDischargeMode",
+            "ReadAddress": 42010,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "ForciblyChargeDischargeMode"
+                },
+                {
+                    "Language": "de",
+                    "Name": "ForciblyLadenEntladenMode"
+                }
+            ],
+            "WriteAddress": 42010,
+            "WriteFunctionCode": 6
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Profiles": {
+        "Marstek.ForceChargePower": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 2500.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "W",
+            "Type": 1
+        },
+        "Marstek.ForciblyChargeDischargeMode": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Stop",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Charge",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Discharge",
+                    "Value": 2.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 2.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Marstek.Inverterstat": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Sleep",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Standby",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Charge",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Discharge",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Backup power mode",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "OTA upgrade",
+                    "Value": 5.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 5.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Marstek.Userworkmode": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Manual",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Anti-Feed",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Trade (AI)",
+                    "Value": 2.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 2.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "MarstekBat.EnableExternalControl": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "RS485ControlEnabled",
+                    "Value": 21930.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "RS485ControlDisabled",
+                    "Value": 21947.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 21947.0,
+            "MinValue": 21930.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "NUTC.Power": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " W",
+            "Type": 2
+        },
+        "PowerInt": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "W",
+            "Type": 1
+        },
+        "StateOfChargeInt": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "percent",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "%",
+            "Type": 1
+        },
+        "Temperature_2": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "Temperature",
+            "MaxValue": 120.0,
+            "MinValue": -25.0,
+            "Prefix": "",
+            "StepSize": 0.5,
+            "Suffix": " °C",
+            "Type": 2
+        }
+    },
+    "Type": "Battery_Storage",
+    "Manufacturer": "Marstek",
+    "Product": "Venus E",
+    "Requests": {
+        "Interval": 750
+    },
+    "VirtualAddresses": [
+        {
+            "Active": true,
+            "Ident": "",
+            "Name": "TotalAvailableEnergy",
+            "Profile": "NUTC.Power",
+            "ReadAction": "return (($VALUES[\"BatTotalPow\"] )*($VALUES[\"BatStateOfCharge\"]))/100;",
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "TotalAvailableEnergy"
+                },
+                {
+                    "Language": "de",
+                    "Name": "GesamtAvailableEnergy"
+                }
+            ],
+            "VariableType": 2,
+            "WriteAction": ""
+        }
+    ]
+}

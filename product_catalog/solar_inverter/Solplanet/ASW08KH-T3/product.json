@@ -1,0 +1,913 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0.1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "internal temperature",
+            "Profile": "SolPla_Temp_Float",
+            "ReadAddress": 1310,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "internal temperature"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Interne Temperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery status",
+            "Profile": "SolPl_BatStatus",
+            "ReadAddress": 1607,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery status"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batteriestatus"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery E-charge-today",
+            "Profile": "SolPla_kWh",
+            "ReadAddress": 1625,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery E-charge-today"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie E-charge-today"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "current grid code",
+            "Profile": "",
+            "ReadAddress": 1026,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "current grid code"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Strom grid code"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid rated Voltage",
+            "Profile": "SolPla_Voltage_Float",
+            "ReadAddress": 1300,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid rated Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz rated Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Grid rated Frequency",
+            "Profile": "SolPla_Hz_Float",
+            "ReadAddress": 1301,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Grid rated Frequency"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netz rated Frequenz"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "E-today of inverter",
+            "Profile": "SolPla_kWh",
+            "ReadAddress": 1302,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "E-today of inverter"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Energie heute of inverter"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "E-Total of inverter",
+            "Profile": "SolPla_kWh",
+            "ReadAddress": 1304,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "E-Total of inverter"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamtenergie of inverter"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery temperature",
+            "Profile": "SolPla_Temp_Float",
+            "ReadAddress": 1620,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery temperature"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie temperature"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery SOC",
+            "Profile": "SolPla_percentage",
+            "ReadAddress": 1621,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery SOC"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie Ladezustand"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV1 voltage",
+            "Profile": "SolPla_Voltage_Float",
+            "ReadAddress": 1318,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV1 voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV1 voltage"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV1 current",
+            "Profile": "~Ampere",
+            "ReadAddress": 1319,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV1 current"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV1 Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV2 voltage",
+            "Profile": "SolPla_Voltage_Float",
+            "ReadAddress": 1320,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV2 voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV2 voltage"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV2 current",
+            "Profile": "~Ampere",
+            "ReadAddress": 1321,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV2 current"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV2 Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV3 voltage",
+            "Profile": "SolPla_Voltage_Float",
+            "ReadAddress": 1322,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV3 voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV3 voltage"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV3 current",
+            "Profile": "~Ampere",
+            "ReadAddress": 1323,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV3 current"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV3 Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Aparrent power",
+            "Profile": "SolPla_powerWATT",
+            "ReadAddress": 1368,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Aparrent power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Active power",
+            "Profile": "SolPla_powerWATT",
+            "ReadAddress": 1370,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV total power",
+            "Profile": "SolPla_powerWATT",
+            "ReadAddress": 1600,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV total power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV Gesamtleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV E-Today",
+            "Profile": "SolPla_kWh",
+            "ReadAddress": 1602,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV E-Today"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV E-Today"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV E-Total",
+            "Profile": "SolPla_kWh",
+            "ReadAddress": 1604,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV E-Total"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV Gesamtenergie"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery voltage",
+            "Profile": "SolPla_Voltage_Float",
+            "ReadAddress": 1616,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie voltage"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery current",
+            "Profile": "~Ampere",
+            "ReadAddress": 1617,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery current"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie Strom"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery power",
+            "Profile": "SolPla_powerWATT",
+            "ReadAddress": 1618,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie power"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery SOH",
+            "Profile": "SolPla_percentage",
+            "ReadAddress": 1622,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery SOH"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie Gesundheitszustand"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery E-Discharge-Today",
+            "Profile": "SolPla_kWh",
+            "ReadAddress": 1627,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery E-Discharge-Today"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie E-Discharge-Today"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "E-Consumption-Today at AC side",
+            "Profile": "SolPla_kWh",
+            "ReadAddress": 1629,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "E-Consumption-Today at AC side"
+                },
+                {
+                    "Language": "de",
+                    "Name": "E-Consumption-Today at AC side"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "E-Generation-Today at AC side",
+            "Profile": "SolPla_kWh",
+            "ReadAddress": 1631,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "E-Generation-Today at AC side"
+                },
+                {
+                    "Language": "de",
+                    "Name": "E-Generation-Today at AC side"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery insulation resistance",
+            "Profile": "SolPla_kOhm",
+            "ReadAddress": 1678,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery insulation resistance"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie insulation resistance"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery charge/discharge cycles",
+            "Profile": "",
+            "ReadAddress": 1679,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery charge/discharge cycles"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie charge/discharge cycles"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Environment temperature",
+            "Profile": "",
+            "ReadAddress": 1680,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Environment temperature"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Umgebungstemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Profiles": {
+        "SolPl_BatStatus": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "battery-slash",
+                    "Name": "Not Available",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "battery-exclamation",
+                    "Name": "Idle",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "angle-up",
+                    "Name": "Charging",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "angle-down",
+                    "Name": "Discharging",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "triangle-exclamation",
+                    "Name": "Error",
+                    "Value": 4.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "battery-exclamation",
+            "MaxValue": 4.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SolPla_Hz_Float": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "wave-sine",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.01,
+            "Suffix": " Hz",
+            "Type": 2
+        },
+        "SolPla_Temp_Float": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "temperature-high",
+            "MaxValue": 100.0,
+            "MinValue": -20.0,
+            "Prefix": "",
+            "StepSize": 0.1,
+            "Suffix": " °C",
+            "Type": 2
+        },
+        "SolPla_Voltage_Float": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "plug",
+            "MaxValue": 300.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.1,
+            "Suffix": " V",
+            "Type": 2
+        },
+        "SolPla_kOhm": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " kΩ",
+            "Type": 1
+        },
+        "SolPla_kWh": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "meter",
+            "MaxValue": 10000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.1,
+            "Suffix": "kWh",
+            "Type": 2
+        },
+        "SolPla_percentage": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "percent",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "%",
+            "Type": 1
+        },
+        "SolPla_powerWATT": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 10000.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " W",
+            "Type": 1
+        }
+    },
+    "Type": "PV_Hybrid_Inverter",
+    "Manufacturer": "Solplanet",
+    "Product": "ASW08KH-T3",
+    "Requests": {
+        "Interval": 9000
+    },
+    "VirtualAddresses": []
+}
