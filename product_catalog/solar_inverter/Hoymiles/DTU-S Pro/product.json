@@ -1,0 +1,378 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Microinverter 1: Serial Number Real-Time Microinverter Data",
+            "Profile": "",
+            "ReadAddress": 14560,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Microinverter 1: Serial Number Real-Time Microinverter Data"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Mikrowechselrichter 1: Seriennummer Real-Time Mikrowechselrichter Data"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 5,
+            "Factor": 0.0001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Microinverter 1: Active Power Real-Time Microinverter Data",
+            "Profile": "~Power",
+            "ReadAddress": 14567,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Microinverter 1: Active Power Real-Time Microinverter Data"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Mikrowechselrichter 1: Wirkleistung Real-Time Mikrowechselrichter Data"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.0001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Meter 1: Total Active Power",
+            "Profile": "~Power",
+            "ReadAddress": 12643,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Meter 1: Total Active Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Z\u00e4hler 1: Total Wirkleistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "DTU Serial Number",
+            "Profile": "",
+            "ReadAddress": 12288,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "DTU Serial Number"
+                },
+                {
+                    "Language": "de",
+                    "Name": "DTU Seriennummer"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.0001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Sum of All Microinverters' Active Power in DTU",
+            "Profile": "~Power",
+            "ReadAddress": 12552,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Sum of All Microinverters' Active Power in DTU"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Summe aller Mikrowechselrichters' Wirkleistung in DTU"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 11,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Sum of All Microinverters' Today Production in DTU",
+            "Profile": "~Electricity",
+            "ReadAddress": 12548,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Sum of All Microinverters' Today Production in DTU"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Summe aller Mikrowechselrichters' Tagesertrag in DTU"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 11,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Sum of All Microinverters' Total Production in DTU",
+            "Profile": "~Electricity",
+            "ReadAddress": 12544,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Sum of All Microinverters' Total Production in DTU"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Summe aller Mikrowechselrichters' Gesamtertrag in DTU"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Microinverter 1: Phase A Phase Voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 14570,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Microinverter 1: Phase A Phase Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Mikrowechselrichter 1: Phase A Phasenspannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Microinverter 1: Today Production",
+            "Profile": "~Electricity",
+            "ReadAddress": 14565,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Microinverter 1: Today Production"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Mikrowechselrichter 1: Tagesertrag"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Microinverter 1: Total Production",
+            "Profile": "~Electricity",
+            "ReadAddress": 14563,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Microinverter 1: Total Production"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Mikrowechselrichter 1: Gesamtertrag"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Microinverter 1: Device Temperature",
+            "Profile": "~Temperature",
+            "ReadAddress": 14580,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Microinverter 1: Device Temperature"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Mikrowechselrichter 1: Ger\u00e4tetemperatur"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Microinverter 1: PV1 Voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 14581,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Microinverter 1: PV1 Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Mikrowechselrichter 1: PV1 Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 5,
+            "Factor": 0.0001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Microinverter 1: PV1 Power",
+            "Profile": "~Power",
+            "ReadAddress": 14583,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Microinverter 1: PV1 Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Mikrowechselrichter 1: PV1 Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Microinverter 1: PV2 Voltage",
+            "Profile": "~Volt",
+            "ReadAddress": 14584,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Microinverter 1: PV2 Voltage"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Mikrowechselrichter 1: PV2 Spannung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 0,
+            "DataType": 5,
+            "Factor": 0.0001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Microinverter 1: PV2 Power",
+            "Profile": "~Power",
+            "ReadAddress": 14586,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Microinverter 1: PV2 Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Mikrowechselrichter 1: PV2 Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Profiles": {},
+    "Type": "PV_Inverter",
+    "Manufacturer": "Hoymiles",
+    "Product": "DTU-S Pro",
+    "Requests": {
+        "Interval": 15000
+    },
+    "VirtualAddresses": []
+}
