@@ -1559,6 +1559,390 @@
       ],
       "WriteAddress": 0,
       "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "ChargePowerRate",
+      "Length": 0,
+      "Name": "Charge Power Rate",
+      "Profile": "~Battery.100",
+      "ReadAddress": 1090,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Ladeleistung in Prozent"
+        },
+        {
+          "Language": "en",
+          "Name": "Charge Power Rate"
+        }
+      ],
+      "WriteAddress": 1090,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "ChargeStopSOC",
+      "Length": 0,
+      "Name": "Charge Stop SOC",
+      "Profile": "~Battery.100",
+      "ReadAddress": 1091,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Lade-Stopp SOC"
+        },
+        {
+          "Language": "en",
+          "Name": "Charge Stop SOC"
+        }
+      ],
+      "WriteAddress": 1091,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "ACChargeEnable",
+      "Length": 0,
+      "Name": "AC Charge Enable",
+      "Profile": "",
+      "ReadAddress": 1092,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "AC-Laden Freigabe"
+        },
+        {
+          "Language": "en",
+          "Name": "AC Charge Enable"
+        }
+      ],
+      "WriteAddress": 1092,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "BatFirstStartTime1",
+      "Length": 0,
+      "Name": "Battery First Start Time 1",
+      "Profile": "",
+      "ReadAddress": 1100,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie-Vorrang Startzeit 1"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery First Start Time 1"
+        }
+      ],
+      "WriteAddress": 1100,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "BatFirstStopTime1",
+      "Length": 0,
+      "Name": "Battery First Stop Time 1",
+      "Profile": "",
+      "ReadAddress": 1101,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie-Vorrang Stoppzeit 1"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery First Stop Time 1"
+        }
+      ],
+      "WriteAddress": 1101,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "BatFirstTime1Enable",
+      "Length": 0,
+      "Name": "Battery First Time 1 Enable",
+      "Profile": "",
+      "ReadAddress": 1102,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie-Vorrang Zeit 1 Freigabe"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery First Time 1 Enable"
+        }
+      ],
+      "WriteAddress": 1102,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "DischargePowerRate",
+      "Length": 0,
+      "Name": "Discharge Power Rate",
+      "Profile": "~Battery.100",
+      "ReadAddress": 1070,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Entladeleistung in Prozent"
+        },
+        {
+          "Language": "en",
+          "Name": "Discharge Power Rate"
+        }
+      ],
+      "WriteAddress": 1070,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "DischargeStopSOC",
+      "Length": 0,
+      "Name": "Discharge Stop SOC",
+      "Profile": "~Battery.100",
+      "ReadAddress": 1071,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Entlade-Stopp SOC"
+        },
+        {
+          "Language": "en",
+          "Name": "Discharge Stop SOC"
+        }
+      ],
+      "WriteAddress": 1071,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "IPMTemp",
+      "Length": 0,
+      "Name": "IPM Temperature",
+      "Profile": "~Temperature",
+      "ReadAddress": 94,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "IPM Temperatur"
+        },
+        {
+          "Language": "en",
+          "Name": "IPM Temperature"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 0.1,
+      "Ident": "BoostTemp",
+      "Length": 0,
+      "Name": "Boost Temperature",
+      "Profile": "~Temperature",
+      "ReadAddress": 95,
+      "ReadFunctionCode": 4,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Boost Temperatur"
+        },
+        {
+          "Language": "en",
+          "Name": "Boost Temperature"
+        }
+      ],
+      "WriteAddress": 0,
+      "WriteFunctionCode": 0
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "BatFirstStartTime2",
+      "Length": 0,
+      "Name": "Battery First Start Time 2",
+      "Profile": "",
+      "ReadAddress": 1103,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie-Vorrang Startzeit 2"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery First Start Time 2"
+        }
+      ],
+      "WriteAddress": 1103,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "BatFirstStopTime2",
+      "Length": 0,
+      "Name": "Battery First Stop Time 2",
+      "Profile": "",
+      "ReadAddress": 1104,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie-Vorrang Stoppzeit 2"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery First Stop Time 2"
+        }
+      ],
+      "WriteAddress": 1104,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "BatFirstTime2Enable",
+      "Length": 0,
+      "Name": "Battery First Time 2 Enable",
+      "Profile": "",
+      "ReadAddress": 1105,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie-Vorrang Zeit 2 Freigabe"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery First Time 2 Enable"
+        }
+      ],
+      "WriteAddress": 1105,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "BatFirstStartTime3",
+      "Length": 0,
+      "Name": "Battery First Start Time 3",
+      "Profile": "",
+      "ReadAddress": 1106,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie-Vorrang Startzeit 3"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery First Start Time 3"
+        }
+      ],
+      "WriteAddress": 1106,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "BatFirstStopTime3",
+      "Length": 0,
+      "Name": "Battery First Stop Time 3",
+      "Profile": "",
+      "ReadAddress": 1107,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie-Vorrang Stoppzeit 3"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery First Stop Time 3"
+        }
+      ],
+      "WriteAddress": 1107,
+      "WriteFunctionCode": 6
+    },
+    {
+      "Active": true,
+      "ByteOrder": -1,
+      "DataType": 2,
+      "Factor": 1,
+      "Ident": "BatFirstTime3Enable",
+      "Length": 0,
+      "Name": "Battery First Time 3 Enable",
+      "Profile": "",
+      "ReadAddress": 1108,
+      "ReadFunctionCode": 3,
+      "Translation": [
+        {
+          "Language": "de",
+          "Name": "Batterie-Vorrang Zeit 3 Freigabe"
+        },
+        {
+          "Language": "en",
+          "Name": "Battery First Time 3 Enable"
+        }
+      ],
+      "WriteAddress": 1108,
+      "WriteFunctionCode": 6
     }
   ],
   "ByteOrder": 0,
