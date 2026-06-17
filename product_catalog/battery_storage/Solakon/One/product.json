@@ -1,0 +1,1118 @@
+{
+    "Addresses": [
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Model name",
+            "Profile": "",
+            "ReadAddress": 30000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Model name"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Model name"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Master Version",
+            "Profile": "",
+            "ReadAddress": 30016,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Master Version"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Master Version"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "System Power State",
+            "Profile": "",
+            "ReadAddress": 49228,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "System Power State"
+                },
+                {
+                    "Language": "de",
+                    "Name": "System Leistung Zustand"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Switch Power on",
+            "Profile": "",
+            "ReadAddress": 49077,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Switch Power on"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Switch Leistung on"
+                }
+            ],
+            "WriteAddress": 49077,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Switch Shut down",
+            "Profile": "",
+            "ReadAddress": 49078,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Switch Shut down"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Switch Shut down"
+                }
+            ],
+            "WriteAddress": 49078,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Idle State",
+            "Profile": "",
+            "ReadAddress": 49229,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Idle State"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Idle Zustand"
+                }
+            ],
+            "WriteAddress": 49229,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Network status",
+            "Profile": "",
+            "ReadAddress": 49240,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Network status"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Netzwerk Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "BMS1 SoC",
+            "Profile": "",
+            "ReadAddress": 37612,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "BMS1 SoC"
+                },
+                {
+                    "Language": "de",
+                    "Name": "BMS1 SoC"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 1 Power",
+            "Profile": "",
+            "ReadAddress": 39230,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery 1 Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie 1 Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery 2 Power",
+            "Profile": "",
+            "ReadAddress": 39235,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery 2 Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie 2 Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Battery Combined Power",
+            "Profile": "",
+            "ReadAddress": 39237,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Battery Combined Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Batterie Gesamt Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV1 Power",
+            "Profile": "",
+            "ReadAddress": 39279,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV1 Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV1 Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV2 Power",
+            "Profile": "",
+            "ReadAddress": 39281,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV2 Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV2 Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV3 Power",
+            "Profile": "",
+            "ReadAddress": 39283,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV3 Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV3 Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV4 Power",
+            "Profile": "",
+            "ReadAddress": 39285,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV4 Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV4 Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total PV input power",
+            "Profile": "",
+            "ReadAddress": 39118,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total PV input power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt PV Eingang Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 2,
+            "Name": "Remote Control",
+            "Profile": "",
+            "ReadAddress": 46001,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Remote Control"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Fern Steuerung"
+                }
+            ],
+            "WriteAddress": 46001,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Remote Control Active Power Command",
+            "Profile": "",
+            "ReadAddress": 46003,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Remote Control Active Power Command"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Fern Steuerung Wirk Leistung Command"
+                }
+            ],
+            "WriteAddress": 46003,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Remote Control Reactive Power Command",
+            "Profile": "",
+            "ReadAddress": 46005,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Remote Control Reactive Power Command"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Fern Steuerung Blind Leistung Command"
+                }
+            ],
+            "WriteAddress": 46005,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Remote Timeout Countdown",
+            "Profile": "",
+            "ReadAddress": 46007,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Remote Timeout Countdown"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Fern Timeout Countdown"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Remote Timeout_ Set",
+            "Profile": "",
+            "ReadAddress": 46002,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Remote Timeout_ Set"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Fern Timeout_ Set"
+                }
+            ],
+            "WriteAddress": 46002,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Load Combined Power",
+            "Profile": "",
+            "ReadAddress": 39225,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Load Combined Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Load Gesamt Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "EPS Combined Power ",
+            "Profile": "",
+            "ReadAddress": 39216,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "EPS Combined Power "
+                },
+                {
+                    "Language": "de",
+                    "Name": "EPS Gesamt Leistung "
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "BMS1 Ambient Temperature",
+            "Profile": "",
+            "ReadAddress": 37611,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "BMS1 Ambient Temperature"
+                },
+                {
+                    "Language": "de",
+                    "Name": "BMS1 Ambient Temperature"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "BMS2 Ambient Temperature",
+            "Profile": "",
+            "ReadAddress": 38309,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "BMS2 Ambient Temperature"
+                },
+                {
+                    "Language": "de",
+                    "Name": "BMS2 Ambient Temperature"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "internal temperature",
+            "Profile": "",
+            "ReadAddress": 39141,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "internal temperature"
+                },
+                {
+                    "Language": "de",
+                    "Name": "internal temperature"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Alarm 1",
+            "Profile": "",
+            "ReadAddress": 39067,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Alarm 1"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Alarm 1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Alarm 2",
+            "Profile": "",
+            "ReadAddress": 39068,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Alarm 2"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Alarm 2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Alarm 3",
+            "Profile": "",
+            "ReadAddress": 39069,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Alarm 3"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Alarm 3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 10,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "SN",
+            "Profile": "",
+            "ReadAddress": 30016,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "SN"
+                },
+                {
+                    "Language": "de",
+                    "Name": "SN"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Work mode",
+            "Profile": "",
+            "ReadAddress": 49203,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Work mode"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Work mode"
+                }
+            ],
+            "WriteAddress": 49203,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Minimum SoC",
+            "Profile": "",
+            "ReadAddress": 46609,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Minimum SoC"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Minimum SoC"
+                }
+            ],
+            "WriteAddress": 46609,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Maximum SoC",
+            "Profile": "",
+            "ReadAddress": 46610,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Maximum SoC"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Maximum SoC"
+                }
+            ],
+            "WriteAddress": 46610,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Minimum SoC OnGrid",
+            "Profile": "",
+            "ReadAddress": 46611,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Minimum SoC OnGrid"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Minimum SoC OnGrid"
+                }
+            ],
+            "WriteAddress": 46611,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 3,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Cumulative power generation",
+            "Profile": "",
+            "ReadAddress": 39149,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Cumulative power generation"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Cumulative Leistung generation"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 3,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Power generation on the day",
+            "Profile": "",
+            "ReadAddress": 39151,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Power generation on the day"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Leistung generation on the day"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Active power",
+            "Profile": "",
+            "ReadAddress": 39134,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Active power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Wirk Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Reactive power",
+            "Profile": "",
+            "ReadAddress": 39136,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Reactive power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Blind Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": false,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 6,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "INV Combined A parent Power",
+            "Profile": "",
+            "ReadAddress": 39270,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "INV Combined A parent Power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "INV Gesamt A parent Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 3,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV total power generation",
+            "Profile": "",
+            "ReadAddress": 39601,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "PV total power generation"
+                },
+                {
+                    "Language": "de",
+                    "Name": "PV Gesamt Leistung generation"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 3,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total PV power generation today",
+            "Profile": "",
+            "ReadAddress": 39603,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total PV power generation today"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt PV Leistung generation today"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 3,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total charging capacity",
+            "Profile": "",
+            "ReadAddress": 39605,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total charging capacity"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt charging capacity"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 3,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Today's total charging capacity",
+            "Profile": "",
+            "ReadAddress": 39607,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Today's total charging capacity"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Today's Gesamt charging capacity"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "CustomFactor": 0,
+            "DataType": 3,
+            "Factor": 10,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Total discharge power",
+            "Profile": "",
+            "ReadAddress": 39609,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "en",
+                    "Name": "Total discharge power"
+                },
+                {
+                    "Language": "de",
+                    "Name": "Gesamt discharge Leistung"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Profiles": {},
+    "Type": "Inverter",
+    "Manufacturer": "Solakon",
+    "Product": "Solakon One",
+    "Requests": {
+        "Interval": 0
+    },
+    "VirtualAddresses": []
+}
