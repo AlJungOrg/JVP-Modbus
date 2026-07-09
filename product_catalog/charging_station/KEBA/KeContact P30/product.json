@@ -1,0 +1,396 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ladezustand",
+            "Profile": "KEBA_ChargingState",
+            "ReadAddress": 1000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Ladezustand" },
+                { "Language": "en", "Name": "Charging state" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Kabelstatus",
+            "Profile": "KEBA_CableState",
+            "ReadAddress": 1004,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Kabelstatus" },
+                { "Language": "en", "Name": "Cable state" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Fehlercode",
+            "Profile": "",
+            "ReadAddress": 1006,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Fehlercode" },
+                { "Language": "en", "Name": "Error code" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ladestrom L1",
+            "Profile": "~Ampere",
+            "ReadAddress": 1008,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Ladestrom Phase 1" },
+                { "Language": "en", "Name": "Charging current phase 1" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ladestrom L2",
+            "Profile": "~Ampere",
+            "ReadAddress": 1010,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Ladestrom Phase 2" },
+                { "Language": "en", "Name": "Charging current phase 2" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ladestrom L3",
+            "Profile": "~Ampere",
+            "ReadAddress": 1012,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Ladestrom Phase 3" },
+                { "Language": "en", "Name": "Charging current phase 3" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wirkleistung",
+            "Profile": "~Watt",
+            "ReadAddress": 1020,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Wirkleistung" },
+                { "Language": "en", "Name": "Active power" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Gesamtenergie",
+            "Profile": "KEBA_kWh",
+            "ReadAddress": 1036,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Gesamtenergie" },
+                { "Language": "en", "Name": "Total energy" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Spannung L1",
+            "Profile": "~Volt",
+            "ReadAddress": 1040,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Spannung Phase 1" },
+                { "Language": "en", "Name": "Voltage phase 1" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Spannung L2",
+            "Profile": "~Volt",
+            "ReadAddress": 1042,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Spannung Phase 2" },
+                { "Language": "en", "Name": "Voltage phase 2" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Spannung L3",
+            "Profile": "~Volt",
+            "ReadAddress": 1044,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Spannung Phase 3" },
+                { "Language": "en", "Name": "Voltage phase 3" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Leistungsfaktor",
+            "Profile": "KEBA_Percent",
+            "ReadAddress": 1046,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Leistungsfaktor (cos phi)" },
+                { "Language": "en", "Name": "Power factor" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Max. Ladestrom",
+            "Profile": "~Ampere",
+            "ReadAddress": 1100,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Maximaler Ladestrom" },
+                { "Language": "en", "Name": "Max charging current" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Geladene Energie",
+            "Profile": "KEBA_kWh",
+            "ReadAddress": 1502,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Geladene Energie (Ladevorgang)" },
+                { "Language": "en", "Name": "Charged energy (session)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 6,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ladestrom setzen",
+            "Profile": "~Ampere",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                { "Language": "de", "Name": "Ladestrom setzen" },
+                { "Language": "en", "Name": "Set charging current" }
+            ],
+            "WriteAddress": 5004,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ladestation freigeben",
+            "Profile": "KEBA_Switch",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                { "Language": "de", "Name": "Ladestation aktivieren/deaktivieren" },
+                { "Language": "en", "Name": "Enable/disable charging station" }
+            ],
+            "WriteAddress": 5014,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": 3,
+            "DataType": 5,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Stecker entriegeln",
+            "Profile": "",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                { "Language": "de", "Name": "Stecker entriegeln" },
+                { "Language": "en", "Name": "Unlock plug" }
+            ],
+            "WriteAddress": 5012,
+            "WriteFunctionCode": 6
+        }
+    ],
+    "ByteOrder": 1,
+    "Profiles": {
+        "KEBA_ChargingState": {
+            "Associations": [
+                { "Color": 16777215, "Icon": "", "Name": "Start-up", "Value": 0.0 },
+                { "Color": 16711680, "Icon": "", "Name": "Nicht ladebereit", "Value": 1.0 },
+                { "Color": 16763904, "Icon": "", "Name": "Ladebereit, wartet auf Fahrzeug", "Value": 2.0 },
+                { "Color": 65280, "Icon": "", "Name": "Ladevorgang aktiv", "Value": 3.0 },
+                { "Color": 16711680, "Icon": "", "Name": "Fehler", "Value": 4.0 },
+                { "Color": 16763904, "Icon": "", "Name": "Unterbrochen (Übertemperatur/Suspended)", "Value": 5.0 }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KEBA_CableState": {
+            "Associations": [
+                { "Color": 16777215, "Icon": "", "Name": "Kein Kabel", "Value": 0.0 },
+                { "Color": 16777215, "Icon": "", "Name": "Kabel an Ladestation", "Value": 1.0 },
+                { "Color": 16777215, "Icon": "", "Name": "Kabel an Ladestation, verriegelt", "Value": 3.0 },
+                { "Color": 16777215, "Icon": "", "Name": "Kabel an Fahrzeug, entriegelt", "Value": 5.0 },
+                { "Color": 65280, "Icon": "", "Name": "Kabel an Fahrzeug, verriegelt (lädt)", "Value": 7.0 }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KEBA_Switch": {
+            "Associations": [
+                { "Color": 16711680, "Icon": "", "Name": "Aus", "Value": 0.0 },
+                { "Color": 65280, "Icon": "", "Name": "Ein", "Value": 1.0 }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "KEBA_Percent": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "%",
+            "Type": 2
+        },
+        "KEBA_kWh": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 2
+        }
+    },
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Type": "charging_station",
+    "Manufacturer": "KEBA",
+    "Product": "KeContact P30 (c-series/x-series, Modbus TCP)",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}

@@ -1,0 +1,421 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Außentemperatur aktuell",
+            "Profile": "~Temperature",
+            "ReadAddress": 9,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Außentemperatur aktuell" },
+                { "Language": "en", "Name": "Outdoor temperature (current)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Boilertemperatur 1",
+            "Profile": "~Temperature",
+            "ReadAddress": 11,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Boilertemperatur 1" },
+                { "Language": "en", "Name": "Boiler temperature 1" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Kesseltemperatur Istwert",
+            "Profile": "~Temperature",
+            "ReadAddress": 83,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Kesseltemperatur Istwert" },
+                { "Language": "en", "Name": "Boiler temperature (actual)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Kesseltemperatur Sollwert",
+            "Profile": "~Temperature",
+            "ReadAddress": 85,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Kesseltemperatur Sollwert" },
+                { "Language": "en", "Name": "Boiler temperature (setpoint)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Kesselzustand",
+            "Profile": "Hargassner_Kesselzustand",
+            "ReadAddress": 87,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Kesselzustand" },
+                { "Language": "en", "Name": "Boiler state" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Leistung",
+            "Profile": "Hargassner_kW",
+            "ReadAddress": 89,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Aktuelle Leistung" },
+                { "Language": "en", "Name": "Current output" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Rauchgastemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 127,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Rauchgastemperatur" },
+                { "Language": "en", "Name": "Flue gas temperature" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Rücklauftemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 131,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Rücklauftemperatur" },
+                { "Language": "en", "Name": "Return temperature" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Vorlauftemperatur HK1 Istwert",
+            "Profile": "~Temperature",
+            "ReadAddress": 145,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Vorlauftemperatur HK1 Istwert" },
+                { "Language": "en", "Name": "Flow temperature HC1 (actual)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Vorlauftemperatur HK1 Sollwert",
+            "Profile": "~Temperature",
+            "ReadAddress": 147,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Vorlauftemperatur HK1 Sollwert" },
+                { "Language": "en", "Name": "Flow temperature HC1 (setpoint)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Puffertemperatur Oben",
+            "Profile": "~Temperature",
+            "ReadAddress": 123,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Puffertemperatur Oben" },
+                { "Language": "en", "Name": "Buffer temperature top" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Puffertemperatur Unten",
+            "Profile": "~Temperature",
+            "ReadAddress": 125,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Puffertemperatur Unten" },
+                { "Language": "en", "Name": "Buffer temperature bottom" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zustand HK1",
+            "Profile": "Hargassner_ZustandHK",
+            "ReadAddress": 179,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Zustand Heizkreis 1" },
+                { "Language": "en", "Name": "Heating circuit 1 state" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Betriebsstunden Einschub",
+            "Profile": "Hargassner_Hours",
+            "ReadAddress": 217,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Betriebsstunden Einschub" },
+                { "Language": "en", "Name": "Operating hours (feed screw)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Gesamtverbrauch",
+            "Profile": "Hargassner_kg",
+            "ReadAddress": 219,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Gesamtverbrauch (Brennstoff)" },
+                { "Language": "en", "Name": "Total fuel consumption" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Lagerstand",
+            "Profile": "Hargassner_Percent",
+            "ReadAddress": 221,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Lagerstand (Pelletlager)" },
+                { "Language": "en", "Name": "Fuel storage level" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Störungsnummer",
+            "Profile": "",
+            "ReadAddress": 223,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Störungsnummer (letzte angezeigte Störung)" },
+                { "Language": "en", "Name": "Fault number (last displayed)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Pufferbefüllgrad",
+            "Profile": "Hargassner_Percent",
+            "ReadAddress": 287,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Pufferbefüllgrad" },
+                { "Language": "en", "Name": "Buffer charge level" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "Hargassner_Kesselzustand": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Hargassner_ZustandHK": {
+            "Associations": [
+                { "Color": 16777215, "Icon": "", "Name": "Aus", "Value": 0.0 },
+                { "Color": 65280, "Icon": "", "Name": "Heizen", "Value": 1.0 },
+                { "Color": 16777215, "Icon": "", "Name": "Absenken Rampe", "Value": 2.0 },
+                { "Color": 16777215, "Icon": "", "Name": "Absenken", "Value": 3.0 },
+                { "Color": 16777215, "Icon": "", "Name": "Tag/Nacht Abschaltung", "Value": 4.0 },
+                { "Color": 16777215, "Icon": "", "Name": "Sommerabschaltung", "Value": 5.0 },
+                { "Color": 16763904, "Icon": "", "Name": "Frostschutz", "Value": 6.0 },
+                { "Color": 16777215, "Icon": "", "Name": "Estrich", "Value": 7.0 },
+                { "Color": 16777215, "Icon": "", "Name": "Hand", "Value": 8.0 },
+                { "Color": 16777215, "Icon": "", "Name": "Restwärme", "Value": 9.0 },
+                { "Color": 16777215, "Icon": "", "Name": "Sommerbadheizen", "Value": 10.0 }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 10.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Hargassner_kW": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kW",
+            "Type": 2
+        },
+        "Hargassner_kg": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kg",
+            "Type": 2
+        },
+        "Hargassner_Percent": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "%",
+            "Type": 2
+        },
+        "Hargassner_Hours": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " h",
+            "Type": 2
+        }
+    },
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Type": "biomass_boiler",
+    "Manufacturer": "Hargassner",
+    "Product": "Pellets/Eco/WTH Touch (ModbusTCP-Schnittstelle)",
+    "Requests": {
+        "Interval": 10000
+    },
+    "VirtualAddresses": []
+}

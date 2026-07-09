@@ -1,0 +1,426 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Verbindungsstatus",
+            "Profile": "Zehnder_ConnectionState",
+            "ReadAddress": 1,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Verbindungsstatus" },
+                { "Language": "en", "Name": "Connection state" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Luftmenge",
+            "Profile": "Zehnder_m3h",
+            "ReadAddress": 7,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Luftmenge (Airflow)" },
+                { "Language": "en", "Name": "Airflow" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Raumtemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 8,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Raumtemperatur" },
+                { "Language": "en", "Name": "Room temperature" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Fortlufttemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 9,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Fortlufttemperatur (Extract)" },
+                { "Language": "en", "Name": "Extract temperature" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Abluftemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 10,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Ablufttemperatur (Exhaust)" },
+                { "Language": "en", "Name": "Exhaust temperature" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Außenlufttemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 11,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Außenlufttemperatur (Outdoor)" },
+                { "Language": "en", "Name": "Outdoor temperature" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Zulufttemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 12,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Zulufttemperatur (Supply)" },
+                { "Language": "en", "Name": "Supply temperature" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Raumluftfeuchte",
+            "Profile": "Zehnder_Percent",
+            "ReadAddress": 13,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Raumluftfeuchte" },
+                { "Language": "en", "Name": "Room humidity" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Fortluftfeuchte",
+            "Profile": "Zehnder_Percent",
+            "ReadAddress": 14,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Fortluftfeuchte (Extract)" },
+                { "Language": "en", "Name": "Extract humidity" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Filter Resttage",
+            "Profile": "Zehnder_Days",
+            "ReadAddress": 26,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Verbleibende Filterlaufzeit" },
+                { "Language": "en", "Name": "Filter days remaining" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Filter verschmutzt",
+            "Profile": "Zehnder_Alarm",
+            "ReadAddress": 4,
+            "ReadFunctionCode": 2,
+            "Translation": [
+                { "Language": "de", "Name": "Filter verschmutzt (Alarm)" },
+                { "Language": "en", "Name": "Filter dirty (alarm)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Lüftungsstufe",
+            "Profile": "Zehnder_Preset",
+            "ReadAddress": 1,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Lüftungsstufe (Preset)" },
+                { "Language": "en", "Name": "Ventilation preset" }
+            ],
+            "WriteAddress": 1,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Temperaturprofil",
+            "Profile": "Zehnder_TempProfile",
+            "ReadAddress": 2,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Temperaturprofil" },
+                { "Language": "en", "Name": "Temperature profile" }
+            ],
+            "WriteAddress": 2,
+            "WriteFunctionCode": 6
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Boost",
+            "Profile": "Zehnder_Switch",
+            "ReadAddress": 7,
+            "ReadFunctionCode": 1,
+            "Translation": [
+                { "Language": "de", "Name": "Boost-Funktion" },
+                { "Language": "en", "Name": "Boost function" }
+            ],
+            "WriteAddress": 7,
+            "WriteFunctionCode": 15
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 0,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Automatikmodus",
+            "Profile": "Zehnder_Switch",
+            "ReadAddress": 6,
+            "ReadFunctionCode": 1,
+            "Translation": [
+                { "Language": "de", "Name": "Automatikmodus" },
+                { "Language": "en", "Name": "Auto mode" }
+            ],
+            "WriteAddress": 6,
+            "WriteFunctionCode": 15
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Boost-Dauer",
+            "Profile": "Zehnder_Seconds",
+            "ReadAddress": 5,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Boost-Dauer" },
+                { "Language": "en", "Name": "Boost time" }
+            ],
+            "WriteAddress": 5,
+            "WriteFunctionCode": 6
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "Zehnder_ConnectionState": {
+            "Associations": [
+                { "Color": 65280, "Icon": "", "Name": "OK", "Value": 0.0 },
+                { "Color": 16711680, "Icon": "", "Name": "Falsches Gerät erkannt", "Value": 30.0 },
+                { "Color": 16711680, "Icon": "", "Name": "Version nicht kompatibel", "Value": 40.0 },
+                { "Color": 16711680, "Icon": "", "Name": "Kein Lüftungsgerät erkannt", "Value": 50.0 }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Zehnder_m3h": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " m³/h",
+            "Type": 2
+        },
+        "Zehnder_Percent": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "%",
+            "Type": 2
+        },
+        "Zehnder_Days": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " Tage",
+            "Type": 2
+        },
+        "Zehnder_Alarm": {
+            "Associations": [
+                { "Color": 65280, "Icon": "", "Name": "OK", "Value": 0.0 },
+                { "Color": 16711680, "Icon": "", "Name": "Filter wechseln", "Value": 1.0 }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Zehnder_Preset": {
+            "Associations": [
+                { "Color": 16777215, "Icon": "", "Name": "Abwesend", "Value": 0.0 },
+                { "Color": 16777215, "Icon": "", "Name": "Stufe 1 (niedrig)", "Value": 1.0 },
+                { "Color": 65280, "Icon": "", "Name": "Stufe 2 (mittel)", "Value": 2.0 },
+                { "Color": 16763904, "Icon": "", "Name": "Stufe 3 (hoch)", "Value": 3.0 }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 3.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Zehnder_TempProfile": {
+            "Associations": [
+                { "Color": 16777215, "Icon": "", "Name": "Normal", "Value": 0.0 },
+                { "Color": 16763904, "Icon": "", "Name": "Kühl", "Value": 1.0 },
+                { "Color": 16711680, "Icon": "", "Name": "Warm", "Value": 2.0 }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 2.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Zehnder_Switch": {
+            "Associations": [
+                { "Color": 16711680, "Icon": "", "Name": "Aus", "Value": 0.0 },
+                { "Color": 65280, "Icon": "", "Name": "Ein", "Value": 1.0 }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Zehnder_Seconds": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " s",
+            "Type": 2
+        }
+    },
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Type": "compact_ventilation_unit",
+    "Manufacturer": "Zehnder",
+    "Product": "ComfoAir Q (Q350/Q450/Q600, via ComfoConnect PRO Gateway)",
+    "Requests": {
+        "Interval": 10000
+    },
+    "VirtualAddresses": []
+}

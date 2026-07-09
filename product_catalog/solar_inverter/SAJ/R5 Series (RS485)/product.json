@@ -1,0 +1,326 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Betriebsmodus",
+            "Profile": "SAJ_MPVMode",
+            "ReadAddress": 256,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Betriebsmodus" },
+                { "Language": "en", "Name": "Inverter working mode" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV1 Spannung",
+            "Profile": "~Volt",
+            "ReadAddress": 263,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "PV1 Spannung" },
+                { "Language": "en", "Name": "PV1 voltage" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV1 Strom",
+            "Profile": "~Ampere",
+            "ReadAddress": 264,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "PV1 Strom" },
+                { "Language": "en", "Name": "PV1 total current" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV1 Leistung",
+            "Profile": "~Watt",
+            "ReadAddress": 265,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "PV1 Leistung" },
+                { "Language": "en", "Name": "PV1 power" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Busspannung",
+            "Profile": "~Volt",
+            "ReadAddress": 272,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Busspannung" },
+                { "Language": "en", "Name": "Bus voltage" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wechselrichtertemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 273,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Wechselrichtertemperatur" },
+                { "Language": "en", "Name": "Inverter temperature" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wirkleistung Gesamt",
+            "Profile": "~Watt",
+            "ReadAddress": 275,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Aktive Wirkleistung des Wechselrichters" },
+                { "Language": "en", "Name": "Active power of inverter total output" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "L1 Spannung",
+            "Profile": "~Volt",
+            "ReadAddress": 278,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "L1 Spannung" },
+                { "Language": "en", "Name": "L1 voltage" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "L1 Strom",
+            "Profile": "~Ampere",
+            "ReadAddress": 279,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "L1 Strom" },
+                { "Language": "en", "Name": "L1 current" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "L1 Frequenz",
+            "Profile": "~Hertz",
+            "ReadAddress": 280,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "L1 Netzfrequenz" },
+                { "Language": "en", "Name": "L1 frequency" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "L1 Leistung",
+            "Profile": "~Watt",
+            "ReadAddress": 282,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "L1 Leistung" },
+                { "Language": "en", "Name": "L1 power" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Energie heute",
+            "Profile": "SAJ_kWh",
+            "ReadAddress": 300,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Energieerzeugung heute" },
+                { "Language": "en", "Name": "Today energy generation" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Energie Monat",
+            "Profile": "SAJ_kWh",
+            "ReadAddress": 301,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Energieerzeugung aktueller Monat" },
+                { "Language": "en", "Name": "Current month energy generation" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Gesamtenergie",
+            "Profile": "SAJ_kWh",
+            "ReadAddress": 305,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Gesamte Energieerzeugung" },
+                { "Language": "en", "Name": "Total energy generation" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Betriebsstunden gesamt",
+            "Profile": "SAJ_Hours",
+            "ReadAddress": 308,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Gesamte Betriebsstunden" },
+                { "Language": "en", "Name": "Total working hours" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "SAJ_MPVMode": {
+            "Associations": [
+                { "Color": 16763904, "Icon": "", "Name": "Warten (WAIT)", "Value": 1.0 },
+                { "Color": 65280, "Icon": "", "Name": "Normalbetrieb (NORMAL)", "Value": 2.0 },
+                { "Color": 16711680, "Icon": "", "Name": "Fehler (FAULT)", "Value": 3.0 }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 3.0,
+            "MinValue": 1.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "SAJ_kWh": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 2
+        },
+        "SAJ_Hours": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " h",
+            "Type": 2
+        }
+    },
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "RTU",
+    "Type": "solar_inverter",
+    "Manufacturer": "SAJ",
+    "Product": "R5 Series On-grid Inverter (RS485, Modbus)",
+    "Requests": {
+        "Interval": 10000
+    },
+    "VirtualAddresses": []
+}
