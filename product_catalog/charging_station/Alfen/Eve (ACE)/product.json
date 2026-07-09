@@ -1,0 +1,335 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Spannung L1-N",
+            "Profile": "~Volt",
+            "ReadAddress": 306,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Spannung L1-N" },
+                { "Language": "en", "Name": "Voltage Phase V (L1-N)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Spannung L2-N",
+            "Profile": "~Volt",
+            "ReadAddress": 308,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Spannung L2-N" },
+                { "Language": "en", "Name": "Voltage Phase V (L2-N)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Spannung L3-N",
+            "Profile": "~Volt",
+            "ReadAddress": 310,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Spannung L3-N" },
+                { "Language": "en", "Name": "Voltage Phase V (L3-N)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Strom N",
+            "Profile": "~Ampere",
+            "ReadAddress": 318,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Strom Neutralleiter" },
+                { "Language": "en", "Name": "Current N" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Strom L1",
+            "Profile": "~Ampere",
+            "ReadAddress": 320,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Strom Phase L1" },
+                { "Language": "en", "Name": "Current Phase L1" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Strom L2",
+            "Profile": "~Ampere",
+            "ReadAddress": 322,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Strom Phase L2" },
+                { "Language": "en", "Name": "Current Phase L2" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Strom L3",
+            "Profile": "~Ampere",
+            "ReadAddress": 324,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Strom Phase L3" },
+                { "Language": "en", "Name": "Current Phase L3" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Frequenz",
+            "Profile": "~Hertz",
+            "ReadAddress": 336,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Netzfrequenz" },
+                { "Language": "en", "Name": "Frequency" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wirkleistung L1",
+            "Profile": "~Watt",
+            "ReadAddress": 338,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Wirkleistung Phase L1" },
+                { "Language": "en", "Name": "Real Power Phase L1" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wirkleistung L2",
+            "Profile": "~Watt",
+            "ReadAddress": 340,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Wirkleistung Phase L2" },
+                { "Language": "en", "Name": "Real Power Phase L2" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wirkleistung L3",
+            "Profile": "~Watt",
+            "ReadAddress": 342,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Wirkleistung Phase L3" },
+                { "Language": "en", "Name": "Real Power Phase L3" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wirkleistung Summe",
+            "Profile": "~Watt",
+            "ReadAddress": 344,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Wirkleistung Summe" },
+                { "Language": "en", "Name": "Real Power Sum" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 1,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Verfügbarkeit",
+            "Profile": "Alfen_Availability",
+            "ReadAddress": 1200,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Verfügbarkeit der Ladestation" },
+                { "Language": "en", "Name": "Availability" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Angewendeter Max. Strom",
+            "Profile": "~Ampere",
+            "ReadAddress": 1206,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Aktuell angewendeter maximaler Ladestrom" },
+                { "Language": "en", "Name": "Actual Applied Max Current" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Modbus Max. Strom",
+            "Profile": "~Ampere",
+            "ReadAddress": 1210,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Modbus Server Max. Strom (Sollwert)" },
+                { "Language": "en", "Name": "Modbus Server Max Current" }
+            ],
+            "WriteAddress": 1210,
+            "WriteFunctionCode": 16
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 1,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Phasenanzahl",
+            "Profile": "Alfen_Phases",
+            "ReadAddress": 1215,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Laden mit 1 oder 3 Phasen" },
+                { "Language": "en", "Name": "Charge using 1 or 3 phases" }
+            ],
+            "WriteAddress": 1215,
+            "WriteFunctionCode": 6
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "Alfen_Availability": {
+            "Associations": [
+                { "Color": 16711680, "Icon": "", "Name": "Inoperative", "Value": 0.0 },
+                { "Color": 65280, "Icon": "", "Name": "Operative", "Value": 1.0 }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Alfen_Phases": {
+            "Associations": [
+                { "Color": 16777215, "Icon": "", "Name": "1 Phase", "Value": 1.0 },
+                { "Color": 16777215, "Icon": "", "Name": "3 Phasen", "Value": 3.0 }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 3.0,
+            "MinValue": 1.0,
+            "Prefix": "",
+            "StepSize": 2.0,
+            "Suffix": "",
+            "Type": 1
+        }
+    },
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Type": "charging_station",
+    "Manufacturer": "Alfen",
+    "Product": "Eve Single (ACE, NG9xx) – Modbus for ACE",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}

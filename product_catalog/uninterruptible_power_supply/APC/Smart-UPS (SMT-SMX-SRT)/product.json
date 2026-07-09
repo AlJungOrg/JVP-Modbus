@@ -1,0 +1,203 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Restlaufzeit",
+            "Profile": "APC_Seconds",
+            "ReadAddress": 128,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Verbleibende Laufzeit (Batterie)" },
+                { "Language": "en", "Name": "Runtime remaining" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ladezustand",
+            "Profile": "APC_Percent",
+            "ReadAddress": 130,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Batterie-Ladezustand" },
+                { "Language": "en", "Name": "State of charge" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.03125,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batteriespannung",
+            "Profile": "~Volt",
+            "ReadAddress": 131,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Batteriespannung (positiver Bus)" },
+                { "Language": "en", "Name": "Battery voltage (positive bus)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.0078125,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batterietemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 135,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Batterietemperatur" },
+                { "Language": "en", "Name": "Battery temperature" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.00390625,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ausgangsleistung L1",
+            "Profile": "APC_Percent",
+            "ReadAddress": 136,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Ausgangs-Wirkleistung Phase 1 (% Nennlast)" },
+                { "Language": "en", "Name": "Output real power phase 1 (% of rating)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.0078125,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ausgangsfrequenz",
+            "Profile": "~Hertz",
+            "ReadAddress": 144,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Ausgangsfrequenz" },
+                { "Language": "en", "Name": "Output frequency" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.015625,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Eingangsspannung L1",
+            "Profile": "~Volt",
+            "ReadAddress": 151,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Eingangsspannung Phase 1" },
+                { "Language": "en", "Name": "Input voltage phase 1" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.015625,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Eingangsspannung L2",
+            "Profile": "~Volt",
+            "ReadAddress": 152,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Eingangsspannung Phase 2" },
+                { "Language": "en", "Name": "Input voltage phase 2" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.015625,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Eingangsspannung L3",
+            "Profile": "~Volt",
+            "ReadAddress": 153,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                { "Language": "de", "Name": "Eingangsspannung Phase 3" },
+                { "Language": "en", "Name": "Input voltage phase 3" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "APC_Seconds": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " s",
+            "Type": 2
+        },
+        "APC_Percent": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "%",
+            "Type": 2
+        }
+    },
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Type": "ups",
+    "Manufacturer": "APC",
+    "Product": "Smart-UPS SMT/SMX/SRT (via AP9631/AP9635 Network Management Card)",
+    "Requests": {
+        "Interval": 10000
+    },
+    "VirtualAddresses": []
+}

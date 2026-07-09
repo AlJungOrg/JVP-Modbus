@@ -1,0 +1,347 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Modell-Nr.",
+            "Profile": "",
+            "ReadAddress": 33000,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Modell-Nr." },
+                { "Language": "en", "Name": "Model No." }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Gesamtenergie",
+            "Profile": "Solis_kWh",
+            "ReadAddress": 33029,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Gesamtenergieerzeugung" },
+                { "Language": "en", "Name": "Total energy generation" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Energie heute",
+            "Profile": "Solis_kWh",
+            "ReadAddress": 33035,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Energieerzeugung heute" },
+                { "Language": "en", "Name": "Today energy generation" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV-Gesamtleistung",
+            "Profile": "~Watt",
+            "ReadAddress": 33057,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "PV-Gesamtleistung (DC)" },
+                { "Language": "en", "Name": "Total DC output power (PV)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "DC-Busspannung",
+            "Profile": "~Volt",
+            "ReadAddress": 33071,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "DC-Busspannung" },
+                { "Language": "en", "Name": "DC bus voltage" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Netzspannung A",
+            "Profile": "~Volt",
+            "ReadAddress": 33073,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "AB-Leiterspannung / Phase A Spannung" },
+                { "Language": "en", "Name": "AB line voltage / phase A voltage" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Strom Phase A",
+            "Profile": "~Ampere",
+            "ReadAddress": 33076,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Strom Phase A" },
+                { "Language": "en", "Name": "A phase current" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wirkleistung",
+            "Profile": "~Watt",
+            "ReadAddress": 33079,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Aktive Wirkleistung" },
+                { "Language": "en", "Name": "Active power" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wechselrichtertemperatur",
+            "Profile": "~Temperature",
+            "ReadAddress": 33093,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Wechselrichtertemperatur" },
+                { "Language": "en", "Name": "Inverter temperature" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Netzfrequenz",
+            "Profile": "~Hertz",
+            "ReadAddress": 33094,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Netzfrequenz" },
+                { "Language": "en", "Name": "Grid frequency" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batteriespannung",
+            "Profile": "~Volt",
+            "ReadAddress": 33133,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Batteriespannung" },
+                { "Language": "en", "Name": "Battery voltage" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batteriestrom",
+            "Profile": "~Ampere",
+            "ReadAddress": 33134,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Batteriestrom (+laden/-entladen)" },
+                { "Language": "en", "Name": "Battery current (+charge/-discharge)" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batterie SOC",
+            "Profile": "Solis_Percent",
+            "ReadAddress": 33139,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Batterie-Ladezustand (SOC)" },
+                { "Language": "en", "Name": "Battery capacity SOC" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batterie SOH",
+            "Profile": "Solis_Percent",
+            "ReadAddress": 33140,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Batterie-Gesundheitszustand (SOH)" },
+                { "Language": "en", "Name": "Battery health SOH" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Hausverbrauch",
+            "Profile": "~Watt",
+            "ReadAddress": 33147,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Haushaltslast (Leistung)" },
+                { "Language": "en", "Name": "Household load power" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Energie Netzbezug gesamt",
+            "Profile": "Solis_kWh",
+            "ReadAddress": 33169,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Gesamte aus Netz bezogene Energie" },
+                { "Language": "en", "Name": "Total energy imported from grid" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Energie Netzeinspeisung gesamt",
+            "Profile": "Solis_kWh",
+            "ReadAddress": 33173,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                { "Language": "de", "Name": "Gesamte ins Netz eingespeiste Energie" },
+                { "Language": "en", "Name": "Total energy fed into grid" }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "Solis_kWh": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 2
+        },
+        "Solis_Percent": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "%",
+            "Type": 2
+        }
+    },
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "ConnectionType": "RTU",
+    "Type": "solar_inverter",
+    "Manufacturer": "Solis",
+    "Product": "Hybrid-Wechselrichter (RS485 Modbus RTU, ESINV-33000ID)",
+    "Requests": {
+        "Interval": 10000
+    },
+    "VirtualAddresses": []
+}
