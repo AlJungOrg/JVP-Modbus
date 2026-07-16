@@ -729,31 +729,6 @@
             "Active": false,
             "ByteOrder": -1,
             "CustomFactor": 0,
-            "DataType": 10,
-            "Factor": 0,
-            "Ident": "",
-            "Length": 0,
-            "Name": "SN",
-            "Profile": "",
-            "ReadAddress": 30016,
-            "ReadFunctionCode": 3,
-            "Translation": [
-                {
-                    "Language": "en",
-                    "Name": "SN"
-                },
-                {
-                    "Language": "de",
-                    "Name": "SN"
-                }
-            ],
-            "WriteAddress": 0,
-            "WriteFunctionCode": 0
-        },
-        {
-            "Active": false,
-            "ByteOrder": -1,
-            "CustomFactor": 0,
             "DataType": 2,
             "Factor": 0,
             "Ident": "",
