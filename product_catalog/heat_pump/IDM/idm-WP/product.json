@@ -934,7 +934,7 @@
                 }
             ],
             "WriteAddress": 1710,
-            "WriteFunctionCode": 5
+            "WriteFunctionCode": 15
         },
         {
             "Active": true,
@@ -958,7 +958,7 @@
                 }
             ],
             "WriteAddress": 1711,
-            "WriteFunctionCode": 5
+            "WriteFunctionCode": 15
         },
         {
             "Active": true,
@@ -982,7 +982,7 @@
                 }
             ],
             "WriteAddress": 1712,
-            "WriteFunctionCode": 5
+            "WriteFunctionCode": 15
         }
     ],
     "ByteOrder": 3,
