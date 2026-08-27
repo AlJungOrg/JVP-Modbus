@@ -614,7 +614,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Actual cos φ"
+          "Name": "Aktueller cos φ"
         },
         {
           "Language": "en",
@@ -734,7 +734,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Current Phase 2"
+          "Name": "Strom Phase 2"
         },
         {
           "Language": "en",
@@ -758,7 +758,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Active power Phase 2"
+          "Name": "Wirkleistung Phase 2"
         },
         {
           "Language": "en",
@@ -782,7 +782,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Voltage Phase 2"
+          "Name": "Spannung Phase 2"
         },
         {
           "Language": "en",
@@ -806,7 +806,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Current Phase 3"
+          "Name": "Strom Phase 3"
         },
         {
           "Language": "en",
@@ -830,7 +830,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Active power Phase 3"
+          "Name": "Wirkleistung Phase 3"
         },
         {
           "Language": "en",
@@ -854,7 +854,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Voltage Phase 3"
+          "Name": "Spannung Phase 3"
         },
         {
           "Language": "en",
@@ -878,7 +878,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total AC active power"
+          "Name": "Gesamte AC-Wirkleistung"
         },
         {
           "Language": "en",
@@ -902,7 +902,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total AC reactive power"
+          "Name": "Gesamte AC-Blindleistung"
         },
         {
           "Language": "en",
@@ -926,7 +926,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total AC apparent power"
+          "Name": "Gesamte AC-Scheinleistung"
         },
         {
           "Language": "en",
@@ -974,7 +974,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Number of battery cycles"
+          "Name": "Anzahl der Batteriezyklen"
         },
         {
           "Language": "en",
@@ -998,7 +998,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Actual battery charge (-) / discharge (+) current"
+          "Name": "Aktueller Batterielade- (-) / entladestrom (+)"
         },
         {
           "Language": "en",
@@ -1022,7 +1022,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "PSSB fuse state"
+          "Name": "PSSB-Sicherungsstatus"
         },
         {
           "Language": "en",
@@ -1070,7 +1070,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Actual state of charge"
+          "Name": "Aktueller Ladezustand"
         },
         {
           "Language": "en",
@@ -1142,7 +1142,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Cos φ (powermeter)"
+          "Name": "Cos φ (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1166,7 +1166,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Frequency  (powermeter)"
+          "Name": "Frequenz (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1190,7 +1190,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Current phase 1 (powermeter)"
+          "Name": "Strom Phase 1 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1214,7 +1214,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Active power phase 1 (powermeter)"
+          "Name": "Wirkleistung Phase 1 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1238,7 +1238,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Reactive power phase 1 (powermeter)"
+          "Name": "Blindleistung Phase 1 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1262,7 +1262,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Apparent power phase 1 (powermeter)"
+          "Name": "Scheinleistung Phase 1 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1286,7 +1286,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Voltage phase 1 (powermeter)"
+          "Name": "Spannung Phase 1 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1310,7 +1310,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Current phase 2 (powermeter)"
+          "Name": "Strom Phase 2 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1334,7 +1334,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Active power phase 2 (powermeter)"
+          "Name": "Wirkleistung Phase 2 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1358,7 +1358,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Reactive power phase 2 (powermeter)"
+          "Name": "Blindleistung Phase 2 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1382,7 +1382,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Apparent power phase 2 (powermeter)"
+          "Name": "Scheinleistung Phase 2 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1406,7 +1406,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Voltage phase 2 (powermeter)"
+          "Name": "Spannung Phase 2 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1430,7 +1430,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Current phase 3 (powermeter)"
+          "Name": "Strom Phase 3 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1454,7 +1454,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Active power phase 3 (powermeter)"
+          "Name": "Wirkleistung Phase 3 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1478,7 +1478,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Reactive power phase 3 (powermeter)"
+          "Name": "Blindleistung Phase 3 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1502,7 +1502,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Apparent power phase 3 (powermeter)"
+          "Name": "Scheinleistung Phase 3 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1526,7 +1526,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Voltage phase 3 (powermeter)"
+          "Name": "Spannung Phase 3 (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1550,7 +1550,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total active power (powermeter)"
+          "Name": "Gesamtwirkleistung (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1574,7 +1574,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total reactive power (powermeter)"
+          "Name": "Gesamtblindleistung (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1598,7 +1598,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total apparent power (powermeter)"
+          "Name": "Gesamtscheinleistung (Stromzähler)"
         },
         {
           "Language": "en",
@@ -1622,7 +1622,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Current DC1"
+          "Name": "Strom DC1"
         },
         {
           "Language": "en",
@@ -1646,7 +1646,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Power DC1"
+          "Name": "Leistung DC1"
         },
         {
           "Language": "en",
@@ -1670,7 +1670,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Voltage DC1"
+          "Name": "Spannung DC1"
         },
         {
           "Language": "en",
@@ -1694,7 +1694,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Current DC2"
+          "Name": "Strom DC2"
         },
         {
           "Language": "en",
@@ -1718,7 +1718,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Power DC2"
+          "Name": "Leistung DC2"
         },
         {
           "Language": "en",
@@ -1742,7 +1742,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Voltage DC2"
+          "Name": "Spannung DC2"
         },
         {
           "Language": "en",
@@ -1766,7 +1766,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Current DC3"
+          "Name": "Strom DC3"
         },
         {
           "Language": "en",
@@ -1790,7 +1790,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Power DC3"
+          "Name": "Leistung DC3"
         },
         {
           "Language": "en",
@@ -1814,7 +1814,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Voltage DC3"
+          "Name": "Spannung DC3"
         },
         {
           "Language": "en",
@@ -1838,7 +1838,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total yield"
+          "Name": "Gesamtertrag"
         },
         {
           "Language": "en",
@@ -1862,7 +1862,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Daily yield"
+          "Name": "Tagesertrag"
         },
         {
           "Language": "en",
@@ -1886,7 +1886,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Yearly yield"
+          "Name": "Jahresertrag"
         },
         {
           "Language": "en",
@@ -1910,7 +1910,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Monthly yield"
+          "Name": "Monatsertrag"
         },
         {
           "Language": "en",
@@ -1934,7 +1934,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Inverter network name"
+          "Name": "Netzwerkname des Wechselrichters"
         },
         {
           "Language": "en",
@@ -1958,7 +1958,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "IP enabled"
+          "Name": "IP aktiviert"
         },
         {
           "Language": "en",
@@ -1982,7 +1982,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Manual / Auto IP"
+          "Name": "Manuelle / Automatische IP"
         },
         {
           "Language": "en",
@@ -2006,7 +2006,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "IP-address"
+          "Name": "IP-Adresse"
         },
         {
           "Language": "en",
@@ -2030,7 +2030,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "IP-subnetmask"
+          "Name": "IP-Subnetzmaske"
         },
         {
           "Language": "en",
@@ -2054,7 +2054,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "IP-gateway"
+          "Name": "IP-Gateway"
         },
         {
           "Language": "en",
@@ -2078,7 +2078,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "IP auto-DNS"
+          "Name": "IP Auto-DNS"
         },
         {
           "Language": "en",
@@ -2150,7 +2150,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery Gross Capacity"
+          "Name": "Bruttokapazität der Batterie"
         },
         {
           "Language": "en",
@@ -2174,7 +2174,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery actual SOC (%)"
+          "Name": "Aktueller Ladezustand der Batterie (%)"
         },
         {
           "Language": "en",
@@ -2198,7 +2198,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery Firmware Maincontroller (MC)"
+          "Name": "Batterie-Firmware Hauptcontroller (MC)"
         },
         {
           "Language": "en",
@@ -2222,7 +2222,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery Manufacturer"
+          "Name": "Batteriehersteller"
         },
         {
           "Language": "en",
@@ -2246,7 +2246,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery Model ID"
+          "Name": "Batterie-Modell-ID"
         },
         {
           "Language": "en",
@@ -2270,7 +2270,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Inverter max. Power"
+          "Name": "Wechselrichter max. Leistung"
         },
         {
           "Language": "en",
@@ -2294,7 +2294,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Inverter max. Power Scale Factor"
+          "Name": "Wechselrichter max. Leistung Skalierungsfaktor"
         },
         {
           "Language": "en",
@@ -2318,7 +2318,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Active Power Setpoint (%)"
+          "Name": "Sollwert Wirkleistung (%)"
         },
         {
           "Language": "en",
@@ -2342,7 +2342,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Inverter Manufacturer"
+          "Name": "Wechselrichterhersteller"
         },
         {
           "Language": "en",
@@ -2366,7 +2366,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Inverter Serial Number"
+          "Name": "Seriennummer des Wechselrichters"
         },
         {
           "Language": "en",
@@ -2390,7 +2390,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Inverter Generation Power (actual)"
+          "Name": "Wechselrichter Erzeugungsleistung (aktuell)"
         },
         {
           "Language": "en",
@@ -2414,7 +2414,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Inverter Generation Power (actual) Scale Factor"
+          "Name": "Wechselrichter Erzeugungsleistung (aktuell) Skalierungsfaktor"
         },
         {
           "Language": "en",
@@ -2438,7 +2438,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Inverter Generation Energy"
+          "Name": "Wechselrichter Erzeugungsenergie"
         },
         {
           "Language": "en",
@@ -2462,7 +2462,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Inverter Generation Energy Scale Factor"
+          "Name": "Wechselrichter Erzeugungsenergie Skalierungsfaktor"
         },
         {
           "Language": "en",
@@ -2486,7 +2486,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Actual battery charge (-) / discharge (+) power"
+          "Name": "Aktuelle Batterielade- (-) / entladeleistung (+)"
         },
         {
           "Language": "en",
@@ -2510,7 +2510,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Reactive Power Setpoint (%)"
+          "Name": "Sollwert Blindleistung (%)"
         },
         {
           "Language": "en",
@@ -2534,7 +2534,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Delta-cos φ Setpoint"
+          "Name": "Sollwert Delta-cos φ"
         },
         {
           "Language": "en",
@@ -2558,7 +2558,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery Firmware"
+          "Name": "Batterie-Firmware"
         },
         {
           "Language": "en",
@@ -2582,7 +2582,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery Type"
+          "Name": "Batterietyp"
         },
         {
           "Language": "en",
@@ -2606,7 +2606,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Productname"
+          "Name": "Produktname"
         },
         {
           "Language": "en",
@@ -2630,7 +2630,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Power class"
+          "Name": "Leistungsklasse"
         },
         {
           "Language": "en",
@@ -2654,7 +2654,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Low-Priority Active Power Setpoint"
+          "Name": "Sollwert Wirkleistung (niedrige Priorität)"
         },
         {
           "Language": "en",
@@ -2678,7 +2678,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Low-Priority Active Power Setpoint Scale Factor"
+          "Name": "Sollwert Wirkleistung (niedrige Priorität) Skalierungsfaktor"
         },
         {
           "Language": "en",
@@ -2702,7 +2702,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery charge power (AC) Setpoint"
+          "Name": "Sollwert Batterieladeleistung (AC)"
         },
         {
           "Language": "en",
@@ -2726,7 +2726,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery charge power (AC) Scale Factor"
+          "Name": "Batterieladeleistung (AC) Skalierungsfaktor"
         },
         {
           "Language": "en",
@@ -2750,7 +2750,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery charge power (AC) Setpoint (absolute)"
+          "Name": "Sollwert Batterieladeleistung (AC) (absolut)"
         },
         {
           "Language": "en",
@@ -2774,7 +2774,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery charge current (DC) Setpoint (relative)"
+          "Name": "Sollwert Batterieladestrom (DC) (relativ)"
         },
         {
           "Language": "en",
@@ -2798,7 +2798,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery charge power (AC) Setpoint (relative)"
+          "Name": "Sollwert Batterieladeleistung (AC) (relativ)"
         },
         {
           "Language": "en",
@@ -2822,7 +2822,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery charge current (DC) Setpoint (absolute)"
+          "Name": "Sollwert Batterieladestrom (DC) (absolut)"
         },
         {
           "Language": "en",
@@ -2846,7 +2846,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery charge power (DC) Setpoint (absolute)"
+          "Name": "Sollwert Batterieladeleistung (DC) (absolut)"
         },
         {
           "Language": "en",
@@ -2870,7 +2870,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery charge power (DC) Setpoint (relative)"
+          "Name": "Sollwert Batterieladeleistung (DC) (relativ)"
         },
         {
           "Language": "en",
@@ -2894,7 +2894,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery max. charge power limit (absolute)"
+          "Name": "Batterie max. Ladeleistungsgrenze (absolut)"
         },
         {
           "Language": "en",
@@ -2918,7 +2918,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery max. discharge power limit (absolute)"
+          "Name": "Batterie max. Entladeleistungsgrenze (absolut)"
         },
         {
           "Language": "en",
@@ -2942,7 +2942,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery min. SOC"
+          "Name": "Batterie min. Ladezustand"
         },
         {
           "Language": "en",
@@ -2966,7 +2966,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery max. SOC"
+          "Name": "Batterie max. Ladezustand"
         },
         {
           "Language": "en",
@@ -2990,7 +2990,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total DC charge energy (DC-side to battery)"
+          "Name": "Gesamte DC-Ladeenergie (DC-Seite zur Batterie)"
         },
         {
           "Language": "en",
@@ -3014,7 +3014,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total DC discharge energy (DC-side from battery)"
+          "Name": "Gesamte DC-Entladeenergie (DC-Seite von Batterie)"
         },
         {
           "Language": "en",
@@ -3038,7 +3038,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total AC charge energy (AC-side to battery)"
+          "Name": "Gesamte AC-Ladeenergie (AC-Seite zur Batterie)"
         },
         {
           "Language": "en",
@@ -3062,7 +3062,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total AC discharge energy (battery to grid)"
+          "Name": "Gesamte AC-Entladeenergie (Batterie zum Netz)"
         },
         {
           "Language": "en",
@@ -3086,7 +3086,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total AC charge energy (grid to battery)"
+          "Name": "Gesamte AC-Ladeenergie (Netz zur Batterie)"
         },
         {
           "Language": "en",
@@ -3110,7 +3110,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total DC PV energy (sum of all PV inputs)"
+          "Name": "Gesamte DC-PV-Energie (Summe aller PV-Eingänge)"
         },
         {
           "Language": "en",
@@ -3134,7 +3134,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total DC energy from PV1"
+          "Name": "Gesamte DC-Energie von PV1"
         },
         {
           "Language": "en",
@@ -3158,7 +3158,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total DC energy from PV2"
+          "Name": "Gesamte DC-Energie von PV2"
         },
         {
           "Language": "en",
@@ -3182,7 +3182,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total DC energy from PV3"
+          "Name": "Gesamte DC-Energie von PV3"
         },
         {
           "Language": "en",
@@ -3206,7 +3206,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total energy AC-side to grid"
+          "Name": "Gesamte Energie AC-Seite zum Netz"
         },
         {
           "Language": "en",
@@ -3230,7 +3230,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Total DC power (sum of all PV inputs)"
+          "Name": "Gesamte DC-Leistung (Summe aller PV-Eingänge)"
         },
         {
           "Language": "en",
@@ -3254,7 +3254,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery Work Capacity"
+          "Name": "Batterie-Arbeitskapazität"
         },
         {
           "Language": "en",
@@ -3278,7 +3278,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery Serial Number"
+          "Name": "Seriennummer der Batterie"
         },
         {
           "Language": "en",
@@ -3302,7 +3302,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery max. charge power limit (read-out from battery)"
+          "Name": "Batterie max. Ladeleistungsgrenze (Auslesung aus Batterie)"
         },
         {
           "Language": "en",
@@ -3326,7 +3326,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery max. discharge power limit (read-out from battery)"
+          "Name": "Batterie max. Entladeleistungsgrenze (Auslesung aus Batterie)"
         },
         {
           "Language": "en",
@@ -3350,7 +3350,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Battery management mode"
+          "Name": "Batteriemanagement-Modus"
         },
         {
           "Language": "en",
@@ -3374,7 +3374,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "Installed Powermeter"
+          "Name": "Installierter Stromzähler"
         },
         {
           "Language": "en",
@@ -3875,7 +3875,7 @@
       "Translation": [
         {
           "Language": "de",
-          "Name": "DC-Leistung aus PV-Strängen"
+          "Name": "Gesamte DC-Leistung aus PV-Strängen"
         },
         {
           "Language": "en",
