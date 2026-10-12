@@ -327,7 +327,7 @@
     },
     "ByteOrderFloats": true,
     "Active": true,
-    "ReferenceCountStartsAtZero": false,
+    "ReferenceCountStartsAtZero": true,
     "UseEnronMode": false,
     "ConnectionType": "TCP",
     "Type": "Energy_Meter",
