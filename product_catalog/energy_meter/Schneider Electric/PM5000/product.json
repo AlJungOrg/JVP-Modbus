@@ -1,0 +1,670 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3000",
+            "Length": 0,
+            "Name": "Current L1",
+            "Profile": "~Ampere",
+            "ReadAddress": 2999,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3002",
+            "Length": 0,
+            "Name": "Current L2",
+            "Profile": "~Ampere",
+            "ReadAddress": 3001,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3004",
+            "Length": 0,
+            "Name": "Current L3",
+            "Profile": "~Ampere",
+            "ReadAddress": 3003,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3006",
+            "Length": 0,
+            "Name": "Current N",
+            "Profile": "~Ampere",
+            "ReadAddress": 3005,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3010",
+            "Length": 0,
+            "Name": "Current Average",
+            "Profile": "~Ampere",
+            "ReadAddress": 3009,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom Mittelwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Average"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3020",
+            "Length": 0,
+            "Name": "Voltage L1-L2",
+            "Profile": "~Volt",
+            "ReadAddress": 3019,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1-L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3022",
+            "Length": 0,
+            "Name": "Voltage L2-L3",
+            "Profile": "~Volt",
+            "ReadAddress": 3021,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3024",
+            "Length": 0,
+            "Name": "Voltage L3-L1",
+            "Profile": "~Volt",
+            "ReadAddress": 3023,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3-L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3-L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3026",
+            "Length": 0,
+            "Name": "Voltage L-L Average",
+            "Profile": "~Volt",
+            "ReadAddress": 3025,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L-L Mittelwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L-L Average"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3028",
+            "Length": 0,
+            "Name": "Voltage L1-N",
+            "Profile": "~Volt",
+            "ReadAddress": 3027,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3030",
+            "Length": 0,
+            "Name": "Voltage L2-N",
+            "Profile": "~Volt",
+            "ReadAddress": 3029,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3032",
+            "Length": 0,
+            "Name": "Voltage L3-N",
+            "Profile": "~Volt",
+            "ReadAddress": 3031,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3-N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3036",
+            "Length": 0,
+            "Name": "Voltage L-N Average",
+            "Profile": "~Volt",
+            "ReadAddress": 3035,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L-N Mittelwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L-N Average"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3054",
+            "Length": 0,
+            "Name": "Active Power L1",
+            "Profile": "~Power",
+            "ReadAddress": 3053,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3056",
+            "Length": 0,
+            "Name": "Active Power L2",
+            "Profile": "~Power",
+            "ReadAddress": 3055,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3058",
+            "Length": 0,
+            "Name": "Active Power L3",
+            "Profile": "~Power",
+            "ReadAddress": 3057,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3060",
+            "Length": 0,
+            "Name": "Active Power Total",
+            "Profile": "~Power",
+            "ReadAddress": 3059,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power Total"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3068",
+            "Length": 0,
+            "Name": "Reactive Power Total",
+            "Profile": "PM5000_kvar",
+            "ReadAddress": 3067,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power Total"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3076",
+            "Length": 0,
+            "Name": "Apparent Power Total",
+            "Profile": "PM5000_kVA",
+            "ReadAddress": 3075,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power Total"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "PM5000_3110",
+            "Length": 0,
+            "Name": "Frequency",
+            "Profile": "~Hertz",
+            "ReadAddress": 3109,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Frequency"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 8,
+            "Factor": 0.001,
+            "Ident": "PM5000_3204",
+            "Length": 0,
+            "Name": "Active Energy Delivered (Import)",
+            "Profile": "~Electricity",
+            "ReadAddress": 3203,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkenergie Bezug"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Energy Delivered (Import)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "INT64 in Wh, Factor 0.001 -> kWh"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 8,
+            "Factor": 0.001,
+            "Ident": "PM5000_3208",
+            "Length": 0,
+            "Name": "Active Energy Received (Export)",
+            "Profile": "~Electricity",
+            "ReadAddress": 3207,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkenergie Lieferung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Energy Received (Export)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "INT64 in Wh, Factor 0.001 -> kWh"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 8,
+            "Factor": 0.001,
+            "Ident": "PM5000_3220",
+            "Length": 0,
+            "Name": "Reactive Energy Delivered",
+            "Profile": "PM5000_kvarh",
+            "ReadAddress": 3219,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindenergie Bezug"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Energy Delivered"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "INT64 in Wh, Factor 0.001 -> kWh"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 8,
+            "Factor": 0.001,
+            "Ident": "PM5000_3224",
+            "Length": 0,
+            "Name": "Reactive Energy Received",
+            "Profile": "PM5000_kvarh",
+            "ReadAddress": 3223,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindenergie Lieferung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Energy Received"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "INT64 in Wh, Factor 0.001 -> kWh"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 8,
+            "Factor": 0.001,
+            "Ident": "PM5000_3236",
+            "Length": 0,
+            "Name": "Apparent Energy Delivered",
+            "Profile": "PM5000_kVAh",
+            "ReadAddress": 3235,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinenergie Bezug"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Energy Delivered"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "INT64 in Wh, Factor 0.001 -> kWh"
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "Name": "PM5000",
+    "Description": "Schneider Electric PowerLogic PM5000 (PM53xx/PM55xx). Modbus TCP Port 502 (Ethernet-Varianten) bzw. RTU via Gateway. Register laut Schneider-Doku 1-basiert, hier als Telegrammadresse (Doku - 1). Float32 und Int64 big-endian.",
+    "ConnectionType": "TCP",
+    "Profiles": {
+        "PM5000_kvar": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kvar",
+            "Type": 2
+        },
+        "PM5000_kVA": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kVA",
+            "Type": 2
+        },
+        "PM5000_kvarh": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kvarh",
+            "Type": 2
+        },
+        "PM5000_kVAh": {
+            "Associations": [],
+            "Digits": 2,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kVAh",
+            "Type": 2
+        }
+    },
+    "Requests": {
+        "Interval": 10000
+    },
+    "Type": "Energy_Meter",
+    "Manufacturer": "Schneider_Electric",
+    "Product": "PowerLogic PM5000 (PM53xx/PM55xx)",
+    "VirtualAddresses": []
+}

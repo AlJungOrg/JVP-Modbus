@@ -458,8 +458,8 @@
     },
     {
       "Active": true,
-      "ByteOrder": 0,
-      "DataType": 12,
+      "ByteOrder": -1,
+      "DataType": 3,
       "Factor": 0.001,
       "Ident": "ACGenEnergy",
       "Length": 0,

@@ -1,0 +1,259 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "PF525_LogicCommand",
+            "Length": 0,
+            "Name": "Logic Command",
+            "Profile": "PF525_LogicCommand",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Steuerwort (Logic Command)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Logic Command"
+                }
+            ],
+            "WriteAddress": 8192,
+            "WriteFunctionCode": 6,
+            "Description": "Velocity-Bits (C122 = 0): Bit0 Stopp, Bit1 Start, Bit2 Jog, Bit3 Fehler löschen, Bit4/5 Richtung (01 vor, 10 zurück)"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "PF525_SpeedReference",
+            "Length": 0,
+            "Name": "Speed Reference",
+            "Profile": "~Hertz",
+            "ReadAddress": 8450,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenzsollwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Speed Reference"
+                }
+            ],
+            "WriteAddress": 8193,
+            "WriteFunctionCode": 6,
+            "Description": "Schreiben 2001h, Lesen Frequenzbefehl 2102h, Einheit 0,01 Hz"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "PF525_LogicStatus",
+            "Length": 0,
+            "Name": "Logic Status",
+            "Profile": "",
+            "ReadAddress": 8448,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Statuswort (Logic Status)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Logic Status"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "Bit0 Bereit, Bit1 Aktiv, Bit2 Befehl vorwärts, Bit3 dreht vorwärts, Bit4 beschleunigt, Bit5 verzögert, Bit7 Störung, Bit8 Sollwert erreicht"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "PF525_ErrorCode",
+            "Length": 0,
+            "Name": "Drive Error Code",
+            "Profile": "PF525_ErrorCode",
+            "ReadAddress": 8449,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Fehlercode"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Drive Error Code"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.01,
+            "Ident": "PF525_OutputFrequency",
+            "Length": 0,
+            "Name": "Output Frequency",
+            "Profile": "~Hertz",
+            "ReadAddress": 8451,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ausgangsfrequenz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Output Frequency"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "2103h, Einheit 0,01 Hz"
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "Name": "PowerFlex 525",
+    "Description": "Allen-Bradley (Rockwell) PowerFlex 525 über integrierte RS-485-Schnittstelle (DSI) Modbus RTU. Voraussetzungen: P046 Start Source 1 = 3 (Serial/DSI), P047 Speed Reference 1 = 3 (Serial/DSI), C122 = 0 (Velocity), C123/C124/C127 passend zum Bus. Kommunikationsausfall über C125/C126 festlegen. Manche Master erwarten Adressen +1 (Logic Command 8193 statt 8192).",
+    "ConnectionType": "RTU",
+    "Profiles": {
+        "PF525_LogicCommand": {
+            "Associations": [
+                {
+                    "Color": 16763904,
+                    "Icon": "",
+                    "Name": "Stopp",
+                    "Value": 1.0
+                },
+                {
+                    "Color": 65280,
+                    "Icon": "",
+                    "Name": "Start vorwärts",
+                    "Value": 18.0
+                },
+                {
+                    "Color": 65280,
+                    "Icon": "",
+                    "Name": "Start rückwärts",
+                    "Value": 34.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Fehler quittieren",
+                    "Value": 8.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "PF525_ErrorCode": {
+            "Associations": [
+                {
+                    "Color": 65280,
+                    "Icon": "",
+                    "Name": "Kein Fehler",
+                    "Value": 0.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "F003 Netzausfall",
+                    "Value": 3.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "F004 Unterspannung",
+                    "Value": 4.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "F005 Überspannung",
+                    "Value": 5.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "F007 Motorüberlast",
+                    "Value": 7.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "F008 Kühlkörper Übertemperatur",
+                    "Value": 8.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "F012 HW-Überstrom",
+                    "Value": 12.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "F013 Erdschluss",
+                    "Value": 13.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "F071 DSI-Netzwerkverlust",
+                    "Value": 71.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "F081 DSI-Kommunikationsverlust",
+                    "Value": 81.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "F122 I/O-Platine Fehler",
+                    "Value": 122.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        }
+    },
+    "Requests": {
+        "Interval": 1000
+    },
+    "Type": "frequency_converter",
+    "Manufacturer": "Allen-Bradley",
+    "Product": "PowerFlex 525",
+    "VirtualAddresses": []
+}

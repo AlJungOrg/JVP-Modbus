@@ -1,0 +1,585 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_EnergySum",
+            "Length": 0,
+            "Name": "Net Energy Total",
+            "Profile": "~Electricity",
+            "ReadAddress": 1000,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energie netto (bidirektional)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Net Energy Total"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_EnergyPosSum",
+            "Length": 0,
+            "Name": "Positive Energy Total (Import)",
+            "Profile": "~Electricity",
+            "ReadAddress": 1002,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energie Bezug"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Positive Energy Total (Import)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_EnergyNegSum",
+            "Length": 0,
+            "Name": "Negative Energy Total (Export)",
+            "Profile": "~Electricity",
+            "ReadAddress": 1112,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Energie Lieferung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Negative Energy Total (Export)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_PowerSum",
+            "Length": 0,
+            "Name": "Active Power Total",
+            "Profile": "~Watt",
+            "ReadAddress": 1008,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power Total"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_PowerA",
+            "Length": 0,
+            "Name": "Active Power L1",
+            "Profile": "~Watt",
+            "ReadAddress": 1010,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_PowerB",
+            "Length": 0,
+            "Name": "Active Power L2",
+            "Profile": "~Watt",
+            "ReadAddress": 1012,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_PowerC",
+            "Length": 0,
+            "Name": "Active Power L3",
+            "Profile": "~Watt",
+            "ReadAddress": 1014,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_PowerReacSum",
+            "Length": 0,
+            "Name": "Reactive Power Total",
+            "Profile": "~var",
+            "ReadAddress": 1146,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power Total"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_PowerAppSum",
+            "Length": 0,
+            "Name": "Apparent Power Total",
+            "Profile": "~VA",
+            "ReadAddress": 1154,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power Total"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_PowerFactorAvg",
+            "Length": 0,
+            "Name": "Power Factor Average",
+            "Profile": "WattNode_PF",
+            "ReadAddress": 1138,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor Mittelwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor Average"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_VoltAvgLN",
+            "Length": 0,
+            "Name": "Voltage L-N Average",
+            "Profile": "~Volt",
+            "ReadAddress": 1016,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L-N Mittelwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L-N Average"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_VoltA",
+            "Length": 0,
+            "Name": "Voltage L1-N",
+            "Profile": "~Volt",
+            "ReadAddress": 1018,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_VoltB",
+            "Length": 0,
+            "Name": "Voltage L2-N",
+            "Profile": "~Volt",
+            "ReadAddress": 1020,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_VoltC",
+            "Length": 0,
+            "Name": "Voltage L3-N",
+            "Profile": "~Volt",
+            "ReadAddress": 1022,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3-N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_VoltAvgLL",
+            "Length": 0,
+            "Name": "Voltage L-L Average",
+            "Profile": "~Volt",
+            "ReadAddress": 1024,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L-L Mittelwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L-L Average"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_VoltAB",
+            "Length": 0,
+            "Name": "Voltage L1-L2",
+            "Profile": "~Volt",
+            "ReadAddress": 1026,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1-L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_VoltBC",
+            "Length": 0,
+            "Name": "Voltage L2-L3",
+            "Profile": "~Volt",
+            "ReadAddress": 1028,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_VoltAC",
+            "Length": 0,
+            "Name": "Voltage L1-L3",
+            "Profile": "~Volt",
+            "ReadAddress": 1030,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_Freq",
+            "Length": 0,
+            "Name": "Frequency",
+            "Profile": "~Hertz",
+            "ReadAddress": 1032,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Frequenz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Frequency"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_CurrentA",
+            "Length": 0,
+            "Name": "Current L1",
+            "Profile": "~Ampere",
+            "ReadAddress": 1162,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_CurrentB",
+            "Length": 0,
+            "Name": "Current L2",
+            "Profile": "~Ampere",
+            "ReadAddress": 1164,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "WattNode_CurrentC",
+            "Length": 0,
+            "Name": "Current L3",
+            "Profile": "~Ampere",
+            "ReadAddress": 1166,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "WattNode_CtAmps",
+            "Length": 0,
+            "Name": "CT Rated Current",
+            "Profile": "~Ampere",
+            "ReadAddress": 1602,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wandler-Nennstrom (CtAmps)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "CT Rated Current"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "Konfigurationsregister 1603, nur lesend eingebunden"
+        }
+    ],
+    "ByteOrder": 3,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "Name": "WattNode Modbus",
+    "Description": "Continental Control Systems WattNode Modbus (WND-Serie). Modbus RTU RS-485, Werkseinstellung 9600 Baud 8N1. Register laut Doku 1-basiert, hier als Telegrammadresse (Doku - 1). Float32 mit niedrigem Wort zuerst. CtAmps (1603) muss bei Inbetriebnahme auf den Wandler-Nennstrom gesetzt werden.",
+    "ConnectionType": "RTU",
+    "Profiles": {
+        "WattNode_PF": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": -1.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 2
+        }
+    },
+    "Requests": {
+        "Interval": 10000
+    },
+    "Type": "Energy_Meter",
+    "Manufacturer": "Continental_Control_Systems",
+    "Product": "WattNode Modbus (WND)",
+    "VirtualAddresses": []
+}
