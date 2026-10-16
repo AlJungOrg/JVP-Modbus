@@ -29,7 +29,13 @@
               "required": ["Language", "Name"]
             }
           },
-          "Interval": { "type": "integer" }
+          "Interval": { "type": "integer" },
+          "Quantity": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 125,
+            "description": "Number of consecutive registers the data point occupies. Optional; if omitted, the width is derived from DataType."
+          }
         },
         "required": [
           "Active", "DataType", "Factor", 

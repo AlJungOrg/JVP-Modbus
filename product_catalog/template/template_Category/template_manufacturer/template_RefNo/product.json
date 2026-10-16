@@ -9,6 +9,7 @@
             "Length": 0,
             "Name": "Phase 3 grid voltage",
             "Profile": "~Volt",
+            "Quantity": 1,
             "ReadAddress": 42,
             "ReadFunctionCode": 4, 
             "Translation": [
@@ -34,7 +35,7 @@
     "Profiles": {},
     "Type": "Energy_Meter",
     "Manufacturer": "JUNG",
-    "Product":"FCK1900",
+    "Product":"JUNG Produkt",
     "Requests": {
         "Interval": 5000
     },
