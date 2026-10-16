@@ -4,38 +4,541 @@
             "Active": true,
             "ByteOrder": -1,
             "DataType": 7,
-            "Factor": 1,
-            "Name": "Voltage L1",
-            "Description": "",
-            "Profile": "",
-            "ReadAddress": 1,
+            "Factor": 0,
+            "Ident": "SDM630_VoltageL1",
+            "Length": 0,
+            "Name": "Voltage L1-N",
+            "Profile": "~Volt",
+            "ReadAddress": 0,
             "ReadFunctionCode": 4,
-            "WriteAddress": 1,
-            "WriteFunctionCode": 0,
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": "Spannung L1"
+                    "Name": "Spannung L1-N"
                 },
                 {
                     "Language": "en",
-                    "Name": "Voltage L1"
+                    "Name": "Voltage L1-N"
                 }
             ],
-            "Interval": 6000
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
         },
         {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 7,
-            "Factor": 1,
-            "Name": "Frequenzy",
-            "Description": "",
-            "Profile": "",
-            "ReadAddress": 71,
+            "Factor": 0,
+            "Ident": "SDM630_VoltageL2",
+            "Length": 0,
+            "Name": "Voltage L2-N",
+            "Profile": "~Volt",
+            "ReadAddress": 2,
             "ReadFunctionCode": 4,
-            "WriteAddress": 71,
-            "WriteFunctionCode": 0,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_VoltageL3",
+            "Length": 0,
+            "Name": "Voltage L3-N",
+            "Profile": "~Volt",
+            "ReadAddress": 4,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3-N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3-N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_VoltageAvgLN",
+            "Length": 0,
+            "Name": "Voltage L-N Average",
+            "Profile": "~Volt",
+            "ReadAddress": 42,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L-N Mittelwert"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L-N Average"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_VoltageL1L2",
+            "Length": 0,
+            "Name": "Voltage L1-L2",
+            "Profile": "~Volt",
+            "ReadAddress": 200,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L1-L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L1-L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_VoltageL2L3",
+            "Length": 0,
+            "Name": "Voltage L2-L3",
+            "Profile": "~Volt",
+            "ReadAddress": 202,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L2-L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L2-L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_VoltageL3L1",
+            "Length": 0,
+            "Name": "Voltage L3-L1",
+            "Profile": "~Volt",
+            "ReadAddress": 204,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Spannung L3-L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Voltage L3-L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_CurrentL1",
+            "Length": 0,
+            "Name": "Current L1",
+            "Profile": "~Ampere",
+            "ReadAddress": 6,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_CurrentL2",
+            "Length": 0,
+            "Name": "Current L2",
+            "Profile": "~Ampere",
+            "ReadAddress": 8,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_CurrentL3",
+            "Length": 0,
+            "Name": "Current L3",
+            "Profile": "~Ampere",
+            "ReadAddress": 10,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_CurrentN",
+            "Length": 0,
+            "Name": "Current N",
+            "Profile": "~Ampere",
+            "ReadAddress": 224,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom N"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current N"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_CurrentSum",
+            "Length": 0,
+            "Name": "Current Sum",
+            "Profile": "~Ampere",
+            "ReadAddress": 48,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Strom Summe"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Current Sum"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_PowerL1",
+            "Length": 0,
+            "Name": "Active Power L1",
+            "Profile": "~Watt",
+            "ReadAddress": 12,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_PowerL2",
+            "Length": 0,
+            "Name": "Active Power L2",
+            "Profile": "~Watt",
+            "ReadAddress": 14,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_PowerL3",
+            "Length": 0,
+            "Name": "Active Power L3",
+            "Profile": "~Watt",
+            "ReadAddress": 16,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_PowerTotal",
+            "Length": 0,
+            "Name": "Active Power Total",
+            "Profile": "~Watt",
+            "ReadAddress": 52,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkleistung gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Active Power Total"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_ReactivePowerTotal",
+            "Length": 0,
+            "Name": "Reactive Power Total",
+            "Profile": "~var",
+            "ReadAddress": 60,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindleistung gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reactive Power Total"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_ApparentPowerTotal",
+            "Length": 0,
+            "Name": "Apparent Power Total",
+            "Profile": "~VA",
+            "ReadAddress": 56,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Scheinleistung gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Apparent Power Total"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_PowerFactorL1",
+            "Length": 0,
+            "Name": "Power Factor L1",
+            "Profile": "SDM630_PF",
+            "ReadAddress": 30,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor L1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_PowerFactorL2",
+            "Length": 0,
+            "Name": "Power Factor L2",
+            "Profile": "SDM630_PF",
+            "ReadAddress": 32,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L2"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor L2"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_PowerFactorL3",
+            "Length": 0,
+            "Name": "Power Factor L3",
+            "Profile": "SDM630_PF",
+            "ReadAddress": 34,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor L3"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor L3"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_PowerFactorTotal",
+            "Length": 0,
+            "Name": "Power Factor Total",
+            "Profile": "SDM630_PF",
+            "ReadAddress": 62,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Leistungsfaktor gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Power Factor Total"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_Frequency",
+            "Length": 0,
+            "Name": "Frequency",
+            "Profile": "~Hertz",
+            "ReadAddress": 70,
+            "ReadFunctionCode": 4,
             "Translation": [
                 {
                     "Language": "de",
@@ -46,31 +549,128 @@
                     "Name": "Frequency"
                 }
             ],
-            "Interval": 6000
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
         },
         {
             "Active": true,
             "ByteOrder": -1,
             "DataType": 7,
-            "Factor": 1,
-            "Name": "active Power",
-            "Description": "",
-            "Profile": "",
-            "ReadAddress": 73,
+            "Factor": 0,
+            "Ident": "SDM630_ImportEnergy",
+            "Length": 0,
+            "Name": "Import Active Energy",
+            "Profile": "~Electricity",
+            "ReadAddress": 72,
             "ReadFunctionCode": 4,
-            "WriteAddress": 73,
-            "WriteFunctionCode": 0,
             "Translation": [
                 {
                     "Language": "de",
-                    "Name": "Wirkleistung"
+                    "Name": "Wirkenergie Bezug"
                 },
                 {
                     "Language": "en",
-                    "Name": "Active Power"
+                    "Name": "Import Active Energy"
                 }
             ],
-            "Interval": 6000
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_ExportEnergy",
+            "Length": 0,
+            "Name": "Export Active Energy",
+            "Profile": "~Electricity",
+            "ReadAddress": 74,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkenergie Lieferung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Export Active Energy"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_TotalEnergy",
+            "Length": 0,
+            "Name": "Total Active Energy",
+            "Profile": "~Electricity",
+            "ReadAddress": 342,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wirkenergie gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total Active Energy"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_ImportReactiveEnergy",
+            "Length": 0,
+            "Name": "Import Reactive Energy",
+            "Profile": "~kvarh",
+            "ReadAddress": 76,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindenergie Bezug"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Import Reactive Energy"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0,
+            "Ident": "SDM630_ExportReactiveEnergy",
+            "Length": 0,
+            "Name": "Export Reactive Energy",
+            "Profile": "~kvarh",
+            "ReadAddress": 78,
+            "ReadFunctionCode": 4,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Blindenergie Lieferung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Export Reactive Energy"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
         }
     ],
     "ByteOrder": 0,
@@ -79,11 +679,26 @@
     "ReferenceCountStartsAtZero": false,
     "UseEnronMode": false,
     "Name": "SDM630",
-    "Description": "",
+    "Description": "EASTRON SDM630 Modbus. Messwerte als Input Register (FC4), Float32 big-endian. Register laut Eastron-Doku 3xxxx 1-basiert, hier als Telegrammadresse (30001 -> 0). Zähler selbst RTU (RS-485, Werkseinstellung 9600 Baud 8N1), TCP über Gateway.",
     "ConnectionType": "TCP",
-    "Profiles": {},
+    "Profiles": {
+        "SDM630_PF": {
+            "Associations": [],
+            "Digits": 3,
+            "Icon": "",
+            "MaxValue": 1.0,
+            "MinValue": -1.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 2
+        }
+    },
     "Requests": {
         "Interval": 6000
     },
-    "Type": "Energy_Meter"
+    "Type": "Energy_Meter",
+    "Manufacturer": "EASTRON",
+    "Product": "SDM630",
+    "VirtualAddresses": []
 }

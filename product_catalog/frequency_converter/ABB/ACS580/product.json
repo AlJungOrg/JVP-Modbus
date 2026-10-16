@@ -1,0 +1,318 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "ACS580_ControlWord",
+            "Length": 0,
+            "Name": "Control Word",
+            "Profile": "ACS580_ControlWord",
+            "ReadAddress": 0,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Steuerwort"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Control Word"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 6,
+            "Description": "ABB Drives Profil. Bit0 OFF1, Bit1 OFF2, Bit2 OFF3, Bit3 Betrieb freigeben, Bit4-6 Rampe, Bit7 Reset (Flanke), Bit10 Fernsteuerung"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.005,
+            "Ident": "ACS580_Reference1",
+            "Length": 0,
+            "Name": "Reference 1",
+            "Profile": "ACS580_Percent",
+            "ReadAddress": 1,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Sollwert 1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Reference 1"
+                }
+            ],
+            "WriteAddress": 1,
+            "WriteFunctionCode": 6,
+            "Description": "20000 = 100 % von 46.01 (Drehzahl) bzw. 46.02 (Frequenz); negativ = Rückwärts"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "ACS580_StatusWord",
+            "Length": 0,
+            "Name": "Status Word",
+            "Profile": "",
+            "ReadAddress": 3,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Statuswort"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Status Word"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "Bit0 RDY_ON, Bit1 RDY_RUN, Bit2 RDY_REF, Bit3 TRIPPED (Störung), Bit7 ALARM, Bit8 AT_SETPOINT, Bit9 REMOTE, Bit10 ABOVE_LIMIT"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.005,
+            "Ident": "ACS580_ActualValue1",
+            "Length": 0,
+            "Name": "Actual Value 1",
+            "Profile": "ACS580_Percent",
+            "ReadAddress": 4,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Istwert 1"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Actual Value 1"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "Quelle per 58.28 (Standard: Drehzahl bzw. Frequenz), 20000 = 100 % von 46.01/46.02"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.0025,
+            "Ident": "ACS580_OutputFrequency",
+            "Length": 0,
+            "Name": "Output Frequency (01.06)",
+            "Profile": "~Hertz",
+            "ReadAddress": 105,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ausgangsfrequenz (01.06)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Output Frequency (01.06)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "FbEq16 laut 46.02 Frequenzskalierung: 20000 = 46.02. Factor 0.0025 gilt für 46.02 = 50 Hz (Werkseinstellung)"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 0.1,
+            "Ident": "ACS580_MotorSpeedPercent",
+            "Length": 0,
+            "Name": "Motor Speed % (01.03)",
+            "Profile": "ACS580_Percent",
+            "ReadAddress": 102,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Motordrehzahl % (01.03)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Motor Speed % (01.03)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "FbEq16: 10 = 1 %"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "ACS580_MotorCurrent",
+            "Length": 0,
+            "Name": "Motor Current (01.07)",
+            "Profile": "~Ampere",
+            "ReadAddress": 106,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Motorstrom (01.07)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Motor Current (01.07)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "FbEq16: 1 = 1 A"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0.1,
+            "Ident": "ACS580_DCVoltage",
+            "Length": 0,
+            "Name": "DC Voltage (01.11)",
+            "Profile": "~Volt",
+            "ReadAddress": 110,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Zwischenkreisspannung (01.11)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "DC Voltage (01.11)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "FbEq16: 10 = 1 V"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "ACS580_OutputVoltage",
+            "Length": 0,
+            "Name": "Output Voltage (01.13)",
+            "Profile": "~Volt",
+            "ReadAddress": 112,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Ausgangsspannung (01.13)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Output Voltage (01.13)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "FbEq16: 1 = 1 V"
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 0,
+            "Ident": "ACS580_TrippingFault",
+            "Length": 0,
+            "Name": "Tripping Fault (04.01)",
+            "Profile": "",
+            "ReadAddress": 400,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Aktiver Fehlercode (04.01)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Tripping Fault (04.01)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0,
+            "Description": "Hex-Fehlercode laut ACS580-Firmwarehandbuch, 0 = kein Fehler"
+        }
+    ],
+    "ByteOrder": 0,
+    "ByteOrderFloats": true,
+    "Active": true,
+    "ReferenceCountStartsAtZero": false,
+    "UseEnronMode": false,
+    "Name": "ACS580",
+    "Description": "ABB ACS580 über integrierten Feldbus (EFB) Modbus RTU, ABB Drives Profil. Voraussetzungen: 58.01 = Modbus RTU, 58.25 = ABB Drives, 58.33 = Mode 0, Steuerort EXT1 = Feldbus (EFB), Sollwert 1 Quelle = EFB Ref1. Kommunikationsausfall-Überwachung (58.14-58.16) prüfen: JVP schreibt Steuerwort/Sollwert nur bei Änderung.",
+    "ConnectionType": "RTU",
+    "Profiles": {
+        "ACS580_ControlWord": {
+            "Associations": [
+                {
+                    "Color": 16777215,
+                    "Icon": "",
+                    "Name": "Aus / bereit (0x0476)",
+                    "Value": 1142.0
+                },
+                {
+                    "Color": 16763904,
+                    "Icon": "",
+                    "Name": "Stopp mit Rampe (0x047E)",
+                    "Value": 1150.0
+                },
+                {
+                    "Color": 65280,
+                    "Icon": "",
+                    "Name": "Start (0x047F)",
+                    "Value": 1151.0
+                },
+                {
+                    "Color": 16711680,
+                    "Icon": "",
+                    "Name": "Fehler quittieren (0x04F6)",
+                    "Value": 1270.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "ACS580_Percent": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Prefix": "",
+            "StepSize": 1.0,
+            "Suffix": " %",
+            "Type": 2
+        }
+    },
+    "Requests": {
+        "Interval": 1000
+    },
+    "Type": "frequency_converter",
+    "Manufacturer": "ABB",
+    "Product": "ACS580",
+    "VirtualAddresses": []
+}

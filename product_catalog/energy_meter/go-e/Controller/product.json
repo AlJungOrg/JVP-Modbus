@@ -891,7 +891,7 @@
         {
             "Active": true,
             "ByteOrder": -1,
-            "DataType": 7,
+            "DataType": 9,
             "Factor": 0,
             "Ident": "Category_Grid_Energy_In",
             "Length": 0,
@@ -915,7 +915,7 @@
         {
             "Active": true,
             "ByteOrder": -1,
-            "DataType": 7,
+            "DataType": 9,
             "Factor": 0,
             "Ident": "Category_Grid_Energy_Out",
             "Length": 0,
@@ -1809,7 +1809,7 @@
             "Length": 0,
             "Name": "Category Akku Money In",
             "Profile": "go-e.Euro",
-            "ReadAddress": 1103,
+            "ReadAddress": 1194,
             "ReadFunctionCode": 4,
             "Translation": [
                 {
@@ -1945,9 +1945,9 @@
     "ReferenceCountStartsAtZero": false,
     "UseEnronMode": false,
     "ConnectionType": "TCP",
-    "Type": "charging_station",
+    "Type": "Energy_Meter",
     "Manufacturer": "go-e",
-    "Product": "Charger_V1",
+    "Product": "Controller",
     "Requests": {
         "Interval": 5000
     },

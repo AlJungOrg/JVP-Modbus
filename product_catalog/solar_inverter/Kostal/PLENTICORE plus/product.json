@@ -242,8 +242,8 @@
     },
     {
       "Active": false,
-      "ByteOrder": 0,
-      "DataType": 12,
+      "ByteOrder": -1,
+      "DataType": 3,
       "Factor": 0,
       "Ident": "PowerID",
       "Length": 0,
@@ -2138,8 +2138,8 @@
     },
     {
       "Active": true,
-      "ByteOrder": 0,
-      "DataType": 12,
+      "ByteOrder": -1,
+      "DataType": 3,
       "Factor": 0,
       "Ident": "BTGrossCapacity",
       "Length": 0,
@@ -2187,7 +2187,7 @@
     {
       "Active": true,
       "ByteOrder": -1,
-      "DataType": 12,
+      "DataType": 3,
       "Factor": 0,
       "Ident": "BTFirmwareMC",
       "Length": 0,
@@ -2259,7 +2259,7 @@
     {
       "Active": false,
       "ByteOrder": -1,
-      "DataType": 12,
+      "DataType": 2,
       "Factor": 0.001,
       "Ident": "MaxPower",
       "Length": 0,
@@ -2426,8 +2426,8 @@
     },
     {
       "Active": false,
-      "ByteOrder": 0,
-      "DataType": 12,
+      "ByteOrder": -1,
+      "DataType": 3,
       "Factor": 0.001,
       "Ident": "ACGenEnergy",
       "Length": 0,
@@ -2547,7 +2547,7 @@
     {
       "Active": true,
       "ByteOrder": -1,
-      "DataType": 12,
+      "DataType": 3,
       "Factor": 0,
       "Ident": "BTFirmware",
       "Length": 0,
@@ -3267,7 +3267,7 @@
     {
       "Active": false,
       "ByteOrder": -1,
-      "DataType": 12,
+      "DataType": 3,
       "Factor": 0,
       "Ident": "BTSerialNr1",
       "Length": 0,

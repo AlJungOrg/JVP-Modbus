@@ -1135,45 +1135,21 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Power high word",
+      "Name": "Power (32 bit)",
       "Profile": "",
       "ReadAddress": 1078,
       "ReadFunctionCode": 3,
       "Translation": [
         {
           "Language": "de",
-          "Name": "Leistung High-Word"
+          "Name": "Leistung (32 Bit)"
         },
         {
           "Language": "en",
-          "Name": "Power high word"
+          "Name": "Power (32 bit)"
         }
       ],
       "WriteAddress": 1078,
-      "WriteFunctionCode": 16
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 3,
-      "Factor": 0,
-      "Ident": "",
-      "Length": 0,
-      "Name": "Power low word",
-      "Profile": "",
-      "ReadAddress": 1079,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Leistung Low-Word"
-        },
-        {
-          "Language": "en",
-          "Name": "Power low word"
-        }
-      ],
-      "WriteAddress": 1079,
       "WriteFunctionCode": 16
     },
     {
@@ -1327,45 +1303,21 @@
       "Factor": 0,
       "Ident": "",
       "Length": 0,
-      "Name": "Meter measurement value high word W since version e0000300  (negative = feed-in)",
+      "Name": "Meter measurement value (32 bit) W since version e0000300  (negative = feed-in)",
       "Profile": "",
       "ReadAddress": 1087,
       "ReadFunctionCode": 4,
       "Translation": [
         {
           "Language": "de",
-          "Name": "Meter Messung Wert High-Word W since Version e0000300  (negativ = Einspeisung)"
+          "Name": "Meter Messung Wert (32 Bit) W since Version e0000300  (negativ = Einspeisung)"
         },
         {
           "Language": "en",
-          "Name": "Meter measurement value high word W since version e0000300  (negative = feed-in)"
+          "Name": "Meter measurement value (32 bit) W since version e0000300  (negative = feed-in)"
         }
       ],
       "WriteAddress": 1087,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 6,
-      "Factor": 0,
-      "Ident": "",
-      "Length": 0,
-      "Name": "Meter measurement value low word W since version e0000300  (negative = feed-in)",
-      "Profile": "",
-      "ReadAddress": 1088,
-      "ReadFunctionCode": 4,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Meter Messung Wert Low-Word W since Version e0000300  (negativ = Einspeisung)"
-        },
-        {
-          "Language": "en",
-          "Name": "Meter measurement value low word W since version e0000300  (negative = feed-in)"
-        }
-      ],
-      "WriteAddress": 1088,
       "WriteFunctionCode": 0
     }
   ],

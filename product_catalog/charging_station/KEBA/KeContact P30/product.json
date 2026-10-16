@@ -2,7 +2,7 @@
     "Addresses": [
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 5,
             "Factor": 0,
             "Ident": "",
@@ -20,7 +20,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 5,
             "Factor": 0,
             "Ident": "",
@@ -38,7 +38,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 5,
             "Factor": 0,
             "Ident": "",
@@ -56,7 +56,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 6,
             "Factor": 0.001,
             "Ident": "",
@@ -74,7 +74,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 6,
             "Factor": 0.001,
             "Ident": "",
@@ -92,7 +92,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 6,
             "Factor": 0.001,
             "Ident": "",
@@ -110,7 +110,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 6,
             "Factor": 0.001,
             "Ident": "",
@@ -128,7 +128,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 6,
             "Factor": 0.001,
             "Ident": "",
@@ -146,7 +146,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 6,
             "Factor": 1,
             "Ident": "",
@@ -164,7 +164,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 6,
             "Factor": 1,
             "Ident": "",
@@ -182,7 +182,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 6,
             "Factor": 1,
             "Ident": "",
@@ -200,7 +200,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 6,
             "Factor": 0.1,
             "Ident": "",
@@ -218,7 +218,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 6,
             "Factor": 0.001,
             "Ident": "",
@@ -236,7 +236,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 6,
             "Factor": 0.001,
             "Ident": "",
@@ -254,7 +254,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 6,
             "Factor": 0.001,
             "Ident": "",
@@ -272,7 +272,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 5,
             "Factor": 0,
             "Ident": "",
@@ -290,7 +290,7 @@
         },
         {
             "Active": true,
-            "ByteOrder": 3,
+            "ByteOrder": -1,
             "DataType": 5,
             "Factor": 0,
             "Ident": "",
@@ -307,7 +307,7 @@
             "WriteFunctionCode": 6
         }
     ],
-    "ByteOrder": 1,
+    "ByteOrder": 0,
     "Profiles": {
         "KEBA_ChargingState": {
             "Associations": [
