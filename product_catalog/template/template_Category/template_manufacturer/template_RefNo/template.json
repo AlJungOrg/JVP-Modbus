@@ -1,42 +1,46 @@
 {
+    // List of data points (registers) of the device
     "Addresses": [
         {
-            "Active": true,
-            "ByteOrder": -1, // -1: vom Gerät übernehmen; 0:Big Endian; 1:Little Endian
+            "Active": true, // true: data point is polled; false: data point is disabled
+            "ByteOrder": -1, // -1: inherit from device; 0: Big Endian; 1: Little Endian
             "DataType": 2, // 0:boolean; 2:uint16; 3:uint32; 5:int16; 6:int32; 7:float; 8:int64; 9:Double; 10:string; 11:uint64; 14:stringHex
-            "Factor": 0.1,
-            "Ident": "Phase3GridVoltage",
-            "Length": 0,
-            "Name": "Phase 3 grid voltage",
-            "Profile": "~Volt",
-            "ReadAddress": 42,
-            "ReadFunctionCode": 4, // 0:keine Verwendung; 1:Read Coils; 2:Read Discrete Inputs; 3:Read Holding Register; 4:Read Input Register
+            "Factor": 0.1, // Scaling factor: displayed value = raw value * Factor; 0 is treated as 1
+            "Ident": "Phase3GridVoltage", // Unique identifier of the data point (IP-Symcon field, not evaluated by the JVP Modbus editor)
+            "Length": 0, // Length in bytes (IP-Symcon field, not evaluated by the JVP Modbus editor; use Quantity instead)
+            "Name": "Phase 3 grid voltage", // Default name of the data point; used if no translation matches the current language
+            "Profile": "~Volt", // Name of the variable profile; built-in profiles start with "~", custom ones are defined under "Profiles". The profile suffix is used as unit
+            "Quantity": 1, // Optional: number of consecutive registers the data point occupies (1-125). Only needed for strings; if omitted, the width is derived from DataType
+            "ReadAddress": 42, // Register address used for reading (first register of the data point)
+            "ReadFunctionCode": 4, // 0: not used; 1: Read Coils; 2: Read Discrete Inputs; 3: Read Holding Register; 4: Read Input Register
+            // Names of the data point per language
             "Translation": [
             {
-                "Language": "de",
-                "Name": "Phase 3 Netzspannung"
+                "Language": "de", // Language code (ISO 639-1)
+                "Name": "Phase 3 Netzspannung" // Name in this language
             },
             {
-                "Language": "en",
-                "Name": "Phase 3 grid voltage"
+                "Language": "en", // Language code (ISO 639-1)
+                "Name": "Phase 3 grid voltage" // Name in this language
             }
             ],
-            "WriteAddress": 0, 
-            "WriteFunctionCode": 0 // 0:keine Verwendung; 6:Write Single Holding Register; 15:Write Multiple Coils; 16: Write Multiple Holding Register
+            "WriteAddress": 0, // Register address used for writing; only evaluated if WriteFunctionCode is not 0
+            "WriteFunctionCode": 0 // 0: not used; 6: Write Single Holding Register; 15: Write Multiple Coils; 16: Write Multiple Holding Register
         }
     ],
-    "ByteOrder": 0,
-    "ByteOrderFloats": true, 
-    "Active": true,
-    "ReferenceCountStartsAtZero": false,
-    "UseEnronMode" : false,
-    "ConnectionType": "TCP",
-    "Profiles": {},
-    "Type": "Energy_Meter",
-    "Manufacturer": "JUNG",
-    "Product":"FCK1900",
+    "ByteOrder": 0, // Default byte order of the device: 0: Big Endian; 1: Little Endian (the schema also allows 2 and 3; the editor currently treats 2 like 0 and 3 like 1)
+    "ByteOrderFloats": true, // true: floats use Big Endian word order; overrides ByteOrder for floats
+    "Active": true, // true: device is active; false: device is disabled
+    "ReferenceCountStartsAtZero": false, // true: register addresses are counted from 0; false: counted from 1
+    "UseEnronMode" : false, // true: 32-bit values are stored in a single register (Enron/Daniel mode)
+    "ConnectionType": "TCP", // Connection type of the device: "TCP" or "RTU"
+    "Profiles": {}, // Custom variable profiles, keyed by profile name (see "Profile" of a data point)
+    "Type": "Energy_Meter", // Device category; matches the category folder in product_catalog
+    "Manufacturer": "JUNG", // Manufacturer; matches the manufacturer folder in product_catalog
+    "Product":"JUNG Produkt", // Product / reference number; matches the product folder in product_catalog
+    // Polling settings of the device
     "Requests": {
-        "Interval": 5000
+        "Interval": 5000 // Default poll interval in milliseconds (minimum 500)
     },
-    "VirtualAddresses": []
+    "VirtualAddresses": [] // Virtual data points (IP-Symcon field, not evaluated by the JVP Modbus editor)
 }
