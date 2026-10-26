@@ -1,910 +1,222 @@
 {
-  "Addresses": [
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 12,
-      "Factor": 0,
-      "Ident": "InverterState",
-      "Length": 0,
-      "Name": "Inverter state",
-      "Profile": "JoTKPP.Status.KostalWR",
-      "ReadAddress": 56,
-      "ReadFunctionCode": 3,
-      "Translation": [
+    "Addresses": [
         {
-          "Language": "de",
-          "Name": "Wechselrichterstatus"
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV-Leistung",
+            "Profile": "~Watt",
+            "ReadAddress": 1066,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PV-Leistung (Summe aller PV-Eingänge, DC)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PV power (sum of all PV inputs, DC)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
         },
         {
-          "Language": "en",
-          "Name": "Inverter state"
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batterie Ladezustand",
+            "Profile": "Kostal_Percent",
+            "ReadAddress": 514,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie-Ladezustand (SOC)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery state of charge (SOC)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batterieleistung",
+            "Profile": "~Watt",
+            "ReadAddress": 582,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterieleistung (-Laden / +Entladen)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery power (-charge / +discharge)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wechselrichter AC-Leistung",
+            "Profile": "~Watt",
+            "ReadAddress": 172,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichter AC-Wirkleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Inverter total AC active power"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Hausverbrauch aus PV",
+            "Profile": "~Watt",
+            "ReadAddress": 116,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hausverbrauch aus PV"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Home consumption from PV"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Hausverbrauch aus Batterie",
+            "Profile": "~Watt",
+            "ReadAddress": 106,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hausverbrauch aus Batterie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Home consumption from battery"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Hausverbrauch aus Netz",
+            "Profile": "~Watt",
+            "ReadAddress": 108,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hausverbrauch aus Netz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Home consumption from grid"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Netzleistung",
+            "Profile": "~Watt",
+            "ReadAddress": 252,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Netzleistung am Stromzähler (+Bezug / -Einspeisung)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Grid power at power meter (+import / -export)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
         }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "TotalDCPower",
-      "Length": 0,
-      "Name": "Total DC power",
-      "Profile": "~Power",
-      "ReadAddress": 100,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamtleistung DC"
-        },
-        {
-          "Language": "en",
-          "Name": "Total DC power"
+    ],
+    "ByteOrder": 1,
+    "Profiles": {
+        "Kostal_Percent": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "%",
+            "Type": 2
         }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
     },
-    {
-      "Active": true,
-      "ByteOrder": 0,
-      "DataType": 12,
-      "Factor": 0,
-      "Ident": "EMState",
-      "Length": 0,
-      "Name": "Battery Energy Manager state",
-      "Profile": "JoTKPP.Status.KostalEM",
-      "ReadAddress": 104,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Status des Batterie-Energiemanagers"
-        },
-        {
-          "Language": "en",
-          "Name": "Battery Energy Manager state"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
+    "ByteOrderFloats": false,
+    "Active": true,
+    "ReferenceCountStartsAtZero": true,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Type": "solar_inverter",
+    "Manufacturer": "Kostal",
+    "Product": "PLENTICORE plus (Modbus TCP)",
+    "Requests": {
+        "Interval": 5000
     },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "ConsFromBT",
-      "Length": 0,
-      "Name": "Home own consumption from battery",
-      "Profile": "~Power",
-      "ReadAddress": 106,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Hausverbrauch aus Batterie"
-        },
-        {
-          "Language": "en",
-          "Name": "Home own consumption from battery"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "ConsFromAC",
-      "Length": 0,
-      "Name": "Home own consumption from grid",
-      "Profile": "~Power",
-      "ReadAddress": 108,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Hausverbrauch aus dem Netz"
-        },
-        {
-          "Language": "en",
-          "Name": "Home own consumption from grid"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "ConsFromBTTot",
-      "Length": 0,
-      "Name": "Total home consumption Battery",
-      "Profile": "~Electricity",
-      "ReadAddress": 110,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamtverbrauch Batterie"
-        },
-        {
-          "Language": "en",
-          "Name": "Total home consumption Battery"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "ConsFromACTot",
-      "Length": 0,
-      "Name": "Total home consumption Grid",
-      "Profile": "~Electricity",
-      "ReadAddress": 112,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamtverbrauch Netz"
-        },
-        {
-          "Language": "en",
-          "Name": "Total home consumption Grid"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "ConsTot",
-      "Length": 0,
-      "Name": "Total home consumption",
-      "Profile": "~Electricity",
-      "ReadAddress": 118,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamtverbrauch"
-        },
-        {
-          "Language": "en",
-          "Name": "Total home consumption"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0,
-      "Ident": "ConsRate",
-      "Length": 0,
-      "Name": "Total home consumption rate",
-      "Profile": "JoTKPP.Percent",
-      "ReadAddress": 124,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamtverbrauchsrate"
-        },
-        {
-          "Language": "en",
-          "Name": "Total home consumption rate"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0,
-      "Ident": "BTmaxChargeCurrent",
-      "Length": 0,
-      "Name": "Battery max. charge current",
-      "Profile": "~Ampere",
-      "ReadAddress": 190,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Maximaler Batterieladestrom"
-        },
-        {
-          "Language": "en",
-          "Name": "Battery max. charge current"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0,
-      "Ident": "BTCurrent",
-      "Length": 0,
-      "Name": "Actual battery charge (-) / discharge (+) current",
-      "Profile": "~Ampere",
-      "ReadAddress": 200,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Aktueller Batterielade- (-) / entladestrom (+)"
-        },
-        {
-          "Language": "en",
-          "Name": "Actual battery charge (-) / discharge (+) current"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0,
-      "Ident": "BTCharge",
-      "Length": 0,
-      "Name": "Actual state of charge",
-      "Profile": "JoTKPP.Battery.Charge",
-      "ReadAddress": 210,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Aktueller Ladezustand"
-        },
-        {
-          "Language": "en",
-          "Name": "Actual state of charge"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "PMActivePowerTot",
-      "Length": 0,
-      "Name": "Total active power (powermeter)",
-      "Profile": "~Power",
-      "ReadAddress": 252,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamtwirkleistung (Stromzähler)"
-        },
-        {
-          "Language": "en",
-          "Name": "Total active power (powermeter)"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "YieldTot",
-      "Length": 0,
-      "Name": "Total yield",
-      "Profile": "~Electricity",
-      "ReadAddress": 320,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamtertrag"
-        },
-        {
-          "Language": "en",
-          "Name": "Total yield"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "YieldDaily",
-      "Length": 0,
-      "Name": "Daily yield",
-      "Profile": "~Electricity",
-      "ReadAddress": 322,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Tagesertrag"
-        },
-        {
-          "Language": "en",
-          "Name": "Daily yield"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "YieldYearly",
-      "Length": 0,
-      "Name": "Yearly yield",
-      "Profile": "~Electricity",
-      "ReadAddress": 324,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Jahresertrag"
-        },
-        {
-          "Language": "en",
-          "Name": "Yearly yield"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "YieldMonthly",
-      "Length": 0,
-      "Name": "Monthly yield",
-      "Profile": "~Electricity",
-      "ReadAddress": 326,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Monatsertrag"
-        },
-        {
-          "Language": "en",
-          "Name": "Monthly yield"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 12,
-      "Factor": 0,
-      "Ident": "BTActualSOC",
-      "Length": 0,
-      "Name": "Battery actual SOC (%)",
-      "Profile": "JoTKPP.Percent.Int",
-      "ReadAddress": 514,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Aktueller Ladezustand der Batterie (%)"
-        },
-        {
-          "Language": "en",
-          "Name": "Battery actual SOC (%)"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 5,
-      "Factor": 0.001,
-      "Ident": "ACInverterPower",
-      "Length": 0,
-      "Name": "Inverter Generation Power (actual)",
-      "Profile": "~Power",
-      "ReadAddress": 575,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Wechselrichter Erzeugungsleistung (aktuell)"
-        },
-        {
-          "Language": "en",
-          "Name": "Inverter Generation Power (actual)"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 3,
-      "Factor": 0.001,
-      "Ident": "ACGenEnergy",
-      "Length": 0,
-      "Name": "Inverter Generation Energy",
-      "Profile": "~Electricity",
-      "ReadAddress": 577,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Wechselrichter Erzeugungsenergie"
-        },
-        {
-          "Language": "en",
-          "Name": "Inverter Generation Energy"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 5,
-      "Factor": 0.001,
-      "Ident": "BTPower",
-      "Length": 0,
-      "Name": "Actual battery charge (-) / discharge (+) power",
-      "Profile": "~Power",
-      "ReadAddress": 582,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Aktuelle Batterielade- (-) / entladeleistung (+)"
-        },
-        {
-          "Language": "en",
-          "Name": "Actual battery charge (-) / discharge (+) power"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "BTcEnergyACTot",
-      "Length": 0,
-      "Name": "Total AC charge energy (AC-side to battery)",
-      "Profile": "~Electricity",
-      "ReadAddress": 1050,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamte AC-Ladeenergie (AC-Seite zur Batterie)"
-        },
-        {
-          "Language": "en",
-          "Name": "Total AC charge energy (AC-side to battery)"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "BTdEnergyGridTot",
-      "Length": 0,
-      "Name": "Total AC discharge energy (battery to grid)",
-      "Profile": "~Electricity",
-      "ReadAddress": 1052,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamte AC-Entladeenergie (Batterie zum Netz)"
-        },
-        {
-          "Language": "en",
-          "Name": "Total AC discharge energy (battery to grid)"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "BTcEnergyGridTot",
-      "Length": 0,
-      "Name": "Total AC charge energy (grid to battery)",
-      "Profile": "~Electricity",
-      "ReadAddress": 1054,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamte AC-Ladeenergie (Netz zur Batterie)"
-        },
-        {
-          "Language": "en",
-          "Name": "Total AC charge energy (grid to battery)"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "PVEnergyTot",
-      "Length": 0,
-      "Name": "Total DC PV energy (sum of all PV inputs)",
-      "Profile": "~Electricity",
-      "ReadAddress": 1056,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamte DC-PV-Energie (Summe aller PV-Eingänge)"
-        },
-        {
-          "Language": "en",
-          "Name": "Total DC PV energy (sum of all PV inputs)"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "ACEnergyToGridTot",
-      "Length": 0,
-      "Name": "Total energy AC-side to grid",
-      "Profile": "~Electricity",
-      "ReadAddress": 1064,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamte Energie AC-Seite zum Netz"
-        },
-        {
-          "Language": "en",
-          "Name": "Total energy AC-side to grid"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 7,
-      "Factor": 0.001,
-      "Ident": "PVPowerTot",
-      "Length": 0,
-      "Name": "Total DC power (sum of all PV inputs)",
-      "Profile": "~Power",
-      "ReadAddress": 1066,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Gesamte DC-Leistung (Summe aller PV-Eingänge)"
-        },
-        {
-          "Language": "en",
-          "Name": "Total DC power (sum of all PV inputs)"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    },
-    {
-      "Active": true,
-      "ByteOrder": -1,
-      "DataType": 12,
-      "Factor": 0,
-      "Ident": "BTCMode",
-      "Length": 0,
-      "Name": "Battery management mode",
-      "Profile": "",
-      "ReadAddress": 1080,
-      "ReadFunctionCode": 3,
-      "Translation": [
-        {
-          "Language": "de",
-          "Name": "Batteriemanagement-Modus"
-        },
-        {
-          "Language": "en",
-          "Name": "Battery management mode"
-        }
-      ],
-      "WriteAddress": 0,
-      "WriteFunctionCode": 0
-    }
-  ],
-  "ByteOrder": 3,
-  "Profiles": {
-    "JoTKPP.Status.KostalWR": {
-      "Associations": [
-        {
-          "Color": -1,
-          "Icon": "",
-          "Name": "Aus",
-          "Value": 0.0
-        },
-        {
-          "Color": 255,
-          "Icon": "",
-          "Name": "Initialisierung",
-          "Value": 1.0
-        },
-        {
-          "Color": 255,
-          "Icon": "",
-          "Name": "ISO-Messung",
-          "Value": 2.0
-        },
-        {
-          "Color": 255,
-          "Icon": "",
-          "Name": "Netz-Prüfung",
-          "Value": 3.0
-        },
-        {
-          "Color": 255,
-          "Icon": "",
-          "Name": "Starten",
-          "Value": 4.0
-        },
-        {
-          "Color": 65280,
-          "Icon": "",
-          "Name": "Feed In",
-          "Value": 6.0
-        },
-        {
-          "Color": 65280,
-          "Icon": "",
-          "Name": "Reduziert",
-          "Value": 7.0
-        },
-        {
-          "Color": -1,
-          "Icon": "",
-          "Name": "Externer Schalter Aus",
-          "Value": 8.0
-        },
-        {
-          "Color": -1,
-          "Icon": "",
-          "Name": "Update",
-          "Value": 9.0
-        },
-        {
-          "Color": -1,
-          "Icon": "",
-          "Name": "Standby",
-          "Value": 10.0
-        },
-        {
-          "Color": 255,
-          "Icon": "",
-          "Name": "Netz-Synchronisation",
-          "Value": 11.0
-        },
-        {
-          "Color": 255,
-          "Icon": "",
-          "Name": "Netz-Vorprüfung",
-          "Value": 12.0
-        },
-        {
-          "Color": -1,
-          "Icon": "",
-          "Name": "Netz Schalter Aus",
-          "Value": 13.0
-        },
-        {
-          "Color": 16711680,
-          "Icon": "Error",
-          "Name": "Überhitzt",
-          "Value": 14.0
-        },
-        {
-          "Color": -1,
-          "Icon": "",
-          "Name": "Herunterfahren",
-          "Value": 15.0
-        },
-        {
-          "Color": 16750592,
-          "Icon": "Warning",
-          "Name": "Falsche DC-Spannung",
-          "Value": 16.0
-        },
-        {
-          "Color": -1,
-          "Icon": "",
-          "Name": "ESB",
-          "Value": 17.0
-        },
-        {
-          "Color": 16750592,
-          "Icon": "Warning",
-          "Name": "Unbekannt",
-          "Value": 18.0
-        }
-      ],
-      "Digits": 0,
-      "Icon": "Graph",
-      "MaxValue": 0.0,
-      "MinValue": 0.0,
-      "Prefix": "",
-      "StepSize": 0.0,
-      "Suffix": "",
-      "Type": 1
-    },
-    "JoTKPP.Status.KostalEM": {
-      "Associations": [
-        {
-          "Color": -1,
-          "Icon": "Ok",
-          "Name": "Normal",
-          "Value": 0.0
-        },
-        {
-          "Color": -1,
-          "Icon": "EnergyProduction",
-          "Name": "Batterie Notladung",
-          "Value": 2.0
-        },
-        {
-          "Color": -1,
-          "Icon": "Sleep",
-          "Name": "Batterie Ruhemodus 1",
-          "Value": 8.0
-        },
-        {
-          "Color": -1,
-          "Icon": "Sleep",
-          "Name": "Batterie Ruhemodus 2",
-          "Value": 10.0
-        }
-      ],
-      "Digits": 0,
-      "Icon": "Graph",
-      "MaxValue": 0.0,
-      "MinValue": 0.0,
-      "Prefix": "",
-      "StepSize": 0.0,
-      "Suffix": "",
-      "Type": 1
-    },
-    "JoTKPP.Percent": {
-      "Associations": [],
-      "Digits": 1,
-      "Icon": "",
-      "MaxValue": 100.0,
-      "MinValue": 0.0,
-      "Prefix": "",
-      "StepSize": 0.0,
-      "Suffix": " %",
-      "Type": 2
-    },
-    "JoTKPP.Percent.Int": {
-      "Associations": [],
-      "Digits": 0,
-      "Icon": "",
-      "MaxValue": 100.0,
-      "MinValue": 0.0,
-      "Prefix": "",
-      "StepSize": 0.0,
-      "Suffix": " %",
-      "Type": 1
-    },
-    "JoTKPP.Battery.Charge": {
-      "Associations": [
-        {
-          "Color": 16711680,
-          "Icon": "EnergyStorage-0",
-          "Name": "Leer (%.0f%%)",
-          "Value": 0.0
-        },
-        {
-          "Color": 16711680,
-          "Icon": "EnergyStorage-0",
-          "Name": "Leer (%.0f%%)",
-          "Value": 5.0
-        },
-        {
-          "Color": 16750592,
-          "Icon": "EnergyStorage-0",
-          "Name": "Niedrig (%.0f%%)",
-          "Value": 9.0
-        },
-        {
-          "Color": 65280,
-          "Icon": "EnergyStorage",
-          "Name": "%.0f%%",
-          "Value": 10.0
-        },
-        {
-          "Color": 65280,
-          "Icon": "EnergyStorage",
-          "Name": "Voll (%.0f%%)",
-          "Value": 99.0
-        }
-      ],
-      "Digits": 1,
-      "Icon": "EnergyStorage",
-      "MaxValue": 100.0,
-      "MinValue": 0.0,
-      "Prefix": "",
-      "StepSize": 0.0,
-      "Suffix": "",
-      "Type": 2
-    }
-  },
-  "ByteOrderFloats": true,
-  "Active": true,
-  "ReferenceCountStartsAtZero": false,
-  "UseEnronMode": false,
-  "ConnectionType": "TCP",
-  "Type": "solar_inverter",
-  "Manufacturer": "Kostal",
-  "Product": "PLENTICORE plus",
-  "Requests": {
-    "Interval": 2000
-  }
+    "VirtualAddresses": []
 }
