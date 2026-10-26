@@ -1,0 +1,947 @@
+{
+    "Addresses": [
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wechselrichterstatus",
+            "Profile": "Kostal_Status_WR",
+            "ReadAddress": 56,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichterstatus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Inverter state"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "DC-Gesamtleistung",
+            "Profile": "~Watt",
+            "ReadAddress": 100,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtleistung DC"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total DC power"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Status Energiemanager",
+            "Profile": "Kostal_Status_EM",
+            "ReadAddress": 104,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Status des Batterie-Energiemanagers"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery energy manager state"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Hausverbrauch aus Batterie",
+            "Profile": "~Watt",
+            "ReadAddress": 106,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hausverbrauch aus Batterie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Home consumption from battery"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Hausverbrauch aus Netz",
+            "Profile": "~Watt",
+            "ReadAddress": 108,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hausverbrauch aus Netz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Home consumption from grid"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Hausverbrauch Batterie gesamt",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 110,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamter Hausverbrauch aus Batterie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total home consumption from battery"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Hausverbrauch Netz gesamt",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 112,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamter Hausverbrauch aus Netz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total home consumption from grid"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Hausverbrauch aus PV",
+            "Profile": "~Watt",
+            "ReadAddress": 116,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Hausverbrauch aus PV"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Home consumption from PV"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Hausverbrauch gesamt",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 118,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamter Hausverbrauch"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total home consumption"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Eigenverbrauchsquote",
+            "Profile": "Kostal_Percent",
+            "ReadAddress": 124,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Eigenverbrauchsquote gesamt"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total home consumption rate"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Wechselrichter AC-Leistung",
+            "Profile": "~Watt",
+            "ReadAddress": 172,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichter AC-Wirkleistung"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Inverter total AC active power"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Max. Batterieladestrom",
+            "Profile": "~Ampere",
+            "ReadAddress": 190,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Maximaler Batterieladestrom"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery max. charge current"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batteriestrom",
+            "Profile": "~Ampere",
+            "ReadAddress": 200,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batteriestrom (-Laden / +Entladen)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery current (-charge / +discharge)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batterie Ladezustand (Float)",
+            "Profile": "Kostal_Percent",
+            "ReadAddress": 210,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie-Ladezustand (Float)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery state of charge (float)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Netzleistung",
+            "Profile": "~Watt",
+            "ReadAddress": 252,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Netzleistung am Stromzähler (+Bezug / -Einspeisung)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Grid power at power meter (+import / -export)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ertrag gesamt",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 320,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamtertrag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total yield"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ertrag Tag",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 322,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Tagesertrag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Daily yield"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ertrag Jahr",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 324,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Jahresertrag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Yearly yield"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Ertrag Monat",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 326,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Monatsertrag"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Monthly yield"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batterie Ladezustand",
+            "Profile": "Kostal_Percent",
+            "ReadAddress": 514,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterie-Ladezustand (SOC)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery state of charge (SOC)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Erzeugungsleistung",
+            "Profile": "~Watt",
+            "ReadAddress": 575,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichter Erzeugungsleistung (aktuell)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Inverter generation power (actual)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 3,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Erzeugungsenergie",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 577,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Wechselrichter Erzeugungsenergie"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Inverter generation energy"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 5,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batterieleistung",
+            "Profile": "~Watt",
+            "ReadAddress": 582,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batterieleistung (-Laden / +Entladen)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery power (-charge / +discharge)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AC-Ladeenergie gesamt",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 1050,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamte AC-Ladeenergie (AC-Seite zur Batterie)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total AC charge energy (AC side to battery)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AC-Entladeenergie ins Netz gesamt",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 1052,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamte AC-Entladeenergie (Batterie zum Netz)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total AC discharge energy (battery to grid)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "AC-Ladeenergie aus Netz gesamt",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 1054,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamte AC-Ladeenergie (Netz zur Batterie)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total AC charge energy (grid to battery)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV-Energie gesamt",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 1056,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamte DC-PV-Energie (Summe aller PV-Eingänge)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total DC PV energy (sum of all PV inputs)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 0.001,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Energie ins Netz gesamt",
+            "Profile": "Kostal_kWh",
+            "ReadAddress": 1064,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Gesamte Energie AC-Seite zum Netz"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Total energy AC side to grid"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 7,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "PV-Leistung",
+            "Profile": "~Watt",
+            "ReadAddress": 1066,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "PV-Leistung (Summe aller PV-Eingänge, DC)"
+                },
+                {
+                    "Language": "en",
+                    "Name": "PV power (sum of all PV inputs, DC)"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        },
+        {
+            "Active": true,
+            "ByteOrder": -1,
+            "DataType": 2,
+            "Factor": 1,
+            "Ident": "",
+            "Length": 0,
+            "Name": "Batteriemanagement-Modus",
+            "Profile": "Kostal_BatteryMgmt",
+            "ReadAddress": 1080,
+            "ReadFunctionCode": 3,
+            "Translation": [
+                {
+                    "Language": "de",
+                    "Name": "Batteriemanagement-Modus"
+                },
+                {
+                    "Language": "en",
+                    "Name": "Battery management mode"
+                }
+            ],
+            "WriteAddress": 0,
+            "WriteFunctionCode": 0
+        }
+    ],
+    "ByteOrder": 0,
+    "Profiles": {
+        "Kostal_Percent": {
+            "Associations": [],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 100.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "%",
+            "Type": 2
+        },
+        "Kostal_kWh": {
+            "Associations": [],
+            "Digits": 1,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": " kWh",
+            "Type": 2
+        },
+        "Kostal_Status_WR": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Aus",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Initialisierung",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "ISO-Messung",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Netz-Prüfung",
+                    "Value": 3.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Starten",
+                    "Value": 4.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Feed In",
+                    "Value": 6.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Reduziert",
+                    "Value": 7.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Externer Schalter Aus",
+                    "Value": 8.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Update",
+                    "Value": 9.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Standby",
+                    "Value": 10.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Netz-Synchronisation",
+                    "Value": 11.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Netz-Vorprüfung",
+                    "Value": 12.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Netz Schalter Aus",
+                    "Value": 13.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Überhitzt",
+                    "Value": 14.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Herunterfahren",
+                    "Value": 15.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Falsche DC-Spannung",
+                    "Value": 16.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "ESB",
+                    "Value": 17.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Unbekannt",
+                    "Value": 18.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Kostal_Status_EM": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Normal",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Batterie Notladung",
+                    "Value": 2.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Batterie Ruhemodus 1",
+                    "Value": 8.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Batterie Ruhemodus 2",
+                    "Value": 10.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        },
+        "Kostal_BatteryMgmt": {
+            "Associations": [
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Kein externes Batteriemanagement",
+                    "Value": 0.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Extern über digitale I/O",
+                    "Value": 1.0
+                },
+                {
+                    "Color": -1,
+                    "Icon": "",
+                    "Name": "Extern über Modbus",
+                    "Value": 2.0
+                }
+            ],
+            "Digits": 0,
+            "Icon": "",
+            "MaxValue": 0.0,
+            "MinValue": 0.0,
+            "Prefix": "",
+            "StepSize": 0.0,
+            "Suffix": "",
+            "Type": 1
+        }
+    },
+    "ByteOrderFloats": false,
+    "Active": true,
+    "ReferenceCountStartsAtZero": true,
+    "UseEnronMode": false,
+    "ConnectionType": "TCP",
+    "Type": "solar_inverter",
+    "Manufacturer": "Kostal",
+    "Product": "PLENTICORE plus (Modbus TCP)",
+    "Requests": {
+        "Interval": 5000
+    },
+    "VirtualAddresses": []
+}
