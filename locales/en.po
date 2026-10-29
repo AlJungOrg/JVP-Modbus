@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+msgid "battery_storage"
+msgstr "Battery Storage"
+
+msgid "charging_station"
+msgstr "Charging Station"
+
+msgid "compact_ventilation_unit"
+msgstr "Compact Ventilation Unit"
+
+msgid "energy_meter"
+msgstr "Energy Meter"
+
+msgid "biomass_boiler"
+msgstr "Biomass Boiler"
+
+msgid "heating_rod"
+msgstr "Heating Rod"
+
+msgid "solar_inverter"
+msgstr "Solar Inverter"
+
+msgid "uninterruptible_power_supply"
+msgstr "Uninterruptible Power Supply"
+
+msgid "template"
+msgstr ""
+
+msgid "heat_pump"
+msgstr "Heat Pump"
